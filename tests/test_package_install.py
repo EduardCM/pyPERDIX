@@ -41,9 +41,13 @@ class TestPackageInstall(unittest.TestCase):
                     (
                         "import importlib.resources as r, json, pathlib, sys; "
                         "import perdix_py; "
+                        "import pyperdix; "
                         "resource_root = r.files('perdix_py.resources'); "
                         "payload = {"
                         "'package': perdix_py.__name__, "
+                        "'public_package': pyperdix.__name__, "
+                        "'has_run_pipeline': hasattr(pyperdix, 'run_pipeline'), "
+                        "'has_config': hasattr(pyperdix, 'Config'), "
                         "'m13': resource_root.joinpath('m13mp18_perdix.txt').is_file(), "
                         "'lamda': resource_root.joinpath('lamda_perdix.txt').is_file(), "
                         "'seq': resource_root.joinpath('seq.txt').is_file() "
@@ -58,6 +62,9 @@ class TestPackageInstall(unittest.TestCase):
             payload = json.loads(smoke.strip())
 
             self.assertEqual(payload["package"], "perdix_py")
+            self.assertEqual(payload["public_package"], "pyperdix")
+            self.assertTrue(payload["has_run_pipeline"])
+            self.assertTrue(payload["has_config"])
             self.assertTrue(payload["m13"])
             self.assertTrue(payload["lamda"])
             self.assertTrue(payload["seq"])

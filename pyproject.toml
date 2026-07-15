@@ -30,7 +30,7 @@ perdix = "perdix_py.main:main"
 include-package-data = true
 
 [tool.setuptools.packages.find]
-include = ["perdix_py", "perdix_py.*"]
+include = ["perdix_py", "perdix_py.*", "pyperdix", "pyperdix.*"]
 
 [tool.setuptools.package-data]
 perdix_py = ["resources/*.txt"]
