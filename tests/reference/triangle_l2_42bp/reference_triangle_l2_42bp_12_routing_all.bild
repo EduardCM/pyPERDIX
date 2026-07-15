@@ -1,0 +1,1089 @@
+.color steel blue
+.cylinder    -8.219    1.956    0.000   -8.219    2.296    0.000    0.100
+.color red
+.sphere    -8.219    1.956    0.000    0.400
+.color steel blue
+.color steel blue
+.cylinder    -8.219    2.296    0.000   -8.219    2.636    0.000    0.100
+.color steel blue
+.cylinder    -8.219    2.636    0.000   -8.219    2.976    0.000    0.100
+.color steel blue
+.cylinder    -8.219    2.976    0.000   -8.219    3.316    0.000    0.100
+.color steel blue
+.cylinder    -8.219    3.316    0.000   -8.219    3.656    0.000    0.100
+.color steel blue
+.cylinder    -8.219    3.656    0.000   -8.219    3.996    0.000    0.100
+.color steel blue
+.cylinder    -8.219    3.996    0.000   -8.219    4.336    0.000    0.100
+.color steel blue
+.cylinder    -8.219    4.336    0.000   -8.219    4.676    0.000    0.100
+.color steel blue
+.cylinder    -8.219    4.676    0.000   -8.219    5.016    0.000    0.100
+.color steel blue
+.cylinder    -8.219    5.016    0.000   -8.219    5.356    0.000    0.100
+.color steel blue
+.cylinder    -8.219    5.356    0.000   -8.219    5.696    0.000    0.100
+.color steel blue
+.cylinder    -8.219    5.696    0.000   -8.219    6.036    0.000    0.100
+.color steel blue
+.cylinder    -8.219    6.036    0.000   -8.219    6.376    0.000    0.100
+.color steel blue
+.cylinder    -8.219    6.376    0.000   -8.219    6.716    0.000    0.100
+.color steel blue
+.cylinder    -8.219    6.716    0.000   -8.219    7.056    0.000    0.100
+.color steel blue
+.cylinder    -8.219    7.056    0.000   -8.219    7.396    0.000    0.100
+.color steel blue
+.cylinder    -8.219    7.396    0.000   -8.219    7.736    0.000    0.100
+.color steel blue
+.cylinder    -8.219    7.736    0.000   -8.219    8.076    0.000    0.100
+.color steel blue
+.cylinder    -8.219    8.076    0.000   -8.219    8.416    0.000    0.100
+.color steel blue
+.cylinder    -8.219    8.416    0.000   -8.219    8.756    0.000    0.100
+.color steel blue
+.cylinder    -8.219    8.756    0.000   -8.219    9.096    0.000    0.100
+.color steel blue
+.cylinder    -8.219    9.096    0.000   -8.219    9.436    0.000    0.100
+.color steel blue
+.cylinder    -8.219    9.436    0.000   -8.219    9.776    0.000    0.100
+.color steel blue
+.cylinder    -8.219    9.776    0.000   -8.219   10.116    0.000    0.100
+.color steel blue
+.cylinder    -8.219   10.116    0.000   -8.219   10.456    0.000    0.100
+.color steel blue
+.cylinder    -8.219   10.456    0.000   -8.219   10.796    0.000    0.100
+.color steel blue
+.cylinder    -8.219   10.796    0.000   -8.219   11.136    0.000    0.100
+.color steel blue
+.cylinder    -8.219   11.136    0.000   -8.219   11.476    0.000    0.100
+.color steel blue
+.cylinder    -8.219   11.476    0.000   -8.219   11.816    0.000    0.100
+.color steel blue
+.cylinder    -8.219   11.816    0.000   -8.219   12.156    0.000    0.100
+.color steel blue
+.cylinder    -8.219   12.156    0.000   -8.219   12.496    0.000    0.100
+.color steel blue
+.cylinder    -8.219   12.496    0.000   -8.219   12.836    0.000    0.100
+.color steel blue
+.cylinder    -8.219   12.836    0.000   -8.219   13.176    0.000    0.100
+.color steel blue
+.cylinder    -8.219   13.176    0.000   -8.219   13.516    0.000    0.100
+.color steel blue
+.cylinder    -8.219   13.516    0.000   -8.219   13.856    0.000    0.100
+.color steel blue
+.cylinder    -8.219   13.856    0.000   -8.219   14.196    0.000    0.100
+.color red
+.cylinder    -8.219   14.196    0.000   -6.275   14.960    0.000    0.100
+.color steel blue
+.cylinder    -6.275   14.960    0.000   -6.036   14.721    0.000    0.100
+.color steel blue
+.cylinder    -6.036   14.721    0.000   -5.798   14.483    0.000    0.100
+.color steel blue
+.cylinder    -5.798   14.483    0.000   -5.559   14.244    0.000    0.100
+.color steel blue
+.cylinder    -5.559   14.244    0.000   -5.321   14.006    0.000    0.100
+.color steel blue
+.cylinder    -5.321   14.006    0.000   -5.082   13.767    0.000    0.100
+.color steel blue
+.cylinder    -5.082   13.767    0.000   -4.843   13.528    0.000    0.100
+.color steel blue
+.cylinder    -4.843   13.528    0.000   -4.605   13.290    0.000    0.100
+.color steel blue
+.cylinder    -4.605   13.290    0.000   -4.366   13.051    0.000    0.100
+.color steel blue
+.cylinder    -4.366   13.051    0.000   -4.128   12.813    0.000    0.100
+.color steel blue
+.cylinder    -4.128   12.813    0.000   -3.889   12.574    0.000    0.100
+.color steel blue
+.cylinder    -3.889   12.574    0.000   -3.650   12.335    0.000    0.100
+.color steel blue
+.cylinder    -3.650   12.335    0.000   -3.412   12.097    0.000    0.100
+.color steel blue
+.cylinder    -3.412   12.097    0.000   -3.173   11.858    0.000    0.100
+.color steel blue
+.cylinder    -3.173   11.858    0.000   -2.935   11.620    0.000    0.100
+.color steel blue
+.cylinder    -2.935   11.620    0.000   -2.696   11.381    0.000    0.100
+.color steel blue
+.cylinder    -2.696   11.381    0.000   -2.458   11.142    0.000    0.100
+.color steel blue
+.cylinder    -2.458   11.142    0.000   -2.219   10.904    0.000    0.100
+.color steel blue
+.cylinder    -2.219   10.904    0.000   -1.980   10.665    0.000    0.100
+.color steel blue
+.cylinder    -1.980   10.665    0.000   -1.742   10.427    0.000    0.100
+.color steel blue
+.cylinder    -1.742   10.427    0.000   -1.503   10.188    0.000    0.100
+.color steel blue
+.cylinder    -1.503   10.188    0.000   -1.265    9.950    0.000    0.100
+.color steel blue
+.cylinder    -1.265    9.950    0.000   -1.026    9.711    0.000    0.100
+.color steel blue
+.cylinder    -1.026    9.711    0.000   -0.787    9.472    0.000    0.100
+.color steel blue
+.cylinder    -0.787    9.472    0.000   -0.549    9.234    0.000    0.100
+.color steel blue
+.cylinder    -0.549    9.234    0.000   -0.310    8.995    0.000    0.100
+.color steel blue
+.cylinder    -0.310    8.995    0.000   -0.072    8.757    0.000    0.100
+.color steel blue
+.cylinder    -0.072    8.757    0.000    0.167    8.518    0.000    0.100
+.color steel blue
+.cylinder     0.167    8.518    0.000    0.406    8.279    0.000    0.100
+.color steel blue
+.cylinder     0.406    8.279    0.000    0.644    8.041    0.000    0.100
+.color steel blue
+.cylinder     0.644    8.041    0.000    0.883    7.802    0.000    0.100
+.color steel blue
+.cylinder     0.883    7.802    0.000    1.121    7.564    0.000    0.100
+.color steel blue
+.cylinder     1.121    7.564    0.000    1.360    7.325    0.000    0.100
+.color steel blue
+.cylinder     1.360    7.325    0.000    1.599    7.086    0.000    0.100
+.color steel blue
+.cylinder     1.599    7.086    0.000    1.837    6.848    0.000    0.100
+.color steel blue
+.cylinder     1.837    6.848    0.000    2.076    6.609    0.000    0.100
+.color steel blue
+.cylinder     2.076    6.609    0.000    2.314    6.371    0.000    0.100
+.color steel blue
+.cylinder     2.314    6.371    0.000    2.553    6.132    0.000    0.100
+.color steel blue
+.cylinder     2.553    6.132    0.000    2.792    5.893    0.000    0.100
+.color steel blue
+.cylinder     2.792    5.893    0.000    3.030    5.655    0.000    0.100
+.color steel blue
+.cylinder     3.030    5.655    0.000    3.269    5.416    0.000    0.100
+.color steel blue
+.cylinder     3.269    5.416    0.000    3.507    5.178    0.000    0.100
+.color steel blue
+.cylinder     3.507    5.178    0.000    3.746    4.939    0.000    0.100
+.color steel blue
+.cylinder     3.746    4.939    0.000    3.985    4.700    0.000    0.100
+.color steel blue
+.cylinder     3.985    4.700    0.000    4.223    4.462    0.000    0.100
+.color steel blue
+.cylinder     4.223    4.462    0.000    4.462    4.223    0.000    0.100
+.color steel blue
+.cylinder     4.462    4.223    0.000    4.700    3.985    0.000    0.100
+.color steel blue
+.cylinder     4.700    3.985    0.000    4.939    3.746    0.000    0.100
+.color steel blue
+.cylinder     4.939    3.746    0.000    5.178    3.507    0.000    0.100
+.color steel blue
+.cylinder     5.178    3.507    0.000    5.416    3.269    0.000    0.100
+.color steel blue
+.cylinder     5.416    3.269    0.000    5.655    3.030    0.000    0.100
+.color steel blue
+.cylinder     5.655    3.030    0.000    5.893    2.792    0.000    0.100
+.color steel blue
+.cylinder     5.893    2.792    0.000    6.132    2.553    0.000    0.100
+.color steel blue
+.cylinder     6.132    2.553    0.000    6.371    2.314    0.000    0.100
+.color steel blue
+.cylinder     6.371    2.314    0.000    6.609    2.076    0.000    0.100
+.color steel blue
+.cylinder     6.609    2.076    0.000    6.848    1.837    0.000    0.100
+.color steel blue
+.cylinder     6.848    1.837    0.000    7.086    1.599    0.000    0.100
+.color steel blue
+.cylinder     7.086    1.599    0.000    7.325    1.360    0.000    0.100
+.color steel blue
+.cylinder     7.325    1.360    0.000    7.564    1.121    0.000    0.100
+.color steel blue
+.cylinder     7.564    1.121    0.000    7.802    0.883    0.000    0.100
+.color steel blue
+.cylinder     7.802    0.883    0.000    8.041    0.644    0.000    0.100
+.color steel blue
+.cylinder     8.041    0.644    0.000    8.279    0.406    0.000    0.100
+.color steel blue
+.cylinder     8.279    0.406    0.000    8.518    0.167    0.000    0.100
+.color steel blue
+.cylinder     8.518    0.167    0.000    8.757   -0.072    0.000    0.100
+.color steel blue
+.cylinder     8.757   -0.072    0.000    8.995   -0.310    0.000    0.100
+.color steel blue
+.cylinder     8.995   -0.310    0.000    9.234   -0.549    0.000    0.100
+.color steel blue
+.cylinder     9.234   -0.549    0.000    9.472   -0.787    0.000    0.100
+.color steel blue
+.cylinder     9.472   -0.787    0.000    9.711   -1.026    0.000    0.100
+.color steel blue
+.cylinder     9.711   -1.026    0.000    9.950   -1.265    0.000    0.100
+.color steel blue
+.cylinder     9.950   -1.265    0.000   10.188   -1.503    0.000    0.100
+.color steel blue
+.cylinder    10.188   -1.503    0.000   10.427   -1.742    0.000    0.100
+.color steel blue
+.cylinder    10.427   -1.742    0.000   10.665   -1.980    0.000    0.100
+.color steel blue
+.cylinder    10.665   -1.980    0.000   10.904   -2.219    0.000    0.100
+.color steel blue
+.cylinder    10.904   -2.219    0.000   11.142   -2.458    0.000    0.100
+.color steel blue
+.cylinder    11.142   -2.458    0.000   11.381   -2.696    0.000    0.100
+.color steel blue
+.cylinder    11.381   -2.696    0.000   11.620   -2.935    0.000    0.100
+.color steel blue
+.cylinder    11.620   -2.935    0.000   11.858   -3.173    0.000    0.100
+.color steel blue
+.cylinder    11.858   -3.173    0.000   12.097   -3.412    0.000    0.100
+.color steel blue
+.cylinder    12.097   -3.412    0.000   12.335   -3.650    0.000    0.100
+.color steel blue
+.cylinder    12.335   -3.650    0.000   12.574   -3.889    0.000    0.100
+.color steel blue
+.cylinder    12.574   -3.889    0.000   12.813   -4.128    0.000    0.100
+.color steel blue
+.cylinder    12.813   -4.128    0.000   13.051   -4.366    0.000    0.100
+.color steel blue
+.cylinder    13.051   -4.366    0.000   13.290   -4.605    0.000    0.100
+.color steel blue
+.cylinder    13.290   -4.605    0.000   13.528   -4.843    0.000    0.100
+.color steel blue
+.cylinder    13.528   -4.843    0.000   13.767   -5.082    0.000    0.100
+.color steel blue
+.cylinder    13.767   -5.082    0.000   14.006   -5.321    0.000    0.100
+.color steel blue
+.cylinder    14.006   -5.321    0.000   14.244   -5.559    0.000    0.100
+.color steel blue
+.cylinder    14.244   -5.559    0.000   14.483   -5.798    0.000    0.100
+.color steel blue
+.cylinder    14.483   -5.798    0.000   14.721   -6.036    0.000    0.100
+.color steel blue
+.cylinder    14.721   -6.036    0.000   14.960   -6.275    0.000    0.100
+.color red
+.cylinder    14.960   -6.275    0.000   14.196   -8.219    0.000    0.100
+.color steel blue
+.cylinder    14.196   -8.219    0.000   13.856   -8.219    0.000    0.100
+.color steel blue
+.cylinder    13.856   -8.219    0.000   13.516   -8.219    0.000    0.100
+.color steel blue
+.cylinder    13.516   -8.219    0.000   13.176   -8.219    0.000    0.100
+.color steel blue
+.cylinder    13.176   -8.219    0.000   12.836   -8.219    0.000    0.100
+.color steel blue
+.cylinder    12.836   -8.219    0.000   12.496   -8.219    0.000    0.100
+.color steel blue
+.cylinder    12.496   -8.219    0.000   12.156   -8.219    0.000    0.100
+.color steel blue
+.cylinder    12.156   -8.219    0.000   11.816   -8.219    0.000    0.100
+.color steel blue
+.cylinder    11.816   -8.219    0.000   11.476   -8.219    0.000    0.100
+.color steel blue
+.cylinder    11.476   -8.219    0.000   11.136   -8.219    0.000    0.100
+.color steel blue
+.cylinder    11.136   -8.219    0.000   10.796   -8.219    0.000    0.100
+.color steel blue
+.cylinder    10.796   -8.219    0.000   10.456   -8.219    0.000    0.100
+.color steel blue
+.cylinder    10.456   -8.219    0.000   10.116   -8.219    0.000    0.100
+.color steel blue
+.cylinder    10.116   -8.219    0.000    9.776   -8.219    0.000    0.100
+.color steel blue
+.cylinder     9.776   -8.219    0.000    9.436   -8.219    0.000    0.100
+.color steel blue
+.cylinder     9.436   -8.219    0.000    9.096   -8.219    0.000    0.100
+.color steel blue
+.cylinder     9.096   -8.219    0.000    8.756   -8.219    0.000    0.100
+.color steel blue
+.cylinder     8.756   -8.219    0.000    8.416   -8.219    0.000    0.100
+.color steel blue
+.cylinder     8.416   -8.219    0.000    8.076   -8.219    0.000    0.100
+.color steel blue
+.cylinder     8.076   -8.219    0.000    7.736   -8.219    0.000    0.100
+.color steel blue
+.cylinder     7.736   -8.219    0.000    7.396   -8.219    0.000    0.100
+.color steel blue
+.cylinder     7.396   -8.219    0.000    7.056   -8.219    0.000    0.100
+.color steel blue
+.cylinder     7.056   -8.219    0.000    6.716   -8.219    0.000    0.100
+.color steel blue
+.cylinder     6.716   -8.219    0.000    6.376   -8.219    0.000    0.100
+.color steel blue
+.cylinder     6.376   -8.219    0.000    6.036   -8.219    0.000    0.100
+.color steel blue
+.cylinder     6.036   -8.219    0.000    5.696   -8.219    0.000    0.100
+.color steel blue
+.cylinder     5.696   -8.219    0.000    5.356   -8.219    0.000    0.100
+.color steel blue
+.cylinder     5.356   -8.219    0.000    5.016   -8.219    0.000    0.100
+.color steel blue
+.cylinder     5.016   -8.219    0.000    4.676   -8.219    0.000    0.100
+.color steel blue
+.cylinder     4.676   -8.219    0.000    4.336   -8.219    0.000    0.100
+.color steel blue
+.cylinder     4.336   -8.219    0.000    3.996   -8.219    0.000    0.100
+.color steel blue
+.cylinder     3.996   -8.219    0.000    3.996   -5.969    0.000    0.100
+.color steel blue
+.cylinder     3.996   -5.969    0.000    4.336   -5.969    0.000    0.100
+.color steel blue
+.cylinder     4.336   -5.969    0.000    4.676   -5.969    0.000    0.100
+.color steel blue
+.cylinder     4.676   -5.969    0.000    5.016   -5.969    0.000    0.100
+.color steel blue
+.cylinder     5.016   -5.969    0.000    5.356   -5.969    0.000    0.100
+.color steel blue
+.cylinder     5.356   -5.969    0.000    5.696   -5.969    0.000    0.100
+.color steel blue
+.cylinder     5.696   -5.969    0.000    6.036   -5.969    0.000    0.100
+.color steel blue
+.cylinder     6.036   -5.969    0.000    6.376   -5.969    0.000    0.100
+.color steel blue
+.cylinder     6.376   -5.969    0.000    6.716   -5.969    0.000    0.100
+.color steel blue
+.cylinder     6.716   -5.969    0.000    7.056   -5.969    0.000    0.100
+.color steel blue
+.cylinder     7.056   -5.969    0.000    7.396   -5.969    0.000    0.100
+.color steel blue
+.cylinder     7.396   -5.969    0.000    7.736   -5.969    0.000    0.100
+.color steel blue
+.cylinder     7.736   -5.969    0.000    8.076   -5.969    0.000    0.100
+.color steel blue
+.cylinder     8.076   -5.969    0.000    8.416   -5.969    0.000    0.100
+.color steel blue
+.cylinder     8.416   -5.969    0.000    8.756   -5.969    0.000    0.100
+.color red
+.cylinder     8.756   -5.969    0.000    9.552   -4.048    0.000    0.100
+.color steel blue
+.cylinder     9.552   -4.048    0.000    9.313   -3.810    0.000    0.100
+.color steel blue
+.cylinder     9.313   -3.810    0.000    9.074   -3.571    0.000    0.100
+.color steel blue
+.cylinder     9.074   -3.571    0.000    8.836   -3.333    0.000    0.100
+.color steel blue
+.cylinder     8.836   -3.333    0.000    8.597   -3.094    0.000    0.100
+.color steel blue
+.cylinder     8.597   -3.094    0.000    8.359   -2.856    0.000    0.100
+.color steel blue
+.cylinder     8.359   -2.856    0.000    8.120   -2.617    0.000    0.100
+.color steel blue
+.cylinder     8.120   -2.617    0.000    7.881   -2.378    0.000    0.100
+.color steel blue
+.cylinder     7.881   -2.378    0.000    7.643   -2.140    0.000    0.100
+.color steel blue
+.cylinder     7.643   -2.140    0.000    7.404   -1.901    0.000    0.100
+.color steel blue
+.cylinder     7.404   -1.901    0.000    7.166   -1.663    0.000    0.100
+.color steel blue
+.cylinder     7.166   -1.663    0.000    6.927   -1.424    0.000    0.100
+.color steel blue
+.cylinder     6.927   -1.424    0.000    6.688   -1.185    0.000    0.100
+.color steel blue
+.cylinder     6.688   -1.185    0.000    6.450   -0.947    0.000    0.100
+.color steel blue
+.cylinder     6.450   -0.947    0.000    6.211   -0.708    0.000    0.100
+.color steel blue
+.cylinder     6.211   -0.708    0.000    5.973   -0.470    0.000    0.100
+.color steel blue
+.cylinder     5.973   -0.470    0.000    5.734   -0.231    0.000    0.100
+.color steel blue
+.cylinder     5.734   -0.231    0.000    5.495    0.008    0.000    0.100
+.color steel blue
+.cylinder     5.495    0.008    0.000    5.257    0.246    0.000    0.100
+.color steel blue
+.cylinder     5.257    0.246    0.000    5.018    0.485    0.000    0.100
+.color steel blue
+.cylinder     5.018    0.485    0.000    4.780    0.723    0.000    0.100
+.color steel blue
+.cylinder     4.780    0.723    0.000    4.541    0.962    0.000    0.100
+.color steel blue
+.cylinder     4.541    0.962    0.000    4.302    1.201    0.000    0.100
+.color steel blue
+.cylinder     4.302    1.201    0.000    4.064    1.439    0.000    0.100
+.color steel blue
+.cylinder     4.064    1.439    0.000    3.825    1.678    0.000    0.100
+.color steel blue
+.cylinder     3.825    1.678    0.000    3.587    1.916    0.000    0.100
+.color steel blue
+.cylinder     3.587    1.916    0.000    3.348    2.155    0.000    0.100
+.color steel blue
+.cylinder     3.348    2.155    0.000    3.109    2.394    0.000    0.100
+.color steel blue
+.cylinder     3.109    2.394    0.000    2.871    2.632    0.000    0.100
+.color steel blue
+.cylinder     2.871    2.632    0.000    2.632    2.871    0.000    0.100
+.color steel blue
+.cylinder     2.632    2.871    0.000    2.394    3.109    0.000    0.100
+.color steel blue
+.cylinder     2.394    3.109    0.000    2.155    3.348    0.000    0.100
+.color steel blue
+.cylinder     2.155    3.348    0.000    1.916    3.587    0.000    0.100
+.color steel blue
+.cylinder     1.916    3.587    0.000    1.678    3.825    0.000    0.100
+.color steel blue
+.cylinder     1.678    3.825    0.000    1.439    4.064    0.000    0.100
+.color steel blue
+.cylinder     1.439    4.064    0.000    1.201    4.302    0.000    0.100
+.color steel blue
+.cylinder     1.201    4.302    0.000    0.962    4.541    0.000    0.100
+.color steel blue
+.cylinder     0.962    4.541    0.000    0.723    4.780    0.000    0.100
+.color steel blue
+.cylinder     0.723    4.780    0.000    0.485    5.018    0.000    0.100
+.color steel blue
+.cylinder     0.485    5.018    0.000    0.246    5.257    0.000    0.100
+.color steel blue
+.cylinder     0.246    5.257    0.000    0.008    5.495    0.000    0.100
+.color steel blue
+.cylinder     0.008    5.495    0.000   -0.231    5.734    0.000    0.100
+.color steel blue
+.cylinder    -0.231    5.734    0.000   -0.470    5.973    0.000    0.100
+.color steel blue
+.cylinder    -0.470    5.973    0.000   -0.708    6.211    0.000    0.100
+.color steel blue
+.cylinder    -0.708    6.211    0.000   -0.947    6.450    0.000    0.100
+.color steel blue
+.cylinder    -0.947    6.450    0.000   -1.185    6.688    0.000    0.100
+.color steel blue
+.cylinder    -1.185    6.688    0.000   -1.424    6.927    0.000    0.100
+.color steel blue
+.cylinder    -1.424    6.927    0.000   -1.663    7.166    0.000    0.100
+.color steel blue
+.cylinder    -1.663    7.166    0.000   -1.901    7.404    0.000    0.100
+.color steel blue
+.cylinder    -1.901    7.404    0.000   -2.140    7.643    0.000    0.100
+.color steel blue
+.cylinder    -2.140    7.643    0.000   -2.378    7.881    0.000    0.100
+.color steel blue
+.cylinder    -2.378    7.881    0.000   -2.617    8.120    0.000    0.100
+.color steel blue
+.cylinder    -2.617    8.120    0.000   -2.856    8.359    0.000    0.100
+.color steel blue
+.cylinder    -2.856    8.359    0.000   -3.094    8.597    0.000    0.100
+.color steel blue
+.cylinder    -3.094    8.597    0.000   -3.333    8.836    0.000    0.100
+.color steel blue
+.cylinder    -3.333    8.836    0.000   -3.571    9.074    0.000    0.100
+.color steel blue
+.cylinder    -3.571    9.074    0.000   -3.810    9.313    0.000    0.100
+.color steel blue
+.cylinder    -3.810    9.313    0.000   -4.048    9.552    0.000    0.100
+.color red
+.cylinder    -4.048    9.552    0.000   -5.969    9.096    0.000    0.100
+.color steel blue
+.cylinder    -5.969    9.096    0.000   -5.969    8.756    0.000    0.100
+.color steel blue
+.cylinder    -5.969    8.756    0.000   -5.969    8.416    0.000    0.100
+.color steel blue
+.cylinder    -5.969    8.416    0.000   -5.969    8.076    0.000    0.100
+.color steel blue
+.cylinder    -5.969    8.076    0.000   -5.969    7.736    0.000    0.100
+.color steel blue
+.cylinder    -5.969    7.736    0.000   -5.969    7.396    0.000    0.100
+.color steel blue
+.cylinder    -5.969    7.396    0.000   -5.969    7.056    0.000    0.100
+.color steel blue
+.cylinder    -5.969    7.056    0.000   -5.969    6.716    0.000    0.100
+.color steel blue
+.cylinder    -5.969    6.716    0.000   -5.969    6.376    0.000    0.100
+.color steel blue
+.cylinder    -5.969    6.376    0.000   -5.969    6.036    0.000    0.100
+.color steel blue
+.cylinder    -5.969    6.036    0.000   -5.969    5.696    0.000    0.100
+.color steel blue
+.cylinder    -5.969    5.696    0.000   -5.969    5.356    0.000    0.100
+.color steel blue
+.cylinder    -5.969    5.356    0.000   -5.969    5.016    0.000    0.100
+.color steel blue
+.cylinder    -5.969    5.016    0.000   -5.969    4.676    0.000    0.100
+.color steel blue
+.cylinder    -5.969    4.676    0.000   -5.969    4.336    0.000    0.100
+.color steel blue
+.cylinder    -5.969    4.336    0.000   -5.969    3.996    0.000    0.100
+.color steel blue
+.cylinder    -5.969    3.996    0.000   -5.969    3.656    0.000    0.100
+.color steel blue
+.cylinder    -5.969    3.656    0.000   -5.969    3.316    0.000    0.100
+.color steel blue
+.cylinder    -5.969    3.316    0.000   -5.969    2.976    0.000    0.100
+.color steel blue
+.cylinder    -5.969    2.976    0.000   -5.969    2.636    0.000    0.100
+.color steel blue
+.cylinder    -5.969    2.636    0.000   -5.969    2.296    0.000    0.100
+.color steel blue
+.cylinder    -5.969    2.296    0.000   -5.969    1.956    0.000    0.100
+.color steel blue
+.cylinder    -5.969    1.956    0.000   -5.969    1.616    0.000    0.100
+.color steel blue
+.cylinder    -5.969    1.616    0.000   -5.969    1.276    0.000    0.100
+.color steel blue
+.cylinder    -5.969    1.276    0.000   -5.969    0.936    0.000    0.100
+.color steel blue
+.cylinder    -5.969    0.936    0.000   -5.969    0.596    0.000    0.100
+.color steel blue
+.cylinder    -5.969    0.596    0.000   -5.969    0.256    0.000    0.100
+.color steel blue
+.cylinder    -5.969    0.256    0.000   -5.969   -0.084    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -0.084    0.000   -5.969   -0.424    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -0.424    0.000   -5.969   -0.764    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -0.764    0.000   -5.969   -1.104    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -1.104    0.000   -5.969   -1.444    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -1.444    0.000   -5.969   -1.784    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -1.784    0.000   -5.969   -2.124    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -2.124    0.000   -5.969   -2.464    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -2.464    0.000   -5.969   -2.804    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -2.804    0.000   -5.969   -3.144    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -3.144    0.000   -5.969   -3.484    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -3.484    0.000   -5.969   -3.824    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -3.824    0.000   -5.969   -4.164    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -4.164    0.000   -5.969   -4.504    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -4.504    0.000   -5.969   -4.844    0.000    0.100
+.color steel blue
+.cylinder    -5.969   -4.844    0.000   -5.184   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -5.184   -5.969    0.000   -4.844   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -4.844   -5.969    0.000   -4.504   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -4.504   -5.969    0.000   -4.164   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -4.164   -5.969    0.000   -3.824   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -3.824   -5.969    0.000   -3.484   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -3.484   -5.969    0.000   -3.144   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -3.144   -5.969    0.000   -2.804   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -2.804   -5.969    0.000   -2.464   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -2.464   -5.969    0.000   -2.124   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -2.124   -5.969    0.000   -1.784   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -1.784   -5.969    0.000   -1.444   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -1.444   -5.969    0.000   -1.104   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -1.104   -5.969    0.000   -0.764   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -0.764   -5.969    0.000   -0.424   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -0.424   -5.969    0.000   -0.084   -5.969    0.000    0.100
+.color steel blue
+.cylinder    -0.084   -5.969    0.000    0.256   -5.969    0.000    0.100
+.color steel blue
+.cylinder     0.256   -5.969    0.000    0.596   -5.969    0.000    0.100
+.color steel blue
+.cylinder     0.596   -5.969    0.000    0.936   -5.969    0.000    0.100
+.color steel blue
+.cylinder     0.936   -5.969    0.000    1.276   -5.969    0.000    0.100
+.color steel blue
+.cylinder     1.276   -5.969    0.000    1.616   -5.969    0.000    0.100
+.color steel blue
+.cylinder     1.616   -5.969    0.000    1.956   -5.969    0.000    0.100
+.color steel blue
+.cylinder     1.956   -5.969    0.000    2.296   -5.969    0.000    0.100
+.color steel blue
+.cylinder     2.296   -5.969    0.000    2.636   -5.969    0.000    0.100
+.color steel blue
+.cylinder     2.636   -5.969    0.000    2.976   -5.969    0.000    0.100
+.color steel blue
+.cylinder     2.976   -5.969    0.000    3.316   -5.969    0.000    0.100
+.color steel blue
+.cylinder     3.316   -5.969    0.000    3.656   -5.969    0.000    0.100
+.color steel blue
+.cylinder     3.656   -5.969    0.000    3.656   -8.219    0.000    0.100
+.color steel blue
+.cylinder     3.656   -8.219    0.000    3.316   -8.219    0.000    0.100
+.color steel blue
+.cylinder     3.316   -8.219    0.000    2.976   -8.219    0.000    0.100
+.color steel blue
+.cylinder     2.976   -8.219    0.000    2.636   -8.219    0.000    0.100
+.color steel blue
+.cylinder     2.636   -8.219    0.000    2.296   -8.219    0.000    0.100
+.color steel blue
+.cylinder     2.296   -8.219    0.000    1.956   -8.219    0.000    0.100
+.color steel blue
+.cylinder     1.956   -8.219    0.000    1.616   -8.219    0.000    0.100
+.color steel blue
+.cylinder     1.616   -8.219    0.000    1.276   -8.219    0.000    0.100
+.color steel blue
+.cylinder     1.276   -8.219    0.000    0.936   -8.219    0.000    0.100
+.color steel blue
+.cylinder     0.936   -8.219    0.000    0.596   -8.219    0.000    0.100
+.color steel blue
+.cylinder     0.596   -8.219    0.000    0.256   -8.219    0.000    0.100
+.color steel blue
+.cylinder     0.256   -8.219    0.000   -0.084   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -0.084   -8.219    0.000   -0.424   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -0.424   -8.219    0.000   -0.764   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -0.764   -8.219    0.000   -1.104   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -1.104   -8.219    0.000   -1.444   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -1.444   -8.219    0.000   -1.784   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -1.784   -8.219    0.000   -2.124   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -2.124   -8.219    0.000   -2.464   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -2.464   -8.219    0.000   -2.804   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -2.804   -8.219    0.000   -3.144   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -3.144   -8.219    0.000   -3.484   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -3.484   -8.219    0.000   -3.824   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -3.824   -8.219    0.000   -4.164   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -4.164   -8.219    0.000   -4.504   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -4.504   -8.219    0.000   -4.844   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -4.844   -8.219    0.000   -5.184   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -5.184   -8.219    0.000   -5.524   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -5.524   -8.219    0.000   -5.864   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -5.864   -8.219    0.000   -6.204   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -6.204   -8.219    0.000   -6.544   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -6.544   -8.219    0.000   -6.884   -8.219    0.000    0.100
+.color steel blue
+.cylinder    -6.884   -8.219    0.000   -7.224   -8.219    0.000    0.100
+.color red
+.cylinder    -7.224   -8.219    0.000   -8.219   -7.224    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -7.224    0.000   -8.219   -6.884    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -6.884    0.000   -8.219   -6.544    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -6.544    0.000   -8.219   -6.204    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -6.204    0.000   -8.219   -5.864    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -5.864    0.000   -8.219   -5.524    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -5.524    0.000   -8.219   -5.184    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -5.184    0.000   -8.219   -4.844    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -4.844    0.000   -8.219   -4.504    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -4.504    0.000   -8.219   -4.164    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -4.164    0.000   -8.219   -3.824    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -3.824    0.000   -8.219   -3.484    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -3.484    0.000   -8.219   -3.144    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -3.144    0.000   -8.219   -2.804    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -2.804    0.000   -8.219   -2.464    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -2.464    0.000   -8.219   -2.124    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -2.124    0.000   -8.219   -1.784    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -1.784    0.000   -8.219   -1.444    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -1.444    0.000   -8.219   -1.104    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -1.104    0.000   -8.219   -0.764    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -0.764    0.000   -8.219   -0.424    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -0.424    0.000   -8.219   -0.084    0.000    0.100
+.color steel blue
+.cylinder    -8.219   -0.084    0.000   -8.219    0.256    0.000    0.100
+.color steel blue
+.cylinder    -8.219    0.256    0.000   -8.219    0.596    0.000    0.100
+.color steel blue
+.cylinder    -8.219    0.596    0.000   -8.219    0.936    0.000    0.100
+.color steel blue
+.cylinder    -8.219    0.936    0.000   -8.219    1.276    0.000    0.100
+.color steel blue
+.cylinder    -8.219    1.276    0.000   -8.219    1.616    0.000    0.100
+.color salmon
+.cylinder    -7.719   -4.844    0.000   -7.719   -5.184    0.000    0.100
+.cylinder    -7.719   -5.184    0.000   -7.719   -5.524    0.000    0.100
+.cylinder    -7.719   -5.524    0.000   -7.719   -5.864    0.000    0.100
+.cylinder    -7.719   -5.864    0.000   -7.719   -6.204    0.000    0.100
+.cylinder    -7.719   -6.204    0.000   -7.719   -6.544    0.000    0.100
+.cylinder    -7.719   -6.544    0.000   -7.719   -6.884    0.000    0.100
+.cylinder    -7.719   -6.884    0.000   -7.719   -7.224    0.000    0.100
+.cylinder    -7.719   -7.224    0.000   -7.224   -7.719    0.000    0.100
+.cylinder    -7.224   -7.719    0.000   -6.884   -7.719    0.000    0.100
+.cylinder    -6.884   -7.719    0.000   -6.544   -7.719    0.000    0.100
+.cylinder    -6.544   -7.719    0.000   -6.204   -7.719    0.000    0.100
+.cylinder    -6.204   -7.719    0.000   -5.864   -7.719    0.000    0.100
+.cylinder    -5.864   -7.719    0.000   -5.524   -7.719    0.000    0.100
+.cylinder    -5.524   -7.719    0.000   -5.184   -7.719    0.000    0.100
+.cylinder    -5.184   -7.719    0.000   -4.844   -7.719    0.000    0.100
+.cylinder    -4.844   -7.719    0.000   -4.504   -7.719    0.000    0.100
+.cylinder    -4.504   -7.719    0.000   -4.164   -7.719    0.000    0.100
+.cylinder    -4.164   -7.719    0.000   -3.824   -7.719    0.000    0.100
+.cylinder    -3.824   -7.719    0.000   -3.484   -7.719    0.000    0.100
+.cylinder    -3.484   -7.719    0.000   -3.144   -7.719    0.000    0.100
+.cylinder    -3.144   -7.719    0.000   -2.804   -7.719    0.000    0.100
+.cylinder    -2.804   -7.719    0.000   -2.464   -7.719    0.000    0.100
+.cylinder    -2.464   -7.719    0.000   -2.124   -7.719    0.000    0.100
+.cylinder    -2.124   -7.719    0.000   -1.784   -7.719    0.000    0.100
+.cylinder    -1.784   -7.719    0.000   -1.784   -6.469    0.000    0.100
+.cylinder    -1.784   -6.469    0.000   -2.124   -6.469    0.000    0.100
+.cylinder    -2.124   -6.469    0.000   -2.464   -6.469    0.000    0.100
+.cylinder    -2.464   -6.469    0.000   -2.804   -6.469    0.000    0.100
+.cylinder    -2.804   -6.469    0.000   -3.144   -6.469    0.000    0.100
+.cylinder    -3.144   -6.469    0.000   -3.484   -6.469    0.000    0.100
+.cylinder    -3.484   -6.469    0.000   -3.824   -6.469    0.000    0.100
+.cylinder    -3.824   -6.469    0.000   -4.164   -6.469    0.000    0.100
+.cylinder    -4.164   -6.469    0.000   -4.504   -6.469    0.000    0.100
+.cylinder    -4.504   -6.469    0.000   -4.844   -6.469    0.000    0.100
+.cylinder    -4.844   -6.469    0.000   -5.184   -6.469    0.000    0.100
+.cylinder    -5.184   -6.469    0.000   -6.469   -4.844    0.000    0.100
+.cylinder    -6.469   -4.844    0.000   -6.469   -4.504    0.000    0.100
+.cylinder    -6.469   -4.504    0.000   -6.469   -4.164    0.000    0.100
+.cylinder    -6.469   -4.164    0.000   -6.469   -3.824    0.000    0.100
+.cylinder    -6.469   -3.824    0.000   -6.469   -3.484    0.000    0.100
+.cylinder    -6.469   -3.484    0.000   -6.469   -3.144    0.000    0.100
+.cylinder    -6.469   -3.144    0.000   -6.469   -2.804    0.000    0.100
+.cylinder    -6.469   -2.804    0.000   -6.469   -2.464    0.000    0.100
+.cylinder    -6.469   -2.464    0.000   -6.469   -2.124    0.000    0.100
+.cylinder    -6.469   -2.124    0.000   -6.469   -1.784    0.000    0.100
+.cylinder    -6.469   -1.784    0.000   -7.719   -1.784    0.000    0.100
+.cylinder    -7.719   -1.784    0.000   -7.719   -2.124    0.000    0.100
+.cylinder    -7.719   -2.124    0.000   -7.719   -2.464    0.000    0.100
+.cylinder    -7.719   -2.464    0.000   -7.719   -2.804    0.000    0.100
+.cylinder    -7.719   -2.804    0.000   -7.719   -3.144    0.000    0.100
+.cylinder    -7.719   -3.144    0.000   -7.719   -3.484    0.000    0.100
+.cylinder    -7.719   -3.484    0.000   -7.719   -3.824    0.000    0.100
+.cylinder    -7.719   -3.824    0.000   -7.719   -4.164    0.000    0.100
+.cylinder    -7.719   -4.164    0.000   -7.719   -4.504    0.000    0.100
+.arrow    -7.719   -3.654    0.000   -7.719   -4.810    0.000    0.100    0.300    0.300
+.color orange
+.cylinder     8.951   -2.741    0.000    9.189   -2.979    0.000    0.100
+.cylinder     9.189   -2.979    0.000    9.428   -3.218    0.000    0.100
+.cylinder     9.428   -3.218    0.000    9.666   -3.456    0.000    0.100
+.cylinder     9.666   -3.456    0.000    9.905   -3.695    0.000    0.100
+.cylinder     9.905   -3.695    0.000    8.756   -6.469    0.000    0.100
+.cylinder     8.756   -6.469    0.000    8.416   -6.469    0.000    0.100
+.cylinder     8.416   -6.469    0.000    8.076   -6.469    0.000    0.100
+.cylinder     8.076   -6.469    0.000    7.736   -6.469    0.000    0.100
+.cylinder     7.736   -6.469    0.000    7.396   -6.469    0.000    0.100
+.cylinder     7.396   -6.469    0.000    7.056   -6.469    0.000    0.100
+.cylinder     7.056   -6.469    0.000    6.716   -6.469    0.000    0.100
+.cylinder     6.716   -6.469    0.000    6.376   -6.469    0.000    0.100
+.cylinder     6.376   -6.469    0.000    6.036   -6.469    0.000    0.100
+.cylinder     6.036   -6.469    0.000    5.696   -6.469    0.000    0.100
+.cylinder     5.696   -6.469    0.000    5.356   -6.469    0.000    0.100
+.cylinder     5.356   -6.469    0.000    5.016   -6.469    0.000    0.100
+.cylinder     5.016   -6.469    0.000    4.676   -6.469    0.000    0.100
+.cylinder     4.676   -6.469    0.000    4.336   -6.469    0.000    0.100
+.cylinder     4.336   -6.469    0.000    3.996   -6.469    0.000    0.100
+.cylinder     3.996   -6.469    0.000    3.656   -6.469    0.000    0.100
+.cylinder     3.656   -6.469    0.000    3.316   -6.469    0.000    0.100
+.cylinder     3.316   -6.469    0.000    2.976   -6.469    0.000    0.100
+.cylinder     2.976   -6.469    0.000    2.636   -6.469    0.000    0.100
+.cylinder     2.636   -6.469    0.000    2.296   -6.469    0.000    0.100
+.cylinder     2.296   -6.469    0.000    1.956   -6.469    0.000    0.100
+.cylinder     1.956   -6.469    0.000    1.616   -6.469    0.000    0.100
+.cylinder     1.616   -6.469    0.000    1.276   -6.469    0.000    0.100
+.cylinder     1.276   -6.469    0.000    0.936   -6.469    0.000    0.100
+.cylinder     0.936   -6.469    0.000    0.596   -6.469    0.000    0.100
+.cylinder     0.596   -6.469    0.000    0.256   -6.469    0.000    0.100
+.cylinder     0.256   -6.469    0.000   -0.084   -6.469    0.000    0.100
+.cylinder    -0.084   -6.469    0.000   -0.424   -6.469    0.000    0.100
+.cylinder    -0.424   -6.469    0.000   -0.764   -6.469    0.000    0.100
+.cylinder    -0.764   -6.469    0.000   -1.104   -6.469    0.000    0.100
+.cylinder    -1.104   -6.469    0.000   -1.444   -6.469    0.000    0.100
+.cylinder    -1.444   -6.469    0.000   -1.444   -7.719    0.000    0.100
+.cylinder    -1.444   -7.719    0.000   -1.104   -7.719    0.000    0.100
+.cylinder    -1.104   -7.719    0.000   -0.764   -7.719    0.000    0.100
+.cylinder    -0.764   -7.719    0.000   -0.424   -7.719    0.000    0.100
+.cylinder    -0.424   -7.719    0.000   -0.084   -7.719    0.000    0.100
+.cylinder    -0.084   -7.719    0.000    0.256   -7.719    0.000    0.100
+.cylinder     0.256   -7.719    0.000    0.596   -7.719    0.000    0.100
+.cylinder     0.596   -7.719    0.000    0.936   -7.719    0.000    0.100
+.arrow     0.086   -7.719    0.000    1.242   -7.719    0.000    0.100    0.300    0.300
+.color gold
+.cylinder     9.436   -7.719    0.000    9.776   -7.719    0.000    0.100
+.cylinder     9.776   -7.719    0.000   10.116   -7.719    0.000    0.100
+.cylinder    10.116   -7.719    0.000   10.456   -7.719    0.000    0.100
+.cylinder    10.456   -7.719    0.000   10.796   -7.719    0.000    0.100
+.cylinder    10.796   -7.719    0.000   11.136   -7.719    0.000    0.100
+.cylinder    11.136   -7.719    0.000   11.476   -7.719    0.000    0.100
+.cylinder    11.476   -7.719    0.000   11.816   -7.719    0.000    0.100
+.cylinder    11.816   -7.719    0.000   12.156   -7.719    0.000    0.100
+.cylinder    12.156   -7.719    0.000   12.496   -7.719    0.000    0.100
+.cylinder    12.496   -7.719    0.000   12.836   -7.719    0.000    0.100
+.cylinder    12.836   -7.719    0.000   13.176   -7.719    0.000    0.100
+.cylinder    13.176   -7.719    0.000   13.516   -7.719    0.000    0.100
+.cylinder    13.516   -7.719    0.000   13.856   -7.719    0.000    0.100
+.cylinder    13.856   -7.719    0.000   14.196   -7.719    0.000    0.100
+.cylinder    14.196   -7.719    0.000   14.606   -6.629    0.000    0.100
+.cylinder    14.606   -6.629    0.000   14.368   -6.390    0.000    0.100
+.cylinder    14.368   -6.390    0.000   14.129   -6.151    0.000    0.100
+.cylinder    14.129   -6.151    0.000   13.891   -5.913    0.000    0.100
+.cylinder    13.891   -5.913    0.000   13.652   -5.674    0.000    0.100
+.cylinder    13.652   -5.674    0.000   13.413   -5.436    0.000    0.100
+.cylinder    13.413   -5.436    0.000   13.175   -5.197    0.000    0.100
+.cylinder    13.175   -5.197    0.000   12.936   -4.958    0.000    0.100
+.cylinder    12.936   -4.958    0.000   12.698   -4.720    0.000    0.100
+.cylinder    12.698   -4.720    0.000   12.459   -4.481    0.000    0.100
+.cylinder    12.459   -4.481    0.000   12.221   -4.243    0.000    0.100
+.cylinder    12.221   -4.243    0.000   11.982   -4.004    0.000    0.100
+.cylinder    11.982   -4.004    0.000   11.743   -3.765    0.000    0.100
+.cylinder    11.743   -3.765    0.000   11.505   -3.527    0.000    0.100
+.cylinder    11.505   -3.527    0.000   11.266   -3.288    0.000    0.100
+.cylinder    11.266   -3.288    0.000   11.028   -3.050    0.000    0.100
+.cylinder    11.028   -3.050    0.000   10.789   -2.811    0.000    0.100
+.cylinder    10.789   -2.811    0.000   10.550   -2.572    0.000    0.100
+.cylinder    10.550   -2.572    0.000   10.312   -2.334    0.000    0.100
+.cylinder    10.312   -2.334    0.000   10.073   -2.095    0.000    0.100
+.cylinder    10.073   -2.095    0.000    9.835   -1.857    0.000    0.100
+.cylinder     9.835   -1.857    0.000    9.596   -1.618    0.000    0.100
+.cylinder     9.596   -1.618    0.000    9.357   -1.379    0.000    0.100
+.cylinder     9.357   -1.379    0.000    9.119   -1.141    0.000    0.100
+.cylinder     9.119   -1.141    0.000    8.880   -0.902    0.000    0.100
+.cylinder     8.880   -0.902    0.000    8.642   -0.664    0.000    0.100
+.cylinder     8.642   -0.664    0.000    7.758   -1.548    0.000    0.100
+.cylinder     7.758   -1.548    0.000    7.996   -1.786    0.000    0.100
+.cylinder     7.996   -1.786    0.000    8.235   -2.025    0.000    0.100
+.cylinder     8.235   -2.025    0.000    8.473   -2.263    0.000    0.100
+.cylinder     8.473   -2.263    0.000    8.712   -2.502    0.000    0.100
+.arrow     8.116   -1.905    0.000    8.927   -2.717    0.000    0.100    0.300    0.300
+.color dark green
+.cylinder     5.133    1.077    0.000    5.372    0.838    0.000    0.100
+.cylinder     5.372    0.838    0.000    5.610    0.600    0.000    0.100
+.cylinder     5.610    0.600    0.000    5.849    0.361    0.000    0.100
+.cylinder     5.849    0.361    0.000    6.088    0.123    0.000    0.100
+.cylinder     6.088    0.123    0.000    6.326   -0.116    0.000    0.100
+.cylinder     6.326   -0.116    0.000    6.565   -0.355    0.000    0.100
+.cylinder     6.565   -0.355    0.000    6.803   -0.593    0.000    0.100
+.cylinder     6.803   -0.593    0.000    7.042   -0.832    0.000    0.100
+.cylinder     7.042   -0.832    0.000    7.280   -1.070    0.000    0.100
+.cylinder     7.280   -1.070    0.000    7.519   -1.309    0.000    0.100
+.cylinder     7.519   -1.309    0.000    8.403   -0.425    0.000    0.100
+.cylinder     8.403   -0.425    0.000    8.164   -0.187    0.000    0.100
+.cylinder     8.164   -0.187    0.000    7.926    0.052    0.000    0.100
+.cylinder     7.926    0.052    0.000    7.687    0.291    0.000    0.100
+.cylinder     7.687    0.291    0.000    7.449    0.529    0.000    0.100
+.cylinder     7.449    0.529    0.000    7.210    0.768    0.000    0.100
+.cylinder     7.210    0.768    0.000    6.971    1.006    0.000    0.100
+.cylinder     6.971    1.006    0.000    6.733    1.245    0.000    0.100
+.cylinder     6.733    1.245    0.000    6.494    1.484    0.000    0.100
+.cylinder     6.494    1.484    0.000    6.256    1.722    0.000    0.100
+.cylinder     6.256    1.722    0.000    6.017    1.961    0.000    0.100
+.cylinder     6.017    1.961    0.000    5.778    2.199    0.000    0.100
+.cylinder     5.778    2.199    0.000    5.540    2.438    0.000    0.100
+.cylinder     5.540    2.438    0.000    5.301    2.677    0.000    0.100
+.cylinder     5.301    2.677    0.000    5.063    2.915    0.000    0.100
+.cylinder     5.063    2.915    0.000    4.824    3.154    0.000    0.100
+.cylinder     4.824    3.154    0.000    4.585    3.392    0.000    0.100
+.cylinder     4.585    3.392    0.000    4.347    3.631    0.000    0.100
+.cylinder     4.347    3.631    0.000    4.108    3.870    0.000    0.100
+.cylinder     4.108    3.870    0.000    3.870    4.108    0.000    0.100
+.cylinder     3.870    4.108    0.000    3.631    4.347    0.000    0.100
+.cylinder     3.631    4.347    0.000    2.747    3.463    0.000    0.100
+.cylinder     2.747    3.463    0.000    2.986    3.224    0.000    0.100
+.cylinder     2.986    3.224    0.000    3.224    2.986    0.000    0.100
+.cylinder     3.224    2.986    0.000    3.463    2.747    0.000    0.100
+.cylinder     3.463    2.747    0.000    3.702    2.509    0.000    0.100
+.cylinder     3.702    2.509    0.000    3.940    2.270    0.000    0.100
+.cylinder     3.940    2.270    0.000    4.179    2.031    0.000    0.100
+.cylinder     4.179    2.031    0.000    4.417    1.793    0.000    0.100
+.cylinder     4.417    1.793    0.000    4.656    1.554    0.000    0.100
+.cylinder     4.656    1.554    0.000    4.895    1.316    0.000    0.100
+.arrow     4.298    1.912    0.000    5.109    1.101    0.000    0.100    0.300    0.300
+.color dark cyan
+.cylinder     0.123    6.088    0.000    0.361    5.849    0.000    0.100
+.cylinder     0.361    5.849    0.000    0.600    5.610    0.000    0.100
+.cylinder     0.600    5.610    0.000    0.838    5.372    0.000    0.100
+.cylinder     0.838    5.372    0.000    1.077    5.133    0.000    0.100
+.cylinder     1.077    5.133    0.000    1.316    4.895    0.000    0.100
+.cylinder     1.316    4.895    0.000    1.554    4.656    0.000    0.100
+.cylinder     1.554    4.656    0.000    1.793    4.417    0.000    0.100
+.cylinder     1.793    4.417    0.000    2.031    4.179    0.000    0.100
+.cylinder     2.031    4.179    0.000    2.270    3.940    0.000    0.100
+.cylinder     2.270    3.940    0.000    2.509    3.702    0.000    0.100
+.cylinder     2.509    3.702    0.000    3.392    4.585    0.000    0.100
+.cylinder     3.392    4.585    0.000    3.154    4.824    0.000    0.100
+.cylinder     3.154    4.824    0.000    2.915    5.063    0.000    0.100
+.cylinder     2.915    5.063    0.000    2.677    5.301    0.000    0.100
+.cylinder     2.677    5.301    0.000    2.438    5.540    0.000    0.100
+.cylinder     2.438    5.540    0.000    2.199    5.778    0.000    0.100
+.cylinder     2.199    5.778    0.000    1.961    6.017    0.000    0.100
+.cylinder     1.961    6.017    0.000    1.722    6.256    0.000    0.100
+.cylinder     1.722    6.256    0.000    1.484    6.494    0.000    0.100
+.cylinder     1.484    6.494    0.000    1.245    6.733    0.000    0.100
+.cylinder     1.245    6.733    0.000    1.006    6.971    0.000    0.100
+.cylinder     1.006    6.971    0.000    0.768    7.210    0.000    0.100
+.cylinder     0.768    7.210    0.000    0.529    7.449    0.000    0.100
+.cylinder     0.529    7.449    0.000    0.291    7.687    0.000    0.100
+.cylinder     0.291    7.687    0.000    0.052    7.926    0.000    0.100
+.cylinder     0.052    7.926    0.000   -0.187    8.164    0.000    0.100
+.cylinder    -0.187    8.164    0.000   -0.425    8.403    0.000    0.100
+.cylinder    -0.425    8.403    0.000   -0.664    8.642    0.000    0.100
+.cylinder    -0.664    8.642    0.000   -0.902    8.880    0.000    0.100
+.cylinder    -0.902    8.880    0.000   -1.141    9.119    0.000    0.100
+.cylinder    -1.141    9.119    0.000   -1.379    9.357    0.000    0.100
+.cylinder    -1.379    9.357    0.000   -2.263    8.473    0.000    0.100
+.cylinder    -2.263    8.473    0.000   -2.025    8.235    0.000    0.100
+.cylinder    -2.025    8.235    0.000   -1.786    7.996    0.000    0.100
+.cylinder    -1.786    7.996    0.000   -1.548    7.758    0.000    0.100
+.cylinder    -1.548    7.758    0.000   -1.309    7.519    0.000    0.100
+.cylinder    -1.309    7.519    0.000   -1.070    7.280    0.000    0.100
+.cylinder    -1.070    7.280    0.000   -0.832    7.042    0.000    0.100
+.cylinder    -0.832    7.042    0.000   -0.593    6.803    0.000    0.100
+.cylinder    -0.593    6.803    0.000   -0.355    6.565    0.000    0.100
+.cylinder    -0.355    6.565    0.000   -0.116    6.326    0.000    0.100
+.arrow    -0.712    6.923    0.000    0.099    6.111    0.000    0.100    0.300    0.300
+.color medium purple
+.cylinder    -7.719   10.116    0.000   -7.719    9.776    0.000    0.100
+.cylinder    -7.719    9.776    0.000   -7.719    9.436    0.000    0.100
+.cylinder    -7.719    9.436    0.000   -7.719    9.096    0.000    0.100
+.cylinder    -7.719    9.096    0.000   -7.719    8.756    0.000    0.100
+.cylinder    -7.719    8.756    0.000   -7.719    8.416    0.000    0.100
+.cylinder    -7.719    8.416    0.000   -7.719    8.076    0.000    0.100
+.cylinder    -7.719    8.076    0.000   -7.719    7.736    0.000    0.100
+.cylinder    -7.719    7.736    0.000   -7.719    7.396    0.000    0.100
+.cylinder    -7.719    7.396    0.000   -7.719    7.056    0.000    0.100
+.cylinder    -7.719    7.056    0.000   -7.719    6.716    0.000    0.100
+.cylinder    -7.719    6.716    0.000   -7.719    6.376    0.000    0.100
+.cylinder    -7.719    6.376    0.000   -7.719    6.036    0.000    0.100
+.cylinder    -7.719    6.036    0.000   -7.719    5.696    0.000    0.100
+.cylinder    -7.719    5.696    0.000   -6.469    5.696    0.000    0.100
+.cylinder    -6.469    5.696    0.000   -6.469    6.036    0.000    0.100
+.cylinder    -6.469    6.036    0.000   -6.469    6.376    0.000    0.100
+.cylinder    -6.469    6.376    0.000   -6.469    6.716    0.000    0.100
+.cylinder    -6.469    6.716    0.000   -6.469    7.056    0.000    0.100
+.cylinder    -6.469    7.056    0.000   -6.469    7.396    0.000    0.100
+.cylinder    -6.469    7.396    0.000   -6.469    7.736    0.000    0.100
+.cylinder    -6.469    7.736    0.000   -6.469    8.076    0.000    0.100
+.cylinder    -6.469    8.076    0.000   -6.469    8.416    0.000    0.100
+.cylinder    -6.469    8.416    0.000   -6.469    8.756    0.000    0.100
+.cylinder    -6.469    8.756    0.000   -6.469    9.096    0.000    0.100
+.cylinder    -6.469    9.096    0.000   -3.695    9.905    0.000    0.100
+.cylinder    -3.695    9.905    0.000   -3.456    9.666    0.000    0.100
+.cylinder    -3.456    9.666    0.000   -3.218    9.428    0.000    0.100
+.cylinder    -3.218    9.428    0.000   -2.979    9.189    0.000    0.100
+.cylinder    -2.979    9.189    0.000   -2.741    8.951    0.000    0.100
+.cylinder    -2.741    8.951    0.000   -2.502    8.712    0.000    0.100
+.cylinder    -2.502    8.712    0.000   -1.618    9.596    0.000    0.100
+.cylinder    -1.618    9.596    0.000   -1.857    9.835    0.000    0.100
+.cylinder    -1.857    9.835    0.000   -2.095   10.073    0.000    0.100
+.cylinder    -2.095   10.073    0.000   -2.334   10.312    0.000    0.100
+.cylinder    -2.334   10.312    0.000   -2.572   10.550    0.000    0.100
+.cylinder    -2.572   10.550    0.000   -2.811   10.789    0.000    0.100
+.cylinder    -2.811   10.789    0.000   -3.050   11.028    0.000    0.100
+.cylinder    -3.050   11.028    0.000   -3.288   11.266    0.000    0.100
+.cylinder    -3.288   11.266    0.000   -3.527   11.505    0.000    0.100
+.cylinder    -3.527   11.505    0.000   -3.765   11.743    0.000    0.100
+.cylinder    -3.765   11.743    0.000   -4.004   11.982    0.000    0.100
+.cylinder    -4.004   11.982    0.000   -4.243   12.221    0.000    0.100
+.cylinder    -4.243   12.221    0.000   -4.481   12.459    0.000    0.100
+.cylinder    -4.481   12.459    0.000   -4.720   12.698    0.000    0.100
+.cylinder    -4.720   12.698    0.000   -4.958   12.936    0.000    0.100
+.cylinder    -4.958   12.936    0.000   -5.197   13.175    0.000    0.100
+.cylinder    -5.197   13.175    0.000   -5.436   13.413    0.000    0.100
+.cylinder    -5.436   13.413    0.000   -5.674   13.652    0.000    0.100
+.cylinder    -5.674   13.652    0.000   -5.913   13.891    0.000    0.100
+.cylinder    -5.913   13.891    0.000   -6.151   14.129    0.000    0.100
+.cylinder    -6.151   14.129    0.000   -6.390   14.368    0.000    0.100
+.cylinder    -6.390   14.368    0.000   -6.629   14.606    0.000    0.100
+.cylinder    -6.629   14.606    0.000   -7.719   14.196    0.000    0.100
+.cylinder    -7.719   14.196    0.000   -7.719   13.856    0.000    0.100
+.cylinder    -7.719   13.856    0.000   -7.719   13.516    0.000    0.100
+.cylinder    -7.719   13.516    0.000   -7.719   13.176    0.000    0.100
+.cylinder    -7.719   13.176    0.000   -7.719   12.836    0.000    0.100
+.cylinder    -7.719   12.836    0.000   -7.719   12.496    0.000    0.100
+.cylinder    -7.719   12.496    0.000   -7.719   12.156    0.000    0.100
+.cylinder    -7.719   12.156    0.000   -7.719   11.816    0.000    0.100
+.cylinder    -7.719   11.816    0.000   -7.719   11.476    0.000    0.100
+.cylinder    -7.719   11.476    0.000   -7.719   11.136    0.000    0.100
+.cylinder    -7.719   11.136    0.000   -7.719   10.796    0.000    0.100
+.cylinder    -7.719   10.796    0.000   -7.719   10.456    0.000    0.100
+.arrow    -7.719   11.306    0.000   -7.719   10.150    0.000    0.100    0.300    0.300
+.color rosy brown
+.cylinder    -6.469    1.956    0.000   -6.469    2.296    0.000    0.100
+.cylinder    -6.469    2.296    0.000   -6.469    2.636    0.000    0.100
+.cylinder    -6.469    2.636    0.000   -6.469    2.976    0.000    0.100
+.cylinder    -6.469    2.976    0.000   -6.469    3.316    0.000    0.100
+.cylinder    -6.469    3.316    0.000   -6.469    3.656    0.000    0.100
+.cylinder    -6.469    3.656    0.000   -6.469    3.996    0.000    0.100
+.cylinder    -6.469    3.996    0.000   -6.469    4.336    0.000    0.100
+.cylinder    -6.469    4.336    0.000   -6.469    4.676    0.000    0.100
+.cylinder    -6.469    4.676    0.000   -6.469    5.016    0.000    0.100
+.cylinder    -6.469    5.016    0.000   -6.469    5.356    0.000    0.100
+.cylinder    -6.469    5.356    0.000   -7.719    5.356    0.000    0.100
+.cylinder    -7.719    5.356    0.000   -7.719    5.016    0.000    0.100
+.cylinder    -7.719    5.016    0.000   -7.719    4.676    0.000    0.100
+.cylinder    -7.719    4.676    0.000   -7.719    4.336    0.000    0.100
+.cylinder    -7.719    4.336    0.000   -7.719    3.996    0.000    0.100
+.cylinder    -7.719    3.996    0.000   -7.719    3.656    0.000    0.100
+.cylinder    -7.719    3.656    0.000   -7.719    3.316    0.000    0.100
+.cylinder    -7.719    3.316    0.000   -7.719    2.976    0.000    0.100
+.cylinder    -7.719    2.976    0.000   -7.719    2.636    0.000    0.100
+.cylinder    -7.719    2.636    0.000   -7.719    2.296    0.000    0.100
+.cylinder    -7.719    2.296    0.000   -7.719    1.956    0.000    0.100
+.cylinder    -7.719    1.956    0.000   -7.719    1.616    0.000    0.100
+.cylinder    -7.719    1.616    0.000   -7.719    1.276    0.000    0.100
+.cylinder    -7.719    1.276    0.000   -7.719    0.936    0.000    0.100
+.cylinder    -7.719    0.936    0.000   -7.719    0.596    0.000    0.100
+.cylinder    -7.719    0.596    0.000   -7.719    0.256    0.000    0.100
+.cylinder    -7.719    0.256    0.000   -7.719   -0.084    0.000    0.100
+.cylinder    -7.719   -0.084    0.000   -7.719   -0.424    0.000    0.100
+.cylinder    -7.719   -0.424    0.000   -7.719   -0.764    0.000    0.100
+.cylinder    -7.719   -0.764    0.000   -7.719   -1.104    0.000    0.100
+.cylinder    -7.719   -1.104    0.000   -7.719   -1.444    0.000    0.100
+.cylinder    -7.719   -1.444    0.000   -6.469   -1.444    0.000    0.100
+.cylinder    -6.469   -1.444    0.000   -6.469   -1.104    0.000    0.100
+.cylinder    -6.469   -1.104    0.000   -6.469   -0.764    0.000    0.100
+.cylinder    -6.469   -0.764    0.000   -6.469   -0.424    0.000    0.100
+.cylinder    -6.469   -0.424    0.000   -6.469   -0.084    0.000    0.100
+.cylinder    -6.469   -0.084    0.000   -6.469    0.256    0.000    0.100
+.cylinder    -6.469    0.256    0.000   -6.469    0.596    0.000    0.100
+.cylinder    -6.469    0.596    0.000   -6.469    0.936    0.000    0.100
+.cylinder    -6.469    0.936    0.000   -6.469    1.276    0.000    0.100
+.cylinder    -6.469    1.276    0.000   -6.469    1.616    0.000    0.100
+.arrow    -6.469    0.766    0.000   -6.469    1.922    0.000    0.100    0.300    0.300
+.color dark slate gray
+.cylinder     1.276   -7.719    0.000    1.616   -7.719    0.000    0.100
+.cylinder     1.616   -7.719    0.000    1.956   -7.719    0.000    0.100
+.cylinder     1.956   -7.719    0.000    2.296   -7.719    0.000    0.100
+.cylinder     2.296   -7.719    0.000    2.636   -7.719    0.000    0.100
+.cylinder     2.636   -7.719    0.000    2.976   -7.719    0.000    0.100
+.cylinder     2.976   -7.719    0.000    3.316   -7.719    0.000    0.100
+.cylinder     3.316   -7.719    0.000    3.656   -7.719    0.000    0.100
+.cylinder     3.656   -7.719    0.000    3.996   -7.719    0.000    0.100
+.cylinder     3.996   -7.719    0.000    4.336   -7.719    0.000    0.100
+.cylinder     4.336   -7.719    0.000    4.676   -7.719    0.000    0.100
+.cylinder     4.676   -7.719    0.000    5.016   -7.719    0.000    0.100
+.cylinder     5.016   -7.719    0.000    5.356   -7.719    0.000    0.100
+.cylinder     5.356   -7.719    0.000    5.696   -7.719    0.000    0.100
+.cylinder     5.696   -7.719    0.000    6.036   -7.719    0.000    0.100
+.cylinder     6.036   -7.719    0.000    6.376   -7.719    0.000    0.100
+.cylinder     6.376   -7.719    0.000    6.716   -7.719    0.000    0.100
+.cylinder     6.716   -7.719    0.000    7.056   -7.719    0.000    0.100
+.cylinder     7.056   -7.719    0.000    7.396   -7.719    0.000    0.100
+.cylinder     7.396   -7.719    0.000    7.736   -7.719    0.000    0.100
+.cylinder     7.736   -7.719    0.000    8.076   -7.719    0.000    0.100
+.cylinder     8.076   -7.719    0.000    8.416   -7.719    0.000    0.100
+.cylinder     8.416   -7.719    0.000    8.756   -7.719    0.000    0.100
+.cylinder     8.756   -7.719    0.000    9.096   -7.719    0.000    0.100
+.arrow     8.246   -7.719    0.000    9.402   -7.719    0.000    0.100    0.300    0.300

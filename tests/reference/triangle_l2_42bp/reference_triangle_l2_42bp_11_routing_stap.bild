@@ -1,0 +1,740 @@
+.color dark green
+.arrow    -3.48   -5.97    0.00   -4.78   -5.97    0.00    0.11    0.35
+.color orange
+.cylinder    -3.484   -5.969    0.000   -3.824   -5.969    0.000    0.100
+.color orange
+.cylinder    -3.824   -5.969    0.000   -4.164   -5.969    0.000    0.100
+.color orange
+.cylinder    -4.164   -5.969    0.000   -4.504   -5.969    0.000    0.100
+.color orange
+.cylinder    -4.504   -5.969    0.000   -4.844   -5.969    0.000    0.100
+.color orange
+.cylinder    -4.844   -5.969    0.000   -5.184   -5.969    0.000    0.100
+.color tan
+.cylinder    -5.184   -5.969    0.000   -5.969   -4.844    0.000    0.100
+.color orange
+.cylinder    -5.969   -4.844    0.000   -5.969   -4.504    0.000    0.100
+.color orange
+.cylinder    -5.969   -4.504    0.000   -5.969   -4.164    0.000    0.100
+.color orange
+.cylinder    -5.969   -4.164    0.000   -5.969   -3.824    0.000    0.100
+.color orange
+.cylinder    -5.969   -3.824    0.000   -5.969   -3.484    0.000    0.100
+.color orange
+.cylinder    -5.969   -3.484    0.000   -5.969   -3.144    0.000    0.100
+.color orange
+.cylinder    -5.969   -3.144    0.000   -5.969   -2.804    0.000    0.100
+.color orange
+.cylinder    -5.969   -2.804    0.000   -5.969   -2.464    0.000    0.100
+.color orange
+.cylinder    -5.969   -2.464    0.000   -5.969   -2.124    0.000    0.100
+.color orange
+.cylinder    -5.969   -2.124    0.000   -5.969   -1.784    0.000    0.100
+.color red
+.cylinder    -5.969   -1.784    0.000   -8.219   -1.784    0.000    0.100
+.color orange
+.cylinder    -8.219   -1.784    0.000   -8.219   -2.124    0.000    0.100
+.color orange
+.cylinder    -8.219   -2.124    0.000   -8.219   -2.464    0.000    0.100
+.color orange
+.cylinder    -8.219   -2.464    0.000   -8.219   -2.804    0.000    0.100
+.color orange
+.cylinder    -8.219   -2.804    0.000   -8.219   -3.144    0.000    0.100
+.color orange
+.cylinder    -8.219   -3.144    0.000   -8.219   -3.484    0.000    0.100
+.color orange
+.cylinder    -8.219   -3.484    0.000   -8.219   -3.824    0.000    0.100
+.color orange
+.cylinder    -8.219   -3.824    0.000   -8.219   -4.164    0.000    0.100
+.color orange
+.cylinder    -8.219   -4.164    0.000   -8.219   -4.504    0.000    0.100
+.color dark green
+.sphere    -8.219   -4.504    0.000    0.200
+.color dark green
+.arrow    -8.22   -4.84    0.00   -8.22   -6.14    0.00    0.11    0.35
+.color orange
+.cylinder    -8.219   -4.844    0.000   -8.219   -5.184    0.000    0.100
+.color orange
+.cylinder    -8.219   -5.184    0.000   -8.219   -5.524    0.000    0.100
+.color orange
+.cylinder    -8.219   -5.524    0.000   -8.219   -5.864    0.000    0.100
+.color orange
+.cylinder    -8.219   -5.864    0.000   -8.219   -6.204    0.000    0.100
+.color orange
+.cylinder    -8.219   -6.204    0.000   -8.219   -6.544    0.000    0.100
+.color orange
+.cylinder    -8.219   -6.544    0.000   -8.219   -6.884    0.000    0.100
+.color orange
+.cylinder    -8.219   -6.884    0.000   -8.219   -7.224    0.000    0.100
+.color tan
+.cylinder    -8.219   -7.224    0.000   -7.224   -8.219    0.000    0.100
+.color orange
+.cylinder    -7.224   -8.219    0.000   -6.884   -8.219    0.000    0.100
+.color orange
+.cylinder    -6.884   -8.219    0.000   -6.544   -8.219    0.000    0.100
+.color orange
+.cylinder    -6.544   -8.219    0.000   -6.204   -8.219    0.000    0.100
+.color orange
+.cylinder    -6.204   -8.219    0.000   -5.864   -8.219    0.000    0.100
+.color orange
+.cylinder    -5.864   -8.219    0.000   -5.524   -8.219    0.000    0.100
+.color orange
+.cylinder    -5.524   -8.219    0.000   -5.184   -8.219    0.000    0.100
+.color orange
+.cylinder    -5.184   -8.219    0.000   -4.844   -8.219    0.000    0.100
+.color orange
+.cylinder    -4.844   -8.219    0.000   -4.504   -8.219    0.000    0.100
+.color orange
+.cylinder    -4.504   -8.219    0.000   -4.164   -8.219    0.000    0.100
+.color orange
+.cylinder    -4.164   -8.219    0.000   -3.824   -8.219    0.000    0.100
+.color orange
+.cylinder    -3.824   -8.219    0.000   -3.484   -8.219    0.000    0.100
+.color orange
+.cylinder    -3.484   -8.219    0.000   -3.144   -8.219    0.000    0.100
+.color orange
+.cylinder    -3.144   -8.219    0.000   -2.804   -8.219    0.000    0.100
+.color orange
+.cylinder    -2.804   -8.219    0.000   -2.464   -8.219    0.000    0.100
+.color orange
+.cylinder    -2.464   -8.219    0.000   -2.124   -8.219    0.000    0.100
+.color orange
+.cylinder    -2.124   -8.219    0.000   -1.784   -8.219    0.000    0.100
+.color red
+.cylinder    -1.784   -8.219    0.000   -1.784   -5.969    0.000    0.100
+.color orange
+.cylinder    -1.784   -5.969    0.000   -2.124   -5.969    0.000    0.100
+.color orange
+.cylinder    -2.124   -5.969    0.000   -2.464   -5.969    0.000    0.100
+.color orange
+.cylinder    -2.464   -5.969    0.000   -2.804   -5.969    0.000    0.100
+.color orange
+.cylinder    -2.804   -5.969    0.000   -3.144   -5.969    0.000    0.100
+.color dark green
+.sphere    -3.144   -5.969    0.000    0.200
+.color dark green
+.arrow     0.94   -5.97    0.00   -0.36   -5.97    0.00    0.11    0.35
+.color orange
+.cylinder     0.936   -5.969    0.000    0.596   -5.969    0.000    0.100
+.color orange
+.cylinder     0.596   -5.969    0.000    0.256   -5.969    0.000    0.100
+.color orange
+.cylinder     0.256   -5.969    0.000   -0.084   -5.969    0.000    0.100
+.color orange
+.cylinder    -0.084   -5.969    0.000   -0.424   -5.969    0.000    0.100
+.color orange
+.cylinder    -0.424   -5.969    0.000   -0.764   -5.969    0.000    0.100
+.color orange
+.cylinder    -0.764   -5.969    0.000   -1.104   -5.969    0.000    0.100
+.color orange
+.cylinder    -1.104   -5.969    0.000   -1.444   -5.969    0.000    0.100
+.color red
+.cylinder    -1.444   -5.969    0.000   -1.444   -8.219    0.000    0.100
+.color orange
+.cylinder    -1.444   -8.219    0.000   -1.104   -8.219    0.000    0.100
+.color orange
+.cylinder    -1.104   -8.219    0.000   -0.764   -8.219    0.000    0.100
+.color orange
+.cylinder    -0.764   -8.219    0.000   -0.424   -8.219    0.000    0.100
+.color orange
+.cylinder    -0.424   -8.219    0.000   -0.084   -8.219    0.000    0.100
+.color orange
+.cylinder    -0.084   -8.219    0.000    0.256   -8.219    0.000    0.100
+.color orange
+.cylinder     0.256   -8.219    0.000    0.596   -8.219    0.000    0.100
+.color orange
+.cylinder     0.596   -8.219    0.000    0.936   -8.219    0.000    0.100
+.color orange
+.cylinder     0.936   -8.219    0.000    1.276   -8.219    0.000    0.100
+.color orange
+.cylinder     1.276   -8.219    0.000    1.616   -8.219    0.000    0.100
+.color orange
+.cylinder     1.616   -8.219    0.000    1.956   -8.219    0.000    0.100
+.color orange
+.cylinder     1.956   -8.219    0.000    2.296   -8.219    0.000    0.100
+.color orange
+.cylinder     2.296   -8.219    0.000    2.636   -8.219    0.000    0.100
+.color orange
+.cylinder     2.636   -8.219    0.000    2.976   -8.219    0.000    0.100
+.color orange
+.cylinder     2.976   -8.219    0.000    3.316   -8.219    0.000    0.100
+.color orange
+.cylinder     3.316   -8.219    0.000    3.656   -8.219    0.000    0.100
+.color orange
+.cylinder     3.656   -8.219    0.000    3.996   -8.219    0.000    0.100
+.color orange
+.cylinder     3.996   -8.219    0.000    4.336   -8.219    0.000    0.100
+.color orange
+.cylinder     4.336   -8.219    0.000    4.676   -8.219    0.000    0.100
+.color orange
+.cylinder     4.676   -8.219    0.000    5.016   -8.219    0.000    0.100
+.color orange
+.cylinder     5.016   -8.219    0.000    5.356   -8.219    0.000    0.100
+.color orange
+.cylinder     5.356   -8.219    0.000    5.696   -8.219    0.000    0.100
+.color orange
+.cylinder     5.696   -8.219    0.000    6.036   -8.219    0.000    0.100
+.color orange
+.cylinder     6.036   -8.219    0.000    6.376   -8.219    0.000    0.100
+.color orange
+.cylinder     6.376   -8.219    0.000    6.716   -8.219    0.000    0.100
+.color orange
+.cylinder     6.716   -8.219    0.000    7.056   -8.219    0.000    0.100
+.color orange
+.cylinder     7.056   -8.219    0.000    7.396   -8.219    0.000    0.100
+.color orange
+.cylinder     7.396   -8.219    0.000    7.736   -8.219    0.000    0.100
+.color orange
+.cylinder     7.736   -8.219    0.000    8.076   -8.219    0.000    0.100
+.color orange
+.cylinder     8.076   -8.219    0.000    8.416   -8.219    0.000    0.100
+.color orange
+.cylinder     8.416   -8.219    0.000    8.756   -8.219    0.000    0.100
+.color orange
+.cylinder     8.756   -8.219    0.000    9.096   -8.219    0.000    0.100
+.color dark green
+.sphere     9.096   -8.219    0.000    0.200
+.color dark green
+.arrow    11.62   -2.93    0.00   10.70   -2.02    0.00    0.11    0.35
+.color orange
+.cylinder    11.620   -2.935    0.000   11.381   -2.696    0.000    0.100
+.color orange
+.cylinder    11.381   -2.696    0.000   11.143   -2.458    0.000    0.100
+.color orange
+.cylinder    11.143   -2.458    0.000   10.904   -2.219    0.000    0.100
+.color orange
+.cylinder    10.904   -2.219    0.000   10.665   -1.980    0.000    0.100
+.color orange
+.cylinder    10.665   -1.980    0.000   10.427   -1.742    0.000    0.100
+.color orange
+.cylinder    10.427   -1.742    0.000   10.188   -1.503    0.000    0.100
+.color orange
+.cylinder    10.188   -1.503    0.000    9.950   -1.264    0.000    0.100
+.color orange
+.cylinder     9.950   -1.264    0.000    9.711   -1.026    0.000    0.100
+.color orange
+.cylinder     9.711   -1.026    0.000    9.472   -0.787    0.000    0.100
+.color orange
+.cylinder     9.472   -0.787    0.000    9.234   -0.549    0.000    0.100
+.color orange
+.cylinder     9.234   -0.549    0.000    8.995   -0.310    0.000    0.100
+.color red
+.cylinder     8.995   -0.310    0.000    7.404   -1.901    0.000    0.100
+.color orange
+.cylinder     7.404   -1.901    0.000    7.643   -2.140    0.000    0.100
+.color orange
+.cylinder     7.643   -2.140    0.000    7.881   -2.378    0.000    0.100
+.color orange
+.cylinder     7.881   -2.378    0.000    8.120   -2.617    0.000    0.100
+.color orange
+.cylinder     8.120   -2.617    0.000    8.358   -2.856    0.000    0.100
+.color orange
+.cylinder     8.358   -2.856    0.000    8.597   -3.094    0.000    0.100
+.color orange
+.cylinder     8.597   -3.094    0.000    8.836   -3.333    0.000    0.100
+.color orange
+.cylinder     8.836   -3.333    0.000    9.074   -3.571    0.000    0.100
+.color orange
+.cylinder     9.074   -3.571    0.000    9.313   -3.810    0.000    0.100
+.color orange
+.cylinder     9.313   -3.810    0.000    9.552   -4.048    0.000    0.100
+.color tan
+.cylinder     9.552   -4.048    0.000    8.756   -5.969    0.000    0.100
+.color orange
+.cylinder     8.756   -5.969    0.000    8.416   -5.969    0.000    0.100
+.color orange
+.cylinder     8.416   -5.969    0.000    8.076   -5.969    0.000    0.100
+.color orange
+.cylinder     8.076   -5.969    0.000    7.736   -5.969    0.000    0.100
+.color orange
+.cylinder     7.736   -5.969    0.000    7.396   -5.969    0.000    0.100
+.color orange
+.cylinder     7.396   -5.969    0.000    7.056   -5.969    0.000    0.100
+.color orange
+.cylinder     7.056   -5.969    0.000    6.716   -5.969    0.000    0.100
+.color orange
+.cylinder     6.716   -5.969    0.000    6.376   -5.969    0.000    0.100
+.color orange
+.cylinder     6.376   -5.969    0.000    6.036   -5.969    0.000    0.100
+.color orange
+.cylinder     6.036   -5.969    0.000    5.696   -5.969    0.000    0.100
+.color orange
+.cylinder     5.696   -5.969    0.000    5.356   -5.969    0.000    0.100
+.color orange
+.cylinder     5.356   -5.969    0.000    5.016   -5.969    0.000    0.100
+.color orange
+.cylinder     5.016   -5.969    0.000    4.676   -5.969    0.000    0.100
+.color orange
+.cylinder     4.676   -5.969    0.000    4.336   -5.969    0.000    0.100
+.color orange
+.cylinder     4.336   -5.969    0.000    3.996   -5.969    0.000    0.100
+.color orange
+.cylinder     3.996   -5.969    0.000    3.656   -5.969    0.000    0.100
+.color orange
+.cylinder     3.656   -5.969    0.000    3.316   -5.969    0.000    0.100
+.color orange
+.cylinder     3.316   -5.969    0.000    2.976   -5.969    0.000    0.100
+.color orange
+.cylinder     2.976   -5.969    0.000    2.636   -5.969    0.000    0.100
+.color orange
+.cylinder     2.636   -5.969    0.000    2.296   -5.969    0.000    0.100
+.color orange
+.cylinder     2.296   -5.969    0.000    1.956   -5.969    0.000    0.100
+.color orange
+.cylinder     1.956   -5.969    0.000    1.616   -5.969    0.000    0.100
+.color orange
+.cylinder     1.616   -5.969    0.000    1.276   -5.969    0.000    0.100
+.color dark green
+.sphere     1.276   -5.969    0.000    0.200
+.color dark green
+.arrow     4.78    0.72    0.00    5.70   -0.20    0.00    0.11    0.35
+.color orange
+.cylinder     4.780    0.723    0.000    5.018    0.485    0.000    0.100
+.color orange
+.cylinder     5.018    0.485    0.000    5.257    0.246    0.000    0.100
+.color orange
+.cylinder     5.257    0.246    0.000    5.495    0.008    0.000    0.100
+.color orange
+.cylinder     5.495    0.008    0.000    5.734   -0.231    0.000    0.100
+.color orange
+.cylinder     5.734   -0.231    0.000    5.973   -0.470    0.000    0.100
+.color orange
+.cylinder     5.973   -0.470    0.000    6.211   -0.708    0.000    0.100
+.color orange
+.cylinder     6.211   -0.708    0.000    6.450   -0.947    0.000    0.100
+.color orange
+.cylinder     6.450   -0.947    0.000    6.688   -1.185    0.000    0.100
+.color orange
+.cylinder     6.688   -1.185    0.000    6.927   -1.424    0.000    0.100
+.color orange
+.cylinder     6.927   -1.424    0.000    7.165   -1.663    0.000    0.100
+.color red
+.cylinder     7.165   -1.663    0.000    8.757   -0.071    0.000    0.100
+.color orange
+.cylinder     8.757   -0.071    0.000    8.518    0.167    0.000    0.100
+.color orange
+.cylinder     8.518    0.167    0.000    8.279    0.406    0.000    0.100
+.color orange
+.cylinder     8.279    0.406    0.000    8.041    0.644    0.000    0.100
+.color orange
+.cylinder     8.041    0.644    0.000    7.802    0.883    0.000    0.100
+.color orange
+.cylinder     7.802    0.883    0.000    7.564    1.121    0.000    0.100
+.color orange
+.cylinder     7.564    1.121    0.000    7.325    1.360    0.000    0.100
+.color orange
+.cylinder     7.325    1.360    0.000    7.086    1.599    0.000    0.100
+.color orange
+.cylinder     7.086    1.599    0.000    6.848    1.837    0.000    0.100
+.color orange
+.cylinder     6.848    1.837    0.000    6.609    2.076    0.000    0.100
+.color orange
+.cylinder     6.609    2.076    0.000    6.371    2.314    0.000    0.100
+.color orange
+.cylinder     6.371    2.314    0.000    6.132    2.553    0.000    0.100
+.color orange
+.cylinder     6.132    2.553    0.000    5.893    2.792    0.000    0.100
+.color orange
+.cylinder     5.893    2.792    0.000    5.655    3.030    0.000    0.100
+.color orange
+.cylinder     5.655    3.030    0.000    5.416    3.269    0.000    0.100
+.color orange
+.cylinder     5.416    3.269    0.000    5.178    3.507    0.000    0.100
+.color orange
+.cylinder     5.178    3.507    0.000    4.939    3.746    0.000    0.100
+.color orange
+.cylinder     4.939    3.746    0.000    4.700    3.985    0.000    0.100
+.color orange
+.cylinder     4.700    3.985    0.000    4.462    4.223    0.000    0.100
+.color orange
+.cylinder     4.462    4.223    0.000    4.223    4.462    0.000    0.100
+.color orange
+.cylinder     4.223    4.462    0.000    3.985    4.700    0.000    0.100
+.color red
+.cylinder     3.985    4.700    0.000    2.394    3.109    0.000    0.100
+.color orange
+.cylinder     2.394    3.109    0.000    2.632    2.871    0.000    0.100
+.color orange
+.cylinder     2.632    2.871    0.000    2.871    2.632    0.000    0.100
+.color orange
+.cylinder     2.871    2.632    0.000    3.109    2.394    0.000    0.100
+.color orange
+.cylinder     3.109    2.394    0.000    3.348    2.155    0.000    0.100
+.color orange
+.cylinder     3.348    2.155    0.000    3.587    1.916    0.000    0.100
+.color orange
+.cylinder     3.587    1.916    0.000    3.825    1.678    0.000    0.100
+.color orange
+.cylinder     3.825    1.678    0.000    4.064    1.439    0.000    0.100
+.color orange
+.cylinder     4.064    1.439    0.000    4.302    1.201    0.000    0.100
+.color orange
+.cylinder     4.302    1.201    0.000    4.541    0.962    0.000    0.100
+.color dark green
+.sphere     4.541    0.962    0.000    0.200
+.color dark green
+.arrow    -0.23    5.73    0.00    0.69    4.81    0.00    0.11    0.35
+.color orange
+.cylinder    -0.231    5.734    0.000    0.008    5.495    0.000    0.100
+.color orange
+.cylinder     0.008    5.495    0.000    0.246    5.257    0.000    0.100
+.color orange
+.cylinder     0.246    5.257    0.000    0.485    5.018    0.000    0.100
+.color orange
+.cylinder     0.485    5.018    0.000    0.723    4.780    0.000    0.100
+.color orange
+.cylinder     0.723    4.780    0.000    0.962    4.541    0.000    0.100
+.color orange
+.cylinder     0.962    4.541    0.000    1.201    4.302    0.000    0.100
+.color orange
+.cylinder     1.201    4.302    0.000    1.439    4.064    0.000    0.100
+.color orange
+.cylinder     1.439    4.064    0.000    1.678    3.825    0.000    0.100
+.color orange
+.cylinder     1.678    3.825    0.000    1.916    3.587    0.000    0.100
+.color orange
+.cylinder     1.916    3.587    0.000    2.155    3.348    0.000    0.100
+.color red
+.cylinder     2.155    3.348    0.000    3.746    4.939    0.000    0.100
+.color orange
+.cylinder     3.746    4.939    0.000    3.507    5.178    0.000    0.100
+.color orange
+.cylinder     3.507    5.178    0.000    3.269    5.416    0.000    0.100
+.color orange
+.cylinder     3.269    5.416    0.000    3.030    5.655    0.000    0.100
+.color orange
+.cylinder     3.030    5.655    0.000    2.792    5.893    0.000    0.100
+.color orange
+.cylinder     2.792    5.893    0.000    2.553    6.132    0.000    0.100
+.color orange
+.cylinder     2.553    6.132    0.000    2.314    6.371    0.000    0.100
+.color orange
+.cylinder     2.314    6.371    0.000    2.076    6.609    0.000    0.100
+.color orange
+.cylinder     2.076    6.609    0.000    1.837    6.848    0.000    0.100
+.color orange
+.cylinder     1.837    6.848    0.000    1.599    7.086    0.000    0.100
+.color orange
+.cylinder     1.599    7.086    0.000    1.360    7.325    0.000    0.100
+.color orange
+.cylinder     1.360    7.325    0.000    1.121    7.564    0.000    0.100
+.color orange
+.cylinder     1.121    7.564    0.000    0.883    7.802    0.000    0.100
+.color orange
+.cylinder     0.883    7.802    0.000    0.644    8.041    0.000    0.100
+.color orange
+.cylinder     0.644    8.041    0.000    0.406    8.279    0.000    0.100
+.color orange
+.cylinder     0.406    8.279    0.000    0.167    8.518    0.000    0.100
+.color orange
+.cylinder     0.167    8.518    0.000   -0.071    8.757    0.000    0.100
+.color orange
+.cylinder    -0.071    8.757    0.000   -0.310    8.995    0.000    0.100
+.color orange
+.cylinder    -0.310    8.995    0.000   -0.549    9.234    0.000    0.100
+.color orange
+.cylinder    -0.549    9.234    0.000   -0.787    9.472    0.000    0.100
+.color orange
+.cylinder    -0.787    9.472    0.000   -1.026    9.711    0.000    0.100
+.color red
+.cylinder    -1.026    9.711    0.000   -2.617    8.120    0.000    0.100
+.color orange
+.cylinder    -2.617    8.120    0.000   -2.378    7.881    0.000    0.100
+.color orange
+.cylinder    -2.378    7.881    0.000   -2.140    7.643    0.000    0.100
+.color orange
+.cylinder    -2.140    7.643    0.000   -1.901    7.404    0.000    0.100
+.color orange
+.cylinder    -1.901    7.404    0.000   -1.663    7.165    0.000    0.100
+.color orange
+.cylinder    -1.663    7.165    0.000   -1.424    6.927    0.000    0.100
+.color orange
+.cylinder    -1.424    6.927    0.000   -1.185    6.688    0.000    0.100
+.color orange
+.cylinder    -1.185    6.688    0.000   -0.947    6.450    0.000    0.100
+.color orange
+.cylinder    -0.947    6.450    0.000   -0.708    6.211    0.000    0.100
+.color orange
+.cylinder    -0.708    6.211    0.000   -0.470    5.973    0.000    0.100
+.color dark green
+.sphere    -0.470    5.973    0.000    0.200
+.color dark green
+.arrow    -3.09    8.60    0.00   -2.17    7.68    0.00    0.11    0.35
+.color orange
+.cylinder    -3.094    8.597    0.000   -2.856    8.358    0.000    0.100
+.color red
+.cylinder    -2.856    8.358    0.000   -1.264    9.950    0.000    0.100
+.color orange
+.cylinder    -1.264    9.950    0.000   -1.503   10.188    0.000    0.100
+.color orange
+.cylinder    -1.503   10.188    0.000   -1.742   10.427    0.000    0.100
+.color orange
+.cylinder    -1.742   10.427    0.000   -1.980   10.665    0.000    0.100
+.color orange
+.cylinder    -1.980   10.665    0.000   -2.219   10.904    0.000    0.100
+.color orange
+.cylinder    -2.219   10.904    0.000   -2.458   11.143    0.000    0.100
+.color orange
+.cylinder    -2.458   11.143    0.000   -2.696   11.381    0.000    0.100
+.color orange
+.cylinder    -2.696   11.381    0.000   -2.935   11.620    0.000    0.100
+.color orange
+.cylinder    -2.935   11.620    0.000   -3.173   11.858    0.000    0.100
+.color orange
+.cylinder    -3.173   11.858    0.000   -3.412   12.097    0.000    0.100
+.color orange
+.cylinder    -3.412   12.097    0.000   -3.651   12.335    0.000    0.100
+.color orange
+.cylinder    -3.651   12.335    0.000   -3.889   12.574    0.000    0.100
+.color orange
+.cylinder    -3.889   12.574    0.000   -4.128   12.813    0.000    0.100
+.color orange
+.cylinder    -4.128   12.813    0.000   -4.366   13.051    0.000    0.100
+.color orange
+.cylinder    -4.366   13.051    0.000   -4.605   13.290    0.000    0.100
+.color orange
+.cylinder    -4.605   13.290    0.000   -4.843   13.528    0.000    0.100
+.color orange
+.cylinder    -4.843   13.528    0.000   -5.082   13.767    0.000    0.100
+.color orange
+.cylinder    -5.082   13.767    0.000   -5.321   14.006    0.000    0.100
+.color orange
+.cylinder    -5.321   14.006    0.000   -5.559   14.244    0.000    0.100
+.color orange
+.cylinder    -5.559   14.244    0.000   -5.798   14.483    0.000    0.100
+.color orange
+.cylinder    -5.798   14.483    0.000   -6.037   14.722    0.000    0.100
+.color orange
+.cylinder    -6.037   14.722    0.000   -6.275   14.960    0.000    0.100
+.color tan
+.cylinder    -6.275   14.960    0.000   -8.219   14.196    0.000    0.100
+.color orange
+.cylinder    -8.219   14.196    0.000   -8.219   13.856    0.000    0.100
+.color orange
+.cylinder    -8.219   13.856    0.000   -8.219   13.516    0.000    0.100
+.color orange
+.cylinder    -8.219   13.516    0.000   -8.219   13.176    0.000    0.100
+.color orange
+.cylinder    -8.219   13.176    0.000   -8.219   12.836    0.000    0.100
+.color orange
+.cylinder    -8.219   12.836    0.000   -8.219   12.496    0.000    0.100
+.color orange
+.cylinder    -8.219   12.496    0.000   -8.219   12.156    0.000    0.100
+.color orange
+.cylinder    -8.219   12.156    0.000   -8.219   11.816    0.000    0.100
+.color orange
+.cylinder    -8.219   11.816    0.000   -8.219   11.476    0.000    0.100
+.color orange
+.cylinder    -8.219   11.476    0.000   -8.219   11.136    0.000    0.100
+.color orange
+.cylinder    -8.219   11.136    0.000   -8.219   10.796    0.000    0.100
+.color orange
+.cylinder    -8.219   10.796    0.000   -8.219   10.456    0.000    0.100
+.color dark green
+.sphere    -8.219   10.456    0.000    0.200
+.color dark green
+.arrow    -8.22   10.12    0.00   -8.22    8.82    0.00    0.11    0.35
+.color orange
+.cylinder    -8.219   10.116    0.000   -8.219    9.776    0.000    0.100
+.color orange
+.cylinder    -8.219    9.776    0.000   -8.219    9.436    0.000    0.100
+.color orange
+.cylinder    -8.219    9.436    0.000   -8.219    9.096    0.000    0.100
+.color orange
+.cylinder    -8.219    9.096    0.000   -8.219    8.756    0.000    0.100
+.color orange
+.cylinder    -8.219    8.756    0.000   -8.219    8.416    0.000    0.100
+.color orange
+.cylinder    -8.219    8.416    0.000   -8.219    8.076    0.000    0.100
+.color orange
+.cylinder    -8.219    8.076    0.000   -8.219    7.736    0.000    0.100
+.color orange
+.cylinder    -8.219    7.736    0.000   -8.219    7.396    0.000    0.100
+.color orange
+.cylinder    -8.219    7.396    0.000   -8.219    7.056    0.000    0.100
+.color orange
+.cylinder    -8.219    7.056    0.000   -8.219    6.716    0.000    0.100
+.color orange
+.cylinder    -8.219    6.716    0.000   -8.219    6.376    0.000    0.100
+.color orange
+.cylinder    -8.219    6.376    0.000   -8.219    6.036    0.000    0.100
+.color orange
+.cylinder    -8.219    6.036    0.000   -8.219    5.696    0.000    0.100
+.color red
+.cylinder    -8.219    5.696    0.000   -5.969    5.696    0.000    0.100
+.color orange
+.cylinder    -5.969    5.696    0.000   -5.969    6.036    0.000    0.100
+.color orange
+.cylinder    -5.969    6.036    0.000   -5.969    6.376    0.000    0.100
+.color orange
+.cylinder    -5.969    6.376    0.000   -5.969    6.716    0.000    0.100
+.color orange
+.cylinder    -5.969    6.716    0.000   -5.969    7.056    0.000    0.100
+.color orange
+.cylinder    -5.969    7.056    0.000   -5.969    7.396    0.000    0.100
+.color orange
+.cylinder    -5.969    7.396    0.000   -5.969    7.736    0.000    0.100
+.color orange
+.cylinder    -5.969    7.736    0.000   -5.969    8.076    0.000    0.100
+.color orange
+.cylinder    -5.969    8.076    0.000   -5.969    8.416    0.000    0.100
+.color orange
+.cylinder    -5.969    8.416    0.000   -5.969    8.756    0.000    0.100
+.color orange
+.cylinder    -5.969    8.756    0.000   -5.969    9.096    0.000    0.100
+.color tan
+.cylinder    -5.969    9.096    0.000   -4.048    9.552    0.000    0.100
+.color orange
+.cylinder    -4.048    9.552    0.000   -3.810    9.313    0.000    0.100
+.color orange
+.cylinder    -3.810    9.313    0.000   -3.571    9.074    0.000    0.100
+.color orange
+.cylinder    -3.571    9.074    0.000   -3.333    8.836    0.000    0.100
+.color dark green
+.sphere    -3.333    8.836    0.000    0.200
+.color dark green
+.arrow    -5.97    1.96    0.00   -5.97    3.26    0.00    0.11    0.35
+.color orange
+.cylinder    -5.969    1.956    0.000   -5.969    2.296    0.000    0.100
+.color orange
+.cylinder    -5.969    2.296    0.000   -5.969    2.636    0.000    0.100
+.color orange
+.cylinder    -5.969    2.636    0.000   -5.969    2.976    0.000    0.100
+.color orange
+.cylinder    -5.969    2.976    0.000   -5.969    3.316    0.000    0.100
+.color orange
+.cylinder    -5.969    3.316    0.000   -5.969    3.656    0.000    0.100
+.color orange
+.cylinder    -5.969    3.656    0.000   -5.969    3.996    0.000    0.100
+.color orange
+.cylinder    -5.969    3.996    0.000   -5.969    4.336    0.000    0.100
+.color orange
+.cylinder    -5.969    4.336    0.000   -5.969    4.676    0.000    0.100
+.color orange
+.cylinder    -5.969    4.676    0.000   -5.969    5.016    0.000    0.100
+.color orange
+.cylinder    -5.969    5.016    0.000   -5.969    5.356    0.000    0.100
+.color red
+.cylinder    -5.969    5.356    0.000   -8.219    5.356    0.000    0.100
+.color orange
+.cylinder    -8.219    5.356    0.000   -8.219    5.016    0.000    0.100
+.color orange
+.cylinder    -8.219    5.016    0.000   -8.219    4.676    0.000    0.100
+.color orange
+.cylinder    -8.219    4.676    0.000   -8.219    4.336    0.000    0.100
+.color orange
+.cylinder    -8.219    4.336    0.000   -8.219    3.996    0.000    0.100
+.color orange
+.cylinder    -8.219    3.996    0.000   -8.219    3.656    0.000    0.100
+.color orange
+.cylinder    -8.219    3.656    0.000   -8.219    3.316    0.000    0.100
+.color orange
+.cylinder    -8.219    3.316    0.000   -8.219    2.976    0.000    0.100
+.color orange
+.cylinder    -8.219    2.976    0.000   -8.219    2.636    0.000    0.100
+.color orange
+.cylinder    -8.219    2.636    0.000   -8.219    2.296    0.000    0.100
+.color orange
+.cylinder    -8.219    2.296    0.000   -8.219    1.956    0.000    0.100
+.color orange
+.cylinder    -8.219    1.956    0.000   -8.219    1.616    0.000    0.100
+.color orange
+.cylinder    -8.219    1.616    0.000   -8.219    1.276    0.000    0.100
+.color orange
+.cylinder    -8.219    1.276    0.000   -8.219    0.936    0.000    0.100
+.color orange
+.cylinder    -8.219    0.936    0.000   -8.219    0.596    0.000    0.100
+.color orange
+.cylinder    -8.219    0.596    0.000   -8.219    0.256    0.000    0.100
+.color orange
+.cylinder    -8.219    0.256    0.000   -8.219   -0.084    0.000    0.100
+.color orange
+.cylinder    -8.219   -0.084    0.000   -8.219   -0.424    0.000    0.100
+.color orange
+.cylinder    -8.219   -0.424    0.000   -8.219   -0.764    0.000    0.100
+.color orange
+.cylinder    -8.219   -0.764    0.000   -8.219   -1.104    0.000    0.100
+.color orange
+.cylinder    -8.219   -1.104    0.000   -8.219   -1.444    0.000    0.100
+.color red
+.cylinder    -8.219   -1.444    0.000   -5.969   -1.444    0.000    0.100
+.color orange
+.cylinder    -5.969   -1.444    0.000   -5.969   -1.104    0.000    0.100
+.color orange
+.cylinder    -5.969   -1.104    0.000   -5.969   -0.764    0.000    0.100
+.color orange
+.cylinder    -5.969   -0.764    0.000   -5.969   -0.424    0.000    0.100
+.color orange
+.cylinder    -5.969   -0.424    0.000   -5.969   -0.084    0.000    0.100
+.color orange
+.cylinder    -5.969   -0.084    0.000   -5.969    0.256    0.000    0.100
+.color orange
+.cylinder    -5.969    0.256    0.000   -5.969    0.596    0.000    0.100
+.color orange
+.cylinder    -5.969    0.596    0.000   -5.969    0.936    0.000    0.100
+.color orange
+.cylinder    -5.969    0.936    0.000   -5.969    1.276    0.000    0.100
+.color orange
+.cylinder    -5.969    1.276    0.000   -5.969    1.616    0.000    0.100
+.color dark green
+.sphere    -5.969    1.616    0.000    0.200
+.color dark green
+.arrow     9.44   -8.22    0.00   10.74   -8.22    0.00    0.11    0.35
+.color orange
+.cylinder     9.436   -8.219    0.000    9.776   -8.219    0.000    0.100
+.color orange
+.cylinder     9.776   -8.219    0.000   10.116   -8.219    0.000    0.100
+.color orange
+.cylinder    10.116   -8.219    0.000   10.456   -8.219    0.000    0.100
+.color orange
+.cylinder    10.456   -8.219    0.000   10.796   -8.219    0.000    0.100
+.color orange
+.cylinder    10.796   -8.219    0.000   11.136   -8.219    0.000    0.100
+.color orange
+.cylinder    11.136   -8.219    0.000   11.476   -8.219    0.000    0.100
+.color orange
+.cylinder    11.476   -8.219    0.000   11.816   -8.219    0.000    0.100
+.color orange
+.cylinder    11.816   -8.219    0.000   12.156   -8.219    0.000    0.100
+.color orange
+.cylinder    12.156   -8.219    0.000   12.496   -8.219    0.000    0.100
+.color orange
+.cylinder    12.496   -8.219    0.000   12.836   -8.219    0.000    0.100
+.color orange
+.cylinder    12.836   -8.219    0.000   13.176   -8.219    0.000    0.100
+.color orange
+.cylinder    13.176   -8.219    0.000   13.516   -8.219    0.000    0.100
+.color orange
+.cylinder    13.516   -8.219    0.000   13.856   -8.219    0.000    0.100
+.color orange
+.cylinder    13.856   -8.219    0.000   14.196   -8.219    0.000    0.100
+.color tan
+.cylinder    14.196   -8.219    0.000   14.960   -6.275    0.000    0.100
+.color orange
+.cylinder    14.960   -6.275    0.000   14.722   -6.037    0.000    0.100
+.color orange
+.cylinder    14.722   -6.037    0.000   14.483   -5.798    0.000    0.100
+.color orange
+.cylinder    14.483   -5.798    0.000   14.244   -5.559    0.000    0.100
+.color orange
+.cylinder    14.244   -5.559    0.000   14.006   -5.321    0.000    0.100
+.color orange
+.cylinder    14.006   -5.321    0.000   13.767   -5.082    0.000    0.100
+.color orange
+.cylinder    13.767   -5.082    0.000   13.528   -4.843    0.000    0.100
+.color orange
+.cylinder    13.528   -4.843    0.000   13.290   -4.605    0.000    0.100
+.color orange
+.cylinder    13.290   -4.605    0.000   13.051   -4.366    0.000    0.100
+.color orange
+.cylinder    13.051   -4.366    0.000   12.813   -4.128    0.000    0.100
+.color orange
+.cylinder    12.813   -4.128    0.000   12.574   -3.889    0.000    0.100
+.color orange
+.cylinder    12.574   -3.889    0.000   12.335   -3.651    0.000    0.100
+.color orange
+.cylinder    12.335   -3.651    0.000   12.097   -3.412    0.000    0.100
+.color orange
+.cylinder    12.097   -3.412    0.000   11.858   -3.173    0.000    0.100
+.color dark green
+.sphere    11.858   -3.173    0.000    0.200

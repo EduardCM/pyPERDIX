@@ -1,0 +1,13 @@
+     Multi line      Init line     Section ID    Edge length
+              1              1              0             42
+              2              2              0             58
+              3              3              0             42
+              4              1              1             64
+              5              2              1             89
+              6              3              1             64
+
+    Edge length# of multi line
+             42              2
+             58              1
+             64              2
+             89              1

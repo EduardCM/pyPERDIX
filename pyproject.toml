@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyperdix"
+version = "0.1.0"
+description = "Python implementation of the PERDIX DNA origami pipeline"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "PERDIX contributors" }
+]
+dependencies = [
+  "numpy>=1.24",
+  "shapely>=2.0",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering",
+]
+
+[project.scripts]
+perdix = "perdix_py.main:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["perdix_py", "perdix_py.*"]
+
+[tool.setuptools.package-data]
+perdix_py = ["resources/*.txt"]

@@ -1,0 +1,1178 @@
+.color red
+.sphere   -38.723  -38.723    0.000    0.350
+.sphere   -25.123  -25.123    0.000    0.350
+.sphere   -26.714  -21.282    0.000    0.350
+.sphere   -40.314  -21.282    0.000    0.350
+.sphere   -42.564  -23.532    0.000    0.350
+.sphere   -42.564  -37.132    0.000    0.350
+.sphere   -37.132  -42.564    0.000    0.350
+.sphere   -23.532  -42.564    0.000    0.350
+.sphere   -21.282  -40.314    0.000    0.350
+.sphere   -21.282  -26.714    0.000    0.350
+.sphere   -19.032  -42.564    0.000    0.350
+.sphere    -5.432  -42.564    0.000    0.350
+.sphere    -3.841  -38.723    0.000    0.350
+.sphere   -17.441  -25.123    0.000    0.350
+.sphere     0.000  -37.132    0.000    0.350
+.sphere     0.000  -23.532    0.000    0.350
+.sphere    -2.250  -21.282    0.000    0.350
+.sphere   -15.850  -21.282    0.000    0.350
+.sphere     3.841  -38.723    0.000    0.350
+.sphere    17.441  -25.123    0.000    0.350
+.sphere    15.850  -21.282    0.000    0.350
+.sphere     2.250  -21.282    0.000    0.350
+.sphere     5.432  -42.564    0.000    0.350
+.sphere    19.032  -42.564    0.000    0.350
+.sphere    21.282  -40.314    0.000    0.350
+.sphere    21.282  -26.714    0.000    0.350
+.sphere    23.532  -42.564    0.000    0.350
+.sphere    37.132  -42.564    0.000    0.350
+.sphere    38.723  -38.723    0.000    0.350
+.sphere    25.123  -25.123    0.000    0.350
+.sphere    42.564  -37.132    0.000    0.350
+.sphere    42.564  -23.532    0.000    0.350
+.sphere    40.314  -21.282    0.000    0.350
+.sphere    26.714  -21.282    0.000    0.350
+.sphere   -25.123  -17.441    0.000    0.350
+.sphere   -38.723   -3.841    0.000    0.350
+.sphere   -42.564   -5.432    0.000    0.350
+.sphere   -42.564  -19.032    0.000    0.350
+.sphere   -21.282  -15.850    0.000    0.350
+.sphere   -21.282   -2.250    0.000    0.350
+.sphere   -23.532    0.000    0.000    0.350
+.sphere   -37.132    0.000    0.000    0.350
+.sphere   -17.441  -17.441    0.000    0.350
+.sphere    -3.841   -3.841    0.000    0.350
+.sphere    -5.432    0.000    0.000    0.350
+.sphere   -19.032    0.000    0.000    0.350
+.sphere     0.000  -19.032    0.000    0.350
+.sphere     0.000   -5.432    0.000    0.350
+.sphere    17.441  -17.441    0.000    0.350
+.sphere     3.841   -3.841    0.000    0.350
+.sphere    21.282  -15.850    0.000    0.350
+.sphere    21.282   -2.250    0.000    0.350
+.sphere    19.032    0.000    0.000    0.350
+.sphere     5.432    0.000    0.000    0.350
+.sphere    25.123  -17.441    0.000    0.350
+.sphere    38.723   -3.841    0.000    0.350
+.sphere    37.132    0.000    0.000    0.350
+.sphere    23.532    0.000    0.000    0.350
+.sphere    42.564  -19.032    0.000    0.350
+.sphere    42.564   -5.432    0.000    0.350
+.sphere   -38.723    3.841    0.000    0.350
+.sphere   -25.123   17.441    0.000    0.350
+.sphere   -26.714   21.282    0.000    0.350
+.sphere   -40.314   21.282    0.000    0.350
+.sphere   -42.564   19.032    0.000    0.350
+.sphere   -42.564    5.432    0.000    0.350
+.sphere   -21.282    2.250    0.000    0.350
+.sphere   -21.282   15.850    0.000    0.350
+.sphere    -3.841    3.841    0.000    0.350
+.sphere   -17.441   17.441    0.000    0.350
+.sphere     0.000    5.432    0.000    0.350
+.sphere     0.000   19.032    0.000    0.350
+.sphere    -2.250   21.282    0.000    0.350
+.sphere   -15.850   21.282    0.000    0.350
+.sphere     3.841    3.841    0.000    0.350
+.sphere    17.441   17.441    0.000    0.350
+.sphere    15.850   21.282    0.000    0.350
+.sphere     2.250   21.282    0.000    0.350
+.sphere    21.282    2.250    0.000    0.350
+.sphere    21.282   15.850    0.000    0.350
+.sphere    38.723    3.841    0.000    0.350
+.sphere    25.123   17.441    0.000    0.350
+.sphere    42.564    5.432    0.000    0.350
+.sphere    42.564   19.032    0.000    0.350
+.sphere    40.314   21.282    0.000    0.350
+.sphere    26.714   21.282    0.000    0.350
+.sphere   -25.123   25.123    0.000    0.350
+.sphere   -38.723   38.723    0.000    0.350
+.sphere   -42.564   37.132    0.000    0.350
+.sphere   -42.564   23.532    0.000    0.350
+.sphere   -21.282   26.714    0.000    0.350
+.sphere   -21.282   40.314    0.000    0.350
+.sphere   -23.532   42.564    0.000    0.350
+.sphere   -37.132   42.564    0.000    0.350
+.sphere   -17.441   25.123    0.000    0.350
+.sphere    -3.841   38.723    0.000    0.350
+.sphere    -5.432   42.564    0.000    0.350
+.sphere   -19.032   42.564    0.000    0.350
+.sphere     0.000   23.532    0.000    0.350
+.sphere     0.000   37.132    0.000    0.350
+.sphere    17.441   25.123    0.000    0.350
+.sphere     3.841   38.723    0.000    0.350
+.sphere    21.282   26.714    0.000    0.350
+.sphere    21.282   40.314    0.000    0.350
+.sphere    19.032   42.564    0.000    0.350
+.sphere     5.432   42.564    0.000    0.350
+.sphere    25.123   25.123    0.000    0.350
+.sphere    38.723   38.723    0.000    0.350
+.sphere    37.132   42.564    0.000    0.350
+.sphere    23.532   42.564    0.000    0.350
+.sphere    42.564   23.532    0.000    0.350
+.sphere    42.564   37.132    0.000    0.350
+.color dark green
+.cylinder   -38.723  -38.723    0.000  -25.123  -25.123    0.000    0.150
+.cylinder   -26.714  -21.282    0.000  -40.314  -21.282    0.000    0.150
+.cylinder   -42.564  -23.532    0.000  -42.564  -37.132    0.000    0.150
+.cylinder   -37.132  -42.564    0.000  -23.532  -42.564    0.000    0.150
+.cylinder   -21.282  -40.314    0.000  -21.282  -26.714    0.000    0.150
+.cylinder   -19.032  -42.564    0.000   -5.432  -42.564    0.000    0.150
+.cylinder    -3.841  -38.723    0.000  -17.441  -25.123    0.000    0.150
+.cylinder     0.000  -37.132    0.000    0.000  -23.532    0.000    0.150
+.cylinder    -2.250  -21.282    0.000  -15.850  -21.282    0.000    0.150
+.cylinder     3.841  -38.723    0.000   17.441  -25.123    0.000    0.150
+.cylinder    15.850  -21.282    0.000    2.250  -21.282    0.000    0.150
+.cylinder     5.432  -42.564    0.000   19.032  -42.564    0.000    0.150
+.cylinder    21.282  -40.314    0.000   21.282  -26.714    0.000    0.150
+.cylinder    23.532  -42.564    0.000   37.132  -42.564    0.000    0.150
+.cylinder    38.723  -38.723    0.000   25.123  -25.123    0.000    0.150
+.cylinder    42.564  -37.132    0.000   42.564  -23.532    0.000    0.150
+.cylinder    40.314  -21.282    0.000   26.714  -21.282    0.000    0.150
+.cylinder   -25.123  -17.441    0.000  -38.723   -3.841    0.000    0.150
+.cylinder   -42.564   -5.432    0.000  -42.564  -19.032    0.000    0.150
+.cylinder   -21.282  -15.850    0.000  -21.282   -2.250    0.000    0.150
+.cylinder   -23.532    0.000    0.000  -37.132    0.000    0.000    0.150
+.cylinder   -17.441  -17.441    0.000   -3.841   -3.841    0.000    0.150
+.cylinder    -5.432    0.000    0.000  -19.032    0.000    0.000    0.150
+.cylinder     0.000  -19.032    0.000    0.000   -5.432    0.000    0.150
+.cylinder    17.441  -17.441    0.000    3.841   -3.841    0.000    0.150
+.cylinder    21.282  -15.850    0.000   21.282   -2.250    0.000    0.150
+.cylinder    19.032    0.000    0.000    5.432    0.000    0.000    0.150
+.cylinder    25.123  -17.441    0.000   38.723   -3.841    0.000    0.150
+.cylinder    37.132    0.000    0.000   23.532    0.000    0.000    0.150
+.cylinder    42.564  -19.032    0.000   42.564   -5.432    0.000    0.150
+.cylinder   -38.723    3.841    0.000  -25.123   17.441    0.000    0.150
+.cylinder   -26.714   21.282    0.000  -40.314   21.282    0.000    0.150
+.cylinder   -42.564   19.032    0.000  -42.564    5.432    0.000    0.150
+.cylinder   -21.282    2.250    0.000  -21.282   15.850    0.000    0.150
+.cylinder    -3.841    3.841    0.000  -17.441   17.441    0.000    0.150
+.cylinder     0.000    5.432    0.000    0.000   19.032    0.000    0.150
+.cylinder    -2.250   21.282    0.000  -15.850   21.282    0.000    0.150
+.cylinder     3.841    3.841    0.000   17.441   17.441    0.000    0.150
+.cylinder    15.850   21.282    0.000    2.250   21.282    0.000    0.150
+.cylinder    21.282    2.250    0.000   21.282   15.850    0.000    0.150
+.cylinder    38.723    3.841    0.000   25.123   17.441    0.000    0.150
+.cylinder    42.564    5.432    0.000   42.564   19.032    0.000    0.150
+.cylinder    40.314   21.282    0.000   26.714   21.282    0.000    0.150
+.cylinder   -25.123   25.123    0.000  -38.723   38.723    0.000    0.150
+.cylinder   -42.564   37.132    0.000  -42.564   23.532    0.000    0.150
+.cylinder   -21.282   26.714    0.000  -21.282   40.314    0.000    0.150
+.cylinder   -23.532   42.564    0.000  -37.132   42.564    0.000    0.150
+.cylinder   -17.441   25.123    0.000   -3.841   38.723    0.000    0.150
+.cylinder    -5.432   42.564    0.000  -19.032   42.564    0.000    0.150
+.cylinder     0.000   23.532    0.000    0.000   37.132    0.000    0.150
+.cylinder    17.441   25.123    0.000    3.841   38.723    0.000    0.150
+.cylinder    21.282   26.714    0.000   21.282   40.314    0.000    0.150
+.cylinder    19.032   42.564    0.000    5.432   42.564    0.000    0.150
+.cylinder    25.123   25.123    0.000   38.723   38.723    0.000    0.150
+.cylinder    37.132   42.564    0.000   23.532   42.564    0.000    0.150
+.cylinder    42.564   23.532    0.000   42.564   37.132    0.000    0.150
+.cmov   -38.323  -38.323    0.400
+.color red
+.font Helvetica 12 bold
+      1
+.cmov   -24.723  -24.723    0.400
+.color red
+.font Helvetica 12 bold
+      2
+.cmov   -26.314  -20.882    0.400
+.color red
+.font Helvetica 12 bold
+      3
+.cmov   -39.914  -20.882    0.400
+.color red
+.font Helvetica 12 bold
+      4
+.cmov   -42.164  -23.132    0.400
+.color red
+.font Helvetica 12 bold
+      5
+.cmov   -42.164  -36.732    0.400
+.color red
+.font Helvetica 12 bold
+      6
+.cmov   -36.732  -42.164    0.400
+.color red
+.font Helvetica 12 bold
+      7
+.cmov   -23.132  -42.164    0.400
+.color red
+.font Helvetica 12 bold
+      8
+.cmov   -20.882  -39.914    0.400
+.color red
+.font Helvetica 12 bold
+      9
+.cmov   -20.882  -26.314    0.400
+.color red
+.font Helvetica 12 bold
+     10
+.cmov   -18.632  -42.164    0.400
+.color red
+.font Helvetica 12 bold
+     11
+.cmov    -5.032  -42.164    0.400
+.color red
+.font Helvetica 12 bold
+     12
+.cmov    -3.441  -38.323    0.400
+.color red
+.font Helvetica 12 bold
+     13
+.cmov   -17.041  -24.723    0.400
+.color red
+.font Helvetica 12 bold
+     14
+.cmov     0.400  -36.732    0.400
+.color red
+.font Helvetica 12 bold
+     15
+.cmov     0.400  -23.132    0.400
+.color red
+.font Helvetica 12 bold
+     16
+.cmov    -1.850  -20.882    0.400
+.color red
+.font Helvetica 12 bold
+     17
+.cmov   -15.450  -20.882    0.400
+.color red
+.font Helvetica 12 bold
+     18
+.cmov     4.241  -38.323    0.400
+.color red
+.font Helvetica 12 bold
+     19
+.cmov    17.841  -24.723    0.400
+.color red
+.font Helvetica 12 bold
+     20
+.cmov    16.250  -20.882    0.400
+.color red
+.font Helvetica 12 bold
+     21
+.cmov     2.650  -20.882    0.400
+.color red
+.font Helvetica 12 bold
+     22
+.cmov     5.832  -42.164    0.400
+.color red
+.font Helvetica 12 bold
+     23
+.cmov    19.432  -42.164    0.400
+.color red
+.font Helvetica 12 bold
+     24
+.cmov    21.682  -39.914    0.400
+.color red
+.font Helvetica 12 bold
+     25
+.cmov    21.682  -26.314    0.400
+.color red
+.font Helvetica 12 bold
+     26
+.cmov    23.932  -42.164    0.400
+.color red
+.font Helvetica 12 bold
+     27
+.cmov    37.532  -42.164    0.400
+.color red
+.font Helvetica 12 bold
+     28
+.cmov    39.123  -38.323    0.400
+.color red
+.font Helvetica 12 bold
+     29
+.cmov    25.523  -24.723    0.400
+.color red
+.font Helvetica 12 bold
+     30
+.cmov    42.964  -36.732    0.400
+.color red
+.font Helvetica 12 bold
+     31
+.cmov    42.964  -23.132    0.400
+.color red
+.font Helvetica 12 bold
+     32
+.cmov    40.714  -20.882    0.400
+.color red
+.font Helvetica 12 bold
+     33
+.cmov    27.114  -20.882    0.400
+.color red
+.font Helvetica 12 bold
+     34
+.cmov   -24.723  -17.041    0.400
+.color red
+.font Helvetica 12 bold
+     35
+.cmov   -38.323   -3.441    0.400
+.color red
+.font Helvetica 12 bold
+     36
+.cmov   -42.164   -5.032    0.400
+.color red
+.font Helvetica 12 bold
+     37
+.cmov   -42.164  -18.632    0.400
+.color red
+.font Helvetica 12 bold
+     38
+.cmov   -20.882  -15.450    0.400
+.color red
+.font Helvetica 12 bold
+     39
+.cmov   -20.882   -1.850    0.400
+.color red
+.font Helvetica 12 bold
+     40
+.cmov   -23.132    0.400    0.400
+.color red
+.font Helvetica 12 bold
+     41
+.cmov   -36.732    0.400    0.400
+.color red
+.font Helvetica 12 bold
+     42
+.cmov   -17.041  -17.041    0.400
+.color red
+.font Helvetica 12 bold
+     43
+.cmov    -3.441   -3.441    0.400
+.color red
+.font Helvetica 12 bold
+     44
+.cmov    -5.032    0.400    0.400
+.color red
+.font Helvetica 12 bold
+     45
+.cmov   -18.632    0.400    0.400
+.color red
+.font Helvetica 12 bold
+     46
+.cmov     0.400  -18.632    0.400
+.color red
+.font Helvetica 12 bold
+     47
+.cmov     0.400   -5.032    0.400
+.color red
+.font Helvetica 12 bold
+     48
+.cmov    17.841  -17.041    0.400
+.color red
+.font Helvetica 12 bold
+     49
+.cmov     4.241   -3.441    0.400
+.color red
+.font Helvetica 12 bold
+     50
+.cmov    21.682  -15.450    0.400
+.color red
+.font Helvetica 12 bold
+     51
+.cmov    21.682   -1.850    0.400
+.color red
+.font Helvetica 12 bold
+     52
+.cmov    19.432    0.400    0.400
+.color red
+.font Helvetica 12 bold
+     53
+.cmov     5.832    0.400    0.400
+.color red
+.font Helvetica 12 bold
+     54
+.cmov    25.523  -17.041    0.400
+.color red
+.font Helvetica 12 bold
+     55
+.cmov    39.123   -3.441    0.400
+.color red
+.font Helvetica 12 bold
+     56
+.cmov    37.532    0.400    0.400
+.color red
+.font Helvetica 12 bold
+     57
+.cmov    23.932    0.400    0.400
+.color red
+.font Helvetica 12 bold
+     58
+.cmov    42.964  -18.632    0.400
+.color red
+.font Helvetica 12 bold
+     59
+.cmov    42.964   -5.032    0.400
+.color red
+.font Helvetica 12 bold
+     60
+.cmov   -38.323    4.241    0.400
+.color red
+.font Helvetica 12 bold
+     61
+.cmov   -24.723   17.841    0.400
+.color red
+.font Helvetica 12 bold
+     62
+.cmov   -26.314   21.682    0.400
+.color red
+.font Helvetica 12 bold
+     63
+.cmov   -39.914   21.682    0.400
+.color red
+.font Helvetica 12 bold
+     64
+.cmov   -42.164   19.432    0.400
+.color red
+.font Helvetica 12 bold
+     65
+.cmov   -42.164    5.832    0.400
+.color red
+.font Helvetica 12 bold
+     66
+.cmov   -20.882    2.650    0.400
+.color red
+.font Helvetica 12 bold
+     67
+.cmov   -20.882   16.250    0.400
+.color red
+.font Helvetica 12 bold
+     68
+.cmov    -3.441    4.241    0.400
+.color red
+.font Helvetica 12 bold
+     69
+.cmov   -17.041   17.841    0.400
+.color red
+.font Helvetica 12 bold
+     70
+.cmov     0.400    5.832    0.400
+.color red
+.font Helvetica 12 bold
+     71
+.cmov     0.400   19.432    0.400
+.color red
+.font Helvetica 12 bold
+     72
+.cmov    -1.850   21.682    0.400
+.color red
+.font Helvetica 12 bold
+     73
+.cmov   -15.450   21.682    0.400
+.color red
+.font Helvetica 12 bold
+     74
+.cmov     4.241    4.241    0.400
+.color red
+.font Helvetica 12 bold
+     75
+.cmov    17.841   17.841    0.400
+.color red
+.font Helvetica 12 bold
+     76
+.cmov    16.250   21.682    0.400
+.color red
+.font Helvetica 12 bold
+     77
+.cmov     2.650   21.682    0.400
+.color red
+.font Helvetica 12 bold
+     78
+.cmov    21.682    2.650    0.400
+.color red
+.font Helvetica 12 bold
+     79
+.cmov    21.682   16.250    0.400
+.color red
+.font Helvetica 12 bold
+     80
+.cmov    39.123    4.241    0.400
+.color red
+.font Helvetica 12 bold
+     81
+.cmov    25.523   17.841    0.400
+.color red
+.font Helvetica 12 bold
+     82
+.cmov    42.964    5.832    0.400
+.color red
+.font Helvetica 12 bold
+     83
+.cmov    42.964   19.432    0.400
+.color red
+.font Helvetica 12 bold
+     84
+.cmov    40.714   21.682    0.400
+.color red
+.font Helvetica 12 bold
+     85
+.cmov    27.114   21.682    0.400
+.color red
+.font Helvetica 12 bold
+     86
+.cmov   -24.723   25.523    0.400
+.color red
+.font Helvetica 12 bold
+     87
+.cmov   -38.323   39.123    0.400
+.color red
+.font Helvetica 12 bold
+     88
+.cmov   -42.164   37.532    0.400
+.color red
+.font Helvetica 12 bold
+     89
+.cmov   -42.164   23.932    0.400
+.color red
+.font Helvetica 12 bold
+     90
+.cmov   -20.882   27.114    0.400
+.color red
+.font Helvetica 12 bold
+     91
+.cmov   -20.882   40.714    0.400
+.color red
+.font Helvetica 12 bold
+     92
+.cmov   -23.132   42.964    0.400
+.color red
+.font Helvetica 12 bold
+     93
+.cmov   -36.732   42.964    0.400
+.color red
+.font Helvetica 12 bold
+     94
+.cmov   -17.041   25.523    0.400
+.color red
+.font Helvetica 12 bold
+     95
+.cmov    -3.441   39.123    0.400
+.color red
+.font Helvetica 12 bold
+     96
+.cmov    -5.032   42.964    0.400
+.color red
+.font Helvetica 12 bold
+     97
+.cmov   -18.632   42.964    0.400
+.color red
+.font Helvetica 12 bold
+     98
+.cmov     0.400   23.932    0.400
+.color red
+.font Helvetica 12 bold
+     99
+.cmov     0.400   37.532    0.400
+.color red
+.font Helvetica 12 bold
+    100
+.cmov    17.841   25.523    0.400
+.color red
+.font Helvetica 12 bold
+    101
+.cmov     4.241   39.123    0.400
+.color red
+.font Helvetica 12 bold
+    102
+.cmov    21.682   27.114    0.400
+.color red
+.font Helvetica 12 bold
+    103
+.cmov    21.682   40.714    0.400
+.color red
+.font Helvetica 12 bold
+    104
+.cmov    19.432   42.964    0.400
+.color red
+.font Helvetica 12 bold
+    105
+.cmov     5.832   42.964    0.400
+.color red
+.font Helvetica 12 bold
+    106
+.cmov    25.523   25.523    0.400
+.color red
+.font Helvetica 12 bold
+    107
+.cmov    39.123   39.123    0.400
+.color red
+.font Helvetica 12 bold
+    108
+.cmov    37.532   42.964    0.400
+.color red
+.font Helvetica 12 bold
+    109
+.cmov    23.932   42.964    0.400
+.color red
+.font Helvetica 12 bold
+    110
+.cmov    42.964   23.932    0.400
+.color red
+.font Helvetica 12 bold
+    111
+.cmov    42.964   37.532    0.400
+.color red
+.font Helvetica 12 bold
+    112
+.cmov   -31.523  -31.523    0.400
+.color dark green
+.font Helvetica 12 bold
+      1(19.2, 58)
+.cmov   -33.114  -20.882    0.400
+.color dark green
+.font Helvetica 12 bold
+      2(13.6, 41)
+.cmov   -42.164  -29.932    0.400
+.color dark green
+.font Helvetica 12 bold
+      3(13.6, 41)
+.cmov   -29.932  -42.164    0.400
+.color dark green
+.font Helvetica 12 bold
+      4(13.6, 41)
+.cmov   -20.882  -33.114    0.400
+.color dark green
+.font Helvetica 12 bold
+      5(13.6, 41)
+.cmov   -11.832  -42.164    0.400
+.color dark green
+.font Helvetica 12 bold
+      6(13.6, 41)
+.cmov   -10.241  -31.523    0.400
+.color dark green
+.font Helvetica 12 bold
+      7(19.2, 58)
+.cmov     0.400  -29.932    0.400
+.color dark green
+.font Helvetica 12 bold
+      8(13.6, 41)
+.cmov    -8.650  -20.882    0.400
+.color dark green
+.font Helvetica 12 bold
+      9(13.6, 41)
+.cmov    11.041  -31.523    0.400
+.color dark green
+.font Helvetica 12 bold
+     10(19.2, 58)
+.cmov     9.450  -20.882    0.400
+.color dark green
+.font Helvetica 12 bold
+     11(13.6, 41)
+.cmov    12.632  -42.164    0.400
+.color dark green
+.font Helvetica 12 bold
+     12(13.6, 41)
+.cmov    21.682  -33.114    0.400
+.color dark green
+.font Helvetica 12 bold
+     13(13.6, 41)
+.cmov    30.732  -42.164    0.400
+.color dark green
+.font Helvetica 12 bold
+     14(13.6, 41)
+.cmov    32.323  -31.523    0.400
+.color dark green
+.font Helvetica 12 bold
+     15(19.2, 58)
+.cmov    42.964  -29.932    0.400
+.color dark green
+.font Helvetica 12 bold
+     16(13.6, 41)
+.cmov    33.914  -20.882    0.400
+.color dark green
+.font Helvetica 12 bold
+     17(13.6, 41)
+.cmov   -31.523  -10.241    0.400
+.color dark green
+.font Helvetica 12 bold
+     18(19.2, 58)
+.cmov   -42.164  -11.832    0.400
+.color dark green
+.font Helvetica 12 bold
+     19(13.6, 41)
+.cmov   -20.882   -8.650    0.400
+.color dark green
+.font Helvetica 12 bold
+     20(13.6, 41)
+.cmov   -29.932    0.400    0.400
+.color dark green
+.font Helvetica 12 bold
+     21(13.6, 41)
+.cmov   -10.241  -10.241    0.400
+.color dark green
+.font Helvetica 12 bold
+     22(19.2, 58)
+.cmov   -11.832    0.400    0.400
+.color dark green
+.font Helvetica 12 bold
+     23(13.6, 41)
+.cmov     0.400  -11.832    0.400
+.color dark green
+.font Helvetica 12 bold
+     24(13.6, 41)
+.cmov    11.041  -10.241    0.400
+.color dark green
+.font Helvetica 12 bold
+     25(19.2, 58)
+.cmov    21.682   -8.650    0.400
+.color dark green
+.font Helvetica 12 bold
+     26(13.6, 41)
+.cmov    12.632    0.400    0.400
+.color dark green
+.font Helvetica 12 bold
+     27(13.6, 41)
+.cmov    32.323  -10.241    0.400
+.color dark green
+.font Helvetica 12 bold
+     28(19.2, 58)
+.cmov    30.732    0.400    0.400
+.color dark green
+.font Helvetica 12 bold
+     29(13.6, 41)
+.cmov    42.964  -11.832    0.400
+.color dark green
+.font Helvetica 12 bold
+     30(13.6, 41)
+.cmov   -31.523   11.041    0.400
+.color dark green
+.font Helvetica 12 bold
+     31(19.2, 58)
+.cmov   -33.114   21.682    0.400
+.color dark green
+.font Helvetica 12 bold
+     32(13.6, 41)
+.cmov   -42.164   12.632    0.400
+.color dark green
+.font Helvetica 12 bold
+     33(13.6, 41)
+.cmov   -20.882    9.450    0.400
+.color dark green
+.font Helvetica 12 bold
+     34(13.6, 41)
+.cmov   -10.241   11.041    0.400
+.color dark green
+.font Helvetica 12 bold
+     35(19.2, 58)
+.cmov     0.400   12.632    0.400
+.color dark green
+.font Helvetica 12 bold
+     36(13.6, 41)
+.cmov    -8.650   21.682    0.400
+.color dark green
+.font Helvetica 12 bold
+     37(13.6, 41)
+.cmov    11.041   11.041    0.400
+.color dark green
+.font Helvetica 12 bold
+     38(19.2, 58)
+.cmov     9.450   21.682    0.400
+.color dark green
+.font Helvetica 12 bold
+     39(13.6, 41)
+.cmov    21.682    9.450    0.400
+.color dark green
+.font Helvetica 12 bold
+     40(13.6, 41)
+.cmov    32.323   11.041    0.400
+.color dark green
+.font Helvetica 12 bold
+     41(19.2, 58)
+.cmov    42.964   12.632    0.400
+.color dark green
+.font Helvetica 12 bold
+     42(13.6, 41)
+.cmov    33.914   21.682    0.400
+.color dark green
+.font Helvetica 12 bold
+     43(13.6, 41)
+.cmov   -31.523   32.323    0.400
+.color dark green
+.font Helvetica 12 bold
+     44(19.2, 58)
+.cmov   -42.164   30.732    0.400
+.color dark green
+.font Helvetica 12 bold
+     45(13.6, 41)
+.cmov   -20.882   33.914    0.400
+.color dark green
+.font Helvetica 12 bold
+     46(13.6, 41)
+.cmov   -29.932   42.964    0.400
+.color dark green
+.font Helvetica 12 bold
+     47(13.6, 41)
+.cmov   -10.241   32.323    0.400
+.color dark green
+.font Helvetica 12 bold
+     48(19.2, 58)
+.cmov   -11.832   42.964    0.400
+.color dark green
+.font Helvetica 12 bold
+     49(13.6, 41)
+.cmov     0.400   30.732    0.400
+.color dark green
+.font Helvetica 12 bold
+     50(13.6, 41)
+.cmov    11.041   32.323    0.400
+.color dark green
+.font Helvetica 12 bold
+     51(19.2, 58)
+.cmov    21.682   33.914    0.400
+.color dark green
+.font Helvetica 12 bold
+     52(13.6, 41)
+.cmov    12.632   42.964    0.400
+.color dark green
+.font Helvetica 12 bold
+     53(13.6, 41)
+.cmov    32.323   32.323    0.400
+.color dark green
+.font Helvetica 12 bold
+     54(19.2, 58)
+.cmov    30.732   42.964    0.400
+.color dark green
+.font Helvetica 12 bold
+     55(13.6, 41)
+.cmov    42.964   30.732    0.400
+.color dark green
+.font Helvetica 12 bold
+     56(13.6, 41)
+.color red
+.arrow   -31.92  -31.92    0.00  -30.86  -30.86    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -31.92  -31.92    0.00  -31.92  -31.92    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -31.92  -31.92    0.00  -31.07  -32.77    0.00    0.18    0.36    0.60
+.color red
+.arrow   -33.51  -21.28    0.00  -35.01  -21.28    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -33.51  -21.28    0.00  -33.51  -21.28    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -33.51  -21.28    0.00  -33.51  -20.08    0.00    0.18    0.36    0.60
+.color red
+.arrow   -42.56  -30.33    0.00  -42.56  -31.83    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -42.56  -30.33    0.00  -42.56  -30.33    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -42.56  -30.33    0.00  -43.76  -30.33    0.00    0.18    0.36    0.60
+.color red
+.arrow   -30.33  -42.56    0.00  -28.83  -42.56    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -30.33  -42.56    0.00  -30.33  -42.56    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -30.33  -42.56    0.00  -30.33  -43.76    0.00    0.18    0.36    0.60
+.color red
+.arrow   -21.28  -33.51    0.00  -21.28  -32.01    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -21.28  -33.51    0.00  -21.28  -33.51    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -21.28  -33.51    0.00  -20.08  -33.51    0.00    0.18    0.36    0.60
+.color red
+.arrow   -12.23  -42.56    0.00  -10.73  -42.56    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -12.23  -42.56    0.00  -12.23  -42.56    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -12.23  -42.56    0.00  -12.23  -43.76    0.00    0.18    0.36    0.60
+.color red
+.arrow   -10.64  -31.92    0.00  -11.70  -30.86    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -10.64  -31.92    0.00  -10.64  -31.92    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -10.64  -31.92    0.00   -9.79  -31.07    0.00    0.18    0.36    0.60
+.color red
+.arrow     0.00  -30.33    0.00    0.00  -28.83    0.00    0.18    0.36    0.60
+.color blue
+.arrow     0.00  -30.33    0.00    0.00  -30.33    1.20    0.18    0.36    0.60
+.color yellow
+.arrow     0.00  -30.33    0.00    1.20  -30.33    0.00    0.18    0.36    0.60
+.color red
+.arrow    -9.05  -21.28    0.00  -10.55  -21.28    0.00    0.18    0.36    0.60
+.color blue
+.arrow    -9.05  -21.28    0.00   -9.05  -21.28    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    -9.05  -21.28    0.00   -9.05  -20.08    0.00    0.18    0.36    0.60
+.color red
+.arrow    10.64  -31.92    0.00   11.70  -30.86    0.00    0.18    0.36    0.60
+.color blue
+.arrow    10.64  -31.92    0.00   10.64  -31.92    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    10.64  -31.92    0.00   11.49  -32.77    0.00    0.18    0.36    0.60
+.color red
+.arrow     9.05  -21.28    0.00    7.55  -21.28    0.00    0.18    0.36    0.60
+.color blue
+.arrow     9.05  -21.28    0.00    9.05  -21.28    1.20    0.18    0.36    0.60
+.color yellow
+.arrow     9.05  -21.28    0.00    9.05  -20.08    0.00    0.18    0.36    0.60
+.color red
+.arrow    12.23  -42.56    0.00   13.73  -42.56    0.00    0.18    0.36    0.60
+.color blue
+.arrow    12.23  -42.56    0.00   12.23  -42.56    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    12.23  -42.56    0.00   12.23  -43.76    0.00    0.18    0.36    0.60
+.color red
+.arrow    21.28  -33.51    0.00   21.28  -32.01    0.00    0.18    0.36    0.60
+.color blue
+.arrow    21.28  -33.51    0.00   21.28  -33.51    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    21.28  -33.51    0.00   22.48  -33.51    0.00    0.18    0.36    0.60
+.color red
+.arrow    30.33  -42.56    0.00   31.83  -42.56    0.00    0.18    0.36    0.60
+.color blue
+.arrow    30.33  -42.56    0.00   30.33  -42.56    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    30.33  -42.56    0.00   30.33  -43.76    0.00    0.18    0.36    0.60
+.color red
+.arrow    31.92  -31.92    0.00   30.86  -30.86    0.00    0.18    0.36    0.60
+.color blue
+.arrow    31.92  -31.92    0.00   31.92  -31.92    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    31.92  -31.92    0.00   32.77  -31.07    0.00    0.18    0.36    0.60
+.color red
+.arrow    42.56  -30.33    0.00   42.56  -28.83    0.00    0.18    0.36    0.60
+.color blue
+.arrow    42.56  -30.33    0.00   42.56  -30.33    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    42.56  -30.33    0.00   43.76  -30.33    0.00    0.18    0.36    0.60
+.color red
+.arrow    33.51  -21.28    0.00   32.01  -21.28    0.00    0.18    0.36    0.60
+.color blue
+.arrow    33.51  -21.28    0.00   33.51  -21.28    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    33.51  -21.28    0.00   33.51  -20.08    0.00    0.18    0.36    0.60
+.color red
+.arrow   -31.92  -10.64    0.00  -32.98   -9.58    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -31.92  -10.64    0.00  -31.92  -10.64    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -31.92  -10.64    0.00  -31.07   -9.79    0.00    0.18    0.36    0.60
+.color red
+.arrow   -42.56  -12.23    0.00  -42.56  -13.73    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -42.56  -12.23    0.00  -42.56  -12.23    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -42.56  -12.23    0.00  -43.76  -12.23    0.00    0.18    0.36    0.60
+.color red
+.arrow   -21.28   -9.05    0.00  -21.28   -7.55    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -21.28   -9.05    0.00  -21.28   -9.05    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -21.28   -9.05    0.00  -20.08   -9.05    0.00    0.18    0.36    0.60
+.color red
+.arrow   -30.33    0.00    0.00  -31.83    0.00    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -30.33    0.00    0.00  -30.33    0.00    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -30.33    0.00    0.00  -30.33    1.20    0.00    0.18    0.36    0.60
+.color red
+.arrow   -10.64  -10.64    0.00   -9.58   -9.58    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -10.64  -10.64    0.00  -10.64  -10.64    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -10.64  -10.64    0.00   -9.79  -11.49    0.00    0.18    0.36    0.60
+.color red
+.arrow   -12.23    0.00    0.00  -13.73    0.00    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -12.23    0.00    0.00  -12.23    0.00    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -12.23    0.00    0.00  -12.23    1.20    0.00    0.18    0.36    0.60
+.color red
+.arrow     0.00  -12.23    0.00    0.00  -10.73    0.00    0.18    0.36    0.60
+.color blue
+.arrow     0.00  -12.23    0.00    0.00  -12.23    1.20    0.18    0.36    0.60
+.color yellow
+.arrow     0.00  -12.23    0.00    1.20  -12.23    0.00    0.18    0.36    0.60
+.color red
+.arrow    10.64  -10.64    0.00    9.58   -9.58    0.00    0.18    0.36    0.60
+.color blue
+.arrow    10.64  -10.64    0.00   10.64  -10.64    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    10.64  -10.64    0.00   11.49   -9.79    0.00    0.18    0.36    0.60
+.color red
+.arrow    21.28   -9.05    0.00   21.28   -7.55    0.00    0.18    0.36    0.60
+.color blue
+.arrow    21.28   -9.05    0.00   21.28   -9.05    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    21.28   -9.05    0.00   22.48   -9.05    0.00    0.18    0.36    0.60
+.color red
+.arrow    12.23    0.00    0.00   10.73    0.00    0.00    0.18    0.36    0.60
+.color blue
+.arrow    12.23    0.00    0.00   12.23    0.00    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    12.23    0.00    0.00   12.23    1.20    0.00    0.18    0.36    0.60
+.color red
+.arrow    31.92  -10.64    0.00   32.98   -9.58    0.00    0.18    0.36    0.60
+.color blue
+.arrow    31.92  -10.64    0.00   31.92  -10.64    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    31.92  -10.64    0.00   32.77  -11.49    0.00    0.18    0.36    0.60
+.color red
+.arrow    30.33    0.00    0.00   28.83    0.00    0.00    0.18    0.36    0.60
+.color blue
+.arrow    30.33    0.00    0.00   30.33    0.00    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    30.33    0.00    0.00   30.33    1.20    0.00    0.18    0.36    0.60
+.color red
+.arrow    42.56  -12.23    0.00   42.56  -10.73    0.00    0.18    0.36    0.60
+.color blue
+.arrow    42.56  -12.23    0.00   42.56  -12.23    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    42.56  -12.23    0.00   43.76  -12.23    0.00    0.18    0.36    0.60
+.color red
+.arrow   -31.92   10.64    0.00  -30.86   11.70    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -31.92   10.64    0.00  -31.92   10.64    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -31.92   10.64    0.00  -31.07    9.79    0.00    0.18    0.36    0.60
+.color red
+.arrow   -33.51   21.28    0.00  -35.01   21.28    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -33.51   21.28    0.00  -33.51   21.28    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -33.51   21.28    0.00  -33.51   22.48    0.00    0.18    0.36    0.60
+.color red
+.arrow   -42.56   12.23    0.00  -42.56   10.73    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -42.56   12.23    0.00  -42.56   12.23    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -42.56   12.23    0.00  -43.76   12.23    0.00    0.18    0.36    0.60
+.color red
+.arrow   -21.28    9.05    0.00  -21.28   10.55    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -21.28    9.05    0.00  -21.28    9.05    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -21.28    9.05    0.00  -20.08    9.05    0.00    0.18    0.36    0.60
+.color red
+.arrow   -10.64   10.64    0.00  -11.70   11.70    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -10.64   10.64    0.00  -10.64   10.64    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -10.64   10.64    0.00   -9.79   11.49    0.00    0.18    0.36    0.60
+.color red
+.arrow     0.00   12.23    0.00    0.00   13.73    0.00    0.18    0.36    0.60
+.color blue
+.arrow     0.00   12.23    0.00    0.00   12.23    1.20    0.18    0.36    0.60
+.color yellow
+.arrow     0.00   12.23    0.00    1.20   12.23    0.00    0.18    0.36    0.60
+.color red
+.arrow    -9.05   21.28    0.00  -10.55   21.28    0.00    0.18    0.36    0.60
+.color blue
+.arrow    -9.05   21.28    0.00   -9.05   21.28    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    -9.05   21.28    0.00   -9.05   22.48    0.00    0.18    0.36    0.60
+.color red
+.arrow    10.64   10.64    0.00   11.70   11.70    0.00    0.18    0.36    0.60
+.color blue
+.arrow    10.64   10.64    0.00   10.64   10.64    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    10.64   10.64    0.00   11.49    9.79    0.00    0.18    0.36    0.60
+.color red
+.arrow     9.05   21.28    0.00    7.55   21.28    0.00    0.18    0.36    0.60
+.color blue
+.arrow     9.05   21.28    0.00    9.05   21.28    1.20    0.18    0.36    0.60
+.color yellow
+.arrow     9.05   21.28    0.00    9.05   22.48    0.00    0.18    0.36    0.60
+.color red
+.arrow    21.28    9.05    0.00   21.28   10.55    0.00    0.18    0.36    0.60
+.color blue
+.arrow    21.28    9.05    0.00   21.28    9.05    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    21.28    9.05    0.00   22.48    9.05    0.00    0.18    0.36    0.60
+.color red
+.arrow    31.92   10.64    0.00   30.86   11.70    0.00    0.18    0.36    0.60
+.color blue
+.arrow    31.92   10.64    0.00   31.92   10.64    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    31.92   10.64    0.00   32.77   11.49    0.00    0.18    0.36    0.60
+.color red
+.arrow    42.56   12.23    0.00   42.56   13.73    0.00    0.18    0.36    0.60
+.color blue
+.arrow    42.56   12.23    0.00   42.56   12.23    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    42.56   12.23    0.00   43.76   12.23    0.00    0.18    0.36    0.60
+.color red
+.arrow    33.51   21.28    0.00   32.01   21.28    0.00    0.18    0.36    0.60
+.color blue
+.arrow    33.51   21.28    0.00   33.51   21.28    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    33.51   21.28    0.00   33.51   22.48    0.00    0.18    0.36    0.60
+.color red
+.arrow   -31.92   31.92    0.00  -32.98   32.98    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -31.92   31.92    0.00  -31.92   31.92    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -31.92   31.92    0.00  -31.07   32.77    0.00    0.18    0.36    0.60
+.color red
+.arrow   -42.56   30.33    0.00  -42.56   28.83    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -42.56   30.33    0.00  -42.56   30.33    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -42.56   30.33    0.00  -43.76   30.33    0.00    0.18    0.36    0.60
+.color red
+.arrow   -21.28   33.51    0.00  -21.28   35.01    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -21.28   33.51    0.00  -21.28   33.51    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -21.28   33.51    0.00  -20.08   33.51    0.00    0.18    0.36    0.60
+.color red
+.arrow   -30.33   42.56    0.00  -31.83   42.56    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -30.33   42.56    0.00  -30.33   42.56    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -30.33   42.56    0.00  -30.33   43.76    0.00    0.18    0.36    0.60
+.color red
+.arrow   -10.64   31.92    0.00   -9.58   32.98    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -10.64   31.92    0.00  -10.64   31.92    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -10.64   31.92    0.00   -9.79   31.07    0.00    0.18    0.36    0.60
+.color red
+.arrow   -12.23   42.56    0.00  -13.73   42.56    0.00    0.18    0.36    0.60
+.color blue
+.arrow   -12.23   42.56    0.00  -12.23   42.56    1.20    0.18    0.36    0.60
+.color yellow
+.arrow   -12.23   42.56    0.00  -12.23   43.76    0.00    0.18    0.36    0.60
+.color red
+.arrow     0.00   30.33    0.00    0.00   31.83    0.00    0.18    0.36    0.60
+.color blue
+.arrow     0.00   30.33    0.00    0.00   30.33    1.20    0.18    0.36    0.60
+.color yellow
+.arrow     0.00   30.33    0.00    1.20   30.33    0.00    0.18    0.36    0.60
+.color red
+.arrow    10.64   31.92    0.00    9.58   32.98    0.00    0.18    0.36    0.60
+.color blue
+.arrow    10.64   31.92    0.00   10.64   31.92    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    10.64   31.92    0.00   11.49   32.77    0.00    0.18    0.36    0.60
+.color red
+.arrow    21.28   33.51    0.00   21.28   35.01    0.00    0.18    0.36    0.60
+.color blue
+.arrow    21.28   33.51    0.00   21.28   33.51    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    21.28   33.51    0.00   22.48   33.51    0.00    0.18    0.36    0.60
+.color red
+.arrow    12.23   42.56    0.00   10.73   42.56    0.00    0.18    0.36    0.60
+.color blue
+.arrow    12.23   42.56    0.00   12.23   42.56    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    12.23   42.56    0.00   12.23   43.76    0.00    0.18    0.36    0.60
+.color red
+.arrow    31.92   31.92    0.00   32.98   32.98    0.00    0.18    0.36    0.60
+.color blue
+.arrow    31.92   31.92    0.00   31.92   31.92    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    31.92   31.92    0.00   32.77   31.07    0.00    0.18    0.36    0.60
+.color red
+.arrow    30.33   42.56    0.00   28.83   42.56    0.00    0.18    0.36    0.60
+.color blue
+.arrow    30.33   42.56    0.00   30.33   42.56    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    30.33   42.56    0.00   30.33   43.76    0.00    0.18    0.36    0.60
+.color red
+.arrow    42.56   30.33    0.00   42.56   31.83    0.00    0.18    0.36    0.60
+.color blue
+.arrow    42.56   30.33    0.00   42.56   30.33    1.20    0.18    0.36    0.60
+.color yellow
+.arrow    42.56   30.33    0.00   43.76   30.33    0.00    0.18    0.36    0.60

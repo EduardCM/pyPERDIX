@@ -1,0 +1,13 @@
+.DS_Store
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+perdix_py/.idea/
+venv/
+
+output/
+tests/output/
+
+*.tmp

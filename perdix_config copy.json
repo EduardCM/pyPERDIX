@@ -1,0 +1,7 @@
+{
+  "para_cut_stap_method": "min",
+  "para_dist_pp": 0.42,
+  "para_set_start_scaf": 60,
+  "para_scaf_seq": "m13",
+  "name_prob": "01_Square"
+}

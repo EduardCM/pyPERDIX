@@ -1,0 +1,3758 @@
+.color steel blue
+.sphere     1.970   -9.256   -0.223    0.150
+.cylinder     1.970   -9.256   -0.223    1.629   -9.212    0.365    0.050
+.color light gray
+.cylinder     1.970   -9.256   -0.223    1.970   -7.548    0.680    0.025
+.color steel blue
+.sphere     1.629   -9.212    0.365    0.150
+.cylinder     1.629   -9.212    0.365    1.290   -8.844    0.826    0.050
+.color light gray
+.cylinder     1.629   -9.212    0.365    1.629   -7.292    0.149    0.025
+.color steel blue
+.sphere     1.290   -8.844    0.826    0.150
+.cylinder     1.290   -8.844    0.826    0.950   -8.281    1.000    0.050
+.color light gray
+.cylinder     1.290   -8.844    0.826    1.290   -7.380   -0.434    0.025
+.color steel blue
+.sphere     0.950   -8.281    1.000    0.150
+.cylinder     0.950   -8.281    1.000    0.610   -7.718    0.826    0.050
+.color light gray
+.cylinder     0.950   -8.281    1.000    0.950   -7.781   -0.866    0.025
+.color steel blue
+.sphere     0.610   -7.718    0.826    0.150
+.cylinder     0.610   -7.718    0.826    0.270   -7.350    0.365    0.050
+.color light gray
+.cylinder     0.610   -7.718    0.826    0.610   -8.355   -0.997    0.025
+.color steel blue
+.sphere     0.270   -7.350    0.365    0.150
+.cylinder     0.270   -7.350    0.365   -0.070   -7.306   -0.223    0.050
+.color light gray
+.cylinder     0.270   -7.350    0.365    0.270   -8.904   -0.782    0.025
+.color steel blue
+.sphere    -0.070   -7.306   -0.223    0.150
+.cylinder    -0.070   -7.306   -0.223   -0.410   -7.601   -0.733    0.050
+.color light gray
+.cylinder    -0.070   -7.306   -0.223   -0.070   -9.236   -0.295    0.025
+.color steel blue
+.sphere    -0.410   -7.601   -0.733    0.150
+.cylinder    -0.410   -7.601   -0.733   -0.750   -8.132   -0.989    0.050
+.color light gray
+.cylinder    -0.410   -7.601   -0.733   -0.410   -9.236    0.295    0.025
+.color steel blue
+.sphere    -0.750   -8.132   -0.989    0.150
+.cylinder    -0.750   -8.132   -0.989   -1.091   -8.715   -0.901    0.050
+.color light gray
+.cylinder    -0.750   -8.132   -0.989   -0.750   -8.904    0.782    0.025
+.color steel blue
+.sphere    -1.091   -8.715   -0.901    0.150
+.cylinder    -1.091   -8.715   -0.901   -1.431   -9.147   -0.500    0.050
+.color light gray
+.cylinder    -1.091   -8.715   -0.901   -1.091   -8.355    0.997    0.025
+.color steel blue
+.sphere    -1.431   -9.147   -0.500    0.150
+.cylinder    -1.431   -9.147   -0.500   -1.770   -9.278    0.075    0.050
+.color light gray
+.cylinder    -1.431   -9.147   -0.500   -1.431   -7.781    0.866    0.025
+.color steel blue
+.sphere    -1.770   -9.278    0.075    0.150
+.cylinder    -1.770   -9.278    0.075   -2.111   -9.063    0.624    0.050
+.color light gray
+.cylinder    -1.770   -9.278    0.075   -1.770   -7.380    0.434    0.025
+.color steel blue
+.sphere    -2.111   -9.063    0.624    0.150
+.cylinder    -2.111   -9.063    0.624   -2.450   -8.576    0.956    0.050
+.color light gray
+.cylinder    -2.111   -9.063    0.624   -2.111   -7.292   -0.149    0.025
+.color steel blue
+.sphere    -2.450   -8.576    0.956    0.150
+.cylinder    -2.450   -8.576    0.956   -2.791   -7.986    0.956    0.050
+.color light gray
+.cylinder    -2.450   -8.576    0.956   -2.450   -7.548   -0.680    0.025
+.color steel blue
+.sphere    -2.791   -7.986    0.956    0.150
+.cylinder    -2.791   -7.986    0.956   -3.131   -7.499    0.624    0.050
+.color light gray
+.cylinder    -2.791   -7.986    0.956   -2.791   -8.058   -0.975    0.025
+.color steel blue
+.sphere    -3.131   -7.499    0.624    0.150
+.cylinder    -3.131   -7.499    0.624   -3.470   -7.284    0.075    0.050
+.color light gray
+.cylinder    -3.131   -7.499    0.624   -3.131   -8.646   -0.931    0.025
+.color steel blue
+.sphere    -3.470   -7.284    0.075    0.150
+.cylinder    -3.470   -7.284    0.075   -3.811   -7.415   -0.500    0.050
+.color light gray
+.cylinder    -3.470   -7.284    0.075   -3.470   -9.107   -0.563    0.025
+.color steel blue
+.sphere    -3.811   -7.415   -0.500    0.150
+.cylinder    -3.811   -7.415   -0.500   -4.151   -7.847   -0.901    0.050
+.color light gray
+.cylinder    -3.811   -7.415   -0.500   -3.811   -9.281    0.000    0.025
+.color steel blue
+.sphere    -4.151   -7.847   -0.901    0.150
+.cylinder    -4.151   -7.847   -0.901   -4.490   -8.430   -0.989    0.050
+.color light gray
+.cylinder    -4.151   -7.847   -0.901   -4.151   -9.107    0.563    0.025
+.color steel blue
+.sphere    -4.490   -8.430   -0.989    0.150
+.cylinder    -4.490   -8.430   -0.989   -4.830   -8.961   -0.733    0.050
+.color light gray
+.cylinder    -4.490   -8.430   -0.989   -4.490   -8.646    0.931    0.025
+.color steel blue
+.sphere    -4.830   -8.961   -0.733    0.150
+.cylinder    -4.830   -8.961   -0.733   -5.170   -9.256   -0.223    0.050
+.color light gray
+.cylinder    -4.830   -8.961   -0.733   -4.830   -8.058    0.975    0.025
+.color steel blue
+.sphere    -5.170   -9.256   -0.223    0.150
+.cylinder    -5.170   -9.256   -0.223   -5.511   -9.212    0.365    0.050
+.color light gray
+.cylinder    -5.170   -9.256   -0.223   -5.170   -7.548    0.680    0.025
+.color steel blue
+.sphere    -5.511   -9.212    0.365    0.150
+.cylinder    -5.511   -9.212    0.365   -5.851   -8.844    0.826    0.050
+.color light gray
+.cylinder    -5.511   -9.212    0.365   -5.511   -7.292    0.149    0.025
+.color steel blue
+.sphere    -5.851   -8.844    0.826    0.150
+.cylinder    -5.851   -8.844    0.826   -6.191   -8.281    1.000    0.050
+.color light gray
+.cylinder    -5.851   -8.844    0.826   -5.851   -7.380   -0.434    0.025
+.color steel blue
+.sphere    -6.191   -8.281    1.000    0.150
+.cylinder    -6.191   -8.281    1.000   -6.530   -7.718    0.826    0.050
+.color light gray
+.cylinder    -6.191   -8.281    1.000   -6.191   -7.781   -0.866    0.025
+.color steel blue
+.sphere    -6.530   -7.718    0.826    0.150
+.cylinder    -6.530   -7.718    0.826   -6.870   -7.350    0.365    0.050
+.color light gray
+.cylinder    -6.530   -7.718    0.826   -6.530   -8.355   -0.997    0.025
+.color steel blue
+.sphere    -6.870   -7.350    0.365    0.150
+.cylinder    -6.870   -7.350    0.365   -7.210   -7.306   -0.223    0.050
+.color light gray
+.cylinder    -6.870   -7.350    0.365   -6.870   -8.904   -0.782    0.025
+.color steel blue
+.sphere    -7.210   -7.306   -0.223    0.150
+.cylinder    -7.210   -7.306   -0.223   -7.317   -7.308    0.201    0.050
+.color light gray
+.cylinder    -7.210   -7.306   -0.223   -7.210   -9.236   -0.295    0.025
+.color steel blue
+.sphere    -7.317   -7.308    0.201    0.150
+.cylinder    -7.317   -7.308    0.201   -7.424   -7.311    0.624    0.050
+.color steel blue
+.sphere    -7.424   -7.311    0.624    0.150
+.cylinder    -7.424   -7.311    0.624   -7.208   -6.967    0.075    0.050
+.color light gray
+.cylinder    -7.424   -7.311    0.624   -8.571   -7.311   -0.931    0.025
+.color steel blue
+.sphere    -7.208   -6.967    0.075    0.150
+.cylinder    -7.208   -6.967    0.075   -7.340   -6.624   -0.500    0.050
+.color light gray
+.cylinder    -7.208   -6.967    0.075   -9.032   -6.967   -0.563    0.025
+.color steel blue
+.sphere    -7.340   -6.624   -0.500    0.150
+.cylinder    -7.340   -6.624   -0.500   -7.772   -6.280   -0.901    0.050
+.color light gray
+.cylinder    -7.340   -6.624   -0.500   -9.206   -6.624    0.000    0.025
+.color steel blue
+.sphere    -7.772   -6.280   -0.901    0.150
+.cylinder    -7.772   -6.280   -0.901   -8.354   -5.937   -0.989    0.050
+.color light gray
+.cylinder    -7.772   -6.280   -0.901   -9.032   -6.280    0.563    0.025
+.color steel blue
+.sphere    -8.354   -5.937   -0.989    0.150
+.cylinder    -8.354   -5.937   -0.989   -8.886   -5.593   -0.733    0.050
+.color light gray
+.cylinder    -8.354   -5.937   -0.989   -8.571   -5.937    0.931    0.025
+.color steel blue
+.sphere    -8.886   -5.593   -0.733    0.150
+.cylinder    -8.886   -5.593   -0.733   -9.180   -5.249   -0.223    0.050
+.color light gray
+.cylinder    -8.886   -5.593   -0.733   -7.983   -5.593    0.975    0.025
+.color steel blue
+.sphere    -9.180   -5.249   -0.223    0.150
+.cylinder    -9.180   -5.249   -0.223   -9.136   -4.906    0.365    0.050
+.color light gray
+.cylinder    -9.180   -5.249   -0.223   -7.472   -5.249    0.680    0.025
+.color steel blue
+.sphere    -9.136   -4.906    0.365    0.150
+.cylinder    -9.136   -4.906    0.365   -8.769   -4.562    0.826    0.050
+.color light gray
+.cylinder    -9.136   -4.906    0.365   -7.217   -4.906    0.149    0.025
+.color steel blue
+.sphere    -8.769   -4.562    0.826    0.150
+.cylinder    -8.769   -4.562    0.826   -8.206   -4.219    1.000    0.050
+.color light gray
+.cylinder    -8.769   -4.562    0.826   -7.304   -4.562   -0.434    0.025
+.color steel blue
+.sphere    -8.206   -4.219    1.000    0.150
+.cylinder    -8.206   -4.219    1.000   -7.642   -3.875    0.826    0.050
+.color light gray
+.cylinder    -8.206   -4.219    1.000   -7.705   -4.219   -0.866    0.025
+.color steel blue
+.sphere    -7.642   -3.875    0.826    0.150
+.cylinder    -7.642   -3.875    0.826   -7.275   -3.531    0.365    0.050
+.color light gray
+.cylinder    -7.642   -3.875    0.826   -8.280   -3.875   -0.997    0.025
+.color steel blue
+.sphere    -7.275   -3.531    0.365    0.150
+.cylinder    -7.275   -3.531    0.365   -7.231   -3.188   -0.223    0.050
+.color light gray
+.cylinder    -7.275   -3.531    0.365   -8.829   -3.531   -0.782    0.025
+.color steel blue
+.sphere    -7.231   -3.188   -0.223    0.150
+.cylinder    -7.231   -3.188   -0.223   -7.525   -2.844   -0.733    0.050
+.color light gray
+.cylinder    -7.231   -3.188   -0.223   -9.161   -3.188   -0.295    0.025
+.color steel blue
+.sphere    -7.525   -2.844   -0.733    0.150
+.cylinder    -7.525   -2.844   -0.733   -8.056   -2.501   -0.989    0.050
+.color light gray
+.cylinder    -7.525   -2.844   -0.733   -9.161   -2.844    0.295    0.025
+.color steel blue
+.sphere    -8.056   -2.501   -0.989    0.150
+.cylinder    -8.056   -2.501   -0.989   -8.639   -2.157   -0.901    0.050
+.color light gray
+.cylinder    -8.056   -2.501   -0.989   -8.829   -2.501    0.782    0.025
+.color steel blue
+.sphere    -8.639   -2.157   -0.901    0.150
+.cylinder    -8.639   -2.157   -0.901   -9.072   -1.813   -0.500    0.050
+.color light gray
+.cylinder    -8.639   -2.157   -0.901   -8.280   -2.157    0.997    0.025
+.color steel blue
+.sphere    -9.072   -1.813   -0.500    0.150
+.cylinder    -9.072   -1.813   -0.500   -9.203   -1.470    0.075    0.050
+.color light gray
+.cylinder    -9.072   -1.813   -0.500   -7.705   -1.813    0.866    0.025
+.color steel blue
+.sphere    -9.203   -1.470    0.075    0.150
+.cylinder    -9.203   -1.470    0.075   -8.987   -1.126    0.624    0.050
+.color light gray
+.cylinder    -9.203   -1.470    0.075   -7.304   -1.470    0.434    0.025
+.color steel blue
+.sphere    -8.987   -1.126    0.624    0.150
+.cylinder    -8.987   -1.126    0.624   -8.500   -0.782    0.956    0.050
+.color light gray
+.cylinder    -8.987   -1.126    0.624   -7.217   -1.126   -0.149    0.025
+.color steel blue
+.sphere    -8.500   -0.782    0.956    0.150
+.cylinder    -8.500   -0.782    0.956   -7.911   -0.439    0.956    0.050
+.color light gray
+.cylinder    -8.500   -0.782    0.956   -7.472   -0.782   -0.680    0.025
+.color steel blue
+.sphere    -7.911   -0.439    0.956    0.150
+.cylinder    -7.911   -0.439    0.956   -7.424   -0.095    0.624    0.050
+.color light gray
+.cylinder    -7.911   -0.439    0.956   -7.983   -0.439   -0.975    0.025
+.color steel blue
+.sphere    -7.424   -0.095    0.624    0.150
+.cylinder    -7.424   -0.095    0.624   -7.208    0.248    0.075    0.050
+.color light gray
+.cylinder    -7.424   -0.095    0.624   -8.571   -0.095   -0.931    0.025
+.color steel blue
+.sphere    -7.208    0.248    0.075    0.150
+.cylinder    -7.208    0.248    0.075   -7.340    0.592   -0.500    0.050
+.color light gray
+.cylinder    -7.208    0.248    0.075   -9.032    0.248   -0.563    0.025
+.color steel blue
+.sphere    -7.340    0.592   -0.500    0.150
+.cylinder    -7.340    0.592   -0.500   -7.772    0.936   -0.901    0.050
+.color light gray
+.cylinder    -7.340    0.592   -0.500   -9.206    0.592    0.000    0.025
+.color steel blue
+.sphere    -7.772    0.936   -0.901    0.150
+.cylinder    -7.772    0.936   -0.901   -8.354    1.279   -0.989    0.050
+.color light gray
+.cylinder    -7.772    0.936   -0.901   -9.032    0.936    0.563    0.025
+.color steel blue
+.sphere    -8.354    1.279   -0.989    0.150
+.cylinder    -8.354    1.279   -0.989   -8.886    1.623   -0.733    0.050
+.color light gray
+.cylinder    -8.354    1.279   -0.989   -8.571    1.279    0.931    0.025
+.color steel blue
+.sphere    -8.886    1.623   -0.733    0.150
+.cylinder    -8.886    1.623   -0.733   -9.180    1.966   -0.223    0.050
+.color light gray
+.cylinder    -8.886    1.623   -0.733   -7.983    1.623    0.975    0.025
+.color steel blue
+.sphere    -9.180    1.966   -0.223    0.150
+.cylinder    -9.180    1.966   -0.223   -9.136    2.310    0.365    0.050
+.color light gray
+.cylinder    -9.180    1.966   -0.223   -7.472    1.966    0.680    0.025
+.color steel blue
+.sphere    -9.136    2.310    0.365    0.150
+.cylinder    -9.136    2.310    0.365   -8.769    2.654    0.826    0.050
+.color light gray
+.cylinder    -9.136    2.310    0.365   -7.217    2.310    0.149    0.025
+.color steel blue
+.sphere    -8.769    2.654    0.826    0.150
+.cylinder    -8.769    2.654    0.826   -8.206    2.997    1.000    0.050
+.color light gray
+.cylinder    -8.769    2.654    0.826   -7.304    2.654   -0.434    0.025
+.color steel blue
+.sphere    -8.206    2.997    1.000    0.150
+.cylinder    -8.206    2.997    1.000   -7.642    3.341    0.826    0.050
+.color light gray
+.cylinder    -8.206    2.997    1.000   -7.705    2.997   -0.866    0.025
+.color steel blue
+.sphere    -7.642    3.341    0.826    0.150
+.cylinder    -7.642    3.341    0.826   -7.275    3.685    0.365    0.050
+.color light gray
+.cylinder    -7.642    3.341    0.826   -8.280    3.341   -0.997    0.025
+.color steel blue
+.sphere    -7.275    3.685    0.365    0.150
+.cylinder    -7.275    3.685    0.365   -7.231    4.028   -0.223    0.050
+.color light gray
+.cylinder    -7.275    3.685    0.365   -8.829    3.685   -0.782    0.025
+.color steel blue
+.sphere    -7.231    4.028   -0.223    0.150
+.cylinder    -7.231    4.028   -0.223   -7.525    4.372   -0.733    0.050
+.color light gray
+.cylinder    -7.231    4.028   -0.223   -9.161    4.028   -0.295    0.025
+.color steel blue
+.sphere    -7.525    4.372   -0.733    0.150
+.cylinder    -7.525    4.372   -0.733   -8.056    4.715   -0.989    0.050
+.color light gray
+.cylinder    -7.525    4.372   -0.733   -9.161    4.372    0.295    0.025
+.color steel blue
+.sphere    -8.056    4.715   -0.989    0.150
+.cylinder    -8.056    4.715   -0.989   -8.639    5.059   -0.901    0.050
+.color light gray
+.cylinder    -8.056    4.715   -0.989   -8.829    4.715    0.782    0.025
+.color steel blue
+.sphere    -8.639    5.059   -0.901    0.150
+.cylinder    -8.639    5.059   -0.901   -9.072    5.403   -0.500    0.050
+.color light gray
+.cylinder    -8.639    5.059   -0.901   -8.280    5.059    0.997    0.025
+.color steel blue
+.sphere    -9.072    5.403   -0.500    0.150
+.cylinder    -9.072    5.403   -0.500   -9.203    5.746    0.075    0.050
+.color light gray
+.cylinder    -9.072    5.403   -0.500   -7.705    5.403    0.866    0.025
+.color steel blue
+.sphere    -9.203    5.746    0.075    0.150
+.cylinder    -9.203    5.746    0.075   -8.987    6.090    0.624    0.050
+.color light gray
+.cylinder    -9.203    5.746    0.075   -7.304    5.746    0.434    0.025
+.color steel blue
+.sphere    -8.987    6.090    0.624    0.150
+.cylinder    -8.987    6.090    0.624   -8.500    6.434    0.956    0.050
+.color light gray
+.cylinder    -8.987    6.090    0.624   -7.217    6.090   -0.149    0.025
+.color steel blue
+.sphere    -8.500    6.434    0.956    0.150
+.cylinder    -8.500    6.434    0.956   -7.911    6.777    0.956    0.050
+.color light gray
+.cylinder    -8.500    6.434    0.956   -7.472    6.434   -0.680    0.025
+.color steel blue
+.sphere    -7.911    6.777    0.956    0.150
+.cylinder    -7.911    6.777    0.956   -7.424    7.121    0.624    0.050
+.color light gray
+.cylinder    -7.911    6.777    0.956   -7.983    6.777   -0.975    0.025
+.color steel blue
+.sphere    -7.424    7.121    0.624    0.150
+.cylinder    -7.424    7.121    0.624   -7.208    7.464    0.075    0.050
+.color light gray
+.cylinder    -7.424    7.121    0.624   -8.571    7.121   -0.931    0.025
+.color steel blue
+.sphere    -7.208    7.464    0.075    0.150
+.cylinder    -7.208    7.464    0.075   -7.340    7.808   -0.500    0.050
+.color light gray
+.cylinder    -7.208    7.464    0.075   -9.032    7.464   -0.563    0.025
+.color steel blue
+.sphere    -7.340    7.808   -0.500    0.150
+.cylinder    -7.340    7.808   -0.500   -7.772    8.152   -0.901    0.050
+.color light gray
+.cylinder    -7.340    7.808   -0.500   -9.206    7.808    0.000    0.025
+.color steel blue
+.sphere    -7.772    8.152   -0.901    0.150
+.cylinder    -7.772    8.152   -0.901   -8.354    8.495   -0.989    0.050
+.color light gray
+.cylinder    -7.772    8.152   -0.901   -9.032    8.152    0.563    0.025
+.color steel blue
+.sphere    -8.354    8.495   -0.989    0.150
+.cylinder    -8.354    8.495   -0.989   -8.886    8.839   -0.733    0.050
+.color light gray
+.cylinder    -8.354    8.495   -0.989   -8.571    8.495    0.931    0.025
+.color steel blue
+.sphere    -8.886    8.839   -0.733    0.150
+.cylinder    -8.886    8.839   -0.733   -9.180    9.182   -0.223    0.050
+.color light gray
+.cylinder    -8.886    8.839   -0.733   -7.983    8.839    0.975    0.025
+.color steel blue
+.sphere    -9.180    9.182   -0.223    0.150
+.cylinder    -9.180    9.182   -0.223   -9.136    9.526    0.365    0.050
+.color light gray
+.cylinder    -9.180    9.182   -0.223   -7.472    9.182    0.680    0.025
+.color steel blue
+.sphere    -9.136    9.526    0.365    0.150
+.cylinder    -9.136    9.526    0.365   -8.769    9.870    0.826    0.050
+.color light gray
+.cylinder    -9.136    9.526    0.365   -7.217    9.526    0.149    0.025
+.color steel blue
+.sphere    -8.769    9.870    0.826    0.150
+.cylinder    -8.769    9.870    0.826   -8.206   10.213    1.000    0.050
+.color light gray
+.cylinder    -8.769    9.870    0.826   -7.304    9.870   -0.434    0.025
+.color steel blue
+.sphere    -8.206   10.213    1.000    0.150
+.cylinder    -8.206   10.213    1.000   -7.642   10.557    0.826    0.050
+.color light gray
+.cylinder    -8.206   10.213    1.000   -7.705   10.213   -0.866    0.025
+.color steel blue
+.sphere    -7.642   10.557    0.826    0.150
+.cylinder    -7.642   10.557    0.826   -7.275   10.900    0.365    0.050
+.color light gray
+.cylinder    -7.642   10.557    0.826   -8.280   10.557   -0.997    0.025
+.color steel blue
+.sphere    -7.275   10.900    0.365    0.150
+.cylinder    -7.275   10.900    0.365   -7.231   11.244   -0.223    0.050
+.color light gray
+.cylinder    -7.275   10.900    0.365   -8.829   10.900   -0.782    0.025
+.color steel blue
+.sphere    -7.231   11.244   -0.223    0.150
+.cylinder    -7.231   11.244   -0.223   -7.525   11.588   -0.733    0.050
+.color light gray
+.cylinder    -7.231   11.244   -0.223   -9.161   11.244   -0.295    0.025
+.color steel blue
+.sphere    -7.525   11.588   -0.733    0.150
+.cylinder    -7.525   11.588   -0.733   -8.056   11.931   -0.989    0.050
+.color light gray
+.cylinder    -7.525   11.588   -0.733   -9.161   11.588    0.295    0.025
+.color steel blue
+.sphere    -8.056   11.931   -0.989    0.150
+.cylinder    -8.056   11.931   -0.989   -8.639   12.275   -0.901    0.050
+.color light gray
+.cylinder    -8.056   11.931   -0.989   -8.829   11.931    0.782    0.025
+.color steel blue
+.sphere    -8.639   12.275   -0.901    0.150
+.cylinder    -8.639   12.275   -0.901   -9.072   12.618   -0.500    0.050
+.color light gray
+.cylinder    -8.639   12.275   -0.901   -8.280   12.275    0.997    0.025
+.color steel blue
+.sphere    -9.072   12.618   -0.500    0.150
+.cylinder    -9.072   12.618   -0.500   -9.203   12.962    0.075    0.050
+.color light gray
+.cylinder    -9.072   12.618   -0.500   -7.705   12.618    0.866    0.025
+.color steel blue
+.sphere    -9.203   12.962    0.075    0.150
+.cylinder    -9.203   12.962    0.075   -8.987   13.306    0.624    0.050
+.color light gray
+.cylinder    -9.203   12.962    0.075   -7.304   12.962    0.434    0.025
+.color steel blue
+.sphere    -8.987   13.306    0.624    0.150
+.cylinder    -8.987   13.306    0.624   -8.500   13.649    0.956    0.050
+.color light gray
+.cylinder    -8.987   13.306    0.624   -7.217   13.306   -0.149    0.025
+.color steel blue
+.sphere    -8.500   13.649    0.956    0.150
+.cylinder    -8.500   13.649    0.956   -7.911   13.993    0.956    0.050
+.color light gray
+.cylinder    -8.500   13.649    0.956   -7.472   13.649   -0.680    0.025
+.color steel blue
+.sphere    -7.911   13.993    0.956    0.150
+.cylinder    -7.911   13.993    0.956   -7.424   14.336    0.624    0.050
+.color light gray
+.cylinder    -7.911   13.993    0.956   -7.983   13.993   -0.975    0.025
+.color steel blue
+.sphere    -7.424   14.336    0.624    0.150
+.cylinder    -7.424   14.336    0.624   -7.125   14.560    0.436    0.050
+.color light gray
+.cylinder    -7.424   14.336    0.624   -8.571   14.336   -0.931    0.025
+.color steel blue
+.sphere    -7.125   14.560    0.436    0.150
+.cylinder    -7.125   14.560    0.436   -6.827   14.784    0.249    0.050
+.color steel blue
+.sphere    -6.827   14.784    0.249    0.150
+.cylinder    -6.827   14.784    0.249   -6.529   15.008    0.062    0.050
+.color steel blue
+.sphere    -6.529   15.008    0.062    0.150
+.cylinder    -6.529   15.008    0.062   -6.230   15.232   -0.126    0.050
+.color steel blue
+.sphere    -6.230   15.232   -0.126    0.150
+.cylinder    -6.230   15.232   -0.126   -5.932   15.456   -0.313    0.050
+.color steel blue
+.sphere    -5.932   15.456   -0.313    0.150
+.cylinder    -5.932   15.456   -0.313   -5.633   15.679   -0.500    0.050
+.color steel blue
+.sphere    -5.633   15.679   -0.500    0.150
+.cylinder    -5.633   15.679   -0.500   -5.301   15.531    0.075    0.050
+.color light gray
+.cylinder    -5.633   15.679   -0.500   -6.604   14.719    0.866    0.025
+.color steel blue
+.sphere    -5.301   15.531    0.075    0.150
+.cylinder    -5.301   15.531    0.075   -5.216   15.138    0.624    0.050
+.color light gray
+.cylinder    -5.301   15.531    0.075   -6.651   14.195    0.434    0.025
+.color steel blue
+.sphere    -5.216   15.138    0.624    0.150
+.cylinder    -5.216   15.138    0.624   -5.324   14.554    0.956    0.050
+.color light gray
+.cylinder    -5.216   15.138    0.624   -6.475   13.893   -0.149    0.025
+.color steel blue
+.sphere    -5.324   14.554    0.956    0.150
+.cylinder    -5.324   14.554    0.956   -5.504   13.899    0.956    0.050
+.color light gray
+.cylinder    -5.324   14.554    0.956   -6.054   13.831   -0.680    0.025
+.color steel blue
+.sphere    -5.504   13.899    0.956    0.150
+.cylinder    -5.504   13.899    0.956   -5.612   13.315    0.624    0.050
+.color light gray
+.cylinder    -5.504   13.899    0.956   -5.453   13.949   -0.975    0.025
+.color steel blue
+.sphere    -5.612   13.315    0.624    0.150
+.cylinder    -5.612   13.315    0.624   -5.526   12.922    0.075    0.050
+.color light gray
+.cylinder    -5.612   13.315    0.624   -4.796   14.122   -0.931    0.025
+.color steel blue
+.sphere    -5.526   12.922    0.075    0.150
+.cylinder    -5.526   12.922    0.075   -5.194   12.774   -0.500    0.050
+.color light gray
+.cylinder    -5.526   12.922    0.075   -4.230   14.205   -0.563    0.025
+.color steel blue
+.sphere    -5.194   12.774   -0.500    0.150
+.cylinder    -5.194   12.774   -0.500   -4.649   12.836   -0.901    0.050
+.color light gray
+.cylinder    -5.194   12.774   -0.500   -3.868   14.086    0.000    0.025
+.color steel blue
+.sphere    -4.649   12.836   -0.901    0.150
+.cylinder    -4.649   12.836   -0.901   -3.996   13.005   -0.989    0.050
+.color light gray
+.cylinder    -4.649   12.836   -0.901   -3.753   13.723    0.563    0.025
+.color steel blue
+.sphere    -3.996   13.005   -0.989    0.150
+.cylinder    -3.996   13.005   -0.989   -3.380   13.138   -0.733    0.050
+.color light gray
+.cylinder    -3.996   13.005   -0.989   -3.842   13.157    0.931    0.025
+.color steel blue
+.sphere    -3.380   13.138   -0.733    0.150
+.cylinder    -3.380   13.138   -0.733   -2.931   13.104   -0.223    0.050
+.color light gray
+.cylinder    -3.380   13.138   -0.733   -4.021   12.503    0.975    0.025
+.color steel blue
+.sphere    -2.931   13.104   -0.223    0.150
+.cylinder    -2.931   13.104   -0.223   -2.724   12.832    0.365    0.050
+.color light gray
+.cylinder    -2.931   13.104   -0.223   -4.146   11.903    0.680    0.025
+.color steel blue
+.sphere    -2.724   12.832    0.365    0.150
+.cylinder    -2.724   12.832    0.365   -2.747   12.332    0.826    0.050
+.color light gray
+.cylinder    -2.724   12.832    0.365   -4.089   11.482    0.149    0.025
+.color steel blue
+.sphere    -2.747   12.332    0.826    0.150
+.cylinder    -2.747   12.332    0.826   -2.909   11.695    1.000    0.050
+.color light gray
+.cylinder    -2.747   12.332    0.826   -3.788   11.302   -0.434    0.025
+.color steel blue
+.sphere    -2.909   11.695    1.000    0.150
+.cylinder    -2.909   11.695    1.000   -3.070   11.058    0.826    0.050
+.color light gray
+.cylinder    -2.909   11.695    1.000   -3.264   11.343   -0.866    0.025
+.color steel blue
+.sphere    -3.070   11.058    0.826    0.150
+.cylinder    -3.070   11.058    0.826   -3.093   10.558    0.365    0.050
+.color light gray
+.cylinder    -3.070   11.058    0.826   -2.617   11.506   -0.997    0.025
+.color steel blue
+.sphere    -3.093   10.558    0.365    0.150
+.cylinder    -3.093   10.558    0.365   -2.886   10.286   -0.223    0.050
+.color light gray
+.cylinder    -3.093   10.558    0.365   -1.988   11.651   -0.782    0.025
+.color steel blue
+.sphere    -2.886   10.286   -0.223    0.150
+.cylinder    -2.886   10.286   -0.223   -2.438   10.252   -0.733    0.050
+.color light gray
+.cylinder    -2.886   10.286   -0.223   -1.514   11.644   -0.295    0.025
+.color steel blue
+.sphere    -2.438   10.252   -0.733    0.150
+.cylinder    -2.438   10.252   -0.733   -1.821   10.384   -0.989    0.050
+.color light gray
+.cylinder    -2.438   10.252   -0.733   -1.275   11.402    0.295    0.025
+.color steel blue
+.sphere    -1.821   10.384   -0.989    0.150
+.cylinder    -1.821   10.384   -0.989   -1.169   10.553   -0.901    0.050
+.color light gray
+.cylinder    -1.821   10.384   -0.989   -1.272   10.928    0.782    0.025
+.color steel blue
+.sphere    -1.169   10.553   -0.901    0.150
+.cylinder    -1.169   10.553   -0.901   -0.623   10.616   -0.500    0.050
+.color light gray
+.cylinder    -1.169   10.553   -0.901   -1.424   10.301    0.997    0.025
+.color steel blue
+.sphere    -0.623   10.616   -0.500    0.150
+.cylinder    -0.623   10.616   -0.500   -0.291   10.467    0.075    0.050
+.color light gray
+.cylinder    -0.623   10.616   -0.500   -1.594    9.655    0.866    0.025
+.color steel blue
+.sphere    -0.291   10.467    0.075    0.150
+.cylinder    -0.291   10.467    0.075   -0.205   10.075    0.624    0.050
+.color light gray
+.cylinder    -0.291   10.467    0.075   -1.640    9.132    0.434    0.025
+.color steel blue
+.sphere    -0.205   10.075    0.624    0.150
+.cylinder    -0.205   10.075    0.624   -0.313    9.491    0.956    0.050
+.color light gray
+.cylinder    -0.205   10.075    0.624   -1.464    8.829   -0.149    0.025
+.color steel blue
+.sphere    -0.313    9.491    0.956    0.150
+.cylinder    -0.313    9.491    0.956   -0.493    8.835    0.956    0.050
+.color light gray
+.cylinder    -0.313    9.491    0.956   -1.044    8.768   -0.680    0.025
+.color steel blue
+.sphere    -0.493    8.835    0.956    0.150
+.cylinder    -0.493    8.835    0.956   -0.601    8.251    0.624    0.050
+.color light gray
+.cylinder    -0.493    8.835    0.956   -0.442    8.886   -0.975    0.025
+.color steel blue
+.sphere    -0.601    8.251    0.624    0.150
+.cylinder    -0.601    8.251    0.624   -0.516    7.859    0.075    0.050
+.color light gray
+.cylinder    -0.601    8.251    0.624    0.214    9.058   -0.931    0.025
+.color steel blue
+.sphere    -0.516    7.859    0.075    0.150
+.cylinder    -0.516    7.859    0.075   -0.184    7.710   -0.500    0.050
+.color light gray
+.cylinder    -0.516    7.859    0.075    0.780    9.141   -0.563    0.025
+.color steel blue
+.sphere    -0.184    7.710   -0.500    0.150
+.cylinder    -0.184    7.710   -0.500    0.362    7.773   -0.901    0.050
+.color light gray
+.cylinder    -0.184    7.710   -0.500    1.143    9.023    0.000    0.025
+.color steel blue
+.sphere     0.362    7.773   -0.901    0.150
+.cylinder     0.362    7.773   -0.901    1.015    7.942   -0.989    0.050
+.color light gray
+.cylinder     0.362    7.773   -0.901    1.258    8.659    0.563    0.025
+.color steel blue
+.sphere     1.015    7.942   -0.989    0.150
+.cylinder     1.015    7.942   -0.989    1.631    8.074   -0.733    0.050
+.color light gray
+.cylinder     1.015    7.942   -0.989    1.169    8.094    0.931    0.025
+.color steel blue
+.sphere     1.631    8.074   -0.733    0.150
+.cylinder     1.631    8.074   -0.733    2.079    8.040   -0.223    0.050
+.color light gray
+.cylinder     1.631    8.074   -0.733    0.989    7.439    0.975    0.025
+.color steel blue
+.sphere     2.079    8.040   -0.223    0.150
+.cylinder     2.079    8.040   -0.223    2.286    7.768    0.365    0.050
+.color light gray
+.cylinder     2.079    8.040   -0.223    0.865    6.839    0.680    0.025
+.color steel blue
+.sphere     2.286    7.768    0.365    0.150
+.cylinder     2.286    7.768    0.365    2.264    7.269    0.826    0.050
+.color light gray
+.cylinder     2.286    7.768    0.365    0.922    6.418    0.149    0.025
+.color steel blue
+.sphere     2.264    7.269    0.826    0.150
+.cylinder     2.264    7.269    0.826    2.102    6.631    1.000    0.050
+.color light gray
+.cylinder     2.264    7.269    0.826    1.223    6.239   -0.434    0.025
+.color steel blue
+.sphere     2.102    6.631    1.000    0.150
+.cylinder     2.102    6.631    1.000    1.940    5.994    0.826    0.050
+.color light gray
+.cylinder     2.102    6.631    1.000    1.746    6.279   -0.866    0.025
+.color steel blue
+.sphere     1.940    5.994    0.826    0.150
+.cylinder     1.940    5.994    0.826    1.917    5.494    0.365    0.050
+.color light gray
+.cylinder     1.940    5.994    0.826    2.394    6.443   -0.997    0.025
+.color steel blue
+.sphere     1.917    5.494    0.365    0.150
+.cylinder     1.917    5.494    0.365    2.125    5.222   -0.223    0.050
+.color light gray
+.cylinder     1.917    5.494    0.365    3.022    6.587   -0.782    0.025
+.color steel blue
+.sphere     2.125    5.222   -0.223    0.150
+.cylinder     2.125    5.222   -0.223    2.573    5.188   -0.733    0.050
+.color light gray
+.cylinder     2.125    5.222   -0.223    3.497    6.580   -0.295    0.025
+.color steel blue
+.sphere     2.573    5.188   -0.733    0.150
+.cylinder     2.573    5.188   -0.733    3.189    5.321   -0.989    0.050
+.color light gray
+.cylinder     2.573    5.188   -0.733    3.736    6.339    0.295    0.025
+.color steel blue
+.sphere     3.189    5.321   -0.989    0.150
+.cylinder     3.189    5.321   -0.989    3.842    5.489   -0.901    0.050
+.color light gray
+.cylinder     3.189    5.321   -0.989    3.738    5.864    0.782    0.025
+.color steel blue
+.sphere     3.842    5.489   -0.901    0.150
+.cylinder     3.842    5.489   -0.901    4.388    5.552   -0.500    0.050
+.color light gray
+.cylinder     3.842    5.489   -0.901    3.587    5.237    0.997    0.025
+.color steel blue
+.sphere     4.388    5.552   -0.500    0.150
+.cylinder     4.388    5.552   -0.500    4.720    5.404    0.075    0.050
+.color light gray
+.cylinder     4.388    5.552   -0.500    3.417    4.591    0.866    0.025
+.color steel blue
+.sphere     4.720    5.404    0.075    0.150
+.cylinder     4.720    5.404    0.075    4.805    5.011    0.624    0.050
+.color light gray
+.cylinder     4.720    5.404    0.075    3.370    4.068    0.434    0.025
+.color steel blue
+.sphere     4.805    5.011    0.624    0.150
+.cylinder     4.805    5.011    0.624    4.697    4.427    0.956    0.050
+.color light gray
+.cylinder     4.805    5.011    0.624    3.546    3.765   -0.149    0.025
+.color steel blue
+.sphere     4.697    4.427    0.956    0.150
+.cylinder     4.697    4.427    0.956    4.517    3.771    0.956    0.050
+.color light gray
+.cylinder     4.697    4.427    0.956    3.967    3.704   -0.680    0.025
+.color steel blue
+.sphere     4.517    3.771    0.956    0.150
+.cylinder     4.517    3.771    0.956    4.409    3.188    0.624    0.050
+.color light gray
+.cylinder     4.517    3.771    0.956    4.568    3.822   -0.975    0.025
+.color steel blue
+.sphere     4.409    3.188    0.624    0.150
+.cylinder     4.409    3.188    0.624    3.921    2.705   -0.624    0.050
+.color light gray
+.cylinder     4.409    3.188    0.624    5.225    3.994   -0.931    0.025
+.color steel blue
+.sphere     3.921    2.705   -0.624    0.150
+.cylinder     3.921    2.705   -0.624    3.337    2.603   -0.956    0.050
+.color blue
+.cylinder     3.921    2.705   -0.624    4.409    3.188    0.624    0.080
+.color light gray
+.cylinder     3.921    2.705   -0.624    2.663    1.459    0.149    0.025
+.color steel blue
+.sphere     3.337    2.603   -0.956    0.150
+.cylinder     3.337    2.603   -0.956    2.679    2.430   -0.956    0.050
+.color light gray
+.cylinder     3.337    2.603   -0.956    2.606    1.880    0.680    0.025
+.color steel blue
+.sphere     2.679    2.430   -0.956    0.150
+.cylinder     2.679    2.430   -0.956    2.094    2.328   -0.624    0.050
+.color light gray
+.cylinder     2.679    2.430   -0.956    2.730    2.481    0.975    0.025
+.color steel blue
+.sphere     2.094    2.328   -0.624    0.150
+.cylinder     2.094    2.328   -0.624    1.702    2.418   -0.075    0.050
+.color light gray
+.cylinder     2.094    2.328   -0.624    2.910    3.135    0.931    0.025
+.color steel blue
+.sphere     1.702    2.418   -0.075    0.150
+.cylinder     1.702    2.418   -0.075    1.557    2.752    0.500    0.050
+.color light gray
+.cylinder     1.702    2.418   -0.075    2.999    3.701    0.563    0.025
+.color steel blue
+.sphere     1.557    2.752    0.500    0.150
+.cylinder     1.557    2.752    0.500    1.626    3.296    0.901    0.050
+.color light gray
+.cylinder     1.557    2.752    0.500    2.884    4.064    0.000    0.025
+.color steel blue
+.sphere     1.626    3.296    0.901    0.150
+.cylinder     1.626    3.296    0.901    1.801    3.948    0.989    0.050
+.color light gray
+.cylinder     1.626    3.296    0.901    2.521    4.183   -0.563    0.025
+.color steel blue
+.sphere     1.801    3.948    0.989    0.150
+.cylinder     1.801    3.948    0.989    1.940    4.562    0.733    0.050
+.color light gray
+.cylinder     1.801    3.948    0.989    1.955    4.100   -0.931    0.025
+.color steel blue
+.sphere     1.940    4.562    0.733    0.150
+.cylinder     1.940    4.562    0.733    1.911    5.011    0.223    0.050
+.color light gray
+.cylinder     1.940    4.562    0.733    1.299    3.928   -0.975    0.025
+.color steel blue
+.sphere     1.911    5.011    0.223    0.150
+.cylinder     1.911    5.011    0.223    1.641    5.221   -0.365    0.050
+.color light gray
+.cylinder     1.911    5.011    0.223    0.697    3.809   -0.680    0.025
+.color steel blue
+.sphere     1.641    5.221   -0.365    0.150
+.cylinder     1.641    5.221   -0.365    1.141    5.204   -0.826    0.050
+.color light gray
+.cylinder     1.641    5.221   -0.365    0.277    3.871   -0.149    0.025
+.color steel blue
+.sphere     1.141    5.204   -0.826    0.150
+.cylinder     1.141    5.204   -0.826    0.502    5.048   -1.000    0.050
+.color light gray
+.cylinder     1.141    5.204   -0.826    0.101    4.174    0.434    0.025
+.color steel blue
+.sphere     0.502    5.048   -1.000    0.150
+.cylinder     0.502    5.048   -1.000   -0.137    4.894   -0.826    0.050
+.color light gray
+.cylinder     0.502    5.048   -1.000    0.147    4.697    0.866    0.025
+.color steel blue
+.sphere    -0.137    4.894   -0.826    0.150
+.cylinder    -0.137    4.894   -0.826   -0.636    4.876   -0.365    0.050
+.color light gray
+.cylinder    -0.137    4.894   -0.826    0.317    5.342    0.997    0.025
+.color steel blue
+.sphere    -0.636    4.876   -0.365    0.150
+.cylinder    -0.636    4.876   -0.365   -0.906    5.086    0.223    0.050
+.color light gray
+.cylinder    -0.636    4.876   -0.365    0.469    5.969    0.782    0.025
+.color steel blue
+.sphere    -0.906    5.086    0.223    0.150
+.cylinder    -0.906    5.086    0.223   -0.935    5.535    0.733    0.050
+.color light gray
+.cylinder    -0.906    5.086    0.223    0.466    6.444    0.295    0.025
+.color steel blue
+.sphere    -0.935    5.535    0.733    0.150
+.cylinder    -0.935    5.535    0.733   -0.796    6.149    0.989    0.050
+.color light gray
+.cylinder    -0.935    5.535    0.733    0.227    6.685   -0.295    0.025
+.color steel blue
+.sphere    -0.796    6.149    0.989    0.150
+.cylinder    -0.796    6.149    0.989   -0.621    6.801    0.901    0.050
+.color light gray
+.cylinder    -0.796    6.149    0.989   -0.247    6.693   -0.782    0.025
+.color steel blue
+.sphere    -0.621    6.801    0.901    0.150
+.cylinder    -0.621    6.801    0.901   -0.552    7.346    0.500    0.050
+.color light gray
+.cylinder    -0.621    6.801    0.901   -0.876    6.548   -0.997    0.025
+.color steel blue
+.sphere    -0.552    7.346    0.500    0.150
+.cylinder    -0.552    7.346    0.500   -0.697    7.679   -0.075    0.050
+.color light gray
+.cylinder    -0.552    7.346    0.500   -1.523    6.385   -0.866    0.025
+.color steel blue
+.sphere    -0.697    7.679   -0.075    0.150
+.cylinder    -0.697    7.679   -0.075   -1.089    7.769   -0.624    0.050
+.color light gray
+.cylinder    -0.697    7.679   -0.075   -2.047    6.344   -0.434    0.025
+.color steel blue
+.sphere    -1.089    7.769   -0.624    0.150
+.cylinder    -1.089    7.769   -0.624   -1.674    7.667   -0.956    0.050
+.color light gray
+.cylinder    -1.089    7.769   -0.624   -2.348    6.523    0.149    0.025
+.color steel blue
+.sphere    -1.674    7.667   -0.956    0.150
+.cylinder    -1.674    7.667   -0.956   -2.332    7.494   -0.956    0.050
+.color light gray
+.cylinder    -1.674    7.667   -0.956   -2.405    6.944    0.680    0.025
+.color steel blue
+.sphere    -2.332    7.494   -0.956    0.150
+.cylinder    -2.332    7.494   -0.956   -2.916    7.392   -0.624    0.050
+.color light gray
+.cylinder    -2.332    7.494   -0.956   -2.280    7.545    0.975    0.025
+.color steel blue
+.sphere    -2.916    7.392   -0.624    0.150
+.cylinder    -2.916    7.392   -0.624   -3.308    7.482   -0.075    0.050
+.color light gray
+.cylinder    -2.916    7.392   -0.624   -2.101    8.199    0.931    0.025
+.color steel blue
+.sphere    -3.308    7.482   -0.075    0.150
+.cylinder    -3.308    7.482   -0.075   -3.453    7.815    0.500    0.050
+.color light gray
+.cylinder    -3.308    7.482   -0.075   -2.012    8.764    0.563    0.025
+.color steel blue
+.sphere    -3.453    7.815    0.500    0.150
+.cylinder    -3.453    7.815    0.500   -3.385    8.360    0.901    0.050
+.color light gray
+.cylinder    -3.453    7.815    0.500   -2.127    9.128    0.000    0.025
+.color steel blue
+.sphere    -3.385    8.360    0.901    0.150
+.cylinder    -3.385    8.360    0.901   -3.209    9.011    0.989    0.050
+.color light gray
+.cylinder    -3.385    8.360    0.901   -2.489    9.247   -0.563    0.025
+.color steel blue
+.sphere    -3.209    9.011    0.989    0.150
+.cylinder    -3.209    9.011    0.989   -3.070    9.626    0.733    0.050
+.color light gray
+.cylinder    -3.209    9.011    0.989   -3.055    9.164   -0.931    0.025
+.color steel blue
+.sphere    -3.070    9.626    0.733    0.150
+.cylinder    -3.070    9.626    0.733   -3.099   10.075    0.223    0.050
+.color light gray
+.cylinder    -3.070    9.626    0.733   -3.712    8.991   -0.975    0.025
+.color steel blue
+.sphere    -3.099   10.075    0.223    0.150
+.cylinder    -3.099   10.075    0.223   -3.369   10.285   -0.365    0.050
+.color light gray
+.cylinder    -3.099   10.075    0.223   -4.313    8.873   -0.680    0.025
+.color steel blue
+.sphere    -3.369   10.285   -0.365    0.150
+.cylinder    -3.369   10.285   -0.365   -3.691   10.064   -0.248    0.050
+.color light gray
+.cylinder    -3.369   10.285   -0.365   -4.734    8.935   -0.149    0.025
+.color steel blue
+.sphere    -3.691   10.064   -0.248    0.150
+.cylinder    -3.691   10.064   -0.248   -4.014    9.842   -0.130    0.050
+.color steel blue
+.sphere    -4.014    9.842   -0.130    0.150
+.cylinder    -4.014    9.842   -0.130   -4.336    9.621   -0.013    0.050
+.color steel blue
+.sphere    -4.336    9.621   -0.013    0.150
+.cylinder    -4.336    9.621   -0.013   -4.658    9.400    0.105    0.050
+.color steel blue
+.sphere    -4.658    9.400    0.105    0.150
+.cylinder    -4.658    9.400    0.105   -4.981    9.179    0.223    0.050
+.color steel blue
+.sphere    -4.981    9.179    0.223    0.150
+.cylinder    -4.981    9.179    0.223   -5.275    8.839    0.733    0.050
+.color light gray
+.cylinder    -4.981    9.179    0.223   -6.911    9.179    0.295    0.025
+.color steel blue
+.sphere    -5.275    8.839    0.733    0.150
+.cylinder    -5.275    8.839    0.733   -5.806    8.495    0.989    0.050
+.color light gray
+.cylinder    -5.275    8.839    0.733   -6.911    8.839   -0.295    0.025
+.color steel blue
+.sphere    -5.806    8.495    0.989    0.150
+.cylinder    -5.806    8.495    0.989   -6.389    8.152    0.901    0.050
+.color light gray
+.cylinder    -5.806    8.495    0.989   -6.579    8.495   -0.782    0.025
+.color steel blue
+.sphere    -6.389    8.152    0.901    0.150
+.cylinder    -6.389    8.152    0.901   -6.822    7.808    0.500    0.050
+.color light gray
+.cylinder    -6.389    8.152    0.901   -6.030    8.152   -0.997    0.025
+.color steel blue
+.sphere    -6.822    7.808    0.500    0.150
+.cylinder    -6.822    7.808    0.500   -6.953    7.464   -0.075    0.050
+.color light gray
+.cylinder    -6.822    7.808    0.500   -5.455    7.808   -0.866    0.025
+.color steel blue
+.sphere    -6.953    7.464   -0.075    0.150
+.cylinder    -6.953    7.464   -0.075   -6.737    7.121   -0.624    0.050
+.color light gray
+.cylinder    -6.953    7.464   -0.075   -5.054    7.464   -0.434    0.025
+.color steel blue
+.sphere    -6.737    7.121   -0.624    0.150
+.cylinder    -6.737    7.121   -0.624   -6.250    6.777   -0.956    0.050
+.color light gray
+.cylinder    -6.737    7.121   -0.624   -4.967    7.121    0.149    0.025
+.color steel blue
+.sphere    -6.250    6.777   -0.956    0.150
+.cylinder    -6.250    6.777   -0.956   -5.661    6.434   -0.956    0.050
+.color light gray
+.cylinder    -6.250    6.777   -0.956   -5.222    6.777    0.680    0.025
+.color steel blue
+.sphere    -5.661    6.434   -0.956    0.150
+.cylinder    -5.661    6.434   -0.956   -5.174    6.090   -0.624    0.050
+.color light gray
+.cylinder    -5.661    6.434   -0.956   -5.733    6.434    0.975    0.025
+.color steel blue
+.sphere    -5.174    6.090   -0.624    0.150
+.cylinder    -5.174    6.090   -0.624   -4.958    5.746   -0.075    0.050
+.color light gray
+.cylinder    -5.174    6.090   -0.624   -6.321    6.090    0.931    0.025
+.color steel blue
+.sphere    -4.958    5.746   -0.075    0.150
+.cylinder    -4.958    5.746   -0.075   -5.090    5.403    0.500    0.050
+.color light gray
+.cylinder    -4.958    5.746   -0.075   -6.782    5.746    0.563    0.025
+.color steel blue
+.sphere    -5.090    5.403    0.500    0.150
+.cylinder    -5.090    5.403    0.500   -5.522    5.059    0.901    0.050
+.color light gray
+.cylinder    -5.090    5.403    0.500   -6.955    5.403    0.000    0.025
+.color steel blue
+.sphere    -5.522    5.059    0.901    0.150
+.cylinder    -5.522    5.059    0.901   -6.104    4.715    0.989    0.050
+.color light gray
+.cylinder    -5.522    5.059    0.901   -6.782    5.059   -0.563    0.025
+.color steel blue
+.sphere    -6.104    4.715    0.989    0.150
+.cylinder    -6.104    4.715    0.989   -6.636    4.372    0.733    0.050
+.color light gray
+.cylinder    -6.104    4.715    0.989   -6.321    4.715   -0.931    0.025
+.color steel blue
+.sphere    -6.636    4.372    0.733    0.150
+.cylinder    -6.636    4.372    0.733   -6.930    4.028    0.223    0.050
+.color light gray
+.cylinder    -6.636    4.372    0.733   -5.733    4.372   -0.975    0.025
+.color steel blue
+.sphere    -6.930    4.028    0.223    0.150
+.cylinder    -6.930    4.028    0.223   -6.886    3.685   -0.365    0.050
+.color light gray
+.cylinder    -6.930    4.028    0.223   -5.222    4.028   -0.680    0.025
+.color steel blue
+.sphere    -6.886    3.685   -0.365    0.150
+.cylinder    -6.886    3.685   -0.365   -6.519    3.341   -0.826    0.050
+.color light gray
+.cylinder    -6.886    3.685   -0.365   -4.967    3.685   -0.149    0.025
+.color steel blue
+.sphere    -6.519    3.341   -0.826    0.150
+.cylinder    -6.519    3.341   -0.826   -5.955    2.997   -1.000    0.050
+.color light gray
+.cylinder    -6.519    3.341   -0.826   -5.054    3.341    0.434    0.025
+.color steel blue
+.sphere    -5.955    2.997   -1.000    0.150
+.cylinder    -5.955    2.997   -1.000   -5.392    2.654   -0.826    0.050
+.color light gray
+.cylinder    -5.955    2.997   -1.000   -5.455    2.997    0.866    0.025
+.color steel blue
+.sphere    -5.392    2.654   -0.826    0.150
+.cylinder    -5.392    2.654   -0.826   -5.025    2.310   -0.365    0.050
+.color light gray
+.cylinder    -5.392    2.654   -0.826   -6.030    2.654    0.997    0.025
+.color steel blue
+.sphere    -5.025    2.310   -0.365    0.150
+.cylinder    -5.025    2.310   -0.365   -4.981    1.966    0.223    0.050
+.color light gray
+.cylinder    -5.025    2.310   -0.365   -6.579    2.310    0.782    0.025
+.color steel blue
+.sphere    -4.981    1.966    0.223    0.150
+.cylinder    -4.981    1.966    0.223   -5.275    1.623    0.733    0.050
+.color light gray
+.cylinder    -4.981    1.966    0.223   -6.911    1.966    0.295    0.025
+.color steel blue
+.sphere    -5.275    1.623    0.733    0.150
+.cylinder    -5.275    1.623    0.733   -5.806    1.279    0.989    0.050
+.color light gray
+.cylinder    -5.275    1.623    0.733   -6.911    1.623   -0.295    0.025
+.color steel blue
+.sphere    -5.806    1.279    0.989    0.150
+.cylinder    -5.806    1.279    0.989   -6.389    0.936    0.901    0.050
+.color light gray
+.cylinder    -5.806    1.279    0.989   -6.579    1.279   -0.782    0.025
+.color steel blue
+.sphere    -6.389    0.936    0.901    0.150
+.cylinder    -6.389    0.936    0.901   -6.822    0.592    0.500    0.050
+.color light gray
+.cylinder    -6.389    0.936    0.901   -6.030    0.936   -0.997    0.025
+.color steel blue
+.sphere    -6.822    0.592    0.500    0.150
+.cylinder    -6.822    0.592    0.500   -6.953    0.248   -0.075    0.050
+.color light gray
+.cylinder    -6.822    0.592    0.500   -5.455    0.592   -0.866    0.025
+.color steel blue
+.sphere    -6.953    0.248   -0.075    0.150
+.cylinder    -6.953    0.248   -0.075   -6.737   -0.095   -0.624    0.050
+.color light gray
+.cylinder    -6.953    0.248   -0.075   -5.054    0.248   -0.434    0.025
+.color steel blue
+.sphere    -6.737   -0.095   -0.624    0.150
+.cylinder    -6.737   -0.095   -0.624   -6.250   -0.439   -0.956    0.050
+.color light gray
+.cylinder    -6.737   -0.095   -0.624   -4.967   -0.095    0.149    0.025
+.color steel blue
+.sphere    -6.250   -0.439   -0.956    0.150
+.cylinder    -6.250   -0.439   -0.956   -5.661   -0.782   -0.956    0.050
+.color light gray
+.cylinder    -6.250   -0.439   -0.956   -5.222   -0.439    0.680    0.025
+.color steel blue
+.sphere    -5.661   -0.782   -0.956    0.150
+.cylinder    -5.661   -0.782   -0.956   -5.174   -1.126   -0.624    0.050
+.color light gray
+.cylinder    -5.661   -0.782   -0.956   -5.733   -0.782    0.975    0.025
+.color steel blue
+.sphere    -5.174   -1.126   -0.624    0.150
+.cylinder    -5.174   -1.126   -0.624   -4.958   -1.470   -0.075    0.050
+.color light gray
+.cylinder    -5.174   -1.126   -0.624   -6.321   -1.126    0.931    0.025
+.color steel blue
+.sphere    -4.958   -1.470   -0.075    0.150
+.cylinder    -4.958   -1.470   -0.075   -5.090   -1.813    0.500    0.050
+.color light gray
+.cylinder    -4.958   -1.470   -0.075   -6.782   -1.470    0.563    0.025
+.color steel blue
+.sphere    -5.090   -1.813    0.500    0.150
+.cylinder    -5.090   -1.813    0.500   -5.522   -2.157    0.901    0.050
+.color light gray
+.cylinder    -5.090   -1.813    0.500   -6.955   -1.813    0.000    0.025
+.color steel blue
+.sphere    -5.522   -2.157    0.901    0.150
+.cylinder    -5.522   -2.157    0.901   -6.104   -2.501    0.989    0.050
+.color light gray
+.cylinder    -5.522   -2.157    0.901   -6.782   -2.157   -0.563    0.025
+.color steel blue
+.sphere    -6.104   -2.501    0.989    0.150
+.cylinder    -6.104   -2.501    0.989   -6.636   -2.844    0.733    0.050
+.color light gray
+.cylinder    -6.104   -2.501    0.989   -6.321   -2.501   -0.931    0.025
+.color steel blue
+.sphere    -6.636   -2.844    0.733    0.150
+.cylinder    -6.636   -2.844    0.733   -6.930   -3.188    0.223    0.050
+.color light gray
+.cylinder    -6.636   -2.844    0.733   -5.733   -2.844   -0.975    0.025
+.color steel blue
+.sphere    -6.930   -3.188    0.223    0.150
+.cylinder    -6.930   -3.188    0.223   -6.886   -3.531   -0.365    0.050
+.color light gray
+.cylinder    -6.930   -3.188    0.223   -5.222   -3.188   -0.680    0.025
+.color steel blue
+.sphere    -6.886   -3.531   -0.365    0.150
+.cylinder    -6.886   -3.531   -0.365   -6.519   -3.875   -0.826    0.050
+.color light gray
+.cylinder    -6.886   -3.531   -0.365   -4.967   -3.531   -0.149    0.025
+.color steel blue
+.sphere    -6.519   -3.875   -0.826    0.150
+.cylinder    -6.519   -3.875   -0.826   -5.955   -4.219   -1.000    0.050
+.color light gray
+.cylinder    -6.519   -3.875   -0.826   -5.054   -3.875    0.434    0.025
+.color steel blue
+.sphere    -5.955   -4.219   -1.000    0.150
+.cylinder    -5.955   -4.219   -1.000   -5.392   -4.562   -0.826    0.050
+.color light gray
+.cylinder    -5.955   -4.219   -1.000   -5.455   -4.219    0.866    0.025
+.color steel blue
+.sphere    -5.392   -4.562   -0.826    0.150
+.cylinder    -5.392   -4.562   -0.826   -5.025   -4.906   -0.365    0.050
+.color light gray
+.cylinder    -5.392   -4.562   -0.826   -6.030   -4.562    0.997    0.025
+.color steel blue
+.sphere    -5.025   -4.906   -0.365    0.150
+.cylinder    -5.025   -4.906   -0.365   -5.170   -5.056    0.223    0.050
+.color light gray
+.cylinder    -5.025   -4.906   -0.365   -6.579   -4.906    0.782    0.025
+.color steel blue
+.sphere    -5.170   -5.056    0.223    0.150
+.cylinder    -5.170   -5.056    0.223   -4.830   -5.351    0.733    0.050
+.color light gray
+.cylinder    -5.170   -5.056    0.223   -5.170   -6.986    0.295    0.025
+.color steel blue
+.sphere    -4.830   -5.351    0.733    0.150
+.cylinder    -4.830   -5.351    0.733   -4.490   -5.882    0.989    0.050
+.color light gray
+.cylinder    -4.830   -5.351    0.733   -4.830   -6.986   -0.295    0.025
+.color steel blue
+.sphere    -4.490   -5.882    0.989    0.150
+.cylinder    -4.490   -5.882    0.989   -4.151   -6.465    0.901    0.050
+.color light gray
+.cylinder    -4.490   -5.882    0.989   -4.490   -6.654   -0.782    0.025
+.color steel blue
+.sphere    -4.151   -6.465    0.901    0.150
+.cylinder    -4.151   -6.465    0.901   -3.811   -6.897    0.500    0.050
+.color light gray
+.cylinder    -4.151   -6.465    0.901   -4.151   -6.106   -0.997    0.025
+.color steel blue
+.sphere    -3.811   -6.897    0.500    0.150
+.cylinder    -3.811   -6.897    0.500   -3.470   -7.028   -0.075    0.050
+.color light gray
+.cylinder    -3.811   -6.897    0.500   -3.811   -5.531   -0.866    0.025
+.color steel blue
+.sphere    -3.470   -7.028   -0.075    0.150
+.cylinder    -3.470   -7.028   -0.075   -3.131   -6.813   -0.624    0.050
+.color light gray
+.cylinder    -3.470   -7.028   -0.075   -3.470   -5.130   -0.434    0.025
+.color steel blue
+.sphere    -3.131   -6.813   -0.624    0.150
+.cylinder    -3.131   -6.813   -0.624   -2.791   -6.326   -0.956    0.050
+.color light gray
+.cylinder    -3.131   -6.813   -0.624   -3.131   -5.042    0.149    0.025
+.color steel blue
+.sphere    -2.791   -6.326   -0.956    0.150
+.cylinder    -2.791   -6.326   -0.956   -2.450   -5.736   -0.956    0.050
+.color light gray
+.cylinder    -2.791   -6.326   -0.956   -2.791   -5.298    0.680    0.025
+.color steel blue
+.sphere    -2.450   -5.736   -0.956    0.150
+.cylinder    -2.450   -5.736   -0.956   -2.111   -5.249   -0.624    0.050
+.color light gray
+.cylinder    -2.450   -5.736   -0.956   -2.450   -5.808    0.975    0.025
+.color steel blue
+.sphere    -2.111   -5.249   -0.624    0.150
+.cylinder    -2.111   -5.249   -0.624   -1.770   -5.034   -0.075    0.050
+.color light gray
+.cylinder    -2.111   -5.249   -0.624   -2.111   -6.396    0.931    0.025
+.color steel blue
+.sphere    -1.770   -5.034   -0.075    0.150
+.cylinder    -1.770   -5.034   -0.075   -1.431   -5.165    0.500    0.050
+.color light gray
+.cylinder    -1.770   -5.034   -0.075   -1.770   -6.857    0.563    0.025
+.color steel blue
+.sphere    -1.431   -5.165    0.500    0.150
+.cylinder    -1.431   -5.165    0.500   -1.091   -5.597    0.901    0.050
+.color light gray
+.cylinder    -1.431   -5.165    0.500   -1.431   -7.031    0.000    0.025
+.color steel blue
+.sphere    -1.091   -5.597    0.901    0.150
+.cylinder    -1.091   -5.597    0.901   -0.750   -6.180    0.989    0.050
+.color light gray
+.cylinder    -1.091   -5.597    0.901   -1.091   -6.857   -0.563    0.025
+.color steel blue
+.sphere    -0.750   -6.180    0.989    0.150
+.cylinder    -0.750   -6.180    0.989   -0.410   -6.711    0.733    0.050
+.color light gray
+.cylinder    -0.750   -6.180    0.989   -0.750   -6.396   -0.931    0.025
+.color steel blue
+.sphere    -0.410   -6.711    0.733    0.150
+.cylinder    -0.410   -6.711    0.733   -0.070   -7.006    0.223    0.050
+.color light gray
+.cylinder    -0.410   -6.711    0.733   -0.410   -5.808   -0.975    0.025
+.color steel blue
+.sphere    -0.070   -7.006    0.223    0.150
+.cylinder    -0.070   -7.006    0.223    0.270   -6.962   -0.365    0.050
+.color light gray
+.cylinder    -0.070   -7.006    0.223   -0.070   -5.298   -0.680    0.025
+.color steel blue
+.sphere     0.270   -6.962   -0.365    0.150
+.cylinder     0.270   -6.962   -0.365    0.610   -6.594   -0.826    0.050
+.color light gray
+.cylinder     0.270   -6.962   -0.365    0.270   -5.042   -0.149    0.025
+.color steel blue
+.sphere     0.610   -6.594   -0.826    0.150
+.cylinder     0.610   -6.594   -0.826    0.950   -6.031   -1.000    0.050
+.color light gray
+.cylinder     0.610   -6.594   -0.826    0.610   -5.130    0.434    0.025
+.color steel blue
+.sphere     0.950   -6.031   -1.000    0.150
+.cylinder     0.950   -6.031   -1.000    1.290   -5.468   -0.826    0.050
+.color light gray
+.cylinder     0.950   -6.031   -1.000    0.950   -5.531    0.866    0.025
+.color steel blue
+.sphere     1.290   -5.468   -0.826    0.150
+.cylinder     1.290   -5.468   -0.826    1.629   -5.100   -0.365    0.050
+.color light gray
+.cylinder     1.290   -5.468   -0.826    1.290   -6.106    0.997    0.025
+.color steel blue
+.sphere     1.629   -5.100   -0.365    0.150
+.cylinder     1.629   -5.100   -0.365    1.970   -5.056    0.223    0.050
+.color light gray
+.cylinder     1.629   -5.100   -0.365    1.629   -6.654    0.782    0.025
+.color steel blue
+.sphere     1.970   -5.056    0.223    0.150
+.cylinder     1.970   -5.056    0.223    2.309   -5.351    0.733    0.050
+.color light gray
+.cylinder     1.970   -5.056    0.223    1.970   -6.986    0.295    0.025
+.color steel blue
+.sphere     2.309   -5.351    0.733    0.150
+.cylinder     2.309   -5.351    0.733    2.650   -5.882    0.989    0.050
+.color light gray
+.cylinder     2.309   -5.351    0.733    2.309   -6.986   -0.295    0.025
+.color steel blue
+.sphere     2.650   -5.882    0.989    0.150
+.cylinder     2.650   -5.882    0.989    2.990   -6.465    0.901    0.050
+.color light gray
+.cylinder     2.650   -5.882    0.989    2.650   -6.654   -0.782    0.025
+.color steel blue
+.sphere     2.990   -6.465    0.901    0.150
+.cylinder     2.990   -6.465    0.901    3.329   -6.897    0.500    0.050
+.color light gray
+.cylinder     2.990   -6.465    0.901    2.990   -6.106   -0.997    0.025
+.color steel blue
+.sphere     3.329   -6.897    0.500    0.150
+.cylinder     3.329   -6.897    0.500    3.670   -7.028   -0.075    0.050
+.color light gray
+.cylinder     3.329   -6.897    0.500    3.329   -5.531   -0.866    0.025
+.color steel blue
+.sphere     3.670   -7.028   -0.075    0.150
+.cylinder     3.670   -7.028   -0.075    4.010   -6.813   -0.624    0.050
+.color light gray
+.cylinder     3.670   -7.028   -0.075    3.670   -5.130   -0.434    0.025
+.color steel blue
+.sphere     4.010   -6.813   -0.624    0.150
+.cylinder     4.010   -6.813   -0.624    4.349   -6.326   -0.956    0.050
+.color light gray
+.cylinder     4.010   -6.813   -0.624    4.010   -5.042    0.149    0.025
+.color steel blue
+.sphere     4.349   -6.326   -0.956    0.150
+.cylinder     4.349   -6.326   -0.956    4.689   -5.736   -0.956    0.050
+.color light gray
+.cylinder     4.349   -6.326   -0.956    4.349   -5.298    0.680    0.025
+.color steel blue
+.sphere     4.689   -5.736   -0.956    0.150
+.cylinder     4.689   -5.736   -0.956    5.029   -5.249   -0.624    0.050
+.color light gray
+.cylinder     4.689   -5.736   -0.956    4.689   -5.808    0.975    0.025
+.color steel blue
+.sphere     5.029   -5.249   -0.624    0.150
+.cylinder     5.029   -5.249   -0.624    5.370   -5.034   -0.075    0.050
+.color light gray
+.cylinder     5.029   -5.249   -0.624    5.029   -6.396    0.931    0.025
+.color steel blue
+.sphere     5.370   -5.034   -0.075    0.150
+.cylinder     5.370   -5.034   -0.075    5.710   -5.165    0.500    0.050
+.color light gray
+.cylinder     5.370   -5.034   -0.075    5.370   -6.857    0.563    0.025
+.color steel blue
+.sphere     5.710   -5.165    0.500    0.150
+.cylinder     5.710   -5.165    0.500    6.050   -5.597    0.901    0.050
+.color light gray
+.cylinder     5.710   -5.165    0.500    5.710   -7.031    0.000    0.025
+.color steel blue
+.sphere     6.050   -5.597    0.901    0.150
+.cylinder     6.050   -5.597    0.901    6.389   -6.180    0.989    0.050
+.color light gray
+.cylinder     6.050   -5.597    0.901    6.050   -6.857   -0.563    0.025
+.color steel blue
+.sphere     6.389   -6.180    0.989    0.150
+.cylinder     6.389   -6.180    0.989    6.729   -6.711    0.733    0.050
+.color light gray
+.cylinder     6.389   -6.180    0.989    6.389   -6.396   -0.931    0.025
+.color steel blue
+.sphere     6.729   -6.711    0.733    0.150
+.cylinder     6.729   -6.711    0.733    7.069   -7.006    0.223    0.050
+.color light gray
+.cylinder     6.729   -6.711    0.733    6.729   -5.808   -0.975    0.025
+.color steel blue
+.sphere     7.069   -7.006    0.223    0.150
+.cylinder     7.069   -7.006    0.223    7.410   -6.962   -0.365    0.050
+.color light gray
+.cylinder     7.069   -7.006    0.223    7.069   -5.298   -0.680    0.025
+.color steel blue
+.sphere     7.410   -6.962   -0.365    0.150
+.cylinder     7.410   -6.962   -0.365    7.750   -6.594   -0.826    0.050
+.color light gray
+.cylinder     7.410   -6.962   -0.365    7.410   -5.042   -0.149    0.025
+.color steel blue
+.sphere     7.750   -6.594   -0.826    0.150
+.cylinder     7.750   -6.594   -0.826    8.089   -6.031   -1.000    0.050
+.color light gray
+.cylinder     7.750   -6.594   -0.826    7.750   -5.130    0.434    0.025
+.color steel blue
+.sphere     8.089   -6.031   -1.000    0.150
+.cylinder     8.089   -6.031   -1.000    8.430   -5.468   -0.826    0.050
+.color light gray
+.cylinder     8.089   -6.031   -1.000    8.089   -5.531    0.866    0.025
+.color steel blue
+.sphere     8.430   -5.468   -0.826    0.150
+.cylinder     8.430   -5.468   -0.826    8.770   -5.100   -0.365    0.050
+.color light gray
+.cylinder     8.430   -5.468   -0.826    8.430   -6.106    0.997    0.025
+.color steel blue
+.sphere     8.770   -5.100   -0.365    0.150
+.cylinder     8.770   -5.100   -0.365    8.875   -4.931    0.001    0.050
+.color light gray
+.cylinder     8.770   -5.100   -0.365    8.770   -6.654    0.782    0.025
+.color steel blue
+.sphere     8.875   -4.931    0.001    0.150
+.cylinder     8.875   -4.931    0.001    8.980   -4.762    0.367    0.050
+.color steel blue
+.sphere     8.980   -4.762    0.367    0.150
+.cylinder     8.980   -4.762    0.367    9.086   -4.593    0.733    0.050
+.color steel blue
+.sphere     9.086   -4.593    0.733    0.150
+.cylinder     9.086   -4.593    0.733    9.225   -3.978    0.989    0.050
+.color light gray
+.cylinder     9.086   -4.593    0.733   10.248   -3.442   -0.295    0.025
+.color steel blue
+.sphere     9.225   -3.978    0.989    0.150
+.cylinder     9.225   -3.978    0.989    9.400   -3.327    0.901    0.050
+.color light gray
+.cylinder     9.225   -3.978    0.989    9.774   -3.435   -0.782    0.025
+.color steel blue
+.sphere     9.400   -3.327    0.901    0.150
+.cylinder     9.400   -3.327    0.901    9.469   -2.782    0.500    0.050
+.color light gray
+.cylinder     9.400   -3.327    0.901    9.145   -3.580   -0.997    0.025
+.color steel blue
+.sphere     9.469   -2.782    0.500    0.150
+.cylinder     9.469   -2.782    0.500    9.324   -2.449   -0.075    0.050
+.color light gray
+.cylinder     9.469   -2.782    0.500    8.498   -3.743   -0.866    0.025
+.color steel blue
+.sphere     9.324   -2.449   -0.075    0.150
+.cylinder     9.324   -2.449   -0.075    8.932   -2.359   -0.624    0.050
+.color light gray
+.cylinder     9.324   -2.449   -0.075    7.974   -3.784   -0.434    0.025
+.color steel blue
+.sphere     8.932   -2.359   -0.624    0.150
+.cylinder     8.932   -2.359   -0.624    8.347   -2.461   -0.956    0.050
+.color light gray
+.cylinder     8.932   -2.359   -0.624    7.673   -3.604    0.149    0.025
+.color steel blue
+.sphere     8.347   -2.461   -0.956    0.150
+.cylinder     8.347   -2.461   -0.956    7.689   -2.634   -0.956    0.050
+.color light gray
+.cylinder     8.347   -2.461   -0.956    7.617   -3.183    0.680    0.025
+.color steel blue
+.sphere     7.689   -2.634   -0.956    0.150
+.cylinder     7.689   -2.634   -0.956    7.105   -2.735   -0.624    0.050
+.color light gray
+.cylinder     7.689   -2.634   -0.956    7.741   -2.583    0.975    0.025
+.color steel blue
+.sphere     7.105   -2.735   -0.624    0.150
+.cylinder     7.105   -2.735   -0.624    6.713   -2.646   -0.075    0.050
+.color light gray
+.cylinder     7.105   -2.735   -0.624    7.920   -1.929    0.931    0.025
+.color steel blue
+.sphere     6.713   -2.646   -0.075    0.150
+.cylinder     6.713   -2.646   -0.075    6.568   -2.312    0.500    0.050
+.color light gray
+.cylinder     6.713   -2.646   -0.075    8.009   -1.363    0.563    0.025
+.color steel blue
+.sphere     6.568   -2.312    0.500    0.150
+.cylinder     6.568   -2.312    0.500    6.636   -1.767    0.901    0.050
+.color light gray
+.cylinder     6.568   -2.312    0.500    7.894   -1.000    0.000    0.025
+.color steel blue
+.sphere     6.636   -1.767    0.901    0.150
+.cylinder     6.636   -1.767    0.901    6.812   -1.116    0.989    0.050
+.color light gray
+.cylinder     6.636   -1.767    0.901    7.532   -0.881   -0.563    0.025
+.color steel blue
+.sphere     6.812   -1.116    0.989    0.150
+.cylinder     6.812   -1.116    0.989    6.951   -0.501    0.733    0.050
+.color light gray
+.cylinder     6.812   -1.116    0.989    6.966   -0.964   -0.931    0.025
+.color steel blue
+.sphere     6.951   -0.501    0.733    0.150
+.cylinder     6.951   -0.501    0.733    6.922   -0.053    0.223    0.050
+.color light gray
+.cylinder     6.951   -0.501    0.733    6.309   -1.136   -0.975    0.025
+.color steel blue
+.sphere     6.922   -0.053    0.223    0.150
+.cylinder     6.922   -0.053    0.223    6.652    0.157   -0.365    0.050
+.color light gray
+.cylinder     6.922   -0.053    0.223    5.708   -1.254   -0.680    0.025
+.color steel blue
+.sphere     6.652    0.157   -0.365    0.150
+.cylinder     6.652    0.157   -0.365    6.152    0.140   -0.826    0.050
+.color light gray
+.cylinder     6.652    0.157   -0.365    5.287   -1.193   -0.149    0.025
+.color steel blue
+.sphere     6.152    0.140   -0.826    0.150
+.cylinder     6.152    0.140   -0.826    5.513   -0.015   -1.000    0.050
+.color light gray
+.cylinder     6.152    0.140   -0.826    5.111   -0.890    0.434    0.025
+.color steel blue
+.sphere     5.513   -0.015   -1.000    0.150
+.cylinder     5.513   -0.015   -1.000    4.874   -0.170   -0.826    0.050
+.color light gray
+.cylinder     5.513   -0.015   -1.000    5.158   -0.367    0.866    0.025
+.color steel blue
+.sphere     4.874   -0.170   -0.826    0.150
+.cylinder     4.874   -0.170   -0.826    4.374   -0.188   -0.365    0.050
+.color light gray
+.cylinder     4.874   -0.170   -0.826    5.328    0.278    0.997    0.025
+.color steel blue
+.sphere     4.374   -0.188   -0.365    0.150
+.cylinder     4.374   -0.188   -0.365    4.104    0.022    0.223    0.050
+.color light gray
+.cylinder     4.374   -0.188   -0.365    5.479    0.905    0.782    0.025
+.color steel blue
+.sphere     4.104    0.022    0.223    0.150
+.cylinder     4.104    0.022    0.223    4.075    0.471    0.733    0.050
+.color light gray
+.cylinder     4.104    0.022    0.223    5.477    1.380    0.295    0.025
+.color steel blue
+.sphere     4.075    0.471    0.733    0.150
+.cylinder     4.075    0.471    0.733    4.214    1.086    0.989    0.050
+.color light gray
+.cylinder     4.075    0.471    0.733    5.238    1.621   -0.295    0.025
+.color steel blue
+.sphere     4.214    1.086    0.989    0.150
+.cylinder     4.214    1.086    0.989    4.390    1.737    0.901    0.050
+.color light gray
+.cylinder     4.214    1.086    0.989    4.763    1.629   -0.782    0.025
+.color steel blue
+.sphere     4.390    1.737    0.901    0.150
+.cylinder     4.390    1.737    0.901    4.458    2.282    0.500    0.050
+.color light gray
+.cylinder     4.390    1.737    0.901    4.135    1.484   -0.997    0.025
+.color steel blue
+.sphere     4.458    2.282    0.500    0.150
+.cylinder     4.458    2.282    0.500    4.313    2.615   -0.075    0.050
+.color light gray
+.cylinder     4.458    2.282    0.500    3.487    1.321   -0.866    0.025
+.color steel blue
+.sphere     4.313    2.615   -0.075    0.150
+.cylinder     4.313    2.615   -0.075    4.495    2.795    0.075    0.050
+.color blue
+.cylinder     4.313    2.615   -0.075    4.495    2.795    0.075    0.080
+.color light gray
+.cylinder     4.313    2.615   -0.075    2.964    1.280   -0.434    0.025
+.color steel blue
+.sphere     4.495    2.795    0.075    0.150
+.cylinder     4.495    2.795    0.075    4.827    2.646   -0.500    0.050
+.color light gray
+.cylinder     4.495    2.795    0.075    5.791    4.077   -0.563    0.025
+.color steel blue
+.sphere     4.827    2.646   -0.500    0.150
+.cylinder     4.827    2.646   -0.500    5.372    2.709   -0.901    0.050
+.color light gray
+.cylinder     4.827    2.646   -0.500    6.153    3.959    0.000    0.025
+.color steel blue
+.sphere     5.372    2.709   -0.901    0.150
+.cylinder     5.372    2.709   -0.901    6.025    2.878   -0.989    0.050
+.color light gray
+.cylinder     5.372    2.709   -0.901    6.268    3.595    0.563    0.025
+.color steel blue
+.sphere     6.025    2.878   -0.989    0.150
+.cylinder     6.025    2.878   -0.989    6.642    3.010   -0.733    0.050
+.color light gray
+.cylinder     6.025    2.878   -0.989    6.179    3.030    0.931    0.025
+.color steel blue
+.sphere     6.642    3.010   -0.733    0.150
+.cylinder     6.642    3.010   -0.733    7.090    2.976   -0.223    0.050
+.color light gray
+.cylinder     6.642    3.010   -0.733    6.000    2.375    0.975    0.025
+.color steel blue
+.sphere     7.090    2.976   -0.223    0.150
+.cylinder     7.090    2.976   -0.223    7.297    2.704    0.365    0.050
+.color light gray
+.cylinder     7.090    2.976   -0.223    5.876    1.775    0.680    0.025
+.color steel blue
+.sphere     7.297    2.704    0.365    0.150
+.cylinder     7.297    2.704    0.365    7.274    2.205    0.826    0.050
+.color light gray
+.cylinder     7.297    2.704    0.365    5.932    1.354    0.149    0.025
+.color steel blue
+.sphere     7.274    2.205    0.826    0.150
+.cylinder     7.274    2.205    0.826    7.112    1.567    1.000    0.050
+.color light gray
+.cylinder     7.274    2.205    0.826    6.234    1.175   -0.434    0.025
+.color steel blue
+.sphere     7.112    1.567    1.000    0.150
+.cylinder     7.112    1.567    1.000    6.951    0.930    0.826    0.050
+.color light gray
+.cylinder     7.112    1.567    1.000    6.757    1.216   -0.866    0.025
+.color steel blue
+.sphere     6.951    0.930    0.826    0.150
+.cylinder     6.951    0.930    0.826    6.928    0.430    0.365    0.050
+.color light gray
+.cylinder     6.951    0.930    0.826    7.404    1.379   -0.997    0.025
+.color steel blue
+.sphere     6.928    0.430    0.365    0.150
+.cylinder     6.928    0.430    0.365    7.135    0.158   -0.223    0.050
+.color light gray
+.cylinder     6.928    0.430    0.365    8.033    1.524   -0.782    0.025
+.color steel blue
+.sphere     7.135    0.158   -0.223    0.150
+.cylinder     7.135    0.158   -0.223    7.583    0.124   -0.733    0.050
+.color light gray
+.cylinder     7.135    0.158   -0.223    8.508    1.516   -0.295    0.025
+.color steel blue
+.sphere     7.583    0.124   -0.733    0.150
+.cylinder     7.583    0.124   -0.733    8.200    0.257   -0.989    0.050
+.color light gray
+.cylinder     7.583    0.124   -0.733    8.746    1.275    0.295    0.025
+.color steel blue
+.sphere     8.200    0.257   -0.989    0.150
+.cylinder     8.200    0.257   -0.989    8.852    0.426   -0.901    0.050
+.color light gray
+.cylinder     8.200    0.257   -0.989    8.749    0.800    0.782    0.025
+.color steel blue
+.sphere     8.852    0.426   -0.901    0.150
+.cylinder     8.852    0.426   -0.901    9.398    0.488   -0.500    0.050
+.color light gray
+.cylinder     8.852    0.426   -0.901    8.597    0.173    0.997    0.025
+.color steel blue
+.sphere     9.398    0.488   -0.500    0.150
+.cylinder     9.398    0.488   -0.500    9.730    0.340    0.075    0.050
+.color light gray
+.cylinder     9.398    0.488   -0.500    8.427   -0.472    0.866    0.025
+.color steel blue
+.sphere     9.730    0.340    0.075    0.150
+.cylinder     9.730    0.340    0.075    9.816   -0.053    0.624    0.050
+.color light gray
+.cylinder     9.730    0.340    0.075    8.381   -0.996    0.434    0.025
+.color steel blue
+.sphere     9.816   -0.053    0.624    0.150
+.cylinder     9.816   -0.053    0.624    9.708   -0.637    0.956    0.050
+.color light gray
+.cylinder     9.816   -0.053    0.624    8.557   -1.298   -0.149    0.025
+.color steel blue
+.sphere     9.708   -0.637    0.956    0.150
+.cylinder     9.708   -0.637    0.956    9.527   -1.292    0.956    0.050
+.color light gray
+.cylinder     9.708   -0.637    0.956    8.977   -1.360   -0.680    0.025
+.color steel blue
+.sphere     9.527   -1.292    0.956    0.150
+.cylinder     9.527   -1.292    0.956    9.420   -1.876    0.624    0.050
+.color light gray
+.cylinder     9.527   -1.292    0.956    9.579   -1.242   -0.975    0.025
+.color steel blue
+.sphere     9.420   -1.876    0.624    0.150
+.cylinder     9.420   -1.876    0.624    9.505   -2.269    0.075    0.050
+.color light gray
+.cylinder     9.420   -1.876    0.624   10.235   -1.069   -0.931    0.025
+.color steel blue
+.sphere     9.505   -2.269    0.075    0.150
+.cylinder     9.505   -2.269    0.075    9.837   -2.418   -0.500    0.050
+.color light gray
+.cylinder     9.505   -2.269    0.075   10.802   -0.986   -0.563    0.025
+.color steel blue
+.sphere     9.837   -2.418   -0.500    0.150
+.cylinder     9.837   -2.418   -0.500   10.383   -2.355   -0.901    0.050
+.color light gray
+.cylinder     9.837   -2.418   -0.500   11.164   -1.105    0.000    0.025
+.color steel blue
+.sphere    10.383   -2.355   -0.901    0.150
+.cylinder    10.383   -2.355   -0.901   11.036   -2.186   -0.989    0.050
+.color light gray
+.cylinder    10.383   -2.355   -0.901   11.279   -1.469    0.563    0.025
+.color steel blue
+.sphere    11.036   -2.186   -0.989    0.150
+.cylinder    11.036   -2.186   -0.989   11.652   -2.054   -0.733    0.050
+.color light gray
+.cylinder    11.036   -2.186   -0.989   11.190   -2.034    0.931    0.025
+.color steel blue
+.sphere    11.652   -2.054   -0.733    0.150
+.cylinder    11.652   -2.054   -0.733   12.100   -2.087   -0.223    0.050
+.color light gray
+.cylinder    11.652   -2.054   -0.733   11.010   -2.688    0.975    0.025
+.color steel blue
+.sphere    12.100   -2.087   -0.223    0.150
+.cylinder    12.100   -2.087   -0.223   12.307   -2.360    0.365    0.050
+.color light gray
+.cylinder    12.100   -2.087   -0.223   10.886   -3.289    0.680    0.025
+.color steel blue
+.sphere    12.307   -2.360    0.365    0.150
+.cylinder    12.307   -2.360    0.365   12.285   -2.859    0.826    0.050
+.color light gray
+.cylinder    12.307   -2.360    0.365   10.943   -3.710    0.149    0.025
+.color steel blue
+.sphere    12.285   -2.859    0.826    0.150
+.cylinder    12.285   -2.859    0.826   12.123   -3.496    1.000    0.050
+.color light gray
+.cylinder    12.285   -2.859    0.826   11.244   -3.889   -0.434    0.025
+.color steel blue
+.sphere    12.123   -3.496    1.000    0.150
+.cylinder    12.123   -3.496    1.000   11.961   -4.134    0.826    0.050
+.color light gray
+.cylinder    12.123   -3.496    1.000   11.768   -3.848   -0.866    0.025
+.color steel blue
+.sphere    11.961   -4.134    0.826    0.150
+.cylinder    11.961   -4.134    0.826   11.938   -4.633    0.365    0.050
+.color light gray
+.cylinder    11.961   -4.134    0.826   12.415   -3.685   -0.997    0.025
+.color steel blue
+.sphere    11.938   -4.633    0.365    0.150
+.cylinder    11.938   -4.633    0.365   12.146   -4.905   -0.223    0.050
+.color light gray
+.cylinder    11.938   -4.633    0.365   13.043   -3.540   -0.782    0.025
+.color steel blue
+.sphere    12.146   -4.905   -0.223    0.150
+.cylinder    12.146   -4.905   -0.223   12.594   -4.939   -0.733    0.050
+.color light gray
+.cylinder    12.146   -4.905   -0.223   13.518   -3.548   -0.295    0.025
+.color steel blue
+.sphere    12.594   -4.939   -0.733    0.150
+.cylinder    12.594   -4.939   -0.733   13.210   -4.807   -0.989    0.050
+.color light gray
+.cylinder    12.594   -4.939   -0.733   13.757   -3.789    0.295    0.025
+.color steel blue
+.sphere    13.210   -4.807   -0.989    0.150
+.cylinder    13.210   -4.807   -0.989   13.863   -4.638   -0.901    0.050
+.color light gray
+.cylinder    13.210   -4.807   -0.989   13.759   -4.263    0.782    0.025
+.color steel blue
+.sphere    13.863   -4.638   -0.901    0.150
+.cylinder    13.863   -4.638   -0.901   14.409   -4.575   -0.500    0.050
+.color light gray
+.cylinder    13.863   -4.638   -0.901   13.608   -4.890    0.997    0.025
+.color steel blue
+.sphere    14.409   -4.575   -0.500    0.150
+.cylinder    14.409   -4.575   -0.500   14.741   -4.724    0.075    0.050
+.color light gray
+.cylinder    14.409   -4.575   -0.500   13.438   -5.536    0.866    0.025
+.color steel blue
+.sphere    14.741   -4.724    0.075    0.150
+.cylinder    14.741   -4.724    0.075   14.826   -5.116    0.624    0.050
+.color light gray
+.cylinder    14.741   -4.724    0.075   13.391   -6.059    0.434    0.025
+.color steel blue
+.sphere    14.826   -5.116    0.624    0.150
+.cylinder    14.826   -5.116    0.624   14.719   -5.700    0.956    0.050
+.color light gray
+.cylinder    14.826   -5.116    0.624   13.568   -6.362   -0.149    0.025
+.color steel blue
+.sphere    14.719   -5.700    0.956    0.150
+.cylinder    14.719   -5.700    0.956   14.538   -6.356    0.956    0.050
+.color light gray
+.cylinder    14.719   -5.700    0.956   13.988   -6.423   -0.680    0.025
+.color steel blue
+.sphere    14.538   -6.356    0.956    0.150
+.cylinder    14.538   -6.356    0.956   14.430   -6.939    0.624    0.050
+.color light gray
+.cylinder    14.538   -6.356    0.956   14.589   -6.305   -0.975    0.025
+.color steel blue
+.sphere    14.430   -6.939    0.624    0.150
+.cylinder    14.430   -6.939    0.624   14.320   -7.123    0.201    0.050
+.color light gray
+.cylinder    14.430   -6.939    0.624   15.246   -6.133   -0.931    0.025
+.color steel blue
+.sphere    14.320   -7.123    0.201    0.150
+.cylinder    14.320   -7.123    0.201   14.210   -7.306   -0.223    0.050
+.color steel blue
+.sphere    14.210   -7.306   -0.223    0.150
+.cylinder    14.210   -7.306   -0.223   13.870   -7.601   -0.733    0.050
+.color light gray
+.cylinder    14.210   -7.306   -0.223   14.210   -9.236   -0.295    0.025
+.color steel blue
+.sphere    13.870   -7.601   -0.733    0.150
+.cylinder    13.870   -7.601   -0.733   13.530   -8.132   -0.989    0.050
+.color light gray
+.cylinder    13.870   -7.601   -0.733   13.870   -9.236    0.295    0.025
+.color steel blue
+.sphere    13.530   -8.132   -0.989    0.150
+.cylinder    13.530   -8.132   -0.989   13.190   -8.715   -0.901    0.050
+.color light gray
+.cylinder    13.530   -8.132   -0.989   13.530   -8.904    0.782    0.025
+.color steel blue
+.sphere    13.190   -8.715   -0.901    0.150
+.cylinder    13.190   -8.715   -0.901   12.850   -9.147   -0.500    0.050
+.color light gray
+.cylinder    13.190   -8.715   -0.901   13.190   -8.355    0.997    0.025
+.color steel blue
+.sphere    12.850   -9.147   -0.500    0.150
+.cylinder    12.850   -9.147   -0.500   12.509   -9.278    0.075    0.050
+.color light gray
+.cylinder    12.850   -9.147   -0.500   12.850   -7.781    0.866    0.025
+.color steel blue
+.sphere    12.509   -9.278    0.075    0.150
+.cylinder    12.509   -9.278    0.075   12.169   -9.063    0.624    0.050
+.color light gray
+.cylinder    12.509   -9.278    0.075   12.509   -7.380    0.434    0.025
+.color steel blue
+.sphere    12.169   -9.063    0.624    0.150
+.cylinder    12.169   -9.063    0.624   11.829   -8.576    0.956    0.050
+.color light gray
+.cylinder    12.169   -9.063    0.624   12.169   -7.292   -0.149    0.025
+.color steel blue
+.sphere    11.829   -8.576    0.956    0.150
+.cylinder    11.829   -8.576    0.956   11.489   -7.986    0.956    0.050
+.color light gray
+.cylinder    11.829   -8.576    0.956   11.829   -7.548   -0.680    0.025
+.color steel blue
+.sphere    11.489   -7.986    0.956    0.150
+.cylinder    11.489   -7.986    0.956   11.149   -7.499    0.624    0.050
+.color light gray
+.cylinder    11.489   -7.986    0.956   11.489   -8.058   -0.975    0.025
+.color steel blue
+.sphere    11.149   -7.499    0.624    0.150
+.cylinder    11.149   -7.499    0.624   10.809   -7.284    0.075    0.050
+.color light gray
+.cylinder    11.149   -7.499    0.624   11.149   -8.646   -0.931    0.025
+.color steel blue
+.sphere    10.809   -7.284    0.075    0.150
+.cylinder    10.809   -7.284    0.075   10.470   -7.415   -0.500    0.050
+.color light gray
+.cylinder    10.809   -7.284    0.075   10.809   -9.107   -0.563    0.025
+.color steel blue
+.sphere    10.470   -7.415   -0.500    0.150
+.cylinder    10.470   -7.415   -0.500   10.130   -7.847   -0.901    0.050
+.color light gray
+.cylinder    10.470   -7.415   -0.500   10.470   -9.281    0.000    0.025
+.color steel blue
+.sphere    10.130   -7.847   -0.901    0.150
+.cylinder    10.130   -7.847   -0.901    9.790   -8.430   -0.989    0.050
+.color light gray
+.cylinder    10.130   -7.847   -0.901   10.130   -9.107    0.563    0.025
+.color steel blue
+.sphere     9.790   -8.430   -0.989    0.150
+.cylinder     9.790   -8.430   -0.989    9.450   -8.961   -0.733    0.050
+.color light gray
+.cylinder     9.790   -8.430   -0.989    9.790   -8.646    0.931    0.025
+.color steel blue
+.sphere     9.450   -8.961   -0.733    0.150
+.cylinder     9.450   -8.961   -0.733    9.110   -9.256   -0.223    0.050
+.color light gray
+.cylinder     9.450   -8.961   -0.733    9.450   -8.058    0.975    0.025
+.color steel blue
+.sphere     9.110   -9.256   -0.223    0.150
+.cylinder     9.110   -9.256   -0.223    8.770   -9.212    0.365    0.050
+.color light gray
+.cylinder     9.110   -9.256   -0.223    9.110   -7.548    0.680    0.025
+.color steel blue
+.sphere     8.770   -9.212    0.365    0.150
+.cylinder     8.770   -9.212    0.365    8.430   -8.844    0.826    0.050
+.color light gray
+.cylinder     8.770   -9.212    0.365    8.770   -7.292    0.149    0.025
+.color steel blue
+.sphere     8.430   -8.844    0.826    0.150
+.cylinder     8.430   -8.844    0.826    8.089   -8.281    1.000    0.050
+.color light gray
+.cylinder     8.430   -8.844    0.826    8.430   -7.380   -0.434    0.025
+.color steel blue
+.sphere     8.089   -8.281    1.000    0.150
+.cylinder     8.089   -8.281    1.000    7.750   -7.718    0.826    0.050
+.color light gray
+.cylinder     8.089   -8.281    1.000    8.089   -7.781   -0.866    0.025
+.color steel blue
+.sphere     7.750   -7.718    0.826    0.150
+.cylinder     7.750   -7.718    0.826    7.410   -7.350    0.365    0.050
+.color light gray
+.cylinder     7.750   -7.718    0.826    7.750   -8.355   -0.997    0.025
+.color steel blue
+.sphere     7.410   -7.350    0.365    0.150
+.cylinder     7.410   -7.350    0.365    7.069   -7.306   -0.223    0.050
+.color light gray
+.cylinder     7.410   -7.350    0.365    7.410   -8.904   -0.782    0.025
+.color steel blue
+.sphere     7.069   -7.306   -0.223    0.150
+.cylinder     7.069   -7.306   -0.223    6.729   -7.601   -0.733    0.050
+.color light gray
+.cylinder     7.069   -7.306   -0.223    7.069   -9.236   -0.295    0.025
+.color steel blue
+.sphere     6.729   -7.601   -0.733    0.150
+.cylinder     6.729   -7.601   -0.733    6.389   -8.132   -0.989    0.050
+.color light gray
+.cylinder     6.729   -7.601   -0.733    6.729   -9.236    0.295    0.025
+.color steel blue
+.sphere     6.389   -8.132   -0.989    0.150
+.cylinder     6.389   -8.132   -0.989    6.050   -8.715   -0.901    0.050
+.color light gray
+.cylinder     6.389   -8.132   -0.989    6.389   -8.904    0.782    0.025
+.color steel blue
+.sphere     6.050   -8.715   -0.901    0.150
+.cylinder     6.050   -8.715   -0.901    5.710   -9.147   -0.500    0.050
+.color light gray
+.cylinder     6.050   -8.715   -0.901    6.050   -8.355    0.997    0.025
+.color steel blue
+.sphere     5.710   -9.147   -0.500    0.150
+.cylinder     5.710   -9.147   -0.500    5.370   -9.278    0.075    0.050
+.color light gray
+.cylinder     5.710   -9.147   -0.500    5.710   -7.781    0.866    0.025
+.color steel blue
+.sphere     5.370   -9.278    0.075    0.150
+.cylinder     5.370   -9.278    0.075    5.029   -9.063    0.624    0.050
+.color light gray
+.cylinder     5.370   -9.278    0.075    5.370   -7.380    0.434    0.025
+.color steel blue
+.sphere     5.029   -9.063    0.624    0.150
+.cylinder     5.029   -9.063    0.624    4.689   -8.576    0.956    0.050
+.color light gray
+.cylinder     5.029   -9.063    0.624    5.029   -7.292   -0.149    0.025
+.color steel blue
+.sphere     4.689   -8.576    0.956    0.150
+.cylinder     4.689   -8.576    0.956    4.349   -7.986    0.956    0.050
+.color light gray
+.cylinder     4.689   -8.576    0.956    4.689   -7.548   -0.680    0.025
+.color steel blue
+.sphere     4.349   -7.986    0.956    0.150
+.cylinder     4.349   -7.986    0.956    4.010   -7.499    0.624    0.050
+.color light gray
+.cylinder     4.349   -7.986    0.956    4.349   -8.058   -0.975    0.025
+.color steel blue
+.sphere     4.010   -7.499    0.624    0.150
+.cylinder     4.010   -7.499    0.624    3.670   -7.284    0.075    0.050
+.color light gray
+.cylinder     4.010   -7.499    0.624    4.010   -8.646   -0.931    0.025
+.color steel blue
+.sphere     3.670   -7.284    0.075    0.150
+.cylinder     3.670   -7.284    0.075    3.329   -7.415   -0.500    0.050
+.color light gray
+.cylinder     3.670   -7.284    0.075    3.670   -9.107   -0.563    0.025
+.color steel blue
+.sphere     3.329   -7.415   -0.500    0.150
+.cylinder     3.329   -7.415   -0.500    2.990   -7.847   -0.901    0.050
+.color light gray
+.cylinder     3.329   -7.415   -0.500    3.329   -9.281    0.000    0.025
+.color steel blue
+.sphere     2.990   -7.847   -0.901    0.150
+.cylinder     2.990   -7.847   -0.901    2.650   -8.430   -0.989    0.050
+.color light gray
+.cylinder     2.990   -7.847   -0.901    2.990   -9.107    0.563    0.025
+.color steel blue
+.sphere     2.650   -8.430   -0.989    0.150
+.cylinder     2.650   -8.430   -0.989    2.309   -8.961   -0.733    0.050
+.color light gray
+.cylinder     2.650   -8.430   -0.989    2.650   -8.646    0.931    0.025
+.color steel blue
+.sphere     2.309   -8.961   -0.733    0.150
+.color light gray
+.cylinder     2.309   -8.961   -0.733    2.309   -8.058    0.975    0.025
+.color orange
+.sphere     7.974   -3.784   -0.434    0.150
+.cylinder     7.974   -3.784   -0.434    8.498   -3.743   -0.866    0.050
+.color light gray
+.cylinder     7.974   -3.784   -0.434    9.324   -2.449   -0.075    0.025
+.color orange
+.sphere     8.498   -3.743   -0.866    0.150
+.cylinder     8.498   -3.743   -0.866    9.145   -3.580   -0.997    0.050
+.color light gray
+.cylinder     8.498   -3.743   -0.866    9.469   -2.782    0.500    0.025
+.color orange
+.sphere     9.145   -3.580   -0.997    0.150
+.cylinder     9.145   -3.580   -0.997    9.774   -3.435   -0.782    0.050
+.color light gray
+.cylinder     9.145   -3.580   -0.997    9.400   -3.327    0.901    0.025
+.color orange
+.sphere     9.774   -3.435   -0.782    0.150
+.cylinder     9.774   -3.435   -0.782   10.248   -3.442   -0.295    0.050
+.color light gray
+.cylinder     9.774   -3.435   -0.782    9.225   -3.978    0.989    0.025
+.color orange
+.sphere    10.248   -3.442   -0.295    0.150
+.cylinder    10.248   -3.442   -0.295   10.084   -3.799   -0.175    0.050
+.color light gray
+.cylinder    10.248   -3.442   -0.295    9.086   -4.593    0.733    0.025
+.color orange
+.sphere    10.084   -3.799   -0.175    0.150
+.cylinder    10.084   -3.799   -0.175    9.920   -4.156   -0.056    0.050
+.color orange
+.sphere     9.920   -4.156   -0.056    0.150
+.cylinder     9.920   -4.156   -0.056    9.755   -4.513    0.064    0.050
+.color orange
+.sphere     9.755   -4.513    0.064    0.150
+.cylinder     9.755   -4.513    0.064    9.591   -4.870    0.184    0.050
+.color orange
+.sphere     9.591   -4.870    0.184    0.150
+.cylinder     9.591   -4.870    0.184    9.427   -5.227    0.303    0.050
+.color orange
+.sphere     9.427   -5.227    0.303    0.150
+.cylinder     9.427   -5.227    0.303    9.262   -5.584    0.423    0.050
+.color orange
+.sphere     9.262   -5.584    0.423    0.150
+.cylinder     9.262   -5.584    0.423    9.098   -5.941    0.543    0.050
+.color orange
+.sphere     9.098   -5.941    0.543    0.150
+.cylinder     9.098   -5.941    0.543    8.934   -6.297    0.662    0.050
+.color orange
+.sphere     8.934   -6.297    0.662    0.150
+.cylinder     8.934   -6.297    0.662    8.770   -6.654    0.782    0.050
+.color orange
+.sphere     8.770   -6.654    0.782    0.150
+.cylinder     8.770   -6.654    0.782    8.430   -6.106    0.997    0.050
+.color light gray
+.cylinder     8.770   -6.654    0.782    8.770   -5.100   -0.365    0.025
+.color orange
+.sphere     8.430   -6.106    0.997    0.150
+.cylinder     8.430   -6.106    0.997    8.089   -5.531    0.866    0.050
+.color light gray
+.cylinder     8.430   -6.106    0.997    8.430   -5.468   -0.826    0.025
+.color orange
+.sphere     8.089   -5.531    0.866    0.150
+.cylinder     8.089   -5.531    0.866    7.750   -5.130    0.434    0.050
+.color light gray
+.cylinder     8.089   -5.531    0.866    8.089   -6.031   -1.000    0.025
+.color orange
+.sphere     7.750   -5.130    0.434    0.150
+.cylinder     7.750   -5.130    0.434    7.410   -5.042   -0.149    0.050
+.color light gray
+.cylinder     7.750   -5.130    0.434    7.750   -6.594   -0.826    0.025
+.color orange
+.sphere     7.410   -5.042   -0.149    0.150
+.cylinder     7.410   -5.042   -0.149    7.069   -5.298   -0.680    0.050
+.color light gray
+.cylinder     7.410   -5.042   -0.149    7.410   -6.962   -0.365    0.025
+.color orange
+.sphere     7.069   -5.298   -0.680    0.150
+.cylinder     7.069   -5.298   -0.680    6.729   -5.808   -0.975    0.050
+.color light gray
+.cylinder     7.069   -5.298   -0.680    7.069   -7.006    0.223    0.025
+.color orange
+.sphere     6.729   -5.808   -0.975    0.150
+.cylinder     6.729   -5.808   -0.975    6.389   -6.396   -0.931    0.050
+.color light gray
+.cylinder     6.729   -5.808   -0.975    6.729   -6.711    0.733    0.025
+.color orange
+.sphere     6.389   -6.396   -0.931    0.150
+.cylinder     6.389   -6.396   -0.931    6.050   -6.857   -0.563    0.050
+.color light gray
+.cylinder     6.389   -6.396   -0.931    6.389   -6.180    0.989    0.025
+.color orange
+.sphere     6.050   -6.857   -0.563    0.150
+.cylinder     6.050   -6.857   -0.563    5.710   -7.031    0.000    0.050
+.color light gray
+.cylinder     6.050   -6.857   -0.563    6.050   -5.597    0.901    0.025
+.color orange
+.sphere     5.710   -7.031    0.000    0.150
+.cylinder     5.710   -7.031    0.000    5.710   -7.781    0.866    0.050
+.color red
+.cylinder     5.710   -7.031    0.000    5.710   -7.781    0.866    0.080
+.color light gray
+.cylinder     5.710   -7.031    0.000    5.710   -5.165    0.500    0.025
+.color orange
+.sphere     5.710   -7.781    0.866    0.150
+.cylinder     5.710   -7.781    0.866    6.050   -8.355    0.997    0.050
+.color light gray
+.cylinder     5.710   -7.781    0.866    5.710   -9.147   -0.500    0.025
+.color orange
+.sphere     6.050   -8.355    0.997    0.150
+.cylinder     6.050   -8.355    0.997    6.389   -8.904    0.782    0.050
+.color light gray
+.cylinder     6.050   -8.355    0.997    6.050   -8.715   -0.901    0.025
+.color orange
+.sphere     6.389   -8.904    0.782    0.150
+.cylinder     6.389   -8.904    0.782    6.729   -9.236    0.295    0.050
+.color light gray
+.cylinder     6.389   -8.904    0.782    6.389   -8.132   -0.989    0.025
+.color orange
+.sphere     6.729   -9.236    0.295    0.150
+.cylinder     6.729   -9.236    0.295    7.069   -9.236   -0.295    0.050
+.color light gray
+.cylinder     6.729   -9.236    0.295    6.729   -7.601   -0.733    0.025
+.color orange
+.sphere     7.069   -9.236   -0.295    0.150
+.cylinder     7.069   -9.236   -0.295    7.410   -8.904   -0.782    0.050
+.color light gray
+.cylinder     7.069   -9.236   -0.295    7.069   -7.306   -0.223    0.025
+.color orange
+.sphere     7.410   -8.904   -0.782    0.150
+.cylinder     7.410   -8.904   -0.782    7.750   -8.355   -0.997    0.050
+.color light gray
+.cylinder     7.410   -8.904   -0.782    7.410   -7.350    0.365    0.025
+.color orange
+.sphere     7.750   -8.355   -0.997    0.150
+.cylinder     7.750   -8.355   -0.997    8.089   -7.781   -0.866    0.050
+.color light gray
+.cylinder     7.750   -8.355   -0.997    7.750   -7.718    0.826    0.025
+.color orange
+.sphere     8.089   -7.781   -0.866    0.150
+.cylinder     8.089   -7.781   -0.866    8.430   -7.380   -0.434    0.050
+.color light gray
+.cylinder     8.089   -7.781   -0.866    8.089   -8.281    1.000    0.025
+.color orange
+.sphere     8.430   -7.380   -0.434    0.150
+.cylinder     8.430   -7.380   -0.434    8.770   -7.292    0.149    0.050
+.color light gray
+.cylinder     8.430   -7.380   -0.434    8.430   -8.844    0.826    0.025
+.color orange
+.sphere     8.770   -7.292    0.149    0.150
+.cylinder     8.770   -7.292    0.149    9.110   -7.548    0.680    0.050
+.color light gray
+.cylinder     8.770   -7.292    0.149    8.770   -9.212    0.365    0.025
+.color orange
+.sphere     9.110   -7.548    0.680    0.150
+.cylinder     9.110   -7.548    0.680    9.450   -8.058    0.975    0.050
+.color light gray
+.cylinder     9.110   -7.548    0.680    9.110   -9.256   -0.223    0.025
+.color orange
+.sphere     9.450   -8.058    0.975    0.150
+.cylinder     9.450   -8.058    0.975    9.790   -8.646    0.931    0.050
+.color light gray
+.cylinder     9.450   -8.058    0.975    9.450   -8.961   -0.733    0.025
+.color orange
+.sphere     9.790   -8.646    0.931    0.150
+.color light gray
+.cylinder     9.790   -8.646    0.931    9.790   -8.430   -0.989    0.025
+.color orange
+.sphere    10.130   -9.107    0.563    0.150
+.cylinder    10.130   -9.107    0.563   10.470   -9.281    0.000    0.050
+.color light gray
+.cylinder    10.130   -9.107    0.563   10.130   -7.847   -0.901    0.025
+.color orange
+.sphere    10.470   -9.281    0.000    0.150
+.cylinder    10.470   -9.281    0.000   10.809   -9.107   -0.563    0.050
+.color light gray
+.cylinder    10.470   -9.281    0.000   10.470   -7.415   -0.500    0.025
+.color orange
+.sphere    10.809   -9.107   -0.563    0.150
+.cylinder    10.809   -9.107   -0.563   11.149   -8.646   -0.931    0.050
+.color light gray
+.cylinder    10.809   -9.107   -0.563   10.809   -7.284    0.075    0.025
+.color orange
+.sphere    11.149   -8.646   -0.931    0.150
+.cylinder    11.149   -8.646   -0.931   11.489   -8.058   -0.975    0.050
+.color light gray
+.cylinder    11.149   -8.646   -0.931   11.149   -7.499    0.624    0.025
+.color orange
+.sphere    11.489   -8.058   -0.975    0.150
+.cylinder    11.489   -8.058   -0.975   11.829   -7.548   -0.680    0.050
+.color light gray
+.cylinder    11.489   -8.058   -0.975   11.489   -7.986    0.956    0.025
+.color orange
+.sphere    11.829   -7.548   -0.680    0.150
+.cylinder    11.829   -7.548   -0.680   12.169   -7.292   -0.149    0.050
+.color light gray
+.cylinder    11.829   -7.548   -0.680   11.829   -8.576    0.956    0.025
+.color orange
+.sphere    12.169   -7.292   -0.149    0.150
+.cylinder    12.169   -7.292   -0.149   12.509   -7.380    0.434    0.050
+.color light gray
+.cylinder    12.169   -7.292   -0.149   12.169   -9.063    0.624    0.025
+.color orange
+.sphere    12.509   -7.380    0.434    0.150
+.cylinder    12.509   -7.380    0.434   12.850   -7.781    0.866    0.050
+.color light gray
+.cylinder    12.509   -7.380    0.434   12.509   -9.278    0.075    0.025
+.color orange
+.sphere    12.850   -7.781    0.866    0.150
+.cylinder    12.850   -7.781    0.866   13.190   -8.355    0.997    0.050
+.color light gray
+.cylinder    12.850   -7.781    0.866   12.850   -9.147   -0.500    0.025
+.color orange
+.sphere    13.190   -8.355    0.997    0.150
+.cylinder    13.190   -8.355    0.997   13.530   -8.904    0.782    0.050
+.color light gray
+.cylinder    13.190   -8.355    0.997   13.190   -8.715   -0.901    0.025
+.color orange
+.sphere    13.530   -8.904    0.782    0.150
+.cylinder    13.530   -8.904    0.782   13.870   -9.236    0.295    0.050
+.color light gray
+.cylinder    13.530   -8.904    0.782   13.530   -8.132   -0.989    0.025
+.color orange
+.sphere    13.870   -9.236    0.295    0.150
+.cylinder    13.870   -9.236    0.295   14.210   -9.236   -0.295    0.050
+.color light gray
+.cylinder    13.870   -9.236    0.295   13.870   -7.601   -0.733    0.025
+.color orange
+.sphere    14.210   -9.236   -0.295    0.150
+.cylinder    14.210   -9.236   -0.295   14.339   -8.848   -0.374    0.050
+.color light gray
+.cylinder    14.210   -9.236   -0.295   14.210   -7.306   -0.223    0.025
+.color orange
+.sphere    14.339   -8.848   -0.374    0.150
+.cylinder    14.339   -8.848   -0.374   14.469   -8.460   -0.454    0.050
+.color orange
+.sphere    14.469   -8.460   -0.454    0.150
+.cylinder    14.469   -8.460   -0.454   14.598   -8.072   -0.533    0.050
+.color orange
+.sphere    14.598   -8.072   -0.533    0.150
+.cylinder    14.598   -8.072   -0.533   14.728   -7.684   -0.613    0.050
+.color orange
+.sphere    14.728   -7.684   -0.613    0.150
+.cylinder    14.728   -7.684   -0.613   14.857   -7.296   -0.692    0.050
+.color orange
+.sphere    14.857   -7.296   -0.692    0.150
+.cylinder    14.857   -7.296   -0.692   14.987   -6.909   -0.772    0.050
+.color orange
+.sphere    14.987   -6.909   -0.772    0.150
+.cylinder    14.987   -6.909   -0.772   15.116   -6.521   -0.851    0.050
+.color orange
+.sphere    15.116   -6.521   -0.851    0.150
+.cylinder    15.116   -6.521   -0.851   15.246   -6.133   -0.931    0.050
+.color orange
+.sphere    15.246   -6.133   -0.931    0.150
+.cylinder    15.246   -6.133   -0.931   14.589   -6.305   -0.975    0.050
+.color light gray
+.cylinder    15.246   -6.133   -0.931   14.430   -6.939    0.624    0.025
+.color orange
+.sphere    14.589   -6.305   -0.975    0.150
+.cylinder    14.589   -6.305   -0.975   13.988   -6.423   -0.680    0.050
+.color light gray
+.cylinder    14.589   -6.305   -0.975   14.538   -6.356    0.956    0.025
+.color orange
+.sphere    13.988   -6.423   -0.680    0.150
+.cylinder    13.988   -6.423   -0.680   13.568   -6.362   -0.149    0.050
+.color light gray
+.cylinder    13.988   -6.423   -0.680   14.719   -5.700    0.956    0.025
+.color orange
+.sphere    13.568   -6.362   -0.149    0.150
+.cylinder    13.568   -6.362   -0.149   13.391   -6.059    0.434    0.050
+.color light gray
+.cylinder    13.568   -6.362   -0.149   14.826   -5.116    0.624    0.025
+.color orange
+.sphere    13.391   -6.059    0.434    0.150
+.cylinder    13.391   -6.059    0.434   13.438   -5.536    0.866    0.050
+.color light gray
+.cylinder    13.391   -6.059    0.434   14.741   -4.724    0.075    0.025
+.color orange
+.sphere    13.438   -5.536    0.866    0.150
+.cylinder    13.438   -5.536    0.866   13.608   -4.890    0.997    0.050
+.color light gray
+.cylinder    13.438   -5.536    0.866   14.409   -4.575   -0.500    0.025
+.color orange
+.sphere    13.608   -4.890    0.997    0.150
+.cylinder    13.608   -4.890    0.997   13.759   -4.263    0.782    0.050
+.color light gray
+.cylinder    13.608   -4.890    0.997   13.863   -4.638   -0.901    0.025
+.color orange
+.sphere    13.759   -4.263    0.782    0.150
+.cylinder    13.759   -4.263    0.782   13.757   -3.789    0.295    0.050
+.color light gray
+.cylinder    13.759   -4.263    0.782   13.210   -4.807   -0.989    0.025
+.color orange
+.sphere    13.757   -3.789    0.295    0.150
+.cylinder    13.757   -3.789    0.295   13.518   -3.548   -0.295    0.050
+.color light gray
+.cylinder    13.757   -3.789    0.295   12.594   -4.939   -0.733    0.025
+.color orange
+.sphere    13.518   -3.548   -0.295    0.150
+.cylinder    13.518   -3.548   -0.295   13.043   -3.540   -0.782    0.050
+.color light gray
+.cylinder    13.518   -3.548   -0.295   12.146   -4.905   -0.223    0.025
+.color orange
+.sphere    13.043   -3.540   -0.782    0.150
+.cylinder    13.043   -3.540   -0.782   12.415   -3.685   -0.997    0.050
+.color light gray
+.cylinder    13.043   -3.540   -0.782   11.938   -4.633    0.365    0.025
+.color orange
+.sphere    12.415   -3.685   -0.997    0.150
+.cylinder    12.415   -3.685   -0.997   11.768   -3.848   -0.866    0.050
+.color light gray
+.cylinder    12.415   -3.685   -0.997   11.961   -4.134    0.826    0.025
+.color orange
+.sphere    11.768   -3.848   -0.866    0.150
+.cylinder    11.768   -3.848   -0.866   11.244   -3.889   -0.434    0.050
+.color light gray
+.cylinder    11.768   -3.848   -0.866   12.123   -3.496    1.000    0.025
+.color orange
+.sphere    11.244   -3.889   -0.434    0.150
+.cylinder    11.244   -3.889   -0.434   10.943   -3.710    0.149    0.050
+.color light gray
+.cylinder    11.244   -3.889   -0.434   12.285   -2.859    0.826    0.025
+.color orange
+.sphere    10.943   -3.710    0.149    0.150
+.cylinder    10.943   -3.710    0.149   10.886   -3.289    0.680    0.050
+.color light gray
+.cylinder    10.943   -3.710    0.149   12.307   -2.360    0.365    0.025
+.color orange
+.sphere    10.886   -3.289    0.680    0.150
+.cylinder    10.886   -3.289    0.680   11.010   -2.688    0.975    0.050
+.color light gray
+.cylinder    10.886   -3.289    0.680   12.100   -2.087   -0.223    0.025
+.color orange
+.sphere    11.010   -2.688    0.975    0.150
+.cylinder    11.010   -2.688    0.975   11.190   -2.034    0.931    0.050
+.color light gray
+.cylinder    11.010   -2.688    0.975   11.652   -2.054   -0.733    0.025
+.color orange
+.sphere    11.190   -2.034    0.931    0.150
+.cylinder    11.190   -2.034    0.931   11.279   -1.469    0.563    0.050
+.color light gray
+.cylinder    11.190   -2.034    0.931   11.036   -2.186   -0.989    0.025
+.color orange
+.sphere    11.279   -1.469    0.563    0.150
+.cylinder    11.279   -1.469    0.563   11.164   -1.105    0.000    0.050
+.color light gray
+.cylinder    11.279   -1.469    0.563   10.383   -2.355   -0.901    0.025
+.color orange
+.sphere    11.164   -1.105    0.000    0.150
+.cylinder    11.164   -1.105    0.000   10.802   -0.986   -0.563    0.050
+.color light gray
+.cylinder    11.164   -1.105    0.000    9.837   -2.418   -0.500    0.025
+.color orange
+.sphere    10.802   -0.986   -0.563    0.150
+.cylinder    10.802   -0.986   -0.563   10.235   -1.069   -0.931    0.050
+.color light gray
+.cylinder    10.802   -0.986   -0.563    9.505   -2.269    0.075    0.025
+.color orange
+.sphere    10.235   -1.069   -0.931    0.150
+.cylinder    10.235   -1.069   -0.931    9.579   -1.242   -0.975    0.050
+.color light gray
+.cylinder    10.235   -1.069   -0.931    9.420   -1.876    0.624    0.025
+.color orange
+.sphere     9.579   -1.242   -0.975    0.150
+.cylinder     9.579   -1.242   -0.975    8.977   -1.360   -0.680    0.050
+.color light gray
+.cylinder     9.579   -1.242   -0.975    9.527   -1.292    0.956    0.025
+.color orange
+.sphere     8.977   -1.360   -0.680    0.150
+.cylinder     8.977   -1.360   -0.680    8.557   -1.298   -0.149    0.050
+.color light gray
+.cylinder     8.977   -1.360   -0.680    9.708   -0.637    0.956    0.025
+.color orange
+.sphere     8.557   -1.298   -0.149    0.150
+.cylinder     8.557   -1.298   -0.149    8.381   -0.996    0.434    0.050
+.color light gray
+.cylinder     8.557   -1.298   -0.149    9.816   -0.053    0.624    0.025
+.color orange
+.sphere     8.381   -0.996    0.434    0.150
+.cylinder     8.381   -0.996    0.434    8.009   -1.363    0.563    0.050
+.color light gray
+.cylinder     8.381   -0.996    0.434    9.730    0.340    0.075    0.025
+.color orange
+.sphere     8.009   -1.363    0.563    0.150
+.cylinder     8.009   -1.363    0.563    7.920   -1.929    0.931    0.050
+.color red
+.cylinder     8.009   -1.363    0.563    8.381   -0.996    0.434    0.080
+.color light gray
+.cylinder     8.009   -1.363    0.563    6.713   -2.646   -0.075    0.025
+.color orange
+.sphere     7.920   -1.929    0.931    0.150
+.cylinder     7.920   -1.929    0.931    7.741   -2.583    0.975    0.050
+.color light gray
+.cylinder     7.920   -1.929    0.931    7.105   -2.735   -0.624    0.025
+.color orange
+.sphere     7.741   -2.583    0.975    0.150
+.cylinder     7.741   -2.583    0.975    7.617   -3.183    0.680    0.050
+.color light gray
+.cylinder     7.741   -2.583    0.975    7.689   -2.634   -0.956    0.025
+.color orange
+.sphere     7.617   -3.183    0.680    0.150
+.cylinder     7.617   -3.183    0.680    7.673   -3.604    0.149    0.050
+.color light gray
+.cylinder     7.617   -3.183    0.680    8.347   -2.461   -0.956    0.025
+.color orange
+.sphere     7.673   -3.604    0.149    0.150
+.color light gray
+.cylinder     7.673   -3.604    0.149    8.932   -2.359   -0.624    0.025
+.color orange
+.sphere     0.147    4.697    0.866    0.150
+.cylinder     0.147    4.697    0.866    0.101    4.174    0.434    0.050
+.color light gray
+.cylinder     0.147    4.697    0.866    0.502    5.048   -1.000    0.025
+.color orange
+.sphere     0.101    4.174    0.434    0.150
+.cylinder     0.101    4.174    0.434    0.277    3.871   -0.149    0.050
+.color light gray
+.cylinder     0.101    4.174    0.434    1.141    5.204   -0.826    0.025
+.color orange
+.sphere     0.277    3.871   -0.149    0.150
+.cylinder     0.277    3.871   -0.149    0.697    3.809   -0.680    0.050
+.color light gray
+.cylinder     0.277    3.871   -0.149    1.641    5.221   -0.365    0.025
+.color orange
+.sphere     0.697    3.809   -0.680    0.150
+.cylinder     0.697    3.809   -0.680    1.299    3.928   -0.975    0.050
+.color light gray
+.cylinder     0.697    3.809   -0.680    1.911    5.011    0.223    0.025
+.color orange
+.sphere     1.299    3.928   -0.975    0.150
+.cylinder     1.299    3.928   -0.975    1.955    4.100   -0.931    0.050
+.color light gray
+.cylinder     1.299    3.928   -0.975    1.940    4.562    0.733    0.025
+.color orange
+.sphere     1.955    4.100   -0.931    0.150
+.cylinder     1.955    4.100   -0.931    2.521    4.183   -0.563    0.050
+.color light gray
+.cylinder     1.955    4.100   -0.931    1.801    3.948    0.989    0.025
+.color orange
+.sphere     2.521    4.183   -0.563    0.150
+.cylinder     2.521    4.183   -0.563    2.884    4.064    0.000    0.050
+.color light gray
+.cylinder     2.521    4.183   -0.563    1.626    3.296    0.901    0.025
+.color orange
+.sphere     2.884    4.064    0.000    0.150
+.cylinder     2.884    4.064    0.000    2.999    3.701    0.563    0.050
+.color light gray
+.cylinder     2.884    4.064    0.000    1.557    2.752    0.500    0.025
+.color orange
+.sphere     2.999    3.701    0.563    0.150
+.cylinder     2.999    3.701    0.563    2.910    3.135    0.931    0.050
+.color light gray
+.cylinder     2.999    3.701    0.563    1.702    2.418   -0.075    0.025
+.color orange
+.sphere     2.910    3.135    0.931    0.150
+.cylinder     2.910    3.135    0.931    2.730    2.481    0.975    0.050
+.color light gray
+.cylinder     2.910    3.135    0.931    2.094    2.328   -0.624    0.025
+.color orange
+.sphere     2.730    2.481    0.975    0.150
+.cylinder     2.730    2.481    0.975    2.606    1.880    0.680    0.050
+.color light gray
+.cylinder     2.730    2.481    0.975    2.679    2.430   -0.956    0.025
+.color orange
+.sphere     2.606    1.880    0.680    0.150
+.cylinder     2.606    1.880    0.680    2.663    1.459    0.149    0.050
+.color light gray
+.cylinder     2.606    1.880    0.680    3.337    2.603   -0.956    0.025
+.color orange
+.sphere     2.663    1.459    0.149    0.150
+.cylinder     2.663    1.459    0.149    2.964    1.280   -0.434    0.050
+.color light gray
+.cylinder     2.663    1.459    0.149    3.921    2.705   -0.624    0.025
+.color orange
+.sphere     2.964    1.280   -0.434    0.150
+.cylinder     2.964    1.280   -0.434    3.487    1.321   -0.866    0.050
+.color light gray
+.cylinder     2.964    1.280   -0.434    4.313    2.615   -0.075    0.025
+.color orange
+.sphere     3.487    1.321   -0.866    0.150
+.cylinder     3.487    1.321   -0.866    4.135    1.484   -0.997    0.050
+.color light gray
+.cylinder     3.487    1.321   -0.866    4.458    2.282    0.500    0.025
+.color orange
+.sphere     4.135    1.484   -0.997    0.150
+.cylinder     4.135    1.484   -0.997    4.763    1.629   -0.782    0.050
+.color light gray
+.cylinder     4.135    1.484   -0.997    4.390    1.737    0.901    0.025
+.color orange
+.sphere     4.763    1.629   -0.782    0.150
+.cylinder     4.763    1.629   -0.782    5.238    1.621   -0.295    0.050
+.color light gray
+.cylinder     4.763    1.629   -0.782    4.214    1.086    0.989    0.025
+.color orange
+.sphere     5.238    1.621   -0.295    0.150
+.cylinder     5.238    1.621   -0.295    5.477    1.380    0.295    0.050
+.color light gray
+.cylinder     5.238    1.621   -0.295    4.075    0.471    0.733    0.025
+.color orange
+.sphere     5.477    1.380    0.295    0.150
+.cylinder     5.477    1.380    0.295    5.479    0.905    0.782    0.050
+.color light gray
+.cylinder     5.477    1.380    0.295    4.104    0.022    0.223    0.025
+.color orange
+.sphere     5.479    0.905    0.782    0.150
+.cylinder     5.479    0.905    0.782    5.328    0.278    0.997    0.050
+.color light gray
+.cylinder     5.479    0.905    0.782    4.374   -0.188   -0.365    0.025
+.color orange
+.sphere     5.328    0.278    0.997    0.150
+.cylinder     5.328    0.278    0.997    5.158   -0.367    0.866    0.050
+.color light gray
+.cylinder     5.328    0.278    0.997    4.874   -0.170   -0.826    0.025
+.color orange
+.sphere     5.158   -0.367    0.866    0.150
+.cylinder     5.158   -0.367    0.866    5.111   -0.890    0.434    0.050
+.color light gray
+.cylinder     5.158   -0.367    0.866    5.513   -0.015   -1.000    0.025
+.color orange
+.sphere     5.111   -0.890    0.434    0.150
+.cylinder     5.111   -0.890    0.434    5.287   -1.193   -0.149    0.050
+.color light gray
+.cylinder     5.111   -0.890    0.434    6.152    0.140   -0.826    0.025
+.color orange
+.sphere     5.287   -1.193   -0.149    0.150
+.cylinder     5.287   -1.193   -0.149    5.708   -1.254   -0.680    0.050
+.color light gray
+.cylinder     5.287   -1.193   -0.149    6.652    0.157   -0.365    0.025
+.color orange
+.sphere     5.708   -1.254   -0.680    0.150
+.cylinder     5.708   -1.254   -0.680    6.309   -1.136   -0.975    0.050
+.color light gray
+.cylinder     5.708   -1.254   -0.680    6.922   -0.053    0.223    0.025
+.color orange
+.sphere     6.309   -1.136   -0.975    0.150
+.cylinder     6.309   -1.136   -0.975    6.966   -0.964   -0.931    0.050
+.color light gray
+.cylinder     6.309   -1.136   -0.975    6.951   -0.501    0.733    0.025
+.color orange
+.sphere     6.966   -0.964   -0.931    0.150
+.cylinder     6.966   -0.964   -0.931    7.532   -0.881   -0.563    0.050
+.color light gray
+.cylinder     6.966   -0.964   -0.931    6.812   -1.116    0.989    0.025
+.color orange
+.sphere     7.532   -0.881   -0.563    0.150
+.cylinder     7.532   -0.881   -0.563    7.894   -1.000    0.000    0.050
+.color light gray
+.cylinder     7.532   -0.881   -0.563    6.636   -1.767    0.901    0.025
+.color orange
+.sphere     7.894   -1.000    0.000    0.150
+.cylinder     7.894   -1.000    0.000    8.427   -0.472    0.866    0.050
+.color red
+.cylinder     7.894   -1.000    0.000    8.427   -0.472    0.866    0.080
+.color light gray
+.cylinder     7.894   -1.000    0.000    6.568   -2.312    0.500    0.025
+.color orange
+.sphere     8.427   -0.472    0.866    0.150
+.cylinder     8.427   -0.472    0.866    8.597    0.173    0.997    0.050
+.color light gray
+.cylinder     8.427   -0.472    0.866    9.398    0.488   -0.500    0.025
+.color orange
+.sphere     8.597    0.173    0.997    0.150
+.cylinder     8.597    0.173    0.997    8.749    0.800    0.782    0.050
+.color light gray
+.cylinder     8.597    0.173    0.997    8.852    0.426   -0.901    0.025
+.color orange
+.sphere     8.749    0.800    0.782    0.150
+.cylinder     8.749    0.800    0.782    8.746    1.275    0.295    0.050
+.color light gray
+.cylinder     8.749    0.800    0.782    8.200    0.257   -0.989    0.025
+.color orange
+.sphere     8.746    1.275    0.295    0.150
+.cylinder     8.746    1.275    0.295    8.508    1.516   -0.295    0.050
+.color light gray
+.cylinder     8.746    1.275    0.295    7.583    0.124   -0.733    0.025
+.color orange
+.sphere     8.508    1.516   -0.295    0.150
+.cylinder     8.508    1.516   -0.295    8.033    1.524   -0.782    0.050
+.color light gray
+.cylinder     8.508    1.516   -0.295    7.135    0.158   -0.223    0.025
+.color orange
+.sphere     8.033    1.524   -0.782    0.150
+.cylinder     8.033    1.524   -0.782    7.404    1.379   -0.997    0.050
+.color light gray
+.cylinder     8.033    1.524   -0.782    6.928    0.430    0.365    0.025
+.color orange
+.sphere     7.404    1.379   -0.997    0.150
+.cylinder     7.404    1.379   -0.997    6.757    1.216   -0.866    0.050
+.color light gray
+.cylinder     7.404    1.379   -0.997    6.951    0.930    0.826    0.025
+.color orange
+.sphere     6.757    1.216   -0.866    0.150
+.color light gray
+.cylinder     6.757    1.216   -0.866    7.112    1.567    1.000    0.025
+.color orange
+.sphere     6.234    1.175   -0.434    0.150
+.cylinder     6.234    1.175   -0.434    5.932    1.354    0.149    0.050
+.color light gray
+.cylinder     6.234    1.175   -0.434    7.274    2.205    0.826    0.025
+.color orange
+.sphere     5.932    1.354    0.149    0.150
+.cylinder     5.932    1.354    0.149    5.876    1.775    0.680    0.050
+.color light gray
+.cylinder     5.932    1.354    0.149    7.297    2.704    0.365    0.025
+.color orange
+.sphere     5.876    1.775    0.680    0.150
+.cylinder     5.876    1.775    0.680    6.000    2.375    0.975    0.050
+.color light gray
+.cylinder     5.876    1.775    0.680    7.090    2.976   -0.223    0.025
+.color orange
+.sphere     6.000    2.375    0.975    0.150
+.cylinder     6.000    2.375    0.975    6.179    3.030    0.931    0.050
+.color light gray
+.cylinder     6.000    2.375    0.975    6.642    3.010   -0.733    0.025
+.color orange
+.sphere     6.179    3.030    0.931    0.150
+.cylinder     6.179    3.030    0.931    6.268    3.595    0.563    0.050
+.color light gray
+.cylinder     6.179    3.030    0.931    6.025    2.878   -0.989    0.025
+.color orange
+.sphere     6.268    3.595    0.563    0.150
+.cylinder     6.268    3.595    0.563    6.153    3.959    0.000    0.050
+.color light gray
+.cylinder     6.268    3.595    0.563    5.372    2.709   -0.901    0.025
+.color orange
+.sphere     6.153    3.959    0.000    0.150
+.cylinder     6.153    3.959    0.000    5.791    4.077   -0.563    0.050
+.color light gray
+.cylinder     6.153    3.959    0.000    4.827    2.646   -0.500    0.025
+.color orange
+.sphere     5.791    4.077   -0.563    0.150
+.cylinder     5.791    4.077   -0.563    5.225    3.994   -0.931    0.050
+.color light gray
+.cylinder     5.791    4.077   -0.563    4.495    2.795    0.075    0.025
+.color orange
+.sphere     5.225    3.994   -0.931    0.150
+.cylinder     5.225    3.994   -0.931    4.568    3.822   -0.975    0.050
+.color light gray
+.cylinder     5.225    3.994   -0.931    4.409    3.188    0.624    0.025
+.color orange
+.sphere     4.568    3.822   -0.975    0.150
+.cylinder     4.568    3.822   -0.975    3.967    3.704   -0.680    0.050
+.color light gray
+.cylinder     4.568    3.822   -0.975    4.517    3.771    0.956    0.025
+.color orange
+.sphere     3.967    3.704   -0.680    0.150
+.cylinder     3.967    3.704   -0.680    3.546    3.765   -0.149    0.050
+.color light gray
+.cylinder     3.967    3.704   -0.680    4.697    4.427    0.956    0.025
+.color orange
+.sphere     3.546    3.765   -0.149    0.150
+.cylinder     3.546    3.765   -0.149    3.370    4.068    0.434    0.050
+.color light gray
+.cylinder     3.546    3.765   -0.149    4.805    5.011    0.624    0.025
+.color orange
+.sphere     3.370    4.068    0.434    0.150
+.cylinder     3.370    4.068    0.434    3.417    4.591    0.866    0.050
+.color light gray
+.cylinder     3.370    4.068    0.434    4.720    5.404    0.075    0.025
+.color orange
+.sphere     3.417    4.591    0.866    0.150
+.cylinder     3.417    4.591    0.866    3.587    5.237    0.997    0.050
+.color light gray
+.cylinder     3.417    4.591    0.866    4.388    5.552   -0.500    0.025
+.color orange
+.sphere     3.587    5.237    0.997    0.150
+.cylinder     3.587    5.237    0.997    3.738    5.864    0.782    0.050
+.color light gray
+.cylinder     3.587    5.237    0.997    3.842    5.489   -0.901    0.025
+.color orange
+.sphere     3.738    5.864    0.782    0.150
+.cylinder     3.738    5.864    0.782    3.736    6.339    0.295    0.050
+.color light gray
+.cylinder     3.738    5.864    0.782    3.189    5.321   -0.989    0.025
+.color orange
+.sphere     3.736    6.339    0.295    0.150
+.cylinder     3.736    6.339    0.295    3.497    6.580   -0.295    0.050
+.color light gray
+.cylinder     3.736    6.339    0.295    2.573    5.188   -0.733    0.025
+.color orange
+.sphere     3.497    6.580   -0.295    0.150
+.cylinder     3.497    6.580   -0.295    3.022    6.587   -0.782    0.050
+.color light gray
+.cylinder     3.497    6.580   -0.295    2.125    5.222   -0.223    0.025
+.color orange
+.sphere     3.022    6.587   -0.782    0.150
+.cylinder     3.022    6.587   -0.782    2.394    6.443   -0.997    0.050
+.color light gray
+.cylinder     3.022    6.587   -0.782    1.917    5.494    0.365    0.025
+.color orange
+.sphere     2.394    6.443   -0.997    0.150
+.cylinder     2.394    6.443   -0.997    1.746    6.279   -0.866    0.050
+.color light gray
+.cylinder     2.394    6.443   -0.997    1.940    5.994    0.826    0.025
+.color orange
+.sphere     1.746    6.279   -0.866    0.150
+.cylinder     1.746    6.279   -0.866    1.223    6.239   -0.434    0.050
+.color light gray
+.cylinder     1.746    6.279   -0.866    2.102    6.631    1.000    0.025
+.color orange
+.sphere     1.223    6.239   -0.434    0.150
+.cylinder     1.223    6.239   -0.434    0.922    6.418    0.149    0.050
+.color light gray
+.cylinder     1.223    6.239   -0.434    2.264    7.269    0.826    0.025
+.color orange
+.sphere     0.922    6.418    0.149    0.150
+.cylinder     0.922    6.418    0.149    0.865    6.839    0.680    0.050
+.color light gray
+.cylinder     0.922    6.418    0.149    2.286    7.768    0.365    0.025
+.color orange
+.sphere     0.865    6.839    0.680    0.150
+.cylinder     0.865    6.839    0.680    0.989    7.439    0.975    0.050
+.color light gray
+.cylinder     0.865    6.839    0.680    2.079    8.040   -0.223    0.025
+.color orange
+.sphere     0.989    7.439    0.975    0.150
+.cylinder     0.989    7.439    0.975    1.169    8.094    0.931    0.050
+.color light gray
+.cylinder     0.989    7.439    0.975    1.631    8.074   -0.733    0.025
+.color orange
+.sphere     1.169    8.094    0.931    0.150
+.cylinder     1.169    8.094    0.931    1.258    8.659    0.563    0.050
+.color light gray
+.cylinder     1.169    8.094    0.931    1.015    7.942   -0.989    0.025
+.color orange
+.sphere     1.258    8.659    0.563    0.150
+.cylinder     1.258    8.659    0.563    1.143    9.023    0.000    0.050
+.color light gray
+.cylinder     1.258    8.659    0.563    0.362    7.773   -0.901    0.025
+.color orange
+.sphere     1.143    9.023    0.000    0.150
+.cylinder     1.143    9.023    0.000    0.780    9.141   -0.563    0.050
+.color light gray
+.cylinder     1.143    9.023    0.000   -0.184    7.710   -0.500    0.025
+.color orange
+.sphere     0.780    9.141   -0.563    0.150
+.cylinder     0.780    9.141   -0.563    0.214    9.058   -0.931    0.050
+.color light gray
+.cylinder     0.780    9.141   -0.563   -0.516    7.859    0.075    0.025
+.color orange
+.sphere     0.214    9.058   -0.931    0.150
+.cylinder     0.214    9.058   -0.931   -0.442    8.886   -0.975    0.050
+.color light gray
+.cylinder     0.214    9.058   -0.931   -0.601    8.251    0.624    0.025
+.color orange
+.sphere    -0.442    8.886   -0.975    0.150
+.cylinder    -0.442    8.886   -0.975   -1.044    8.768   -0.680    0.050
+.color light gray
+.cylinder    -0.442    8.886   -0.975   -0.493    8.835    0.956    0.025
+.color orange
+.sphere    -1.044    8.768   -0.680    0.150
+.cylinder    -1.044    8.768   -0.680   -1.464    8.829   -0.149    0.050
+.color light gray
+.cylinder    -1.044    8.768   -0.680   -0.313    9.491    0.956    0.025
+.color orange
+.sphere    -1.464    8.829   -0.149    0.150
+.cylinder    -1.464    8.829   -0.149   -1.640    9.132    0.434    0.050
+.color light gray
+.cylinder    -1.464    8.829   -0.149   -0.205   10.075    0.624    0.025
+.color orange
+.sphere    -1.640    9.132    0.434    0.150
+.cylinder    -1.640    9.132    0.434   -2.012    8.764    0.563    0.050
+.color light gray
+.cylinder    -1.640    9.132    0.434   -0.291   10.467    0.075    0.025
+.color orange
+.sphere    -2.012    8.764    0.563    0.150
+.cylinder    -2.012    8.764    0.563   -2.101    8.199    0.931    0.050
+.color red
+.cylinder    -2.012    8.764    0.563   -1.640    9.132    0.434    0.080
+.color light gray
+.cylinder    -2.012    8.764    0.563   -3.308    7.482   -0.075    0.025
+.color orange
+.sphere    -2.101    8.199    0.931    0.150
+.cylinder    -2.101    8.199    0.931   -2.280    7.545    0.975    0.050
+.color light gray
+.cylinder    -2.101    8.199    0.931   -2.916    7.392   -0.624    0.025
+.color orange
+.sphere    -2.280    7.545    0.975    0.150
+.cylinder    -2.280    7.545    0.975   -2.405    6.944    0.680    0.050
+.color light gray
+.cylinder    -2.280    7.545    0.975   -2.332    7.494   -0.956    0.025
+.color orange
+.sphere    -2.405    6.944    0.680    0.150
+.cylinder    -2.405    6.944    0.680   -2.348    6.523    0.149    0.050
+.color light gray
+.cylinder    -2.405    6.944    0.680   -1.674    7.667   -0.956    0.025
+.color orange
+.sphere    -2.348    6.523    0.149    0.150
+.cylinder    -2.348    6.523    0.149   -2.047    6.344   -0.434    0.050
+.color light gray
+.cylinder    -2.348    6.523    0.149   -1.089    7.769   -0.624    0.025
+.color orange
+.sphere    -2.047    6.344   -0.434    0.150
+.cylinder    -2.047    6.344   -0.434   -1.523    6.385   -0.866    0.050
+.color light gray
+.cylinder    -2.047    6.344   -0.434   -0.697    7.679   -0.075    0.025
+.color orange
+.sphere    -1.523    6.385   -0.866    0.150
+.cylinder    -1.523    6.385   -0.866   -0.876    6.548   -0.997    0.050
+.color light gray
+.cylinder    -1.523    6.385   -0.866   -0.552    7.346    0.500    0.025
+.color orange
+.sphere    -0.876    6.548   -0.997    0.150
+.cylinder    -0.876    6.548   -0.997   -0.247    6.693   -0.782    0.050
+.color light gray
+.cylinder    -0.876    6.548   -0.997   -0.621    6.801    0.901    0.025
+.color orange
+.sphere    -0.247    6.693   -0.782    0.150
+.cylinder    -0.247    6.693   -0.782    0.227    6.685   -0.295    0.050
+.color light gray
+.cylinder    -0.247    6.693   -0.782   -0.796    6.149    0.989    0.025
+.color orange
+.sphere     0.227    6.685   -0.295    0.150
+.cylinder     0.227    6.685   -0.295    0.466    6.444    0.295    0.050
+.color light gray
+.cylinder     0.227    6.685   -0.295   -0.935    5.535    0.733    0.025
+.color orange
+.sphere     0.466    6.444    0.295    0.150
+.cylinder     0.466    6.444    0.295    0.469    5.969    0.782    0.050
+.color light gray
+.cylinder     0.466    6.444    0.295   -0.906    5.086    0.223    0.025
+.color orange
+.sphere     0.469    5.969    0.782    0.150
+.cylinder     0.469    5.969    0.782    0.317    5.342    0.997    0.050
+.color light gray
+.cylinder     0.469    5.969    0.782   -0.636    4.876   -0.365    0.025
+.color orange
+.sphere     0.317    5.342    0.997    0.150
+.color light gray
+.cylinder     0.317    5.342    0.997   -0.137    4.894   -0.826    0.025
+.color orange
+.sphere    -2.489    9.247   -0.563    0.150
+.cylinder    -2.489    9.247   -0.563   -2.127    9.128    0.000    0.050
+.color light gray
+.cylinder    -2.489    9.247   -0.563   -3.385    8.360    0.901    0.025
+.color orange
+.sphere    -2.127    9.128    0.000    0.150
+.cylinder    -2.127    9.128    0.000   -1.594    9.655    0.866    0.050
+.color red
+.cylinder    -2.127    9.128    0.000   -1.594    9.655    0.866    0.080
+.color light gray
+.cylinder    -2.127    9.128    0.000   -3.453    7.815    0.500    0.025
+.color orange
+.sphere    -1.594    9.655    0.866    0.150
+.cylinder    -1.594    9.655    0.866   -1.424   10.301    0.997    0.050
+.color light gray
+.cylinder    -1.594    9.655    0.866   -0.623   10.616   -0.500    0.025
+.color orange
+.sphere    -1.424   10.301    0.997    0.150
+.cylinder    -1.424   10.301    0.997   -1.272   10.928    0.782    0.050
+.color light gray
+.cylinder    -1.424   10.301    0.997   -1.169   10.553   -0.901    0.025
+.color orange
+.sphere    -1.272   10.928    0.782    0.150
+.cylinder    -1.272   10.928    0.782   -1.275   11.402    0.295    0.050
+.color light gray
+.cylinder    -1.272   10.928    0.782   -1.821   10.384   -0.989    0.025
+.color orange
+.sphere    -1.275   11.402    0.295    0.150
+.cylinder    -1.275   11.402    0.295   -1.514   11.644   -0.295    0.050
+.color light gray
+.cylinder    -1.275   11.402    0.295   -2.438   10.252   -0.733    0.025
+.color orange
+.sphere    -1.514   11.644   -0.295    0.150
+.cylinder    -1.514   11.644   -0.295   -1.988   11.651   -0.782    0.050
+.color light gray
+.cylinder    -1.514   11.644   -0.295   -2.886   10.286   -0.223    0.025
+.color orange
+.sphere    -1.988   11.651   -0.782    0.150
+.cylinder    -1.988   11.651   -0.782   -2.617   11.506   -0.997    0.050
+.color light gray
+.cylinder    -1.988   11.651   -0.782   -3.093   10.558    0.365    0.025
+.color orange
+.sphere    -2.617   11.506   -0.997    0.150
+.cylinder    -2.617   11.506   -0.997   -3.264   11.343   -0.866    0.050
+.color light gray
+.cylinder    -2.617   11.506   -0.997   -3.070   11.058    0.826    0.025
+.color orange
+.sphere    -3.264   11.343   -0.866    0.150
+.cylinder    -3.264   11.343   -0.866   -3.788   11.302   -0.434    0.050
+.color light gray
+.cylinder    -3.264   11.343   -0.866   -2.909   11.695    1.000    0.025
+.color orange
+.sphere    -3.788   11.302   -0.434    0.150
+.cylinder    -3.788   11.302   -0.434   -4.089   11.482    0.149    0.050
+.color light gray
+.cylinder    -3.788   11.302   -0.434   -2.747   12.332    0.826    0.025
+.color orange
+.sphere    -4.089   11.482    0.149    0.150
+.cylinder    -4.089   11.482    0.149   -4.146   11.903    0.680    0.050
+.color light gray
+.cylinder    -4.089   11.482    0.149   -2.724   12.832    0.365    0.025
+.color orange
+.sphere    -4.146   11.903    0.680    0.150
+.cylinder    -4.146   11.903    0.680   -4.021   12.503    0.975    0.050
+.color light gray
+.cylinder    -4.146   11.903    0.680   -2.931   13.104   -0.223    0.025
+.color orange
+.sphere    -4.021   12.503    0.975    0.150
+.cylinder    -4.021   12.503    0.975   -3.842   13.157    0.931    0.050
+.color light gray
+.cylinder    -4.021   12.503    0.975   -3.380   13.138   -0.733    0.025
+.color orange
+.sphere    -3.842   13.157    0.931    0.150
+.cylinder    -3.842   13.157    0.931   -3.753   13.723    0.563    0.050
+.color light gray
+.cylinder    -3.842   13.157    0.931   -3.996   13.005   -0.989    0.025
+.color orange
+.sphere    -3.753   13.723    0.563    0.150
+.cylinder    -3.753   13.723    0.563   -3.868   14.086    0.000    0.050
+.color light gray
+.cylinder    -3.753   13.723    0.563   -4.649   12.836   -0.901    0.025
+.color orange
+.sphere    -3.868   14.086    0.000    0.150
+.cylinder    -3.868   14.086    0.000   -4.230   14.205   -0.563    0.050
+.color light gray
+.cylinder    -3.868   14.086    0.000   -5.194   12.774   -0.500    0.025
+.color orange
+.sphere    -4.230   14.205   -0.563    0.150
+.cylinder    -4.230   14.205   -0.563   -4.796   14.122   -0.931    0.050
+.color light gray
+.cylinder    -4.230   14.205   -0.563   -5.526   12.922    0.075    0.025
+.color orange
+.sphere    -4.796   14.122   -0.931    0.150
+.cylinder    -4.796   14.122   -0.931   -5.453   13.949   -0.975    0.050
+.color light gray
+.cylinder    -4.796   14.122   -0.931   -5.612   13.315    0.624    0.025
+.color orange
+.sphere    -5.453   13.949   -0.975    0.150
+.cylinder    -5.453   13.949   -0.975   -6.054   13.831   -0.680    0.050
+.color light gray
+.cylinder    -5.453   13.949   -0.975   -5.504   13.899    0.956    0.025
+.color orange
+.sphere    -6.054   13.831   -0.680    0.150
+.cylinder    -6.054   13.831   -0.680   -6.475   13.893   -0.149    0.050
+.color light gray
+.cylinder    -6.054   13.831   -0.680   -5.324   14.554    0.956    0.025
+.color orange
+.sphere    -6.475   13.893   -0.149    0.150
+.cylinder    -6.475   13.893   -0.149   -6.651   14.195    0.434    0.050
+.color light gray
+.cylinder    -6.475   13.893   -0.149   -5.216   15.138    0.624    0.025
+.color orange
+.sphere    -6.651   14.195    0.434    0.150
+.cylinder    -6.651   14.195    0.434   -6.604   14.719    0.866    0.050
+.color light gray
+.cylinder    -6.651   14.195    0.434   -5.301   15.531    0.075    0.025
+.color orange
+.sphere    -6.604   14.719    0.866    0.150
+.cylinder    -6.604   14.719    0.866   -6.932   14.655    0.567    0.050
+.color light gray
+.cylinder    -6.604   14.719    0.866   -5.633   15.679   -0.500    0.025
+.color orange
+.sphere    -6.932   14.655    0.567    0.150
+.cylinder    -6.932   14.655    0.567   -7.260   14.591    0.267    0.050
+.color orange
+.sphere    -7.260   14.591    0.267    0.150
+.cylinder    -7.260   14.591    0.267   -7.588   14.527   -0.032    0.050
+.color orange
+.sphere    -7.588   14.527   -0.032    0.150
+.cylinder    -7.588   14.527   -0.032   -7.915   14.464   -0.332    0.050
+.color orange
+.sphere    -7.915   14.464   -0.332    0.150
+.cylinder    -7.915   14.464   -0.332   -8.243   14.400   -0.631    0.050
+.color orange
+.sphere    -8.243   14.400   -0.631    0.150
+.cylinder    -8.243   14.400   -0.631   -8.571   14.336   -0.931    0.050
+.color orange
+.sphere    -8.571   14.336   -0.931    0.150
+.cylinder    -8.571   14.336   -0.931   -7.983   13.993   -0.975    0.050
+.color light gray
+.cylinder    -8.571   14.336   -0.931   -7.424   14.336    0.624    0.025
+.color orange
+.sphere    -7.983   13.993   -0.975    0.150
+.cylinder    -7.983   13.993   -0.975   -7.472   13.649   -0.680    0.050
+.color light gray
+.cylinder    -7.983   13.993   -0.975   -7.911   13.993    0.956    0.025
+.color orange
+.sphere    -7.472   13.649   -0.680    0.150
+.cylinder    -7.472   13.649   -0.680   -7.217   13.306   -0.149    0.050
+.color light gray
+.cylinder    -7.472   13.649   -0.680   -8.500   13.649    0.956    0.025
+.color orange
+.sphere    -7.217   13.306   -0.149    0.150
+.cylinder    -7.217   13.306   -0.149   -7.304   12.962    0.434    0.050
+.color light gray
+.cylinder    -7.217   13.306   -0.149   -8.987   13.306    0.624    0.025
+.color orange
+.sphere    -7.304   12.962    0.434    0.150
+.cylinder    -7.304   12.962    0.434   -7.705   12.618    0.866    0.050
+.color light gray
+.cylinder    -7.304   12.962    0.434   -9.203   12.962    0.075    0.025
+.color orange
+.sphere    -7.705   12.618    0.866    0.150
+.cylinder    -7.705   12.618    0.866   -8.280   12.275    0.997    0.050
+.color light gray
+.cylinder    -7.705   12.618    0.866   -9.072   12.618   -0.500    0.025
+.color orange
+.sphere    -8.280   12.275    0.997    0.150
+.cylinder    -8.280   12.275    0.997   -8.829   11.931    0.782    0.050
+.color light gray
+.cylinder    -8.280   12.275    0.997   -8.639   12.275   -0.901    0.025
+.color orange
+.sphere    -8.829   11.931    0.782    0.150
+.cylinder    -8.829   11.931    0.782   -9.161   11.588    0.295    0.050
+.color light gray
+.cylinder    -8.829   11.931    0.782   -8.056   11.931   -0.989    0.025
+.color orange
+.sphere    -9.161   11.588    0.295    0.150
+.cylinder    -9.161   11.588    0.295   -9.161   11.244   -0.295    0.050
+.color light gray
+.cylinder    -9.161   11.588    0.295   -7.525   11.588   -0.733    0.025
+.color orange
+.sphere    -9.161   11.244   -0.295    0.150
+.cylinder    -9.161   11.244   -0.295   -8.829   10.900   -0.782    0.050
+.color light gray
+.cylinder    -9.161   11.244   -0.295   -7.231   11.244   -0.223    0.025
+.color orange
+.sphere    -8.829   10.900   -0.782    0.150
+.cylinder    -8.829   10.900   -0.782   -8.280   10.557   -0.997    0.050
+.color light gray
+.cylinder    -8.829   10.900   -0.782   -7.275   10.900    0.365    0.025
+.color orange
+.sphere    -8.280   10.557   -0.997    0.150
+.color light gray
+.cylinder    -8.280   10.557   -0.997   -7.642   10.557    0.826    0.025
+.color orange
+.sphere    -7.705   10.213   -0.866    0.150
+.cylinder    -7.705   10.213   -0.866   -7.304    9.870   -0.434    0.050
+.color light gray
+.cylinder    -7.705   10.213   -0.866   -8.206   10.213    1.000    0.025
+.color orange
+.sphere    -7.304    9.870   -0.434    0.150
+.cylinder    -7.304    9.870   -0.434   -7.217    9.526    0.149    0.050
+.color light gray
+.cylinder    -7.304    9.870   -0.434   -8.769    9.870    0.826    0.025
+.color orange
+.sphere    -7.217    9.526    0.149    0.150
+.cylinder    -7.217    9.526    0.149   -7.472    9.182    0.680    0.050
+.color light gray
+.cylinder    -7.217    9.526    0.149   -9.136    9.526    0.365    0.025
+.color orange
+.sphere    -7.472    9.182    0.680    0.150
+.cylinder    -7.472    9.182    0.680   -7.983    8.839    0.975    0.050
+.color light gray
+.cylinder    -7.472    9.182    0.680   -9.180    9.182   -0.223    0.025
+.color orange
+.sphere    -7.983    8.839    0.975    0.150
+.cylinder    -7.983    8.839    0.975   -8.571    8.495    0.931    0.050
+.color light gray
+.cylinder    -7.983    8.839    0.975   -8.886    8.839   -0.733    0.025
+.color orange
+.sphere    -8.571    8.495    0.931    0.150
+.cylinder    -8.571    8.495    0.931   -9.032    8.152    0.563    0.050
+.color light gray
+.cylinder    -8.571    8.495    0.931   -8.354    8.495   -0.989    0.025
+.color orange
+.sphere    -9.032    8.152    0.563    0.150
+.cylinder    -9.032    8.152    0.563   -9.206    7.808    0.000    0.050
+.color light gray
+.cylinder    -9.032    8.152    0.563   -7.772    8.152   -0.901    0.025
+.color orange
+.sphere    -9.206    7.808    0.000    0.150
+.cylinder    -9.206    7.808    0.000   -9.032    7.464   -0.563    0.050
+.color light gray
+.cylinder    -9.206    7.808    0.000   -7.340    7.808   -0.500    0.025
+.color orange
+.sphere    -9.032    7.464   -0.563    0.150
+.cylinder    -9.032    7.464   -0.563   -8.571    7.121   -0.931    0.050
+.color light gray
+.cylinder    -9.032    7.464   -0.563   -7.208    7.464    0.075    0.025
+.color orange
+.sphere    -8.571    7.121   -0.931    0.150
+.cylinder    -8.571    7.121   -0.931   -7.983    6.777   -0.975    0.050
+.color light gray
+.cylinder    -8.571    7.121   -0.931   -7.424    7.121    0.624    0.025
+.color orange
+.sphere    -7.983    6.777   -0.975    0.150
+.cylinder    -7.983    6.777   -0.975   -7.472    6.434   -0.680    0.050
+.color light gray
+.cylinder    -7.983    6.777   -0.975   -7.911    6.777    0.956    0.025
+.color orange
+.sphere    -7.472    6.434   -0.680    0.150
+.cylinder    -7.472    6.434   -0.680   -7.217    6.090   -0.149    0.050
+.color light gray
+.cylinder    -7.472    6.434   -0.680   -8.500    6.434    0.956    0.025
+.color orange
+.sphere    -7.217    6.090   -0.149    0.150
+.cylinder    -7.217    6.090   -0.149   -7.304    5.746    0.434    0.050
+.color light gray
+.cylinder    -7.217    6.090   -0.149   -8.987    6.090    0.624    0.025
+.color orange
+.sphere    -7.304    5.746    0.434    0.150
+.cylinder    -7.304    5.746    0.434   -6.782    5.746    0.563    0.050
+.color light gray
+.cylinder    -7.304    5.746    0.434   -9.203    5.746    0.075    0.025
+.color orange
+.sphere    -6.782    5.746    0.563    0.150
+.cylinder    -6.782    5.746    0.563   -6.321    6.090    0.931    0.050
+.color red
+.cylinder    -6.782    5.746    0.563   -7.304    5.746    0.434    0.080
+.color light gray
+.cylinder    -6.782    5.746    0.563   -4.958    5.746   -0.075    0.025
+.color orange
+.sphere    -6.321    6.090    0.931    0.150
+.cylinder    -6.321    6.090    0.931   -5.733    6.434    0.975    0.050
+.color light gray
+.cylinder    -6.321    6.090    0.931   -5.174    6.090   -0.624    0.025
+.color orange
+.sphere    -5.733    6.434    0.975    0.150
+.cylinder    -5.733    6.434    0.975   -5.222    6.777    0.680    0.050
+.color light gray
+.cylinder    -5.733    6.434    0.975   -5.661    6.434   -0.956    0.025
+.color orange
+.sphere    -5.222    6.777    0.680    0.150
+.cylinder    -5.222    6.777    0.680   -4.967    7.121    0.149    0.050
+.color light gray
+.cylinder    -5.222    6.777    0.680   -6.250    6.777   -0.956    0.025
+.color orange
+.sphere    -4.967    7.121    0.149    0.150
+.cylinder    -4.967    7.121    0.149   -5.054    7.464   -0.434    0.050
+.color light gray
+.cylinder    -4.967    7.121    0.149   -6.737    7.121   -0.624    0.025
+.color orange
+.sphere    -5.054    7.464   -0.434    0.150
+.cylinder    -5.054    7.464   -0.434   -5.455    7.808   -0.866    0.050
+.color light gray
+.cylinder    -5.054    7.464   -0.434   -6.953    7.464   -0.075    0.025
+.color orange
+.sphere    -5.455    7.808   -0.866    0.150
+.cylinder    -5.455    7.808   -0.866   -6.030    8.152   -0.997    0.050
+.color light gray
+.cylinder    -5.455    7.808   -0.866   -6.822    7.808    0.500    0.025
+.color orange
+.sphere    -6.030    8.152   -0.997    0.150
+.cylinder    -6.030    8.152   -0.997   -6.579    8.495   -0.782    0.050
+.color light gray
+.cylinder    -6.030    8.152   -0.997   -6.389    8.152    0.901    0.025
+.color orange
+.sphere    -6.579    8.495   -0.782    0.150
+.cylinder    -6.579    8.495   -0.782   -6.911    8.839   -0.295    0.050
+.color light gray
+.cylinder    -6.579    8.495   -0.782   -5.806    8.495    0.989    0.025
+.color orange
+.sphere    -6.911    8.839   -0.295    0.150
+.cylinder    -6.911    8.839   -0.295   -6.911    9.179    0.295    0.050
+.color light gray
+.cylinder    -6.911    8.839   -0.295   -5.275    8.839    0.733    0.025
+.color orange
+.sphere    -6.911    9.179    0.295    0.150
+.cylinder    -6.911    9.179    0.295   -6.476    9.130    0.206    0.050
+.color light gray
+.cylinder    -6.911    9.179    0.295   -4.981    9.179    0.223    0.025
+.color orange
+.sphere    -6.476    9.130    0.206    0.150
+.cylinder    -6.476    9.130    0.206   -6.040    9.081    0.117    0.050
+.color orange
+.sphere    -6.040    9.081    0.117    0.150
+.cylinder    -6.040    9.081    0.117   -5.605    9.032    0.029    0.050
+.color orange
+.sphere    -5.605    9.032    0.029    0.150
+.cylinder    -5.605    9.032    0.029   -5.169    8.983   -0.060    0.050
+.color orange
+.sphere    -5.169    8.983   -0.060    0.150
+.cylinder    -5.169    8.983   -0.060   -4.734    8.935   -0.149    0.050
+.color orange
+.sphere    -4.734    8.935   -0.149    0.150
+.cylinder    -4.734    8.935   -0.149   -4.313    8.873   -0.680    0.050
+.color light gray
+.cylinder    -4.734    8.935   -0.149   -3.369   10.285   -0.365    0.025
+.color orange
+.sphere    -4.313    8.873   -0.680    0.150
+.cylinder    -4.313    8.873   -0.680   -3.712    8.991   -0.975    0.050
+.color light gray
+.cylinder    -4.313    8.873   -0.680   -3.099   10.075    0.223    0.025
+.color orange
+.sphere    -3.712    8.991   -0.975    0.150
+.cylinder    -3.712    8.991   -0.975   -3.055    9.164   -0.931    0.050
+.color light gray
+.cylinder    -3.712    8.991   -0.975   -3.070    9.626    0.733    0.025
+.color orange
+.sphere    -3.055    9.164   -0.931    0.150
+.color light gray
+.cylinder    -3.055    9.164   -0.931   -3.209    9.011    0.989    0.025
+.color orange
+.sphere    -6.911    1.966    0.295    0.150
+.cylinder    -6.911    1.966    0.295   -6.579    2.310    0.782    0.050
+.color light gray
+.cylinder    -6.911    1.966    0.295   -4.981    1.966    0.223    0.025
+.color orange
+.sphere    -6.579    2.310    0.782    0.150
+.cylinder    -6.579    2.310    0.782   -6.030    2.654    0.997    0.050
+.color light gray
+.cylinder    -6.579    2.310    0.782   -5.025    2.310   -0.365    0.025
+.color orange
+.sphere    -6.030    2.654    0.997    0.150
+.cylinder    -6.030    2.654    0.997   -5.455    2.997    0.866    0.050
+.color light gray
+.cylinder    -6.030    2.654    0.997   -5.392    2.654   -0.826    0.025
+.color orange
+.sphere    -5.455    2.997    0.866    0.150
+.cylinder    -5.455    2.997    0.866   -5.054    3.341    0.434    0.050
+.color light gray
+.cylinder    -5.455    2.997    0.866   -5.955    2.997   -1.000    0.025
+.color orange
+.sphere    -5.054    3.341    0.434    0.150
+.cylinder    -5.054    3.341    0.434   -4.967    3.685   -0.149    0.050
+.color light gray
+.cylinder    -5.054    3.341    0.434   -6.519    3.341   -0.826    0.025
+.color orange
+.sphere    -4.967    3.685   -0.149    0.150
+.cylinder    -4.967    3.685   -0.149   -5.222    4.028   -0.680    0.050
+.color light gray
+.cylinder    -4.967    3.685   -0.149   -6.886    3.685   -0.365    0.025
+.color orange
+.sphere    -5.222    4.028   -0.680    0.150
+.cylinder    -5.222    4.028   -0.680   -5.733    4.372   -0.975    0.050
+.color light gray
+.cylinder    -5.222    4.028   -0.680   -6.930    4.028    0.223    0.025
+.color orange
+.sphere    -5.733    4.372   -0.975    0.150
+.cylinder    -5.733    4.372   -0.975   -6.321    4.715   -0.931    0.050
+.color light gray
+.cylinder    -5.733    4.372   -0.975   -6.636    4.372    0.733    0.025
+.color orange
+.sphere    -6.321    4.715   -0.931    0.150
+.cylinder    -6.321    4.715   -0.931   -6.782    5.059   -0.563    0.050
+.color light gray
+.cylinder    -6.321    4.715   -0.931   -6.104    4.715    0.989    0.025
+.color orange
+.sphere    -6.782    5.059   -0.563    0.150
+.cylinder    -6.782    5.059   -0.563   -6.955    5.403    0.000    0.050
+.color light gray
+.cylinder    -6.782    5.059   -0.563   -5.522    5.059    0.901    0.025
+.color orange
+.sphere    -6.955    5.403    0.000    0.150
+.cylinder    -6.955    5.403    0.000   -7.705    5.403    0.866    0.050
+.color red
+.cylinder    -6.955    5.403    0.000   -7.705    5.403    0.866    0.080
+.color light gray
+.cylinder    -6.955    5.403    0.000   -5.090    5.403    0.500    0.025
+.color orange
+.sphere    -7.705    5.403    0.866    0.150
+.cylinder    -7.705    5.403    0.866   -8.280    5.059    0.997    0.050
+.color light gray
+.cylinder    -7.705    5.403    0.866   -9.072    5.403   -0.500    0.025
+.color orange
+.sphere    -8.280    5.059    0.997    0.150
+.cylinder    -8.280    5.059    0.997   -8.829    4.715    0.782    0.050
+.color light gray
+.cylinder    -8.280    5.059    0.997   -8.639    5.059   -0.901    0.025
+.color orange
+.sphere    -8.829    4.715    0.782    0.150
+.cylinder    -8.829    4.715    0.782   -9.161    4.372    0.295    0.050
+.color light gray
+.cylinder    -8.829    4.715    0.782   -8.056    4.715   -0.989    0.025
+.color orange
+.sphere    -9.161    4.372    0.295    0.150
+.cylinder    -9.161    4.372    0.295   -9.161    4.028   -0.295    0.050
+.color light gray
+.cylinder    -9.161    4.372    0.295   -7.525    4.372   -0.733    0.025
+.color orange
+.sphere    -9.161    4.028   -0.295    0.150
+.cylinder    -9.161    4.028   -0.295   -8.829    3.685   -0.782    0.050
+.color light gray
+.cylinder    -9.161    4.028   -0.295   -7.231    4.028   -0.223    0.025
+.color orange
+.sphere    -8.829    3.685   -0.782    0.150
+.cylinder    -8.829    3.685   -0.782   -8.280    3.341   -0.997    0.050
+.color light gray
+.cylinder    -8.829    3.685   -0.782   -7.275    3.685    0.365    0.025
+.color orange
+.sphere    -8.280    3.341   -0.997    0.150
+.cylinder    -8.280    3.341   -0.997   -7.705    2.997   -0.866    0.050
+.color light gray
+.cylinder    -8.280    3.341   -0.997   -7.642    3.341    0.826    0.025
+.color orange
+.sphere    -7.705    2.997   -0.866    0.150
+.cylinder    -7.705    2.997   -0.866   -7.304    2.654   -0.434    0.050
+.color light gray
+.cylinder    -7.705    2.997   -0.866   -8.206    2.997    1.000    0.025
+.color orange
+.sphere    -7.304    2.654   -0.434    0.150
+.cylinder    -7.304    2.654   -0.434   -7.217    2.310    0.149    0.050
+.color light gray
+.cylinder    -7.304    2.654   -0.434   -8.769    2.654    0.826    0.025
+.color orange
+.sphere    -7.217    2.310    0.149    0.150
+.cylinder    -7.217    2.310    0.149   -7.472    1.966    0.680    0.050
+.color light gray
+.cylinder    -7.217    2.310    0.149   -9.136    2.310    0.365    0.025
+.color orange
+.sphere    -7.472    1.966    0.680    0.150
+.cylinder    -7.472    1.966    0.680   -7.983    1.623    0.975    0.050
+.color light gray
+.cylinder    -7.472    1.966    0.680   -9.180    1.966   -0.223    0.025
+.color orange
+.sphere    -7.983    1.623    0.975    0.150
+.cylinder    -7.983    1.623    0.975   -8.571    1.279    0.931    0.050
+.color light gray
+.cylinder    -7.983    1.623    0.975   -8.886    1.623   -0.733    0.025
+.color orange
+.sphere    -8.571    1.279    0.931    0.150
+.cylinder    -8.571    1.279    0.931   -9.032    0.936    0.563    0.050
+.color light gray
+.cylinder    -8.571    1.279    0.931   -8.354    1.279   -0.989    0.025
+.color orange
+.sphere    -9.032    0.936    0.563    0.150
+.cylinder    -9.032    0.936    0.563   -9.206    0.592    0.000    0.050
+.color light gray
+.cylinder    -9.032    0.936    0.563   -7.772    0.936   -0.901    0.025
+.color orange
+.sphere    -9.206    0.592    0.000    0.150
+.cylinder    -9.206    0.592    0.000   -9.032    0.248   -0.563    0.050
+.color light gray
+.cylinder    -9.206    0.592    0.000   -7.340    0.592   -0.500    0.025
+.color orange
+.sphere    -9.032    0.248   -0.563    0.150
+.cylinder    -9.032    0.248   -0.563   -8.571   -0.095   -0.931    0.050
+.color light gray
+.cylinder    -9.032    0.248   -0.563   -7.208    0.248    0.075    0.025
+.color orange
+.sphere    -8.571   -0.095   -0.931    0.150
+.cylinder    -8.571   -0.095   -0.931   -7.983   -0.439   -0.975    0.050
+.color light gray
+.cylinder    -8.571   -0.095   -0.931   -7.424   -0.095    0.624    0.025
+.color orange
+.sphere    -7.983   -0.439   -0.975    0.150
+.cylinder    -7.983   -0.439   -0.975   -7.472   -0.782   -0.680    0.050
+.color light gray
+.cylinder    -7.983   -0.439   -0.975   -7.911   -0.439    0.956    0.025
+.color orange
+.sphere    -7.472   -0.782   -0.680    0.150
+.cylinder    -7.472   -0.782   -0.680   -7.217   -1.126   -0.149    0.050
+.color light gray
+.cylinder    -7.472   -0.782   -0.680   -8.500   -0.782    0.956    0.025
+.color orange
+.sphere    -7.217   -1.126   -0.149    0.150
+.cylinder    -7.217   -1.126   -0.149   -7.304   -1.470    0.434    0.050
+.color light gray
+.cylinder    -7.217   -1.126   -0.149   -8.987   -1.126    0.624    0.025
+.color orange
+.sphere    -7.304   -1.470    0.434    0.150
+.cylinder    -7.304   -1.470    0.434   -6.782   -1.470    0.563    0.050
+.color light gray
+.cylinder    -7.304   -1.470    0.434   -9.203   -1.470    0.075    0.025
+.color orange
+.sphere    -6.782   -1.470    0.563    0.150
+.cylinder    -6.782   -1.470    0.563   -6.321   -1.126    0.931    0.050
+.color red
+.cylinder    -6.782   -1.470    0.563   -7.304   -1.470    0.434    0.080
+.color light gray
+.cylinder    -6.782   -1.470    0.563   -4.958   -1.470   -0.075    0.025
+.color orange
+.sphere    -6.321   -1.126    0.931    0.150
+.cylinder    -6.321   -1.126    0.931   -5.733   -0.782    0.975    0.050
+.color light gray
+.cylinder    -6.321   -1.126    0.931   -5.174   -1.126   -0.624    0.025
+.color orange
+.sphere    -5.733   -0.782    0.975    0.150
+.cylinder    -5.733   -0.782    0.975   -5.222   -0.439    0.680    0.050
+.color light gray
+.cylinder    -5.733   -0.782    0.975   -5.661   -0.782   -0.956    0.025
+.color orange
+.sphere    -5.222   -0.439    0.680    0.150
+.cylinder    -5.222   -0.439    0.680   -4.967   -0.095    0.149    0.050
+.color light gray
+.cylinder    -5.222   -0.439    0.680   -6.250   -0.439   -0.956    0.025
+.color orange
+.sphere    -4.967   -0.095    0.149    0.150
+.cylinder    -4.967   -0.095    0.149   -5.054    0.248   -0.434    0.050
+.color light gray
+.cylinder    -4.967   -0.095    0.149   -6.737   -0.095   -0.624    0.025
+.color orange
+.sphere    -5.054    0.248   -0.434    0.150
+.cylinder    -5.054    0.248   -0.434   -5.455    0.592   -0.866    0.050
+.color light gray
+.cylinder    -5.054    0.248   -0.434   -6.953    0.248   -0.075    0.025
+.color orange
+.sphere    -5.455    0.592   -0.866    0.150
+.cylinder    -5.455    0.592   -0.866   -6.030    0.936   -0.997    0.050
+.color light gray
+.cylinder    -5.455    0.592   -0.866   -6.822    0.592    0.500    0.025
+.color orange
+.sphere    -6.030    0.936   -0.997    0.150
+.cylinder    -6.030    0.936   -0.997   -6.579    1.279   -0.782    0.050
+.color light gray
+.cylinder    -6.030    0.936   -0.997   -6.389    0.936    0.901    0.025
+.color orange
+.sphere    -6.579    1.279   -0.782    0.150
+.cylinder    -6.579    1.279   -0.782   -6.911    1.623   -0.295    0.050
+.color light gray
+.cylinder    -6.579    1.279   -0.782   -5.806    1.279    0.989    0.025
+.color orange
+.sphere    -6.911    1.623   -0.295    0.150
+.color light gray
+.cylinder    -6.911    1.623   -0.295   -5.275    1.623    0.733    0.025
+.color orange
+.sphere    -3.470   -5.130   -0.434    0.150
+.cylinder    -3.470   -5.130   -0.434   -3.811   -5.531   -0.866    0.050
+.color light gray
+.cylinder    -3.470   -5.130   -0.434   -3.470   -7.028   -0.075    0.025
+.color orange
+.sphere    -3.811   -5.531   -0.866    0.150
+.cylinder    -3.811   -5.531   -0.866   -4.151   -6.106   -0.997    0.050
+.color light gray
+.cylinder    -3.811   -5.531   -0.866   -3.811   -6.897    0.500    0.025
+.color orange
+.sphere    -4.151   -6.106   -0.997    0.150
+.cylinder    -4.151   -6.106   -0.997   -4.490   -6.654   -0.782    0.050
+.color light gray
+.cylinder    -4.151   -6.106   -0.997   -4.151   -6.465    0.901    0.025
+.color orange
+.sphere    -4.490   -6.654   -0.782    0.150
+.cylinder    -4.490   -6.654   -0.782   -4.830   -6.986   -0.295    0.050
+.color light gray
+.cylinder    -4.490   -6.654   -0.782   -4.490   -5.882    0.989    0.025
+.color orange
+.sphere    -4.830   -6.986   -0.295    0.150
+.cylinder    -4.830   -6.986   -0.295   -5.170   -6.986    0.295    0.050
+.color light gray
+.cylinder    -4.830   -6.986   -0.295   -4.830   -5.351    0.733    0.025
+.color orange
+.sphere    -5.170   -6.986    0.295    0.150
+.cylinder    -5.170   -6.986    0.295   -5.405   -6.640    0.376    0.050
+.color light gray
+.cylinder    -5.170   -6.986    0.295   -5.170   -5.056    0.223    0.025
+.color orange
+.sphere    -5.405   -6.640    0.376    0.150
+.cylinder    -5.405   -6.640    0.376   -5.640   -6.293    0.457    0.050
+.color orange
+.sphere    -5.640   -6.293    0.457    0.150
+.cylinder    -5.640   -6.293    0.457   -5.875   -5.946    0.538    0.050
+.color orange
+.sphere    -5.875   -5.946    0.538    0.150
+.cylinder    -5.875   -5.946    0.538   -6.109   -5.599    0.620    0.050
+.color orange
+.sphere    -6.109   -5.599    0.620    0.150
+.cylinder    -6.109   -5.599    0.620   -6.344   -5.253    0.701    0.050
+.color orange
+.sphere    -6.344   -5.253    0.701    0.150
+.cylinder    -6.344   -5.253    0.701   -6.579   -4.906    0.782    0.050
+.color orange
+.sphere    -6.579   -4.906    0.782    0.150
+.cylinder    -6.579   -4.906    0.782   -6.030   -4.562    0.997    0.050
+.color light gray
+.cylinder    -6.579   -4.906    0.782   -5.025   -4.906   -0.365    0.025
+.color orange
+.sphere    -6.030   -4.562    0.997    0.150
+.cylinder    -6.030   -4.562    0.997   -5.455   -4.219    0.866    0.050
+.color light gray
+.cylinder    -6.030   -4.562    0.997   -5.392   -4.562   -0.826    0.025
+.color orange
+.sphere    -5.455   -4.219    0.866    0.150
+.cylinder    -5.455   -4.219    0.866   -5.054   -3.875    0.434    0.050
+.color light gray
+.cylinder    -5.455   -4.219    0.866   -5.955   -4.219   -1.000    0.025
+.color orange
+.sphere    -5.054   -3.875    0.434    0.150
+.cylinder    -5.054   -3.875    0.434   -4.967   -3.531   -0.149    0.050
+.color light gray
+.cylinder    -5.054   -3.875    0.434   -6.519   -3.875   -0.826    0.025
+.color orange
+.sphere    -4.967   -3.531   -0.149    0.150
+.cylinder    -4.967   -3.531   -0.149   -5.222   -3.188   -0.680    0.050
+.color light gray
+.cylinder    -4.967   -3.531   -0.149   -6.886   -3.531   -0.365    0.025
+.color orange
+.sphere    -5.222   -3.188   -0.680    0.150
+.cylinder    -5.222   -3.188   -0.680   -5.733   -2.844   -0.975    0.050
+.color light gray
+.cylinder    -5.222   -3.188   -0.680   -6.930   -3.188    0.223    0.025
+.color orange
+.sphere    -5.733   -2.844   -0.975    0.150
+.cylinder    -5.733   -2.844   -0.975   -6.321   -2.501   -0.931    0.050
+.color light gray
+.cylinder    -5.733   -2.844   -0.975   -6.636   -2.844    0.733    0.025
+.color orange
+.sphere    -6.321   -2.501   -0.931    0.150
+.cylinder    -6.321   -2.501   -0.931   -6.782   -2.157   -0.563    0.050
+.color light gray
+.cylinder    -6.321   -2.501   -0.931   -6.104   -2.501    0.989    0.025
+.color orange
+.sphere    -6.782   -2.157   -0.563    0.150
+.cylinder    -6.782   -2.157   -0.563   -6.955   -1.813    0.000    0.050
+.color light gray
+.cylinder    -6.782   -2.157   -0.563   -5.522   -2.157    0.901    0.025
+.color orange
+.sphere    -6.955   -1.813    0.000    0.150
+.cylinder    -6.955   -1.813    0.000   -7.705   -1.813    0.866    0.050
+.color red
+.cylinder    -6.955   -1.813    0.000   -7.705   -1.813    0.866    0.080
+.color light gray
+.cylinder    -6.955   -1.813    0.000   -5.090   -1.813    0.500    0.025
+.color orange
+.sphere    -7.705   -1.813    0.866    0.150
+.cylinder    -7.705   -1.813    0.866   -8.280   -2.157    0.997    0.050
+.color light gray
+.cylinder    -7.705   -1.813    0.866   -9.072   -1.813   -0.500    0.025
+.color orange
+.sphere    -8.280   -2.157    0.997    0.150
+.cylinder    -8.280   -2.157    0.997   -8.829   -2.501    0.782    0.050
+.color light gray
+.cylinder    -8.280   -2.157    0.997   -8.639   -2.157   -0.901    0.025
+.color orange
+.sphere    -8.829   -2.501    0.782    0.150
+.cylinder    -8.829   -2.501    0.782   -9.161   -2.844    0.295    0.050
+.color light gray
+.cylinder    -8.829   -2.501    0.782   -8.056   -2.501   -0.989    0.025
+.color orange
+.sphere    -9.161   -2.844    0.295    0.150
+.cylinder    -9.161   -2.844    0.295   -9.161   -3.188   -0.295    0.050
+.color light gray
+.cylinder    -9.161   -2.844    0.295   -7.525   -2.844   -0.733    0.025
+.color orange
+.sphere    -9.161   -3.188   -0.295    0.150
+.cylinder    -9.161   -3.188   -0.295   -8.829   -3.531   -0.782    0.050
+.color light gray
+.cylinder    -9.161   -3.188   -0.295   -7.231   -3.188   -0.223    0.025
+.color orange
+.sphere    -8.829   -3.531   -0.782    0.150
+.cylinder    -8.829   -3.531   -0.782   -8.280   -3.875   -0.997    0.050
+.color light gray
+.cylinder    -8.829   -3.531   -0.782   -7.275   -3.531    0.365    0.025
+.color orange
+.sphere    -8.280   -3.875   -0.997    0.150
+.cylinder    -8.280   -3.875   -0.997   -7.705   -4.219   -0.866    0.050
+.color light gray
+.cylinder    -8.280   -3.875   -0.997   -7.642   -3.875    0.826    0.025
+.color orange
+.sphere    -7.705   -4.219   -0.866    0.150
+.cylinder    -7.705   -4.219   -0.866   -7.304   -4.562   -0.434    0.050
+.color light gray
+.cylinder    -7.705   -4.219   -0.866   -8.206   -4.219    1.000    0.025
+.color orange
+.sphere    -7.304   -4.562   -0.434    0.150
+.color light gray
+.cylinder    -7.304   -4.562   -0.434   -8.769   -4.562    0.826    0.025
+.color orange
+.sphere    -7.217   -4.906    0.149    0.150
+.cylinder    -7.217   -4.906    0.149   -7.472   -5.249    0.680    0.050
+.color light gray
+.cylinder    -7.217   -4.906    0.149   -9.136   -4.906    0.365    0.025
+.color orange
+.sphere    -7.472   -5.249    0.680    0.150
+.cylinder    -7.472   -5.249    0.680   -7.983   -5.593    0.975    0.050
+.color light gray
+.cylinder    -7.472   -5.249    0.680   -9.180   -5.249   -0.223    0.025
+.color orange
+.sphere    -7.983   -5.593    0.975    0.150
+.cylinder    -7.983   -5.593    0.975   -8.571   -5.937    0.931    0.050
+.color light gray
+.cylinder    -7.983   -5.593    0.975   -8.886   -5.593   -0.733    0.025
+.color orange
+.sphere    -8.571   -5.937    0.931    0.150
+.cylinder    -8.571   -5.937    0.931   -9.032   -6.280    0.563    0.050
+.color light gray
+.cylinder    -8.571   -5.937    0.931   -8.354   -5.937   -0.989    0.025
+.color orange
+.sphere    -9.032   -6.280    0.563    0.150
+.cylinder    -9.032   -6.280    0.563   -9.206   -6.624    0.000    0.050
+.color light gray
+.cylinder    -9.032   -6.280    0.563   -7.772   -6.280   -0.901    0.025
+.color orange
+.sphere    -9.206   -6.624    0.000    0.150
+.cylinder    -9.206   -6.624    0.000   -9.032   -6.967   -0.563    0.050
+.color light gray
+.cylinder    -9.206   -6.624    0.000   -7.340   -6.624   -0.500    0.025
+.color orange
+.sphere    -9.032   -6.967   -0.563    0.150
+.cylinder    -9.032   -6.967   -0.563   -8.571   -7.311   -0.931    0.050
+.color light gray
+.cylinder    -9.032   -6.967   -0.563   -7.208   -6.967    0.075    0.025
+.color orange
+.sphere    -8.571   -7.311   -0.931    0.150
+.cylinder    -8.571   -7.311   -0.931   -8.344   -7.632   -0.825    0.050
+.color light gray
+.cylinder    -8.571   -7.311   -0.931   -7.424   -7.311    0.624    0.025
+.color orange
+.sphere    -8.344   -7.632   -0.825    0.150
+.cylinder    -8.344   -7.632   -0.825   -8.117   -7.953   -0.719    0.050
+.color orange
+.sphere    -8.117   -7.953   -0.719    0.150
+.cylinder    -8.117   -7.953   -0.719   -7.891   -8.274   -0.613    0.050
+.color orange
+.sphere    -7.891   -8.274   -0.613    0.150
+.cylinder    -7.891   -8.274   -0.613   -7.664   -8.595   -0.507    0.050
+.color orange
+.sphere    -7.664   -8.595   -0.507    0.150
+.cylinder    -7.664   -8.595   -0.507   -7.437   -8.915   -0.401    0.050
+.color orange
+.sphere    -7.437   -8.915   -0.401    0.150
+.cylinder    -7.437   -8.915   -0.401   -7.210   -9.236   -0.295    0.050
+.color orange
+.sphere    -7.210   -9.236   -0.295    0.150
+.cylinder    -7.210   -9.236   -0.295   -6.870   -8.904   -0.782    0.050
+.color light gray
+.cylinder    -7.210   -9.236   -0.295   -7.210   -7.306   -0.223    0.025
+.color orange
+.sphere    -6.870   -8.904   -0.782    0.150
+.cylinder    -6.870   -8.904   -0.782   -6.530   -8.355   -0.997    0.050
+.color light gray
+.cylinder    -6.870   -8.904   -0.782   -6.870   -7.350    0.365    0.025
+.color orange
+.sphere    -6.530   -8.355   -0.997    0.150
+.cylinder    -6.530   -8.355   -0.997   -6.191   -7.781   -0.866    0.050
+.color light gray
+.cylinder    -6.530   -8.355   -0.997   -6.530   -7.718    0.826    0.025
+.color orange
+.sphere    -6.191   -7.781   -0.866    0.150
+.cylinder    -6.191   -7.781   -0.866   -5.851   -7.380   -0.434    0.050
+.color light gray
+.cylinder    -6.191   -7.781   -0.866   -6.191   -8.281    1.000    0.025
+.color orange
+.sphere    -5.851   -7.380   -0.434    0.150
+.cylinder    -5.851   -7.380   -0.434   -5.511   -7.292    0.149    0.050
+.color light gray
+.cylinder    -5.851   -7.380   -0.434   -5.851   -8.844    0.826    0.025
+.color orange
+.sphere    -5.511   -7.292    0.149    0.150
+.cylinder    -5.511   -7.292    0.149   -5.170   -7.548    0.680    0.050
+.color light gray
+.cylinder    -5.511   -7.292    0.149   -5.511   -9.212    0.365    0.025
+.color orange
+.sphere    -5.170   -7.548    0.680    0.150
+.cylinder    -5.170   -7.548    0.680   -4.830   -8.058    0.975    0.050
+.color light gray
+.cylinder    -5.170   -7.548    0.680   -5.170   -9.256   -0.223    0.025
+.color orange
+.sphere    -4.830   -8.058    0.975    0.150
+.cylinder    -4.830   -8.058    0.975   -4.490   -8.646    0.931    0.050
+.color light gray
+.cylinder    -4.830   -8.058    0.975   -4.830   -8.961   -0.733    0.025
+.color orange
+.sphere    -4.490   -8.646    0.931    0.150
+.cylinder    -4.490   -8.646    0.931   -4.151   -9.107    0.563    0.050
+.color light gray
+.cylinder    -4.490   -8.646    0.931   -4.490   -8.430   -0.989    0.025
+.color orange
+.sphere    -4.151   -9.107    0.563    0.150
+.cylinder    -4.151   -9.107    0.563   -3.811   -9.281    0.000    0.050
+.color light gray
+.cylinder    -4.151   -9.107    0.563   -4.151   -7.847   -0.901    0.025
+.color orange
+.sphere    -3.811   -9.281    0.000    0.150
+.cylinder    -3.811   -9.281    0.000   -3.470   -9.107   -0.563    0.050
+.color light gray
+.cylinder    -3.811   -9.281    0.000   -3.811   -7.415   -0.500    0.025
+.color orange
+.sphere    -3.470   -9.107   -0.563    0.150
+.cylinder    -3.470   -9.107   -0.563   -3.131   -8.646   -0.931    0.050
+.color light gray
+.cylinder    -3.470   -9.107   -0.563   -3.470   -7.284    0.075    0.025
+.color orange
+.sphere    -3.131   -8.646   -0.931    0.150
+.cylinder    -3.131   -8.646   -0.931   -2.791   -8.058   -0.975    0.050
+.color light gray
+.cylinder    -3.131   -8.646   -0.931   -3.131   -7.499    0.624    0.025
+.color orange
+.sphere    -2.791   -8.058   -0.975    0.150
+.cylinder    -2.791   -8.058   -0.975   -2.450   -7.548   -0.680    0.050
+.color light gray
+.cylinder    -2.791   -8.058   -0.975   -2.791   -7.986    0.956    0.025
+.color orange
+.sphere    -2.450   -7.548   -0.680    0.150
+.cylinder    -2.450   -7.548   -0.680   -2.111   -7.292   -0.149    0.050
+.color light gray
+.cylinder    -2.450   -7.548   -0.680   -2.450   -8.576    0.956    0.025
+.color orange
+.sphere    -2.111   -7.292   -0.149    0.150
+.cylinder    -2.111   -7.292   -0.149   -1.770   -7.380    0.434    0.050
+.color light gray
+.cylinder    -2.111   -7.292   -0.149   -2.111   -9.063    0.624    0.025
+.color orange
+.sphere    -1.770   -7.380    0.434    0.150
+.cylinder    -1.770   -7.380    0.434   -1.770   -6.857    0.563    0.050
+.color light gray
+.cylinder    -1.770   -7.380    0.434   -1.770   -9.278    0.075    0.025
+.color orange
+.sphere    -1.770   -6.857    0.563    0.150
+.cylinder    -1.770   -6.857    0.563   -2.111   -6.396    0.931    0.050
+.color red
+.cylinder    -1.770   -6.857    0.563   -1.770   -7.380    0.434    0.080
+.color light gray
+.cylinder    -1.770   -6.857    0.563   -1.770   -5.034   -0.075    0.025
+.color orange
+.sphere    -2.111   -6.396    0.931    0.150
+.cylinder    -2.111   -6.396    0.931   -2.450   -5.808    0.975    0.050
+.color light gray
+.cylinder    -2.111   -6.396    0.931   -2.111   -5.249   -0.624    0.025
+.color orange
+.sphere    -2.450   -5.808    0.975    0.150
+.cylinder    -2.450   -5.808    0.975   -2.791   -5.298    0.680    0.050
+.color light gray
+.cylinder    -2.450   -5.808    0.975   -2.450   -5.736   -0.956    0.025
+.color orange
+.sphere    -2.791   -5.298    0.680    0.150
+.cylinder    -2.791   -5.298    0.680   -3.131   -5.042    0.149    0.050
+.color light gray
+.cylinder    -2.791   -5.298    0.680   -2.791   -6.326   -0.956    0.025
+.color orange
+.sphere    -3.131   -5.042    0.149    0.150
+.color light gray
+.cylinder    -3.131   -5.042    0.149   -3.131   -6.813   -0.624    0.025
+.color orange
+.sphere     1.970   -6.986    0.295    0.150
+.cylinder     1.970   -6.986    0.295    1.629   -6.654    0.782    0.050
+.color light gray
+.cylinder     1.970   -6.986    0.295    1.970   -5.056    0.223    0.025
+.color orange
+.sphere     1.629   -6.654    0.782    0.150
+.cylinder     1.629   -6.654    0.782    1.290   -6.106    0.997    0.050
+.color light gray
+.cylinder     1.629   -6.654    0.782    1.629   -5.100   -0.365    0.025
+.color orange
+.sphere     1.290   -6.106    0.997    0.150
+.cylinder     1.290   -6.106    0.997    0.950   -5.531    0.866    0.050
+.color light gray
+.cylinder     1.290   -6.106    0.997    1.290   -5.468   -0.826    0.025
+.color orange
+.sphere     0.950   -5.531    0.866    0.150
+.cylinder     0.950   -5.531    0.866    0.610   -5.130    0.434    0.050
+.color light gray
+.cylinder     0.950   -5.531    0.866    0.950   -6.031   -1.000    0.025
+.color orange
+.sphere     0.610   -5.130    0.434    0.150
+.cylinder     0.610   -5.130    0.434    0.270   -5.042   -0.149    0.050
+.color light gray
+.cylinder     0.610   -5.130    0.434    0.610   -6.594   -0.826    0.025
+.color orange
+.sphere     0.270   -5.042   -0.149    0.150
+.cylinder     0.270   -5.042   -0.149   -0.070   -5.298   -0.680    0.050
+.color light gray
+.cylinder     0.270   -5.042   -0.149    0.270   -6.962   -0.365    0.025
+.color orange
+.sphere    -0.070   -5.298   -0.680    0.150
+.cylinder    -0.070   -5.298   -0.680   -0.410   -5.808   -0.975    0.050
+.color light gray
+.cylinder    -0.070   -5.298   -0.680   -0.070   -7.006    0.223    0.025
+.color orange
+.sphere    -0.410   -5.808   -0.975    0.150
+.cylinder    -0.410   -5.808   -0.975   -0.750   -6.396   -0.931    0.050
+.color light gray
+.cylinder    -0.410   -5.808   -0.975   -0.410   -6.711    0.733    0.025
+.color orange
+.sphere    -0.750   -6.396   -0.931    0.150
+.cylinder    -0.750   -6.396   -0.931   -1.091   -6.857   -0.563    0.050
+.color light gray
+.cylinder    -0.750   -6.396   -0.931   -0.750   -6.180    0.989    0.025
+.color orange
+.sphere    -1.091   -6.857   -0.563    0.150
+.cylinder    -1.091   -6.857   -0.563   -1.431   -7.031    0.000    0.050
+.color light gray
+.cylinder    -1.091   -6.857   -0.563   -1.091   -5.597    0.901    0.025
+.color orange
+.sphere    -1.431   -7.031    0.000    0.150
+.cylinder    -1.431   -7.031    0.000   -1.431   -7.781    0.866    0.050
+.color red
+.cylinder    -1.431   -7.031    0.000   -1.431   -7.781    0.866    0.080
+.color light gray
+.cylinder    -1.431   -7.031    0.000   -1.431   -5.165    0.500    0.025
+.color orange
+.sphere    -1.431   -7.781    0.866    0.150
+.cylinder    -1.431   -7.781    0.866   -1.091   -8.355    0.997    0.050
+.color light gray
+.cylinder    -1.431   -7.781    0.866   -1.431   -9.147   -0.500    0.025
+.color orange
+.sphere    -1.091   -8.355    0.997    0.150
+.cylinder    -1.091   -8.355    0.997   -0.750   -8.904    0.782    0.050
+.color light gray
+.cylinder    -1.091   -8.355    0.997   -1.091   -8.715   -0.901    0.025
+.color orange
+.sphere    -0.750   -8.904    0.782    0.150
+.cylinder    -0.750   -8.904    0.782   -0.410   -9.236    0.295    0.050
+.color light gray
+.cylinder    -0.750   -8.904    0.782   -0.750   -8.132   -0.989    0.025
+.color orange
+.sphere    -0.410   -9.236    0.295    0.150
+.cylinder    -0.410   -9.236    0.295   -0.070   -9.236   -0.295    0.050
+.color light gray
+.cylinder    -0.410   -9.236    0.295   -0.410   -7.601   -0.733    0.025
+.color orange
+.sphere    -0.070   -9.236   -0.295    0.150
+.cylinder    -0.070   -9.236   -0.295    0.270   -8.904   -0.782    0.050
+.color light gray
+.cylinder    -0.070   -9.236   -0.295   -0.070   -7.306   -0.223    0.025
+.color orange
+.sphere     0.270   -8.904   -0.782    0.150
+.cylinder     0.270   -8.904   -0.782    0.610   -8.355   -0.997    0.050
+.color light gray
+.cylinder     0.270   -8.904   -0.782    0.270   -7.350    0.365    0.025
+.color orange
+.sphere     0.610   -8.355   -0.997    0.150
+.cylinder     0.610   -8.355   -0.997    0.950   -7.781   -0.866    0.050
+.color light gray
+.cylinder     0.610   -8.355   -0.997    0.610   -7.718    0.826    0.025
+.color orange
+.sphere     0.950   -7.781   -0.866    0.150
+.cylinder     0.950   -7.781   -0.866    1.290   -7.380   -0.434    0.050
+.color light gray
+.cylinder     0.950   -7.781   -0.866    0.950   -8.281    1.000    0.025
+.color orange
+.sphere     1.290   -7.380   -0.434    0.150
+.cylinder     1.290   -7.380   -0.434    1.629   -7.292    0.149    0.050
+.color light gray
+.cylinder     1.290   -7.380   -0.434    1.290   -8.844    0.826    0.025
+.color orange
+.sphere     1.629   -7.292    0.149    0.150
+.cylinder     1.629   -7.292    0.149    1.970   -7.548    0.680    0.050
+.color light gray
+.cylinder     1.629   -7.292    0.149    1.629   -9.212    0.365    0.025
+.color orange
+.sphere     1.970   -7.548    0.680    0.150
+.cylinder     1.970   -7.548    0.680    2.309   -8.058    0.975    0.050
+.color light gray
+.cylinder     1.970   -7.548    0.680    1.970   -9.256   -0.223    0.025
+.color orange
+.sphere     2.309   -8.058    0.975    0.150
+.cylinder     2.309   -8.058    0.975    2.650   -8.646    0.931    0.050
+.color light gray
+.cylinder     2.309   -8.058    0.975    2.309   -8.961   -0.733    0.025
+.color orange
+.sphere     2.650   -8.646    0.931    0.150
+.cylinder     2.650   -8.646    0.931    2.990   -9.107    0.563    0.050
+.color light gray
+.cylinder     2.650   -8.646    0.931    2.650   -8.430   -0.989    0.025
+.color orange
+.sphere     2.990   -9.107    0.563    0.150
+.cylinder     2.990   -9.107    0.563    3.329   -9.281    0.000    0.050
+.color light gray
+.cylinder     2.990   -9.107    0.563    2.990   -7.847   -0.901    0.025
+.color orange
+.sphere     3.329   -9.281    0.000    0.150
+.cylinder     3.329   -9.281    0.000    3.670   -9.107   -0.563    0.050
+.color light gray
+.cylinder     3.329   -9.281    0.000    3.329   -7.415   -0.500    0.025
+.color orange
+.sphere     3.670   -9.107   -0.563    0.150
+.cylinder     3.670   -9.107   -0.563    4.010   -8.646   -0.931    0.050
+.color light gray
+.cylinder     3.670   -9.107   -0.563    3.670   -7.284    0.075    0.025
+.color orange
+.sphere     4.010   -8.646   -0.931    0.150
+.cylinder     4.010   -8.646   -0.931    4.349   -8.058   -0.975    0.050
+.color light gray
+.cylinder     4.010   -8.646   -0.931    4.010   -7.499    0.624    0.025
+.color orange
+.sphere     4.349   -8.058   -0.975    0.150
+.cylinder     4.349   -8.058   -0.975    4.689   -7.548   -0.680    0.050
+.color light gray
+.cylinder     4.349   -8.058   -0.975    4.349   -7.986    0.956    0.025
+.color orange
+.sphere     4.689   -7.548   -0.680    0.150
+.cylinder     4.689   -7.548   -0.680    5.029   -7.292   -0.149    0.050
+.color light gray
+.cylinder     4.689   -7.548   -0.680    4.689   -8.576    0.956    0.025
+.color orange
+.sphere     5.029   -7.292   -0.149    0.150
+.cylinder     5.029   -7.292   -0.149    5.370   -7.380    0.434    0.050
+.color light gray
+.cylinder     5.029   -7.292   -0.149    5.029   -9.063    0.624    0.025
+.color orange
+.sphere     5.370   -7.380    0.434    0.150
+.cylinder     5.370   -7.380    0.434    5.370   -6.857    0.563    0.050
+.color light gray
+.cylinder     5.370   -7.380    0.434    5.370   -9.278    0.075    0.025
+.color orange
+.sphere     5.370   -6.857    0.563    0.150
+.cylinder     5.370   -6.857    0.563    5.029   -6.396    0.931    0.050
+.color red
+.cylinder     5.370   -6.857    0.563    5.370   -7.380    0.434    0.080
+.color light gray
+.cylinder     5.370   -6.857    0.563    5.370   -5.034   -0.075    0.025
+.color orange
+.sphere     5.029   -6.396    0.931    0.150
+.cylinder     5.029   -6.396    0.931    4.689   -5.808    0.975    0.050
+.color light gray
+.cylinder     5.029   -6.396    0.931    5.029   -5.249   -0.624    0.025
+.color orange
+.sphere     4.689   -5.808    0.975    0.150
+.cylinder     4.689   -5.808    0.975    4.349   -5.298    0.680    0.050
+.color light gray
+.cylinder     4.689   -5.808    0.975    4.689   -5.736   -0.956    0.025
+.color orange
+.sphere     4.349   -5.298    0.680    0.150
+.cylinder     4.349   -5.298    0.680    4.010   -5.042    0.149    0.050
+.color light gray
+.cylinder     4.349   -5.298    0.680    4.349   -6.326   -0.956    0.025
+.color orange
+.sphere     4.010   -5.042    0.149    0.150
+.cylinder     4.010   -5.042    0.149    3.670   -5.130   -0.434    0.050
+.color light gray
+.cylinder     4.010   -5.042    0.149    4.010   -6.813   -0.624    0.025
+.color orange
+.sphere     3.670   -5.130   -0.434    0.150
+.cylinder     3.670   -5.130   -0.434    3.329   -5.531   -0.866    0.050
+.color light gray
+.cylinder     3.670   -5.130   -0.434    3.670   -7.028   -0.075    0.025
+.color orange
+.sphere     3.329   -5.531   -0.866    0.150
+.cylinder     3.329   -5.531   -0.866    2.990   -6.106   -0.997    0.050
+.color light gray
+.cylinder     3.329   -5.531   -0.866    3.329   -6.897    0.500    0.025
+.color orange
+.sphere     2.990   -6.106   -0.997    0.150
+.cylinder     2.990   -6.106   -0.997    2.650   -6.654   -0.782    0.050
+.color light gray
+.cylinder     2.990   -6.106   -0.997    2.990   -6.465    0.901    0.025
+.color orange
+.sphere     2.650   -6.654   -0.782    0.150
+.cylinder     2.650   -6.654   -0.782    2.309   -6.986   -0.295    0.050
+.color light gray
+.cylinder     2.650   -6.654   -0.782    2.650   -5.882    0.989    0.025
+.color orange
+.sphere     2.309   -6.986   -0.295    0.150
+.color light gray
+.cylinder     2.309   -6.986   -0.295    2.309   -5.351    0.733    0.025
