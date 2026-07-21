@@ -847,6 +847,53 @@ class _ScaffoldSplitRequest:
     step: int
 
 
+@dataclass(frozen=True)
+class _ScaffoldSplitScan:
+    node1: int
+    node2: int
+    sec1: int
+    sec2: int
+    n_cross: int
+    direction: str
+    bounds: _ScaffoldSplitBounds
+
+
+@dataclass(frozen=True)
+class _SpanTreeState:
+    up: list[int]
+    down: list[int]
+    listup: list[int]
+    listdn: list[int]
+    node: list[int]
+    posicao: list[int]
+    n_edge: int
+
+
+@dataclass(frozen=True)
+class _StapleXoverContext:
+    geom: GeomType
+    mesh: MeshType
+    dna: DNAType
+    min_bp: list[int]
+    max_bp: list[int]
+
+
+@dataclass(frozen=True)
+class _StapleXoverCandidate:
+    cur: int
+    com: int
+
+
+@dataclass(frozen=True)
+class _StapleNeighborPair:
+    b_nei_up: bool
+    b_nei_dn: bool
+    up_cur: int
+    up_com: int
+    dn_cur: int
+    dn_com: int
+
+
 def _select_initial_centered_scaffold_split(
     geom: GeomType,
     mesh: MeshType,
@@ -1156,16 +1203,15 @@ def _split_centered_scaf_xover(
         b_fail, node1, node2 = _scan_scaffold_split_direction(
             geom,
             mesh,
-            node1,
-            node2,
-            sec1,
-            sec2,
-            n_cross,
-            direction,
-            request.bounds.min_bp1,
-            request.bounds.max_bp1,
-            request.bounds.min_bp2,
-            request.bounds.max_bp2,
+            _ScaffoldSplitScan(
+                node1,
+                node2,
+                sec1,
+                sec2,
+                n_cross,
+                direction,
+                request.bounds,
+            ),
         )
     elif direction == "up":
         if mesh.node[node1].up == -1 or mesh.node[node2].dn == -1:
@@ -1176,16 +1222,15 @@ def _split_centered_scaf_xover(
         b_fail, node1, node2 = _scan_scaffold_split_direction(
             geom,
             mesh,
-            node1,
-            node2,
-            sec1,
-            sec2,
-            n_cross,
-            direction,
-            request.bounds.min_bp1,
-            request.bounds.max_bp1,
-            request.bounds.min_bp2,
-            request.bounds.max_bp2,
+            _ScaffoldSplitScan(
+                node1,
+                node2,
+                sec1,
+                sec2,
+                n_cross,
+                direction,
+                request.bounds,
+            ),
         )
     else:
         b_fail = False
@@ -1236,30 +1281,47 @@ def _scaffold_split_hits_boundary_gap(
 def _scan_scaffold_split_direction(
     geom: GeomType,
     mesh: MeshType,
-    node1: int,
-    node2: int,
-    sec1: int,
-    sec2: int,
-    n_cross: int,
-    direction: str,
-    min_bp1: int,
-    max_bp1: int,
-    min_bp2: int,
-    max_bp2: int,
+    scan: _ScaffoldSplitScan | None = None,
+    **kwargs,
 ) -> tuple[bool, int, int]:
     from .section import section_connection_scaf
 
+    if scan is None:
+        scan = _ScaffoldSplitScan(
+            kwargs["node1"],
+            kwargs["node2"],
+            kwargs["sec1"],
+            kwargs["sec2"],
+            kwargs["n_cross"],
+            kwargs["direction"],
+            _ScaffoldSplitBounds(
+                kwargs["min_bp1"],
+                kwargs["max_bp1"],
+                kwargs["min_bp2"],
+                kwargs["max_bp2"],
+            ),
+        )
+
+    node1 = scan.node1
+    node2 = scan.node2
     id_bp1 = mesh.node[node1].bp
     id_bp2 = mesh.node[node2].bp
     n_skip = 0
     while True:
-        if _scaffold_split_hits_boundary_gap(id_bp1, id_bp2, min_bp1, max_bp1, min_bp2, max_bp2):
+        if _scaffold_split_hits_boundary_gap(
+            id_bp1,
+            id_bp2,
+            scan.bounds.min_bp1,
+            scan.bounds.max_bp1,
+            scan.bounds.min_bp2,
+            scan.bounds.max_bp2,
+        ):
             return True, node1, node2
-        if section_connection_scaf(geom, sec1, sec2, id_bp1):
-            if n_skip == n_cross:
+        if section_connection_scaf(geom, scan.sec1, scan.sec2, id_bp1):
+            if n_skip == scan.n_cross:
                 return False, node1, node2
             n_skip += 1
-        node1, node2 = _advance_scaffold_split_pair(mesh, node1, node2, direction, steps=1)
+        node1, node2 = _advance_scaffold_split_pair(mesh, node1, node2, scan.direction, steps=1)
         if node1 == -1 or node2 == -1:
             return True, node1, node2
         id_bp1 = mesh.node[node1].bp
@@ -1476,6 +1538,7 @@ def _spantree_prim_algorithm_1(
 
     tree: list[int] = []
     fi = 1
+    span_state = _SpanTreeState(up, down, lsup, lsdn, node, posi, n_edge)
     node[fi] = 1
     posi[1] = 1
     es = 0
@@ -1511,13 +1574,13 @@ def _spantree_prim_algorithm_1(
             if x > 0:
                 su = head[x]
                 if posi[su] > 0:
-                    fi = _spantree_remove(nm, x, up, down, lsup, lsdn, node, posi, fi, n_edge)
-                    fi = _spantree_remove(su, -x, up, down, lsup, lsdn, node, posi, fi, n_edge)
+                    fi = _spantree_remove(nm, x, span_state, fi)
+                    fi = _spantree_remove(su, -x, span_state, fi)
             else:
                 su = tail[-x]
                 if posi[su] > 0:
-                    fi = _spantree_remove(su, -x, up, down, lsup, lsdn, node, posi, fi, n_edge)
-                    fi = _spantree_remove(nm, x, up, down, lsup, lsdn, node, posi, fi, n_edge)
+                    fi = _spantree_remove(su, -x, span_state, fi)
+                    fi = _spantree_remove(nm, x, span_state, fi)
             x = lsup[idx(x)]
     return tree
 
@@ -1525,91 +1588,100 @@ def _spantree_prim_algorithm_1(
 def _spantree_remove(
     ant: int,
     arc: int,
-    up: list[int],
-    down: list[int],
-    listup: list[int],
-    listdn: list[int],
-    node: list[int],
-    posicao: list[int],
+    state: _SpanTreeState,
     fim: int,
-    n_edge: int,
 ) -> int:
     def idx(arc_val: int) -> int:
-        return arc_val + n_edge
+        return arc_val + state.n_edge
 
-    if up[ant] != arc:
-        y = listdn[idx(arc)]
-        if listup[idx(arc)] != 0:
-            z = listup[idx(arc)]
-            listup[idx(y)] = z
-            listdn[idx(z)] = y
+    if state.up[ant] != arc:
+        y = state.listdn[idx(arc)]
+        if state.listup[idx(arc)] != 0:
+            z = state.listup[idx(arc)]
+            state.listup[idx(y)] = z
+            state.listdn[idx(z)] = y
         else:
-            listup[idx(y)] = 0
-            down[ant] = y
+            state.listup[idx(y)] = 0
+            state.down[ant] = y
     else:
-        if down[ant] != arc:
-            x = listup[idx(arc)]
-            up[ant] = x
+        if state.down[ant] != arc:
+            x = state.listup[idx(arc)]
+            state.up[ant] = x
         else:
-            up[ant] = 0
-            down[ant] = 0
-            x = posicao[ant]
-            y = node[fim]
-            node[x] = y
-            posicao[y] = x
+            state.up[ant] = 0
+            state.down[ant] = 0
+            x = state.posicao[ant]
+            y = state.node[fim]
+            state.node[x] = y
+            state.posicao[y] = x
             fim -= 1
     return fim
 
 
 def _find_possible_stap_xover(geom: GeomType, mesh: MeshType, dna: DNAType) -> None:
     min_bp, max_bp = _staple_crossover_bp_bounds(geom, mesh)
+    ctx = _StapleXoverContext(geom, mesh, dna, min_bp, max_bp)
 
     dna.n_xover_stap = 0
     dna.n_sxover_stap = 0
     for i, j in _iter_staple_xover_candidates(mesh, dna):
-        neighbor_pair = _accepted_staple_xover_neighbor_pair(geom, mesh, dna, min_bp, max_bp, i, j)
+        candidate = _StapleXoverCandidate(i, j)
+        neighbor_pair = _accepted_staple_xover_neighbor_pair(ctx, candidate)
         if neighbor_pair is None:
             continue
 
-        b_nei_up, up_cur, up_com, dn_cur, dn_com = neighbor_pair
-        _apply_staple_xover_pair(dna, i, j, b_nei_up, up_cur, up_com, dn_cur, dn_com)
+        _apply_staple_xover_pair(dna, candidate, neighbor_pair)
 
 
 def _accepted_staple_xover_neighbor_pair(
-    geom: GeomType,
-    mesh: MeshType,
-    dna: DNAType,
-    min_bp: list[int],
-    max_bp: list[int],
-    node_cur: int,
-    node_com: int,
-) -> tuple[bool, int, int, int, int] | None:
+    ctx: _StapleXoverContext | GeomType,
+    candidate: _StapleXoverCandidate | MeshType | None = None,
+    dna: DNAType | None = None,
+    **kwargs,
+) -> _StapleNeighborPair | tuple[bool, int, int, int, int] | None:
     from .section import section_connection_stap
 
-    sec_cur = mesh.node[node_cur].sec
-    sec_com = mesh.node[node_com].sec
-    croL_cur = mesh.node[node_cur].croL
-    croL_com = mesh.node[node_com].croL
-    id_bp = mesh.node[node_cur].bp
+    legacy_tuple = not isinstance(ctx, _StapleXoverContext)
+    if legacy_tuple:
+        if not isinstance(candidate, MeshType) or dna is None:
+            raise TypeError("legacy staple crossover call requires geom, mesh, and dna")
+        ctx = _StapleXoverContext(ctx, candidate, dna, kwargs["min_bp"], kwargs["max_bp"])
+        candidate = _StapleXoverCandidate(kwargs["node_cur"], kwargs["node_com"])
+    elif not isinstance(candidate, _StapleXoverCandidate):
+        raise TypeError("staple crossover call requires a candidate")
 
-    if _staple_xover_hits_boundary_gap(min_bp, max_bp, croL_cur, croL_com, id_bp):
+    sec_cur = ctx.mesh.node[candidate.cur].sec
+    sec_com = ctx.mesh.node[candidate.com].sec
+    croL_cur = ctx.mesh.node[candidate.cur].croL
+    croL_com = ctx.mesh.node[candidate.com].croL
+    id_bp = ctx.mesh.node[candidate.cur].bp
+
+    if _staple_xover_hits_boundary_gap(ctx.min_bp, ctx.max_bp, croL_cur, croL_com, id_bp):
         return None
-    if not section_connection_stap(geom, sec_cur, sec_com, id_bp):
+    if not section_connection_stap(ctx.geom, sec_cur, sec_com, id_bp):
         return None
-    if _has_nearby_scaffold_xover(mesh, dna, node_cur, node_com):
+    if _has_nearby_scaffold_xover(ctx.mesh, ctx.dna, candidate.cur, candidate.com):
         return None
 
-    b_nei_up, b_nei_dn, up_cur, up_com, dn_cur, dn_com = _find_staple_neighbor_pair(
-        geom,
-        mesh,
+    neighbor_pair = _find_staple_neighbor_pair(
+        ctx.geom,
+        ctx.mesh,
         sec_cur,
         sec_com,
-        node_cur,
-        node_com,
+        candidate.cur,
+        candidate.com,
     )
-    if not b_nei_up and not b_nei_dn:
+    if not neighbor_pair.b_nei_up and not neighbor_pair.b_nei_dn:
         return None
-    return b_nei_up, up_cur, up_com, dn_cur, dn_com
+    if legacy_tuple:
+        return (
+            neighbor_pair.b_nei_up,
+            neighbor_pair.up_cur,
+            neighbor_pair.up_com,
+            neighbor_pair.dn_cur,
+            neighbor_pair.dn_com,
+        )
+    return neighbor_pair
 
 
 def _staple_crossover_bp_bounds(geom: GeomType, mesh: MeshType) -> tuple[list[int], list[int]]:
@@ -1690,7 +1762,7 @@ def _find_staple_neighbor_pair(
     sec_com: int,
     node_cur: int,
     node_com: int,
-) -> tuple[bool, bool, int, int, int, int]:
+) -> _StapleNeighborPair:
     from .section import section_connection_stap
 
     up_cur = mesh.node[node_cur].dn
@@ -1709,37 +1781,32 @@ def _find_staple_neighbor_pair(
         id_bp_dn = mesh.node[dn_cur].bp
         b_nei_dn = section_connection_stap(geom, sec_cur, sec_com, id_bp_dn)
 
-    return b_nei_up, b_nei_dn, up_cur, up_com, dn_cur, dn_com
+    return _StapleNeighborPair(b_nei_up, b_nei_dn, up_cur, up_com, dn_cur, dn_com)
 
 
 def _apply_staple_xover_pair(
     dna: DNAType,
-    cur: int,
-    com: int,
-    b_nei_up: bool,
-    up_cur: int,
-    up_com: int,
-    dn_cur: int,
-    dn_com: int,
+    candidate: _StapleXoverCandidate,
+    neighbors: _StapleNeighborPair,
 ) -> None:
     dna.n_xover_stap += 2
-    dna.base_stap[cur].xover = dna.base_stap[com].id
-    dna.base_stap[com].xover = dna.base_stap[cur].id
+    dna.base_stap[candidate.cur].xover = dna.base_stap[candidate.com].id
+    dna.base_stap[candidate.com].xover = dna.base_stap[candidate.cur].id
 
-    if b_nei_up:
-        dna.base_stap[up_cur].xover = dna.base_stap[up_com].id
-        dna.base_stap[up_com].xover = dna.base_stap[up_cur].id
-        dna.base_stap[cur].up = dna.base_stap[com].id
-        dna.base_stap[com].dn = dna.base_stap[cur].id
-        dna.base_stap[up_cur].dn = dna.base_stap[up_com].id
-        dna.base_stap[up_com].up = dna.base_stap[up_cur].id
+    if neighbors.b_nei_up:
+        dna.base_stap[neighbors.up_cur].xover = dna.base_stap[neighbors.up_com].id
+        dna.base_stap[neighbors.up_com].xover = dna.base_stap[neighbors.up_cur].id
+        dna.base_stap[candidate.cur].up = dna.base_stap[candidate.com].id
+        dna.base_stap[candidate.com].dn = dna.base_stap[candidate.cur].id
+        dna.base_stap[neighbors.up_cur].dn = dna.base_stap[neighbors.up_com].id
+        dna.base_stap[neighbors.up_com].up = dna.base_stap[neighbors.up_cur].id
     else:
-        dna.base_stap[dn_cur].xover = dna.base_stap[dn_com].id
-        dna.base_stap[dn_com].xover = dna.base_stap[dn_cur].id
-        dna.base_stap[cur].dn = dna.base_stap[com].id
-        dna.base_stap[com].up = dna.base_stap[cur].id
-        dna.base_stap[dn_cur].up = dna.base_stap[dn_com].id
-        dna.base_stap[dn_com].dn = dna.base_stap[dn_cur].id
+        dna.base_stap[neighbors.dn_cur].xover = dna.base_stap[neighbors.dn_com].id
+        dna.base_stap[neighbors.dn_com].xover = dna.base_stap[neighbors.dn_cur].id
+        dna.base_stap[candidate.cur].dn = dna.base_stap[candidate.com].id
+        dna.base_stap[candidate.com].up = dna.base_stap[candidate.cur].id
+        dna.base_stap[neighbors.dn_cur].up = dna.base_stap[neighbors.dn_com].id
+        dna.base_stap[neighbors.dn_com].dn = dna.base_stap[neighbors.dn_cur].id
 
 
 def _set_stap_crossover(dna: DNAType) -> None:

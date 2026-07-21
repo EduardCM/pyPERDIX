@@ -1132,6 +1132,13 @@ class _CadnanoBuildContext:
     colors: list[int]
 
 
+@dataclass(frozen=True)
+class _CadnanoWalkState:
+    cursor: _CadnanoCursor
+    dn_pos: tuple[int, int, int] | None
+    up_pos: tuple[int, int, int] | None
+
+
 def _build_cadnano_grid(width: int, n_edge: int, n_sec: int) -> _CadnanoGrid:
     scaf = [[[_cadnano_empty_conn() for _ in range(width)] for _ in range(n_sec)] for _ in range(n_edge)]
     stap = [[[_cadnano_empty_conn() for _ in range(width)] for _ in range(n_sec)] for _ in range(n_edge)]
@@ -1150,6 +1157,24 @@ def _cadnano_pos_from_node(mesh: MeshType, node_id: int, shift: int) -> tuple[in
     return node.iniL, node.sec, node.bp + shift
 
 
+def _cadnano_current_cursor(
+    mesh: MeshType,
+    dna: DNAType,
+    base_id: int,
+    cursor: _CadnanoCursor,
+    shift: int,
+    strand_type: str,
+) -> _CadnanoCursor:
+    node_id = dna.top[base_id].node
+    if node_id != -1:
+        return _CadnanoCursor(*_cadnano_pos_from_node(mesh, node_id, shift))
+    return _CadnanoCursor(
+        cursor.edge,
+        cursor.sec,
+        _cadnano_step_bp(cursor.sec, cursor.bp, strand_type),
+    )
+
+
 def _cadnano_neighbor_pos(
     mesh: MeshType,
     dna: DNAType,
@@ -1164,6 +1189,39 @@ def _cadnano_neighbor_pos(
         query.cursor.edge,
         query.cursor.sec,
         _cadnano_step_bp(query.cursor.sec, query.cursor.bp, query.strand_type),
+    )
+
+
+def _cadnano_unpaired_neighbor_pos(
+    cursor: _CadnanoCursor,
+    previous: tuple[int, int, int] | None,
+    strand_type: str,
+    step_from_cursor_sec: bool,
+) -> tuple[int, int, int]:
+    edge, sec, bp = (
+        previous
+        if previous is not None
+        else (cursor.edge, cursor.sec, cursor.bp)
+    )
+    step_sec = cursor.sec if step_from_cursor_sec else sec
+    return edge, sec, _cadnano_step_bp(step_sec, bp, strand_type)
+
+
+def _cadnano_link_pos(
+    mesh: MeshType,
+    dna: DNAType,
+    query: _CadnanoNeighborQuery,
+    previous: tuple[int, int, int] | None,
+    step_from_cursor_sec: bool,
+) -> tuple[int, int, int]:
+    node_id = dna.top[query.base_id].node
+    if node_id != -1:
+        return _cadnano_pos_from_node(mesh, node_id, query.shift)
+    return _cadnano_unpaired_neighbor_pos(
+        query.cursor,
+        previous,
+        query.strand_type,
+        step_from_cursor_sec,
     )
 
 
@@ -1196,66 +1254,59 @@ def _populate_cadnano_grid(
         c_base = Mani_Go_Start_Base(dna, strand_idx)
         if c_base == -1:
             continue
-        c_edge = c_sec = c_bp = 0
-        dn_edge = None
-        dn_sec = None
-        dn_bp = None
-        up_edge = None
-        up_sec = None
-        up_bp = None
+        state = _CadnanoWalkState(_CadnanoCursor(0, 0, 0), None, None)
         for _ in range(strand.n_base):
-            c_node = dna.top[c_base].node
-            if c_node != -1:
-                c_edge, c_sec, c_bp = _cadnano_pos_from_node(mesh, c_node, ctx.shift)
-            else:
-                if c_sec % 2 == 0:
-                    c_bp = c_bp + 1 if strand.type1 == "scaf" else c_bp - 1
-                else:
-                    c_bp = c_bp - 1 if strand.type1 == "scaf" else c_bp + 1
+            cursor = _cadnano_current_cursor(
+                mesh,
+                dna,
+                c_base,
+                state.cursor,
+                ctx.shift,
+                strand.type1,
+            )
             dn_base = dna.top[c_base].dn
             up_base = dna.top[c_base].up
-            idx = c_bp - 1
-            if 0 <= idx < ctx.width:
-                target = grid.scaf if strand.type1 == "scaf" else grid.stap
-                if dn_base != -1:
-                    dn_node = dna.top[dn_base].node
-                    if dn_node != -1:
-                        dn_edge = mesh.node[dn_node].iniL
-                        dn_sec = mesh.node[dn_node].sec
-                        dn_bp = mesh.node[dn_node].bp + ctx.shift
-                    else:
-                        if dn_edge is None:
-                            dn_edge = c_edge
-                        if dn_sec is None:
-                            dn_sec = c_sec
-                            dn_bp = c_bp
-                        if dn_sec % 2 == 0:
-                            dn_bp = dn_bp + 1 if strand.type1 == "scaf" else dn_bp - 1
-                        else:
-                            dn_bp = dn_bp - 1 if strand.type1 == "scaf" else dn_bp + 1
-                    target[c_edge][c_sec][idx][0] = dn_edge * ctx.n_sec + dn_sec
-                    target[c_edge][c_sec][idx][1] = dn_bp - 1
-                elif strand.type1 == "stap":
-                    grid.stap_col[c_edge][c_sec].append([idx, ctx.colors[(strand_idx + 1) % 12]])
+            dn_pos = state.dn_pos
+            up_pos = state.up_pos
+            assign_dn_pos = None
+            assign_up_pos = None
 
-                if up_base != -1:
-                    up_node = dna.top[up_base].node
-                    if up_node != -1:
-                        up_edge = mesh.node[up_node].iniL
-                        up_sec = mesh.node[up_node].sec
-                        up_bp = mesh.node[up_node].bp + ctx.shift
-                    else:
-                        if up_edge is None:
-                            up_edge = c_edge
-                        if up_sec is None:
-                            up_sec = c_sec
-                            up_bp = c_bp
-                        if c_sec % 2 == 0:
-                            up_bp = up_bp + 1 if strand.type1 == "scaf" else up_bp - 1
-                        else:
-                            up_bp = up_bp - 1 if strand.type1 == "scaf" else up_bp + 1
-                    target[c_edge][c_sec][idx][2] = up_edge * ctx.n_sec + up_sec
-                    target[c_edge][c_sec][idx][3] = up_bp - 1
+            if dn_base != -1:
+                dn_pos = _cadnano_link_pos(
+                    mesh,
+                    dna,
+                    _CadnanoNeighborQuery(dn_base, cursor, ctx.shift, strand.type1),
+                    state.dn_pos,
+                    step_from_cursor_sec=False,
+                )
+                assign_dn_pos = dn_pos
+            if up_base != -1:
+                up_pos = _cadnano_link_pos(
+                    mesh,
+                    dna,
+                    _CadnanoNeighborQuery(up_base, cursor, ctx.shift, strand.type1),
+                    state.up_pos,
+                    step_from_cursor_sec=True,
+                )
+                assign_up_pos = up_pos
+
+            idx = cursor.bp - 1
+            if 0 <= idx < ctx.width:
+                _cadnano_assign_links(
+                    grid,
+                    ctx.n_sec,
+                    _CadnanoLinkAssignment(
+                        strand.type1,
+                        cursor,
+                        assign_dn_pos,
+                        assign_up_pos,
+                    ),
+                )
+                if dn_base == -1 and strand.type1 == "stap":
+                    grid.stap_col[cursor.edge][cursor.sec].append(
+                        [idx, ctx.colors[(strand_idx + 1) % 12]]
+                    )
+            state = _CadnanoWalkState(cursor, dn_pos, up_pos)
             c_base = up_base
 
 

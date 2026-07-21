@@ -32,6 +32,33 @@ class ScafRegionType:
     cntr_base: int = -1
 
 
+@dataclass(frozen=True)
+class _StapleCutRegionOptions:
+    start_idx: int
+    stop_idx: int
+    bgn_pos: int
+    strand_n_base: int
+    type_sensitive: bool
+    allow_extended: bool
+
+
+@dataclass(frozen=True)
+class _StapleCutStrandContext:
+    prob: ProbType
+    dna: DNAType
+    regions: list[RegionType | None]
+    strand: StrandType
+
+
+@dataclass(frozen=True)
+class _ScaffoldNickScanContext:
+    geom: GeomType
+    mesh: MeshType
+    dna: DNAType
+    strand: StrandType
+    croL_n_xover: list[int]
+
+
 def seqdesign_design(prob: ProbType, geom: GeomType, mesh: MeshType, dna: DNAType) -> None:
     supported_cut_methods = {"max", "seed", "opt"}
     if para.para_cut_stap_method not in supported_cut_methods:
@@ -209,16 +236,7 @@ def _apply_scaffold_sequence(prob: ProbType, dna: DNAType, seq: str, wrap_len: i
 
 
 def _get_comp_sequence(base: str) -> str:
-    b = base.upper()
-    if b == "A":
-        return "T"
-    if b == "T":
-        return "A"
-    if b == "G":
-        return "C"
-    if b == "C":
-        return "G"
-    return "N"
+    return {"A": "T", "T": "A", "G": "C", "C": "G"}.get(base.upper(), "N")
 
 
 def _build_dna_top(dna: DNAType) -> None:
@@ -369,222 +387,269 @@ def _break_staples_seeds(prob: ProbType, mesh: MeshType, dna: DNAType) -> None:
     for i, strand in enumerate(dna.strand):
         if _skip_staple_cut_candidate(prob, dna, strand, unpaired_edge_mode=3):
             continue
+        _break_staple_seed_strand(prob, dna, i, strand)
 
-        region = _build_region_staple(dna, i)
-        n_region = len(region)
-        if n_region == 0:
+
+def _break_staple_seed_strand(
+    prob: ProbType,
+    dna: DNAType,
+    strand_index: int,
+    strand: StrandType,
+) -> None:
+    region = _build_region_staple(dna, strand_index)
+    n_region = len(region)
+    if n_region == 0:
+        return
+    region1 = [None] + region
+    ctx = _StapleCutStrandContext(prob, dna, region1, strand)
+
+    bgn_pos = 0
+    pre_reg = 0
+    b_cut = False
+    b_14nt = False
+    j = 0
+
+    while True:
+        j += 1
+        if j == n_region + 1:
+            break
+
+        if j != n_region and region1[j].length < 5:
             continue
-        region1 = [None] + region
 
-        bgn_pos = 0
-        pre_reg = 0
-        b_cut = False
-        b_14nt = False
-        j = 0
+        length = region1[j].cen_pos - bgn_pos
+        if j == n_region:
+            length = strand.n_base - bgn_pos + 1
 
-        while True:
-            j += 1
-            if j == n_region + 1:
-                break
+        if not b_cut and length >= para.para_min_cut_stap:
+            b_cut = True
 
-            if j != n_region and region1[j].length < 5:
+        if _seed_region_supplies_14nt(region1[j], j, n_region, length, b_14nt):
+            b_14nt = True
+            continue
+
+        if b_cut and b_14nt and length <= para.para_max_cut_stap:
+            cen_base = region1[j].cen_base
+            cen_pos = region1[j].cen_pos
+
+            if strand.n_base - cen_pos < para.para_min_cut_stap:
                 continue
 
-            length = region1[j].cen_pos - bgn_pos
-            if j == n_region:
-                length = strand.n_base - bgn_pos + 1
+            _cut_staple_after_base(dna, cen_base)
+            bgn_pos = cen_pos
+            b_cut = False
+            b_14nt = False
+        elif b_cut and length > para.para_max_cut_stap:
+            cut = _apply_seed_overlength_cut(ctx, j, pre_reg, bgn_pos)
+            if cut is None:
+                continue
+            pre_reg, bgn_pos, j = cut
+            b_cut = False
+            b_14nt = False
 
-            if not b_cut and length >= para.para_min_cut_stap:
-                b_cut = True
+        if strand.n_base - bgn_pos < para.para_max_cut_stap:
+            break
 
-            if j != n_region and length <= para.para_max_cut_stap:
-                if (
-                    (not b_14nt and region1[j].length + 1 >= 14 and region1[j].types == 1)
-                    or (not b_14nt and region1[j].length + 2 >= 14 and region1[j].types == 2)
-                ):
-                    b_14nt = True
-                    continue
+        if j == n_region:
+            if _cut_seed_final_overlength_region(ctx, j, pre_reg, bgn_pos):
+                return
 
-            if b_cut and b_14nt and length <= para.para_max_cut_stap:
-                cen_base = region1[j].cen_base
-                cen_pos = region1[j].cen_pos
 
-                if strand.n_base - cen_pos < para.para_min_cut_stap:
-                    continue
+def _seed_region_supplies_14nt(
+    region: RegionType,
+    region_index: int,
+    n_region: int,
+    length: int,
+    already_found: bool,
+) -> bool:
+    if region_index == n_region or length > para.para_max_cut_stap or already_found:
+        return False
+    return (
+        (region.length + 1 >= 14 and region.types == 1)
+        or (region.length + 2 >= 14 and region.types == 2)
+    )
 
-                _cut_staple_after_base(dna, cen_base)
 
-                bgn_pos = cen_pos
-                b_cut = False
-                b_14nt = False
-            elif b_cut and length > para.para_max_cut_stap:
-                selection = _select_staple_cut_region(
-                    prob,
-                    region1,
-                    start_idx=j,
-                    stop_idx=pre_reg,
-                    bgn_pos=bgn_pos,
-                    strand_n_base=strand.n_base,
-                    type_sensitive=False,
-                    allow_extended=True,
-                )
-                if selection is None:
-                    continue
-                jj, pre_base, pre_pos, b_ext = selection
+def _apply_seed_overlength_cut(
+    ctx: _StapleCutStrandContext,
+    region_index: int,
+    previous_region: int,
+    bgn_pos: int,
+) -> tuple[int, int, int] | None:
+    selection = _select_staple_cut_region(
+        ctx.prob,
+        ctx.regions,
+        _StapleCutRegionOptions(region_index, previous_region, bgn_pos, ctx.strand.n_base, False, True),
+    )
+    if selection is None:
+        return None
+    jj, pre_base, pre_pos, b_ext = selection
+    if b_ext and region_index == len(ctx.regions) - 1:
+        return None
+    if pre_pos - bgn_pos < para.para_min_cut_stap:
+        return None
 
-                if b_ext:
-                    if j == n_region:
-                        continue
+    up = ctx.dna.top[ctx.regions[jj].end_base].up
+    xover, upxover = _seed_region_xover_window(ctx.dna, up)
+    if _can_cut_staple_short_xover(ctx.regions[jj], bgn_pos, ctx.strand.n_base, xover, upxover):
+        _cut_staple_short_xover(ctx.dna, up, xover)
+        return jj, ctx.regions[jj].end_pos + 1, jj
 
-                if pre_pos - bgn_pos < para.para_min_cut_stap:
-                    continue
+    _cut_staple_after_base(ctx.dna, pre_base)
+    return jj, pre_pos, jj
 
-                up = dna.top[region1[jj].end_base].up
-                if up == -1:
-                    xover = -1
-                    upxover = -1
-                else:
-                    xover = dna.top[up].xover
-                    up_up = dna.top[up].up
-                    upxover = dna.top[up_up].xover if up_up != -1 else -1
 
-                if _can_cut_staple_short_xover(region1[jj], bgn_pos, strand.n_base, xover, upxover):
-                    _cut_staple_short_xover(dna, up, xover)
+def _seed_region_xover_window(dna: DNAType, up: int) -> tuple[int, int]:
+    if up == -1:
+        return -1, -1
+    xover = dna.top[up].xover
+    up_up = dna.top[up].up
+    return xover, dna.top[up_up].xover if up_up != -1 else -1
 
-                    pre_reg = jj
-                    bgn_pos = region1[jj].end_pos + 1
-                    b_cut = False
-                    b_14nt = False
-                    j = jj
-                else:
-                    _cut_staple_after_base(dna, pre_base)
 
-                    pre_reg = jj
-                    bgn_pos = pre_pos
-                    b_cut = False
-                    b_14nt = False
-                    j = jj
-
-            if strand.n_base - bgn_pos < para.para_max_cut_stap:
-                break
-
-            if j == n_region:
-                final_length = strand.n_base - bgn_pos
-                if final_length > para.para_max_cut_stap:
-                    jj = j
-                    cng_para = para.para_gap_xover_nick
-                    while True:
-                        if region1[jj].length >= cng_para * 2 + 2:
-                            pre_base = region1[jj].cen_base
-                            pre_pos = region1[jj].cen_pos
-                            if _is_valid_staple_cut_position(pre_pos, bgn_pos, strand.n_base):
-                                break
-                        jj -= 1
-                        if jj == pre_reg or jj == 0:
-                            jj = j
-                            cng_para -= 1
-                            if cng_para == 0:
-                                return
-
-                    if dna.top[pre_base].up == -1:
-                        continue
-                    if (
-                        final_length - (strand.n_base - pre_pos) < para.para_min_cut_stap
-                        or strand.n_base - pre_pos < para.para_min_cut_stap
-                    ):
-                        continue
-
-                    _cut_staple_after_base(dna, pre_base)
+def _cut_seed_final_overlength_region(
+    ctx: _StapleCutStrandContext,
+    region_index: int,
+    previous_region: int,
+    bgn_pos: int,
+) -> bool:
+    final_length = ctx.strand.n_base - bgn_pos
+    if final_length <= para.para_max_cut_stap:
+        return False
+    selection = _select_staple_cut_region(
+        ctx.prob,
+        ctx.regions,
+        _StapleCutRegionOptions(region_index, previous_region, bgn_pos, ctx.strand.n_base, False, False),
+    )
+    if selection is None:
+        return True
+    _, pre_base, pre_pos, _ = selection
+    if ctx.dna.top[pre_base].up == -1:
+        return False
+    if (
+        final_length - (ctx.strand.n_base - pre_pos) < para.para_min_cut_stap
+        or ctx.strand.n_base - pre_pos < para.para_min_cut_stap
+    ):
+        return False
+    _cut_staple_after_base(ctx.dna, pre_base)
+    return False
 
 
 def _break_staples_length(prob: ProbType, mesh: MeshType, dna: DNAType) -> None:
     for i, strand in enumerate(dna.strand):
         if _skip_staple_cut_candidate(prob, dna, strand, unpaired_edge_mode=0):
             continue
-
-        region = _build_region_staple(dna, i)
-        n_region = len(region)
-        if n_region == 0:
-            continue
-        region1 = [None] + region  # 1-based access
-
-        bgn_pos = 0
-        pre_region = 0
-        b_cut = False
-
-        for j in range(1, n_region + 1):
-            cen_base = region1[j].cen_base
-            cen_pos = region1[j].cen_pos
-            length = cen_pos - bgn_pos
-
-            if not b_cut and length >= para.para_min_cut_stap:
-                b_cut = True
-
-            if b_cut and length >= para.para_max_cut_stap:
-                selection = _select_staple_cut_region(
-                    prob,
-                    region1,
-                    start_idx=j - 1,
-                    stop_idx=pre_region,
-                    bgn_pos=bgn_pos,
-                    strand_n_base=strand.n_base,
-                    type_sensitive=True,
-                    allow_extended=True,
-                )
-                if selection is None:
-                    continue
-                jj, pre_base, pre_pos, b_ext = selection
-
-                if b_ext:
-                    if j == n_region:
-                        continue
-                else:
-                    if not _cut_staple_after_base(dna, pre_base):
-                        continue
+        _break_staple_length_strand(prob, dna, i, strand)
 
 
-                    pre_region = jj
-                    bgn_pos = pre_pos
-                    b_cut = False
+def _break_staple_length_strand(
+    prob: ProbType,
+    dna: DNAType,
+    strand_index: int,
+    strand: StrandType,
+) -> None:
+    region = _build_region_staple(dna, strand_index)
+    n_region = len(region)
+    if n_region == 0:
+        return
+    region1 = [None] + region
+    ctx = _StapleCutStrandContext(prob, dna, region1, strand)
 
-            if strand.n_base - bgn_pos <= para.para_max_cut_stap:
-                break
+    bgn_pos = 0
+    pre_region = 0
+    b_cut = False
 
-            if j == n_region:
-                final_length = strand.n_base - bgn_pos
-                if final_length >= para.para_max_cut_stap:
-                    jj = j
-                    cng_para = para.para_gap_xover_nick
-                    b_ext = False
+    for j in range(1, n_region + 1):
+        cen_pos = region1[j].cen_pos
+        length = cen_pos - bgn_pos
 
-                    while True:
-                        if jj == 0:
-                            return
-                        if region1[jj].length >= para.para_gap_xover_nick * 2 + 2:
-                            pre_base = region1[jj].cen_base
-                            pre_pos = region1[jj].cen_pos
-                            if _is_valid_staple_cut_position(pre_pos, bgn_pos, strand.n_base):
-                                break
-                        jj -= 1
-                        if jj == pre_region or jj == 0:
-                            jj = j - 1
-                            cng_para -= 1
-                            if cng_para == 0:
-                                b_ext = True
-                                pre_base = region1[jj].cen_base
-                                pre_pos = region1[jj].cen_pos
-                                break
-                            _update_max_stap_gap_change(prob, cng_para)
+        if not b_cut and length >= para.para_min_cut_stap:
+            b_cut = True
 
-                    if dna.top[pre_base].up == -1:
-                        continue
-                    if (
-                        final_length - (strand.n_base - pre_pos) < para.para_min_cut_stap
-                        or strand.n_base - pre_pos < para.para_min_cut_stap
-                    ):
-                        continue
+        if b_cut and length >= para.para_max_cut_stap:
+            cut = _apply_length_overlength_cut(ctx, j, pre_region, bgn_pos)
+            if cut is not None:
+                pre_region, bgn_pos = cut
+                b_cut = False
 
-                    _cut_staple_after_base(dna, pre_base)
+        if strand.n_base - bgn_pos <= para.para_max_cut_stap:
+            break
+
+        if j == n_region:
+            if _cut_length_final_overlength_region(ctx, j, pre_region, bgn_pos):
+                return
+
+
+def _apply_length_overlength_cut(
+    ctx: _StapleCutStrandContext,
+    region_index: int,
+    previous_region: int,
+    bgn_pos: int,
+) -> tuple[int, int] | None:
+    selection = _select_staple_cut_region(
+        ctx.prob,
+        ctx.regions,
+        _StapleCutRegionOptions(region_index - 1, previous_region, bgn_pos, ctx.strand.n_base, True, True),
+    )
+    if selection is None:
+        return None
+    jj, pre_base, pre_pos, b_ext = selection
+    if b_ext and region_index == len(ctx.regions) - 1:
+        return None
+    if b_ext or not _cut_staple_after_base(ctx.dna, pre_base):
+        return None
+    return jj, pre_pos
+
+
+def _cut_length_final_overlength_region(
+    ctx: _StapleCutStrandContext,
+    region_index: int,
+    previous_region: int,
+    bgn_pos: int,
+) -> bool:
+    final_length = ctx.strand.n_base - bgn_pos
+    if final_length < para.para_max_cut_stap:
+        return False
+    selection = _select_length_final_cut_region(ctx, region_index, previous_region, bgn_pos)
+    if selection is None:
+        return True
+    pre_base, pre_pos = selection
+    if ctx.dna.top[pre_base].up == -1:
+        return False
+    if (
+        final_length - (ctx.strand.n_base - pre_pos) < para.para_min_cut_stap
+        or ctx.strand.n_base - pre_pos < para.para_min_cut_stap
+    ):
+        return False
+    _cut_staple_after_base(ctx.dna, pre_base)
+    return False
+
+
+def _select_length_final_cut_region(
+    ctx: _StapleCutStrandContext,
+    region_index: int,
+    previous_region: int,
+    bgn_pos: int,
+) -> tuple[int, int] | None:
+    jj = region_index
+    cng_para = para.para_gap_xover_nick
+    while True:
+        if jj == 0:
+            return None
+        region = ctx.regions[jj]
+        if region is not None and region.length >= para.para_gap_xover_nick * 2 + 2:
+            if _is_valid_staple_cut_position(region.cen_pos, bgn_pos, ctx.strand.n_base):
+                return region.cen_base, region.cen_pos
+        jj -= 1
+        if jj == previous_region or jj == 0:
+            jj = region_index - 1
+            cng_para -= 1
+            if cng_para == 0:
+                region = ctx.regions[jj]
+                if region is None:
+                    return None
+                return region.cen_base, region.cen_pos
+            _update_max_stap_gap_change(ctx.prob, cng_para)
 
 
 def _skip_staple_cut_candidate(
@@ -631,38 +696,53 @@ def _update_max_stap_gap_change(prob: ProbType, cng_para: int) -> None:
 def _select_staple_cut_region(
     prob: ProbType,
     regions: list[RegionType | None],
-    start_idx: int,
-    stop_idx: int,
-    bgn_pos: int,
-    strand_n_base: int,
-    type_sensitive: bool,
-    allow_extended: bool,
+    options: _StapleCutRegionOptions | None = None,
+    **legacy_options,
 ) -> tuple[int, int, int, bool] | None:
-    jj = start_idx
+    options = _coerce_staple_cut_region_options(options, legacy_options)
+    jj = options.start_idx
     cng_para = para.para_gap_xover_nick
 
     while True:
         if jj == 0:
             return None
         region = regions[jj]
-        if region is not None and _region_accepts_staple_cut(region, cng_para, type_sensitive):
+        if region is not None and _region_accepts_staple_cut(region, cng_para, options.type_sensitive):
             pre_base = region.cen_base
             pre_pos = region.cen_pos
-            if _is_valid_staple_cut_position(pre_pos, bgn_pos, strand_n_base):
+            if _is_valid_staple_cut_position(pre_pos, options.bgn_pos, options.strand_n_base):
                 return jj, pre_base, pre_pos, False
 
         jj -= 1
-        if jj == stop_idx or jj == 0:
-            jj = start_idx
+        if jj == options.stop_idx or jj == 0:
+            jj = options.start_idx
             cng_para -= 1
             if cng_para == 0:
-                if not allow_extended:
+                if not options.allow_extended:
                     return None
                 region = regions[jj]
                 if region is None:
                     return None
                 return jj, region.cen_base, region.cen_pos, True
             _update_max_stap_gap_change(prob, cng_para)
+
+
+def _coerce_staple_cut_region_options(
+    options: _StapleCutRegionOptions | None,
+    legacy_options: dict,
+) -> _StapleCutRegionOptions:
+    if options is not None:
+        if legacy_options:
+            raise TypeError("pass staple cut options either as an object or keyword fields")
+        return options
+    return _StapleCutRegionOptions(
+        legacy_options["start_idx"],
+        legacy_options["stop_idx"],
+        legacy_options["bgn_pos"],
+        legacy_options["strand_n_base"],
+        legacy_options["type_sensitive"],
+        legacy_options["allow_extended"],
+    )
 
 
 def _region_accepts_staple_cut(region: RegionType, cng_para: int, type_sensitive: bool) -> bool:
@@ -794,106 +874,57 @@ def _build_region_staple(dna: DNAType, strand_index: int) -> list[RegionType]:
 
 
 def _build_region_staple_1(dna: DNAType, strand_index: int) -> list[RegionType]:
-    strand = dna.strand[strand_index]
-    base = Mani_Go_Start_Base(dna, strand_index)
-    if base == -1:
-        return []
-
-    region: list[RegionType] = []
-    b_region = False
-    b_vertex = False
-
-    for j in range(1, strand.n_base + 1):
-        across = dna.top[base].across
-
-        if across == -1:
-            b_region = True
-            b_vertex = True
-            base = dna.top[base].up
-            continue
-        if (
-            dna.top[base].dn == -1
-            or dna.top[base].up == -1
-            or dna.top[base].xover != -1
-            or dna.top[across].xover != -1
-        ):
-            b_region = True
-            base = dna.top[base].up
-            continue
-
-        if b_region:
-            b_region = False
-            reg = RegionType()
-            reg.sta_base = base
-            reg.length = 1
-            reg.sta_pos = j
-            reg.end_pos = j
-            if b_vertex:
-                reg.types = 1
-                if region:
-                    region[-1].types = 1
-                b_vertex = False
-            else:
-                reg.types = 2
-            region.append(reg)
-        else:
-            region[-1].length += 1
-            region[-1].end_pos = j
-
-        base = dna.top[base].up
-
+    region = _build_region_staple(dna, strand_index)
     for reg in region:
-        len_cen = (reg.length + 1) // 2 - 1
-        if reg.types == 1:
-            dn = dna.top[reg.sta_base].dn
-            if dn != -1 and dna.top[dn].across != -1:
-                len_cen -= 1
-            else:
-                len_cen += 1
-
-        cen_base = reg.sta_base
-        for _ in range(max(0, len_cen)):
-            cen_base = dna.top[cen_base].up
-        reg.cen_base = cen_base
-        reg.cen_pos = reg.sta_pos + len_cen
-
-        end_base = reg.sta_base
-        for _ in range(reg.length - 1):
-            end_base = dna.top[end_base].up
-        reg.end_base = end_base
-        reg.end_pos = reg.sta_pos + (reg.length - 1)
-
-        if (reg.types == 1 and reg.length + 1 >= 14) or (reg.types == 2 and reg.length + 2 >= 14):
-            sta_base = reg.sta_base
-            dn = dna.top[sta_base].dn
-            if dn != -1:
-                dna.top[dn].b_14nt = True
-                dna.top[dn].status = "S"
-            dna.top[sta_base].b_14nt = True
-            dna.top[sta_base].status = "S"
-            for _ in range(reg.length - 1):
-                sta_base = dna.top[sta_base].up
-                dna.top[sta_base].b_14nt = True
-                dna.top[sta_base].status = "S"
-            up = dna.top[sta_base].up
-            if up != -1 and dna.top[up].across != -1:
-                dna.top[up].b_14nt = True
-                dna.top[up].status = "S"
-
-        if (reg.types == 1 and reg.length + 1 <= 4) or (reg.types == 2 and reg.length + 2 <= 4):
-            sta_base = reg.sta_base
-            dn = dna.top[sta_base].dn
-            if dn != -1:
-                dna.top[dn].status = "F"
-            dna.top[sta_base].status = "F"
-            for _ in range(reg.length - 1):
-                sta_base = dna.top[sta_base].up
-                dna.top[sta_base].status = "F"
-            up = dna.top[sta_base].up
-            if up != -1 and dna.top[up].across != -1:
-                dna.top[up].status = "F"
+        _mark_14nt_staple_region(dna, reg)
+        _mark_short_staple_region(dna, reg)
 
     return region
+
+
+def _mark_14nt_staple_region(dna: DNAType, region: RegionType) -> None:
+    if not (
+        (region.types == 1 and region.length + 1 >= 14)
+        or (region.types == 2 and region.length + 2 >= 14)
+    ):
+        return
+    _mark_staple_region_status(dna, region, status="S", mark_14nt=True)
+
+
+def _mark_short_staple_region(dna: DNAType, region: RegionType) -> None:
+    if not (
+        (region.types == 1 and region.length + 1 <= 4)
+        or (region.types == 2 and region.length + 2 <= 4)
+    ):
+        return
+    _mark_staple_region_status(dna, region, status="F", mark_14nt=False)
+
+
+def _mark_staple_region_status(
+    dna: DNAType,
+    region: RegionType,
+    status: str,
+    mark_14nt: bool,
+) -> None:
+    sta_base = region.sta_base
+    dn = dna.top[sta_base].dn
+    if dn != -1:
+        dna.top[dn].status = status
+        if mark_14nt:
+            dna.top[dn].b_14nt = True
+    _set_staple_base_status(dna, sta_base, status, mark_14nt)
+    for _ in range(region.length - 1):
+        sta_base = dna.top[sta_base].up
+        _set_staple_base_status(dna, sta_base, status, mark_14nt)
+    up = dna.top[sta_base].up
+    if up != -1 and dna.top[up].across != -1:
+        _set_staple_base_status(dna, up, status, mark_14nt)
+
+
+def _set_staple_base_status(dna: DNAType, base: int, status: str, mark_14nt: bool) -> None:
+    dna.top[base].status = status
+    if mark_14nt:
+        dna.top[base].b_14nt = True
 
 
 def _make_nick_scaf(geom: GeomType, mesh: MeshType, dna: DNAType) -> None:
@@ -914,12 +945,8 @@ def _make_nick_scaf(geom: GeomType, mesh: MeshType, dna: DNAType) -> None:
                 break
 
             max_strt_base, max_count = _scan_scaffold_nick_candidate_run(
-                geom,
-                mesh,
-                dna,
-                strand,
+                _ScaffoldNickScanContext(geom, mesh, dna, strand, croL_n_xover),
                 base,
-                croL_n_xover,
                 b_inside,
             )
 
@@ -987,14 +1014,37 @@ def _advance_to_scaffold_nick_row_base(
 
 
 def _scan_scaffold_nick_candidate_run(
-    geom: GeomType,
-    mesh: MeshType,
-    dna: DNAType,
-    strand: StrandType,
-    base: int,
-    croL_n_xover: list[int],
-    b_inside: bool,
+    scan_ctx: _ScaffoldNickScanContext | GeomType,
+    *args,
+    **legacy_kwargs,
 ) -> tuple[int, int]:
+    if isinstance(scan_ctx, _ScaffoldNickScanContext):
+        base, b_inside = args
+    elif legacy_kwargs:
+        mesh, dna, strand = args
+        scan_ctx = _ScaffoldNickScanContext(
+            scan_ctx,
+            mesh,
+            dna,
+            strand,
+            legacy_kwargs["croL_n_xover"],
+        )
+        base = legacy_kwargs["base"]
+        b_inside = legacy_kwargs["b_inside"]
+    else:
+        mesh, dna, strand, base, croL_n_xover, b_inside = args
+        scan_ctx = _ScaffoldNickScanContext(
+            scan_ctx,
+            mesh,
+            dna,
+            strand,
+            croL_n_xover,
+        )
+    geom = scan_ctx.geom
+    mesh = scan_ctx.mesh
+    dna = scan_ctx.dna
+    strand = scan_ctx.strand
+    croL_n_xover = scan_ctx.croL_n_xover
     max_strt_base = base
     max_count = 0
     count = 0
@@ -1021,7 +1071,6 @@ def _scan_scaffold_nick_candidate_run(
         base = dna.top[base].up
 
     return max_strt_base, max_count
-
 
 def _apply_scaffold_nick(dna: DNAType, base: int, dn_base: int, mark_status: bool) -> bool:
     dna.top[base].dn = -1

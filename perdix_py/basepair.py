@@ -77,17 +77,28 @@ def basepair_discretize(prob: ProbType, geom: GeomType, mesh: MeshType) -> None:
 def _apply_ghost_node_replacement(
     geom: GeomType,
     mesh: MeshType,
-    junc_idx: int,
-    arm_idx: int,
-    sec_idx: int,
-    old_node: int,
-    replacement_node: int,
-    break_field: str,
+    ghost_ctx: _GhostNodeContext | int | None = None,
+    *legacy_args,
+    **legacy_kwargs,
 ) -> int:
+    if legacy_kwargs:
+        ghost_ctx = _GhostNodeContext(
+            legacy_kwargs["junc_idx"],
+            legacy_kwargs["arm_idx"],
+            legacy_kwargs["sec_idx"],
+        )
+        old_node = legacy_kwargs["old_node"]
+        replacement_node = legacy_kwargs["replacement_node"]
+        break_field = legacy_kwargs["break_field"]
+    elif not isinstance(ghost_ctx, _GhostNodeContext):
+        arm_idx, sec_idx, old_node, replacement_node, break_field = legacy_args
+        ghost_ctx = _GhostNodeContext(ghost_ctx, arm_idx, sec_idx)
+    else:
+        old_node, replacement_node, break_field = legacy_args
     return _apply_ghost_node_replacement_impl(
         geom,
         mesh,
-        _GhostNodeContext(junc_idx, arm_idx, sec_idx),
+        ghost_ctx,
         old_node,
         replacement_node,
         break_field,
@@ -97,17 +108,28 @@ def _apply_ghost_node_replacement(
 def _delete_ghost_node_chain(
     geom: GeomType,
     mesh: MeshType,
-    junc_idx: int,
-    arm_idx: int,
-    sec_idx: int,
-    start_node: int,
-    replacement_node: int,
-    break_field: str,
+    ghost_ctx: _GhostNodeContext | int | None = None,
+    *legacy_args,
+    **legacy_kwargs,
 ) -> None:
+    if legacy_kwargs:
+        ghost_ctx = _GhostNodeContext(
+            legacy_kwargs["junc_idx"],
+            legacy_kwargs["arm_idx"],
+            legacy_kwargs["sec_idx"],
+        )
+        start_node = legacy_kwargs["start_node"]
+        replacement_node = legacy_kwargs["replacement_node"]
+        break_field = legacy_kwargs["break_field"]
+    elif not isinstance(ghost_ctx, _GhostNodeContext):
+        arm_idx, sec_idx, start_node, replacement_node, break_field = legacy_args
+        ghost_ctx = _GhostNodeContext(ghost_ctx, arm_idx, sec_idx)
+    else:
+        start_node, replacement_node, break_field = legacy_args
     _delete_ghost_node_chain_impl(
         geom,
         mesh,
-        _GhostNodeContext(junc_idx, arm_idx, sec_idx),
+        ghost_ctx,
         start_node,
         replacement_node,
         break_field,
