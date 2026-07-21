@@ -378,12 +378,13 @@ def _write_routing_scaf(prob: ProbType, dna: DNAType) -> None:
     path = bild_path(prob, "09_atomic_model_scaf")
     with path.open("w", encoding="utf-8") as f:
         f.write(".color steel blue\n")
-        for base in dna.base_scaf:
+        for base_id in _scaffold_base_order(dna):
+            base = dna.top[base_id]
             x, y, z = base.pos
             f.write(f".sphere {x:9.3f}{y:9.3f}{z:9.3f}{0.15:9.3f}\n")
             if base.up != -1:
                 u = base.up
-                x2, y2, z2 = dna.base_scaf[u].pos
+                x2, y2, z2 = dna.top[u].pos
                 f.write(
                     f".cylinder {x:9.3f}{y:9.3f}{z:9.3f}"
                     f"{x2:9.3f}{y2:9.3f}{z2:9.3f}{0.05:9.3f}\n"
@@ -407,12 +408,13 @@ def _write_routing_stap(prob: ProbType, dna: DNAType) -> None:
     path = bild_path(prob, "09_atomic_model_stap")
     with path.open("w", encoding="utf-8") as f:
         f.write(".color orange\n")
-        for base in dna.base_stap:
+        for base_id in _staple_base_order(dna):
+            base = dna.top[base_id]
             x, y, z = base.pos
             f.write(f".sphere {x:9.3f}{y:9.3f}{z:9.3f}{0.15:9.3f}\n")
             if base.up != -1:
                 u = base.up
-                x2, y2, z2 = dna.base_stap[u].pos
+                x2, y2, z2 = dna.top[u].pos
                 f.write(
                     f".cylinder {x:9.3f}{y:9.3f}{z:9.3f}"
                     f"{x2:9.3f}{y2:9.3f}{z2:9.3f}{0.05:9.3f}\n"
@@ -552,27 +554,43 @@ def _write_routing_all(prob: ProbType, dna: DNAType) -> None:
     path = bild_path(prob, "09_atomic_model_all")
     with path.open("w", encoding="utf-8") as f:
         f.write(".color steel blue\n")
-        for base in dna.base_scaf:
+        for base_id in _scaffold_base_order(dna):
+            base = dna.top[base_id]
             x, y, z = base.pos
             f.write(f".sphere {x:9.3f}{y:9.3f}{z:9.3f}{0.12:9.3f}\n")
             if base.up != -1:
                 u = base.up
-                x2, y2, z2 = dna.base_scaf[u].pos
+                x2, y2, z2 = dna.top[u].pos
                 f.write(
                     f".cylinder {x:9.3f}{y:9.3f}{z:9.3f}"
                     f"{x2:9.3f}{y2:9.3f}{z2:9.3f}{0.04:9.3f}\n"
                 )
         f.write(".color orange\n")
-        for base in dna.base_stap:
+        for base_id in _staple_base_order(dna):
+            base = dna.top[base_id]
             x, y, z = base.pos
             f.write(f".sphere {x:9.3f}{y:9.3f}{z:9.3f}{0.12:9.3f}\n")
             if base.up != -1:
                 u = base.up
-                x2, y2, z2 = dna.base_stap[u].pos
+                x2, y2, z2 = dna.top[u].pos
                 f.write(
                     f".cylinder {x:9.3f}{y:9.3f}{z:9.3f}"
                     f"{x2:9.3f}{y2:9.3f}{z2:9.3f}{0.04:9.3f}\n"
                 )
+
+
+def _scaffold_base_order(dna: DNAType) -> list[int]:
+    for strand in dna.strand:
+        if strand.type1 == "scaf" and len(strand.base) == dna.n_base_scaf:
+            return list(strand.base)
+    return list(range(dna.n_base_scaf))
+
+
+def _staple_base_order(dna: DNAType) -> list[int]:
+    ordered = [base for strand in dna.strand if strand.type1 == "stap" for base in strand.base]
+    if len(ordered) == dna.n_base_stap:
+        return ordered
+    return list(range(dna.n_base_scaf, dna.n_top))
 
 
 def _write_cylinder_xover(prob: ProbType, geom: GeomType, mesh: MeshType, dna: DNAType) -> None:
@@ -806,7 +824,11 @@ def _write_basepair(prob: ProbType, mesh: MeshType, dna: DNAType) -> None:
             f.write(f"{ori[0][0]:8.2f}{ori[0][1]:8.2f}{ori[0][2]:8.2f}")
             f.write(f"{ori[1][0]:8.2f}{ori[1][1]:8.2f}{ori[1][2]:8.2f}")
             f.write(f"{ori[2][0]:8.2f}{ori[2][1]:8.2f}{ori[2][2]:8.2f}")
-            f.write(f"{dna.base_scaf[i].xover:7d}{dna.base_stap[i].xover:7d}\n")
+            scaffold_xover = dna.top[i].xover
+            staple_xover = dna.top[dna.n_base_scaf + i].xover
+            if staple_xover != -1:
+                staple_xover -= dna.n_base_scaf
+            f.write(f"{scaffold_xover:7d}{staple_xover:7d}\n")
         f.write("\n")
         f.write(f"{mesh.n_ele:7d}\n")
         for i in range(mesh.n_ele):

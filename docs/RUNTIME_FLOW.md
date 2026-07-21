@@ -19,6 +19,8 @@ The CLI in `perdix_py/main.py` supports these notable switches:
 - `--frame-mode legacy|svg-rect`: choose SVG coordinate normalization mode
 - `--svg-layer`: run only one `Layer_N` group from a multi-layer SVG
 - `--route-start default|shared-boundary`: coordinate route start selection across layered SVG runs
+- `--shared-crossover-indices LAYER`: route one layer normally and map its compatible scaffold crossover indices to the other layers
+- `--shared-start smallest|exterior`: align the scaffold nick at an exact common node selected by one of two policies
 
 ## Top-Level Runtime Sequence
 
@@ -38,8 +40,9 @@ For a normal single-run invocation, `perdix_py.main._run_pipeline()` executes:
 12. optional `dump_mesh_snapshot(..., "post_route", ...)`
 13. `seqdesign_design`
 14. `enforce_pipeline_validation("seqdesign_design", ...)`
-15. `output_generation`
-16. optional `print_summary`
+15. optional shared scaffold nick relocation and sequence reassignment
+16. `output_generation`
+17. optional `print_summary`
 
 The four long-running computational stages are still exposed through the legacy-style module names:
 
@@ -76,6 +79,35 @@ Each layer then runs through the normal pipeline with:
 
 - `svg_import_layer=<layer index>`
 - `svg_output_subdir=Layer_<N>`
+
+### Shared crossover indices
+
+With `--shared-crossover-indices LAYER`, the named layer runs first. Its scaffold crossovers are exported using stable keys composed of original edge geometry, base-pair index, and section pair. Compatible crossovers are then forced onto the other layers. Forced crossover fields are followed by scaffold traversal reconstruction so the final `up/dn` topology remains complete.
+
+### Shared scaffold starts
+
+`--shared-start` runs after sequence design and supports two policies:
+
+- `smallest`: select the layer with the lowest total scaffold nucleotide count and reuse its native scaffold start
+- `exterior`: intersect edges that have exactly one adjacent face in every layer, intersect strict safe nick sites on those edges, choose the longest contiguous common run, and use its center
+
+Both policies require an exact edge/base-pair/section node present in every layer. The relocation reconnects the old scaffold nick and cuts the new scaffold bond without modifying staple `up/dn`, staple crossovers, or reciprocal `across` pairing. Scaffold strand order and sequence assignment are then rebuilt before output files are rewritten.
+
+Examples:
+
+```bash
+python -m perdix_py.main input/levels_Lm.svg \
+  --config perdix_config.json \
+  --shared-crossover-indices 1 \
+  --shared-start smallest
+```
+
+```bash
+python -m perdix_py.main input/levels_Lm.svg \
+  --config perdix_config.json \
+  --shared-crossover-indices 1 \
+  --shared-start exterior
+```
 
 That means a multi-layer SVG writes into:
 
@@ -181,6 +213,9 @@ Common generated artifacts include:
 - `07_spantree.bild`
 - `08_crossovers.bild`
 - `09_atomic_model.bild`
+- `09_atomic_model_scaf.bild`
+- `09_atomic_model_stap.bild`
+- `09_atomic_model_all.bild`
 - `10_routing_scaf.bild`
 - `11_routing_stap.bild`
 - `13_cylindrical_model_xover.bild`
@@ -199,6 +234,8 @@ The main runtime data objects are:
 - `GeomType`: imported, modified, cross-section, face, section, and junction geometry
 - `MeshType`: discretized nodes and elements
 - `DNAType`: scaffold/staple topology and per-base sequence assignments
+
+`dna.top` is the canonical topology after sequence design. Final scaffold/staple strand order, nicks, crossovers, pairing, and sequence assignments are read from `dna.top` and `dna.strand`. Legacy `base_scaf` and `base_stap` connectivity is synchronized from that state before output generation. Consequently, `09_atomic_model.bild`, its scaffold/staple split files, and `09_atomic_model_all.bild` emit identical directed backbone segments for the same strands.
 
 Conceptually:
 

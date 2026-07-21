@@ -36,6 +36,32 @@ Useful CLI flags:
 - `--frame-mode legacy|svg-rect`: choose SVG coordinate handling mode
 - `--svg-layer`: run only one `Layer_N` group from a multi-layer SVG
 - `--route-start default|shared-boundary`: coordinate route-start selection across layered runs
+- `--shared-crossover-indices LAYER`: use one layer's scaffold crossover indices on all compatible layers
+- `--shared-start smallest|exterior`: align scaffold starts at an exact node shared by every layer
+
+### Layered routing alignment
+
+Use `smallest` to align every scaffold to the native start of the layer with the lowest total scaffold nucleotide count:
+
+```bash
+python -m perdix_py.main input/levels_Lm.svg \
+  --config perdix_config.json \
+  --shared-crossover-indices 1 \
+  --shared-start smallest
+```
+
+Use `exterior` to choose a safe common position on an edge that is topologically exterior in every layer:
+
+```bash
+python -m perdix_py.main input/levels_Lm.svg \
+  --config perdix_config.json \
+  --shared-crossover-indices 1 \
+  --shared-start exterior
+```
+
+`--shared-crossover-indices 1` routes `Layer_1` normally and maps compatible scaffold crossovers to the other layers by shared edge geometry, base-pair index, and section pair.
+
+Both shared-start modes require a multi-layer SVG and cannot be combined with `--svg-layer`. Start alignment moves only the scaffold nick. Staple connectivity and scaffold-staple pairing remain attached to the same physical nucleotides, and scaffold/staple sequences are reassigned from the relocated start.
 
 ## Install From GitHub
 
@@ -87,6 +113,9 @@ Common generated artifacts include:
 - `07_spantree.bild`
 - `08_crossovers.bild`
 - `09_atomic_model.bild`
+- `09_atomic_model_scaf.bild`
+- `09_atomic_model_stap.bild`
+- `09_atomic_model_all.bild`
 - `10_routing_scaf.bild`
 - `11_routing_stap.bild`
 - `13_cylindrical_model_xover.bild`
@@ -96,6 +125,8 @@ Common generated artifacts include:
 - `17_sequence.csv`
 
 For multi-layer SVGs, the runtime can emit separate `Layer_<N>/` subdirectories under the output root.
+
+After sequence design, `dna.top` is the canonical final topology. The split scaffold, staple, and combined atomic-model BILD files follow the same final strand ordering and connectivity as `09_atomic_model.bild`.
 
 ## Configuration
 

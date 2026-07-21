@@ -56,11 +56,32 @@ def seqdesign_design(prob: ProbType, geom: GeomType, mesh: MeshType, dna: DNATyp
         _print_14nt_region_simple(geom, mesh, dna)
     _assign_sequence(prob, dna)
     _round_top_positions(dna, digits=4)
+    _sync_base_connectivity_from_top(dna)
 
 
 def _round_top_positions(dna: DNAType, digits: int = 4) -> None:
     for t in dna.top:
         t.pos = tuple(round(float(v), digits) for v in t.pos)
+
+
+def _sync_base_connectivity_from_top(dna: DNAType) -> None:
+    n_scaf = dna.n_base_scaf
+    for i, base in enumerate(dna.base_scaf):
+        top = dna.top[i]
+        base.up = top.up
+        base.dn = top.dn
+        base.xover = top.xover
+        base.across = -1 if top.across == -1 else top.across - n_scaf
+        base.strand = top.strand
+        base.pos = top.pos
+    for i, base in enumerate(dna.base_stap):
+        top = dna.top[n_scaf + i]
+        base.up = -1 if top.up == -1 else top.up - n_scaf
+        base.dn = -1 if top.dn == -1 else top.dn - n_scaf
+        base.xover = -1 if top.xover == -1 else top.xover - n_scaf
+        base.across = top.across
+        base.strand = top.strand
+        base.pos = top.pos
 
 
 def _print_14nt_region_simple(geom: GeomType, mesh: MeshType, dna: DNAType) -> None:

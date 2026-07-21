@@ -44,11 +44,23 @@ from perdix_py.data_geom import GeomType, JuncType, LineType, PointType
 from perdix_py.data_mesh import EleType, MeshType, NodeType
 from perdix_py.data_prob import ProbType
 from perdix_py.input import input_initialize
+from perdix_py.main import (
+    _build_parser,
+    _select_longest_exterior_start_run,
+    _select_shared_start_source_layer,
+    _validate_route_start_args,
+)
+from perdix_py.output import _scaffold_base_order, _staple_base_order
 from perdix_py.route import (
     _accepted_staple_xover_neighbor_pair,
     _advance_scaffold_split_pair,
+    _apply_shared_scaffold_xovers,
     _apply_scaffold_xover_pair,
     _clear_scaffold_xover_pair,
+    _shared_ini_line_key,
+    apply_shared_scaffold_start,
+    export_shared_scaffold_start,
+    export_shared_scaffold_xovers,
     _find_possible_stap_xover,
     _find_scaffold_neighbor_pair,
     _has_scaffold_strand_pair_record,
@@ -62,6 +74,11 @@ from perdix_py.route import (
     _select_best_centered_scaffold_split,
     _select_initial_centered_scaffold_split,
     _write_route_bild,
+    SharedScaffoldXoverReport,
+    SharedScaffoldXoverSpec,
+    SharedScaffoldStartReport,
+    SharedScaffoldStartSpec,
+    route_generation,
 )
 from perdix_py.seqdesign import (
     _advance_to_scaffold_nick_row_base,
@@ -81,6 +98,7 @@ from perdix_py.seqdesign import (
     _scan_scaffold_nick_candidate_run,
     _select_staple_cut_region,
     _skip_staple_cut_candidate,
+    _sync_base_connectivity_from_top,
     _update_max_stap_gap_change,
     RegionType,
     ScafRegionType,
@@ -489,6 +507,335 @@ class TestRouteSafety(unittest.TestCase):
         self.assertTrue(_has_scaffold_xover_record(records, 4, 1))
         self.assertTrue(_has_scaffold_xover_record(records, 6, 3))
         self.assertFalse(_has_scaffold_xover_record(records, 6, 4))
+
+    def test_export_shared_scaffold_xovers_uses_geometry_bp_and_section_pair(self) -> None:
+        geom = GeomType(
+            iniP=[PointType(pos=(0.0, 0.0, 0.0)), PointType(pos=(10.0, 0.0, 0.0))],
+            iniL=[LineType(iniP=[0, 1])],
+        )
+        mesh = MeshType(
+            n_node=2,
+            node=[
+                NodeType(id=0, bp=7, sec=2, iniL=0),
+                NodeType(id=1, bp=7, sec=0, iniL=0),
+            ],
+        )
+        dna = DNAType(
+            n_base_scaf=2,
+            base_scaf=[
+                BaseType(id=0, xover=1),
+                BaseType(id=1, xover=0),
+            ],
+        )
+
+        specs = export_shared_scaffold_xovers(geom, mesh, dna)
+
+        self.assertEqual(len(specs), 1)
+        self.assertEqual(specs[0].edge_key, _shared_ini_line_key(geom, 0))
+        self.assertEqual(specs[0].bp, 7)
+        self.assertEqual(specs[0].sec_pair, (0, 2))
+
+    def test_apply_shared_scaffold_xovers_maps_same_index_to_target_layer(self) -> None:
+        geom = GeomType(
+            iniP=[PointType(pos=(0.0, 0.0, 0.0)), PointType(pos=(10.0, 0.0, 0.0))],
+            iniL=[LineType(iniP=[0, 1])],
+        )
+        mesh = MeshType(
+            n_node=6,
+            node=[
+                NodeType(id=0, bp=7, sec=0, iniL=0, up=2, dn=4),
+                NodeType(id=1, bp=7, sec=1, iniL=0, up=5, dn=3),
+                NodeType(id=2, bp=8, sec=0, iniL=0),
+                NodeType(id=3, bp=8, sec=1, iniL=0),
+                NodeType(id=4, bp=6, sec=0, iniL=0),
+                NodeType(id=5, bp=6, sec=1, iniL=0),
+            ],
+        )
+        dna = DNAType(
+            n_base_scaf=6,
+            base_scaf=[BaseType(id=i, xover=-1) for i in range(6)],
+        )
+        report = SharedScaffoldXoverReport()
+
+        with mock.patch("perdix_py.section.section_connection_scaf", return_value=True):
+            _apply_shared_scaffold_xovers(
+                geom,
+                mesh,
+                dna,
+                specs=[
+                    export_shared_scaffold_xovers(
+                        geom,
+                        MeshType(
+                            n_node=2,
+                            node=[
+                                NodeType(id=0, bp=7, sec=0, iniL=0),
+                                NodeType(id=1, bp=7, sec=1, iniL=0),
+                            ],
+                        ),
+                        DNAType(
+                            n_base_scaf=2,
+                            base_scaf=[BaseType(id=0, xover=1), BaseType(id=1, xover=0)],
+                        ),
+                    )[0]
+                ],
+                report=report,
+            )
+
+        self.assertEqual(report.requested, 1)
+        self.assertEqual(report.applied, 1)
+        self.assertEqual(dna.base_scaf[0].xover, 1)
+        self.assertEqual(dna.base_scaf[1].xover, 0)
+        self.assertEqual(dna.base_scaf[2].xover, 3)
+        self.assertEqual(dna.base_scaf[3].xover, 2)
+
+    def test_shared_scaffold_route_rewires_origami_for_routing_bild(self) -> None:
+        specs = [SharedScaffoldXoverSpec(edge_key=((0, 0, 0), (1, 0, 0)), bp=7, sec_pair=(0, 1))]
+        with (
+            mock.patch("perdix_py._route_impl._init_base_connectivity"),
+            mock.patch("perdix_py._route_impl._set_base_position"),
+            mock.patch("perdix_py._route_impl._write_route_bild"),
+            mock.patch("perdix_py._route_impl._reconnect_junction"),
+            mock.patch("perdix_py._route_impl._set_strand_id_scaf"),
+            mock.patch("perdix_py._route_impl._apply_shared_scaffold_xovers") as apply_shared,
+            mock.patch("perdix_py._route_impl._make_scaf_origami") as make_origami,
+            mock.patch("perdix_py._route_impl._find_possible_stap_xover"),
+            mock.patch("perdix_py._route_impl._set_orientation"),
+            mock.patch("perdix_py._route_impl._round_route_coordinates"),
+            mock.patch("perdix_py._route_impl._write_crossovers_bild"),
+            mock.patch("perdix_py._route_impl._write_orientation_bild"),
+        ):
+            route_generation(ProbType(), GeomType(), MeshType(), DNAType(), shared_scaffold_xovers=specs)
+
+        apply_shared.assert_called_once()
+        make_origami.assert_called_once()
+
+    def test_shared_scaffold_start_exports_first_routing_scaffold_base(self) -> None:
+        geom = GeomType(
+            iniP=[PointType(pos=(0.0, 0.0, 0.0)), PointType(pos=(10.0, 0.0, 0.0))],
+            iniL=[LineType(iniP=[0, 1])],
+        )
+        mesh = MeshType(
+            node=[
+                NodeType(id=0, bp=5, sec=1, iniL=0),
+                NodeType(id=1, bp=6, sec=1, iniL=0),
+            ]
+        )
+        dna = DNAType(
+            strand=[StrandType(type1="scaf", base=[1, 0], n_base=2)],
+            top=[
+                TopType(id=0, node=0, up=1, dn=-1),
+                TopType(id=1, node=1, up=-1, dn=0),
+            ],
+        )
+
+        spec = export_shared_scaffold_start(geom, mesh, dna)
+
+        self.assertEqual(spec, SharedScaffoldStartSpec(edge_key=_shared_ini_line_key(geom, 0), bp=5, sec=1))
+
+    def test_shared_scaffold_start_relocates_scaffold_nick(self) -> None:
+        geom = GeomType(
+            iniP=[PointType(pos=(0.0, 0.0, 0.0)), PointType(pos=(10.0, 0.0, 0.0))],
+            iniL=[LineType(iniP=[0, 1])],
+        )
+        mesh = MeshType(
+            node=[
+                NodeType(id=0, bp=4, sec=0, iniL=0),
+                NodeType(id=1, bp=5, sec=0, iniL=0),
+                NodeType(id=2, bp=6, sec=0, iniL=0),
+            ]
+        )
+        dna = DNAType(
+            n_base_scaf=3,
+            n_scaf=1,
+            base_scaf=[
+                BaseType(id=0, up=1, dn=-1),
+                BaseType(id=1, up=2, dn=0),
+                BaseType(id=2, up=-1, dn=1),
+            ],
+            strand=[StrandType(type1="scaf", base=[0, 1, 2], n_base=3)],
+            top=[
+                TopType(id=0, node=0, up=1, dn=-1, xover=-1),
+                TopType(id=1, node=1, up=2, dn=0, xover=-1),
+                TopType(id=2, node=2, up=-1, dn=1, xover=-1),
+            ],
+        )
+        report = SharedScaffoldStartReport()
+
+        apply_shared_scaffold_start(
+            geom,
+            mesh,
+            dna,
+            SharedScaffoldStartSpec(edge_key=_shared_ini_line_key(geom, 0), bp=6, sec=0),
+            report,
+        )
+
+        self.assertEqual(report.applied, 1)
+        self.assertEqual(dna.strand[0].base, [2, 0, 1])
+        self.assertEqual([top.address for top in dna.top], [2, 3, 1])
+        self.assertEqual([(top.up, top.dn) for top in dna.top], [(1, 2), (-1, 0), (0, -1)])
+        self.assertEqual([(base.up, base.dn) for base in dna.base_scaf], [(1, 2), (-1, 0), (0, -1)])
+
+    def test_atomic_scaffold_outputs_follow_relocated_strand_order(self) -> None:
+        dna = DNAType(
+            n_base_scaf=3,
+            strand=[StrandType(type1="scaf", base=[2, 0, 1], n_base=3)],
+        )
+
+        self.assertEqual(_scaffold_base_order(dna), [2, 0, 1])
+
+    def test_atomic_staple_outputs_follow_final_strand_order(self) -> None:
+        dna = DNAType(
+            n_base_scaf=2,
+            n_base_stap=3,
+            n_top=5,
+            strand=[
+                StrandType(type1="scaf", base=[0, 1], n_base=2),
+                StrandType(type1="stap", base=[4], n_base=1),
+                StrandType(type1="stap", base=[2, 3], n_base=2),
+            ],
+        )
+
+        self.assertEqual(_staple_base_order(dna), [4, 2, 3])
+
+    def test_sequence_design_syncs_legacy_base_connectivity_from_top(self) -> None:
+        dna = DNAType(
+            n_base_scaf=2,
+            n_base_stap=2,
+            n_top=4,
+            base_scaf=[BaseType(id=0), BaseType(id=1)],
+            base_stap=[BaseType(id=0), BaseType(id=1)],
+            top=[
+                TopType(id=0, up=1, dn=-1, xover=-1, across=2, strand=1, pos=(1.0, 0.0, 0.0)),
+                TopType(id=1, up=-1, dn=0, xover=-1, across=3, strand=1, pos=(2.0, 0.0, 0.0)),
+                TopType(id=2, up=3, dn=-1, xover=-1, across=0, strand=2, pos=(1.0, 1.0, 0.0)),
+                TopType(id=3, up=-1, dn=2, xover=-1, across=1, strand=2, pos=(2.0, 1.0, 0.0)),
+            ],
+        )
+
+        _sync_base_connectivity_from_top(dna)
+
+        self.assertEqual([(base.up, base.dn, base.across) for base in dna.base_scaf], [(1, -1, 0), (-1, 0, 1)])
+        self.assertEqual([(base.up, base.dn, base.across) for base in dna.base_stap], [(1, -1, 0), (-1, 0, 1)])
+
+    def test_shared_scaffold_start_requires_exact_bp_in_target_layer(self) -> None:
+        geom = GeomType(
+            iniP=[PointType(pos=(0.0, 0.0, 0.0)), PointType(pos=(10.0, 0.0, 0.0))],
+            iniL=[LineType(iniP=[0, 1])],
+        )
+        mesh = MeshType(
+            node=[
+                NodeType(id=0, bp=4, sec=0, iniL=0),
+                NodeType(id=1, bp=5, sec=0, iniL=0),
+                NodeType(id=2, bp=6, sec=0, iniL=0),
+            ]
+        )
+        dna = DNAType(
+            n_base_scaf=3,
+            n_scaf=1,
+            strand=[StrandType(type1="scaf", base=[0, 1, 2], n_base=3)],
+            top=[
+                TopType(id=0, node=0, up=1, dn=-1, xover=-1),
+                TopType(id=1, node=1, up=2, dn=0, xover=-1),
+                TopType(id=2, node=2, up=-1, dn=1, xover=-1),
+            ],
+        )
+        report = SharedScaffoldStartReport()
+
+        apply_shared_scaffold_start(
+            geom,
+            mesh,
+            dna,
+            SharedScaffoldStartSpec(edge_key=_shared_ini_line_key(geom, 0), bp=5, sec=0),
+            report,
+        )
+
+        self.assertEqual(report.applied, 1)
+        self.assertEqual(dna.strand[0].base, [1, 2, 0])
+
+    def test_shared_scaffold_start_preserves_staple_connectivity(self) -> None:
+        geom = GeomType(
+            iniP=[PointType(pos=(0.0, 0.0, 0.0)), PointType(pos=(10.0, 0.0, 0.0))],
+            iniL=[LineType(iniP=[0, 1])],
+        )
+        mesh = MeshType(
+            node=[
+                NodeType(id=0, bp=4, sec=0, iniL=0),
+                NodeType(id=1, bp=5, sec=0, iniL=0),
+                NodeType(id=2, bp=6, sec=0, iniL=0),
+            ]
+        )
+        dna = DNAType(
+            n_base_scaf=3,
+            n_base_stap=3,
+            n_scaf=1,
+            n_stap=1,
+            strand=[
+                StrandType(type1="scaf", base=[0, 1, 2], n_base=3),
+                StrandType(type1="stap", base=[3, 4, 5], n_base=3),
+            ],
+            top=[
+                TopType(id=0, node=0, up=1, dn=-1, across=3, xover=-1),
+                TopType(id=1, node=1, up=2, dn=0, across=4, xover=-1),
+                TopType(id=2, node=2, up=-1, dn=1, across=5, xover=-1),
+                TopType(id=3, node=0, up=4, dn=-1, across=0, xover=-1),
+                TopType(id=4, node=1, up=5, dn=3, across=1, xover=-1),
+                TopType(id=5, node=2, up=-1, dn=4, across=2, xover=-1),
+            ],
+        )
+        before = [(top.node, top.up, top.dn, top.xover, top.across) for top in dna.top[3:]]
+
+        apply_shared_scaffold_start(
+            geom,
+            mesh,
+            dna,
+            SharedScaffoldStartSpec(edge_key=_shared_ini_line_key(geom, 0), bp=6, sec=0),
+        )
+
+        after = [(top.node, top.up, top.dn, top.xover, top.across) for top in dna.top[3:]]
+        self.assertEqual(after, before)
+        self.assertEqual([top.across for top in dna.top], [3, 4, 5, 0, 1, 2])
+
+    def test_shared_scaffold_start_source_prefers_smallest_layer(self) -> None:
+        geom = GeomType(
+            iniP=[PointType(pos=(0.0, 0.0, 0.0)), PointType(pos=(10.0, 0.0, 0.0))],
+            iniL=[LineType(iniP=[0, 1])],
+        )
+
+        def mesh_with_count(count: int) -> MeshType:
+            return MeshType(node=[NodeType(id=i, bp=i + 1, sec=0, iniL=0) for i in range(count)])
+
+        layer_outputs = {
+            1: (ProbType(), geom, mesh_with_count(10), DNAType(n_base_scaf=10)),
+            2: (ProbType(), geom, mesh_with_count(5), DNAType(n_base_scaf=5)),
+        }
+
+        self.assertEqual(_select_shared_start_source_layer(layer_outputs), 2)
+
+    def test_exterior_shared_start_uses_longest_contiguous_safe_run(self) -> None:
+        edge_short = ((0, 0, 0), (10, 0, 0))
+        edge_long = ((0, 0, 0), (0, 10, 0))
+        safe_nodes = {
+            (edge_short, 1, 0),
+            (edge_short, 2, 0),
+            (edge_short, 3, 0),
+            (edge_long, 1, 1),
+            (edge_long, 2, 1),
+            (edge_long, 3, 1),
+            (edge_long, 4, 1),
+            (edge_long, 10, 1),
+        }
+
+        spec = _select_longest_exterior_start_run({edge_short, edge_long}, safe_nodes)
+
+        self.assertEqual(spec, SharedScaffoldStartSpec(edge_key=edge_long, bp=2, sec=1))
+
+    def test_shared_start_cli_accepts_smallest_and_exterior_modes(self) -> None:
+        for mode in ("smallest", "exterior"):
+            args = _build_parser().parse_args(["levels.svg", "--shared-start", mode])
+
+            _validate_route_start_args(args, [1, 2])
+
+            self.assertEqual(args.shared_start, mode)
 
     def test_accepted_staple_xover_neighbor_pair_combines_candidate_filters(self) -> None:
         para.para_gap_xover_bound_stap = 0

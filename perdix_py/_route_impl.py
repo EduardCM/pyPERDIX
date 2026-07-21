@@ -14,7 +14,56 @@ from .math_utils import nint
 from . import para
 
 
-def route_generation(prob: ProbType, geom: GeomType, mesh: MeshType, dna: DNAType) -> None:
+@dataclass(frozen=True)
+class SharedScaffoldXoverSpec:
+    edge_key: tuple[tuple[int, int, int], tuple[int, int, int]]
+    bp: int
+    sec_pair: tuple[int, int]
+
+
+@dataclass
+class SharedScaffoldXoverReport:
+    requested: int = 0
+    applied: int = 0
+    already_present: int = 0
+    missing_node: int = 0
+    blocked: int = 0
+    missing_neighbor: int = 0
+
+    @property
+    def failed(self) -> int:
+        return self.missing_node + self.blocked + self.missing_neighbor
+
+
+@dataclass(frozen=True)
+class SharedScaffoldStartSpec:
+    edge_key: tuple[tuple[int, int, int], tuple[int, int, int]]
+    bp: int
+    sec: int
+
+
+@dataclass
+class SharedScaffoldStartReport:
+    requested: int = 0
+    applied: int = 0
+    missing_node: int = 0
+    missing_scaffold: int = 0
+    unsafe_target: int = 0
+    invalid_topology: int = 0
+
+    @property
+    def failed(self) -> int:
+        return self.missing_node + self.missing_scaffold + self.unsafe_target + self.invalid_topology
+
+
+def route_generation(
+    prob: ProbType,
+    geom: GeomType,
+    mesh: MeshType,
+    dna: DNAType,
+    shared_scaffold_xovers: list[SharedScaffoldXoverSpec] | None = None,
+    shared_scaffold_report: SharedScaffoldXoverReport | None = None,
+) -> None:
     """Scaffold routing and crossover placement (partial port)."""
     _init_base_connectivity(mesh, dna)
     _set_base_position(geom, mesh, dna)
@@ -22,11 +71,16 @@ def route_generation(prob: ProbType, geom: GeomType, mesh: MeshType, dna: DNATyp
     _reconnect_junction(geom, mesh, dna)
     _set_strand_id_scaf(dna)
     _write_route_bild(prob, geom, mesh, dna, "route2")
-    _find_centered_scaf_xover(prob, geom, mesh, dna)
-    _modify_scaf_xover(geom, mesh, dna)
-    _graph_build_origami(mesh, dna)
-    if para.para_method_MST == "greedy":
+    if shared_scaffold_xovers is None:
+        _find_centered_scaf_xover(prob, geom, mesh, dna)
+    else:
+        _apply_shared_scaffold_xovers(geom, mesh, dna, shared_scaffold_xovers, shared_scaffold_report)
         _make_scaf_origami(dna)
+    if shared_scaffold_xovers is None:
+        _modify_scaf_xover(geom, mesh, dna)
+        _graph_build_origami(mesh, dna)
+        if para.para_method_MST == "greedy":
+            _make_scaf_origami(dna)
     _set_strand_id_scaf(dna)
     _write_route_bild(prob, geom, mesh, dna, "route3")
     _write_route_bild(prob, geom, mesh, dna, "route4")
@@ -393,6 +447,336 @@ def _find_centered_scaf_xover(prob: ProbType, geom: GeomType, mesh: MeshType, dn
         if neighbor_pair is None:
             continue
         _apply_scaffold_xover_pair(dna, node_cur, node_com, neighbor_pair)
+
+
+def export_shared_scaffold_xovers(
+    geom: GeomType,
+    mesh: MeshType,
+    dna: DNAType,
+) -> list[SharedScaffoldXoverSpec]:
+    specs: list[SharedScaffoldXoverSpec] = []
+    seen: set[tuple[tuple[tuple[int, int, int], tuple[int, int, int]], int, tuple[int, int]]] = set()
+    for i in range(dna.n_base_scaf):
+        xover = dna.base_scaf[i].xover
+        if xover == -1 or i > xover:
+            continue
+        if i >= mesh.n_node or xover >= mesh.n_node:
+            continue
+        node_a = mesh.node[i]
+        node_b = mesh.node[xover]
+        if node_a.iniL != node_b.iniL or node_a.bp != node_b.bp:
+            continue
+        edge_key = _shared_ini_line_key(geom, node_a.iniL)
+        sec_pair = _ordered_pair(node_a.sec, node_b.sec)
+        spec_key = (edge_key, node_a.bp, sec_pair)
+        if spec_key in seen:
+            continue
+        seen.add(spec_key)
+        specs.append(
+            SharedScaffoldXoverSpec(
+                edge_key=edge_key,
+                bp=node_a.bp,
+                sec_pair=sec_pair,
+            )
+        )
+    return specs
+
+
+def _apply_shared_scaffold_xovers(
+    geom: GeomType,
+    mesh: MeshType,
+    dna: DNAType,
+    specs: list[SharedScaffoldXoverSpec],
+    report: SharedScaffoldXoverReport | None,
+) -> None:
+    if report is None:
+        report = SharedScaffoldXoverReport()
+    report.requested += len(specs)
+    index = _shared_scaffold_node_index(geom, mesh)
+    dna.n_xover_scaf = 0
+    for spec in specs:
+        node_a = index.get((spec.edge_key, spec.bp, spec.sec_pair[0]))
+        node_b = index.get((spec.edge_key, spec.bp, spec.sec_pair[1]))
+        if node_a is None or node_b is None:
+            report.missing_node += 1
+            continue
+        existing_a = dna.base_scaf[node_a].xover
+        existing_b = dna.base_scaf[node_b].xover
+        if existing_a == node_b and existing_b == node_a:
+            report.already_present += 1
+            continue
+        if existing_a != -1 or existing_b != -1:
+            report.blocked += 1
+            continue
+        neighbor_pair = _find_scaffold_neighbor_pair(geom, mesh, node_a, node_b)
+        if neighbor_pair is None:
+            report.missing_neighbor += 1
+            continue
+        _apply_scaffold_xover_pair(dna, node_a, node_b, neighbor_pair)
+        report.applied += 1
+
+
+def export_shared_scaffold_start(
+    geom: GeomType,
+    mesh: MeshType,
+    dna: DNAType,
+    allowed_node_keys: set[tuple[tuple[tuple[int, int, int], tuple[int, int, int]], int, int]] | None = None,
+) -> SharedScaffoldStartSpec | None:
+    strand = _first_scaffold_strand(dna)
+    if strand is None:
+        return None
+    starts = [base for base in strand.base if dna.top[base].dn == -1]
+    if len(starts) != 1:
+        return None
+    node_id = dna.top[starts[0]].node
+    if node_id == -1:
+        return None
+    node = mesh.node[node_id]
+    key = (_shared_ini_line_key(geom, node.iniL), node.bp, node.sec)
+    if allowed_node_keys is not None and key not in allowed_node_keys:
+        return None
+    return SharedScaffoldStartSpec(edge_key=key[0], bp=key[1], sec=key[2])
+
+
+def apply_shared_scaffold_start(
+    geom: GeomType,
+    mesh: MeshType,
+    dna: DNAType,
+    spec: SharedScaffoldStartSpec | None,
+    report: SharedScaffoldStartReport | None = None,
+    *,
+    prob: ProbType | None = None,
+) -> None:
+    if spec is None:
+        return
+    if report is None:
+        report = SharedScaffoldStartReport()
+    report.requested += 1
+    strand = _first_scaffold_strand(dna)
+    if strand is None:
+        report.missing_scaffold += 1
+        return
+
+    target_node = _node_at_shared_start(geom, mesh, spec)
+    if target_node is None:
+        report.missing_node += 1
+        return
+
+    scaffold_bases = list(strand.base)
+    target_bases = [base for base in scaffold_bases if dna.top[base].node == target_node]
+    starts = [base for base in scaffold_bases if dna.top[base].dn == -1]
+    terminals = [base for base in scaffold_bases if dna.top[base].up == -1]
+    if len(target_bases) != 1:
+        report.missing_node += 1
+        return
+    if len(starts) != 1 or len(terminals) != 1:
+        report.invalid_topology += 1
+        return
+
+    target_base = target_bases[0]
+    old_start = starts[0]
+    old_terminal = terminals[0]
+    if target_base != old_start:
+        target_predecessor = dna.top[target_base].dn
+        if target_predecessor == -1 or target_predecessor not in scaffold_bases:
+            report.invalid_topology += 1
+            return
+        if dna.top[target_base].xover != -1 or dna.top[target_predecessor].xover != -1:
+            report.unsafe_target += 1
+            return
+        route = _planned_relocated_scaffold_route(
+            dna,
+            target_base,
+            target_predecessor,
+            old_start,
+            old_terminal,
+            len(scaffold_bases),
+        )
+        if route is None:
+            report.invalid_topology += 1
+            return
+
+        staple_connectivity = _staple_connectivity_snapshot(dna)
+        across_connectivity = tuple(top.across for top in dna.top)
+        dna.top[old_terminal].up = old_start
+        dna.top[old_start].dn = old_terminal
+        dna.top[target_predecessor].up = -1
+        dna.top[target_base].dn = -1
+        if dna.top[old_start].status == "nick_scaf":
+            dna.top[old_start].status = "N"
+        dna.top[target_base].status = "nick_scaf"
+        _replace_scaffold_strand_route(dna, strand, route)
+        if _staple_connectivity_snapshot(dna) != staple_connectivity or tuple(top.across for top in dna.top) != across_connectivity:
+            raise RuntimeError("Shared scaffold start relocation changed staple connectivity")
+
+    _sync_scaffold_base_connectivity(dna, scaffold_bases)
+    if prob is not None:
+        from ._seqdesign_impl import _assign_sequence
+
+        _assign_sequence(prob, dna)
+    report.applied += 1
+
+
+def _sync_scaffold_base_connectivity(dna: DNAType, scaffold_bases: list[int]) -> None:
+    if not dna.base_scaf:
+        return
+    if len(dna.base_scaf) != dna.n_base_scaf:
+        raise RuntimeError("Scaffold base array size does not match dna.n_base_scaf")
+    for base in scaffold_bases:
+        dna.base_scaf[base].up = dna.top[base].up
+        dna.base_scaf[base].dn = dna.top[base].dn
+
+
+def _planned_relocated_scaffold_route(
+    dna: DNAType,
+    target_base: int,
+    target_predecessor: int,
+    old_start: int,
+    old_terminal: int,
+    expected_count: int,
+) -> list[int] | None:
+    route: list[int] = []
+    seen: set[int] = set()
+    base = target_base
+    while base != -1 and base not in seen:
+        route.append(base)
+        seen.add(base)
+        if base == target_predecessor:
+            base = -1
+        elif base == old_terminal:
+            base = old_start
+        else:
+            base = dna.top[base].up
+    if base != -1 or len(route) != expected_count or route[-1] != target_predecessor:
+        return None
+    return route
+
+
+def _replace_scaffold_strand_route(dna: DNAType, strand, route: list[int]) -> None:
+    strand.base = route
+    strand.n_base = len(route)
+    strand.b_circular = False
+    strand_index = dna.strand.index(strand) + 1
+    for address, base in enumerate(route, start=1):
+        dna.top[base].strand = strand_index
+        dna.top[base].address = address
+
+
+def _staple_connectivity_snapshot(dna: DNAType) -> tuple[tuple[int, int, int, int, int], ...]:
+    return tuple(
+        (top.node, top.up, top.dn, top.xover, top.across)
+        for top in dna.top[dna.n_base_scaf :]
+    )
+
+
+def _first_scaffold_strand(dna: DNAType):
+    for strand in dna.strand:
+        if strand.type1 == "scaf":
+            return strand
+    return None
+
+
+def collect_shared_scaffold_node_keys(
+    geom: GeomType,
+    mesh: MeshType,
+) -> set[tuple[tuple[tuple[int, int, int], tuple[int, int, int]], int, int]]:
+    keys: set[tuple[tuple[tuple[int, int, int], tuple[int, int, int]], int, int]] = set()
+    for node in mesh.node:
+        keys.add((_shared_ini_line_key(geom, node.iniL), node.bp, node.sec))
+    return keys
+
+
+def collect_exterior_shared_scaffold_edge_keys(
+    geom: GeomType,
+) -> set[tuple[tuple[int, int, int], tuple[int, int, int]]]:
+    return {
+        _shared_ini_line_key(geom, iniL)
+        for iniL, line in enumerate(geom.iniL)
+        if len(line.neiF) == 2 and sum(face == -1 for face in line.neiF) == 1
+    }
+
+
+def collect_safe_shared_scaffold_start_node_keys(
+    geom: GeomType,
+    mesh: MeshType,
+    dna: DNAType,
+) -> set[tuple[tuple[tuple[int, int, int], tuple[int, int, int]], int, int]]:
+    strand = _first_scaffold_strand(dna)
+    if strand is None:
+        return set()
+    scaffold_bases = set(strand.base)
+    safe = set()
+    for base in strand.base:
+        top = dna.top[base]
+        predecessor = top.dn
+        if top.node == -1 or predecessor not in scaffold_bases:
+            continue
+        predecessor_top = dna.top[predecessor]
+        across = top.across
+        predecessor_across = predecessor_top.across
+        if across == -1 or predecessor_across == -1:
+            continue
+        if dna.top[across].across != base or dna.top[predecessor_across].across != predecessor:
+            continue
+        if any(
+            dna.top[candidate].xover != -1
+            for candidate in (base, predecessor, across, predecessor_across)
+        ):
+            continue
+        if dna.top[across].up == -1 or dna.top[across].dn == -1:
+            continue
+        node = mesh.node[top.node]
+        if node.up == -1 or node.dn == -1 or node.mitered != -1:
+            continue
+        safe.add((_shared_ini_line_key(geom, node.iniL), node.bp, node.sec))
+    return safe
+
+
+def _node_at_shared_start(
+    geom: GeomType,
+    mesh: MeshType,
+    spec: SharedScaffoldStartSpec,
+) -> int | None:
+    for node in mesh.node:
+        if (_shared_ini_line_key(geom, node.iniL), node.bp, node.sec) == (spec.edge_key, spec.bp, spec.sec):
+            return node.id
+    return None
+
+
+def _shared_scaffold_node_index(
+    geom: GeomType,
+    mesh: MeshType,
+) -> dict[tuple[tuple[tuple[int, int, int], tuple[int, int, int]], int, int], int]:
+    index: dict[tuple[tuple[tuple[int, int, int], tuple[int, int, int]], int, int], int] = {}
+    for node in mesh.node:
+        edge_key = _shared_ini_line_key(geom, node.iniL)
+        index[(edge_key, node.bp, node.sec)] = node.id
+    return index
+
+
+def _shared_ini_line_key(
+    geom: GeomType,
+    iniL: int,
+    tol: float = 1e-4,
+) -> tuple[tuple[int, int, int], tuple[int, int, int]]:
+    line = geom.iniL[iniL]
+    p1 = geom.iniP[line.iniP[0]].pos
+    p2 = geom.iniP[line.iniP[1]].pos
+
+    def quantize(point: tuple[float, float, float]) -> tuple[int, int, int]:
+        return (
+            int(round(float(point[0]) / tol)),
+            int(round(float(point[1]) / tol)),
+            int(round(float(point[2]) / tol)),
+        )
+
+    a = quantize(p1)
+    b = quantize(p2)
+    return (a, b) if a <= b else (b, a)
+
+
+def _ordered_pair(a: int, b: int) -> tuple[int, int]:
+    return (a, b) if a <= b else (b, a)
 
 
 def _scaffold_crossover_bp_bounds(geom: GeomType, mesh: MeshType) -> tuple[list[int], list[int]]:
