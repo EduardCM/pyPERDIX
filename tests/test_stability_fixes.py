@@ -48,7 +48,7 @@ from perdix_py.main import (
     _build_parser,
     _select_longest_exterior_start_run,
     _select_shared_start_source_layer,
-    _validate_route_start_args,
+    _validate_shared_route_args,
 )
 from perdix_py.output import _scaffold_base_order, _staple_base_order
 from perdix_py.route import (
@@ -833,9 +833,13 @@ class TestRouteSafety(unittest.TestCase):
         for mode in ("smallest", "exterior"):
             args = _build_parser().parse_args(["levels.svg", "--shared-start", mode])
 
-            _validate_route_start_args(args, [1, 2])
+            _validate_shared_route_args(args, [1, 2])
 
             self.assertEqual(args.shared_start, mode)
+
+    def test_route_start_is_not_a_public_cli_option(self) -> None:
+        with self.assertRaises(SystemExit):
+            _build_parser().parse_args(["levels.svg", "--route-start", "shared-boundary"])
 
     def test_accepted_staple_xover_neighbor_pair_combines_candidate_filters(self) -> None:
         para.para_gap_xover_bound_stap = 0

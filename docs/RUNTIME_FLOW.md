@@ -18,7 +18,6 @@ The CLI in `perdix_py/main.py` supports these notable switches:
 - `--debug-mesh`: dump JSON snapshots before and after routing
 - `--frame-mode legacy|svg-rect`: choose SVG coordinate normalization mode
 - `--svg-layer`: run only one `Layer_N` group from a multi-layer SVG
-- `--route-start default|shared-boundary`: coordinate route start selection across layered SVG runs
 - `--shared-crossover-indices LAYER`: route one layer normally and map its compatible scaffold crossover indices to the other layers
 - `--shared-start smallest|exterior`: align the scaffold nick at an exact common node selected by one of two policies
 
@@ -73,12 +72,14 @@ Internally, some of those modules now delegate to split implementation files suc
 If the input SVG contains `Layer_N` groups and `--svg-layer` is not provided, the CLI runs the full pipeline once per layer through `_run_layered_pipelines()`. In that mode it first computes shared alignment state:
 
 - `compute_svg_shared_frame(...)`
-- optionally `compute_svg_shared_route_start(...)`
+- `compute_svg_shared_route_start(...)` internally when either shared-routing option is active
 
 Each layer then runs through the normal pipeline with:
 
 - `svg_import_layer=<layer index>`
 - `svg_output_subdir=Layer_<N>`
+
+The shared boundary route start is an internal normalization step. It is not exposed as a CLI option; users select either shared crossover indices, a shared scaffold start, or both.
 
 ### Shared crossover indices
 

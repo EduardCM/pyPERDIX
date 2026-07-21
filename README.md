@@ -35,7 +35,6 @@ Useful CLI flags:
 - `--debug-mesh`: dump mesh snapshots before and after routing
 - `--frame-mode legacy|svg-rect`: choose SVG coordinate handling mode
 - `--svg-layer`: run only one `Layer_N` group from a multi-layer SVG
-- `--route-start default|shared-boundary`: coordinate route-start selection across layered runs
 - `--shared-crossover-indices LAYER`: use one layer's scaffold crossover indices on all compatible layers
 - `--shared-start smallest|exterior`: align scaffold starts at an exact node shared by every layer
 
@@ -61,7 +60,7 @@ python -m perdix_py.main input/levels_Lm.svg \
 
 `--shared-crossover-indices 1` routes `Layer_1` normally and maps compatible scaffold crossovers to the other layers by shared edge geometry, base-pair index, and section pair.
 
-Both shared-start modes require a multi-layer SVG and cannot be combined with `--svg-layer`. Start alignment moves only the scaffold nick. Staple connectivity and scaffold-staple pairing remain attached to the same physical nucleotides, and scaffold/staple sequences are reassigned from the relocated start.
+Both shared-start modes require a multi-layer SVG and cannot be combined with `--svg-layer`. The runtime internally normalizes all layers to a common boundary routing edge before applying shared crossover or scaffold-start alignment. Start alignment moves only the scaffold nick. Staple connectivity and scaffold-staple pairing remain attached to the same physical nucleotides, and scaffold/staple sequences are reassigned from the relocated start.
 
 ## Install From GitHub
 

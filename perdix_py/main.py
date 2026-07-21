@@ -153,12 +153,6 @@ def _build_parser() -> argparse.ArgumentParser:
         help="When reading a multi-layer SVG, import only <g id=\"Layer_N\">",
     )
     parser.add_argument(
-        "--route-start",
-        choices=["default", "shared-boundary"],
-        default="default",
-        help="Control how the routed start edge is chosen for multi-layer SVGs",
-    )
-    parser.add_argument(
         "--shared-crossover-indices",
         type=int,
         default=None,
@@ -175,12 +169,8 @@ def _build_parser() -> argparse.ArgumentParser:
     return parser
 
 
-def _validate_route_start_args(args, svg_layers: list[int]) -> None:
-    if (
-        args.route_start != "shared-boundary"
-        and args.shared_crossover_indices is None
-        and args.shared_start is None
-    ):
+def _validate_shared_route_args(args, svg_layers: list[int]) -> None:
+    if args.shared_crossover_indices is None and args.shared_start is None:
         return
     if not svg_layers:
         raise ValueError("shared route options require a multi-layer SVG with Layer_N groups")
@@ -190,12 +180,10 @@ def _validate_route_start_args(args, svg_layers: list[int]) -> None:
         raise ValueError("--shared-crossover-indices must name an existing Layer_N group")
 
 
-def _compute_shared_route_start(args, svg_path: str, svg_layers: list[int]) -> SvgSharedRouteStart | None:
-    if not svg_layers or (
-        args.route_start != "shared-boundary"
-        and args.shared_crossover_indices is None
-        and args.shared_start is None
-    ):
+def _compute_internal_shared_route_start(
+    args, svg_path: str, svg_layers: list[int]
+) -> SvgSharedRouteStart | None:
+    if not svg_layers or (args.shared_crossover_indices is None and args.shared_start is None):
         return None
     return compute_svg_shared_route_start(
         svg_path,
@@ -384,8 +372,8 @@ def main() -> None:
     args = _build_parser().parse_args()
     svg_path = _resolve_cli_input_path(args.svg)
     svg_layers = list_svg_layers(svg_path) if svg_path.lower().endswith(".svg") else []
-    _validate_route_start_args(args, svg_layers)
-    shared_route_start = _compute_shared_route_start(args, svg_path, svg_layers)
+    _validate_shared_route_args(args, svg_layers)
+    shared_route_start = _compute_internal_shared_route_start(args, svg_path, svg_layers)
     if _run_layered_pipelines(args, svg_path, svg_layers, shared_route_start):
         return
 
