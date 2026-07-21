@@ -1,6 +1,7 @@
 {
-  "para_cut_stap_method": "min",
+  "para_cut_stap_method": "max",
   "para_set_start_scaf": 60,
   "para_scaf_seq": "m13",
-  "para_method_sort": "none"
+  "para_method_sort": "none",
+  "edge_len": 38
 }
